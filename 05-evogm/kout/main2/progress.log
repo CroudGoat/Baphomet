@@ -1,0 +1,41 @@
+02:27:48 [0.002h] models+tv disk at start 0.0
+02:27:49 [0.002h] MON 1142/32098 MB used, avail 30956 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | 
+02:28:25 [0.012h] downloaded base 36 disk 9.3
+02:30:00 [0.038h] downloaded dsv4pro 95 disk 27.8
+02:30:00 [0.038h] downloaded agents_a1 95 disk 27.8
+02:30:01 [0.038h] MON 1558/32098 MB used, avail 30540 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | 
+02:32:01 [0.072h] MON 1500/32098 MB used, avail 30598 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | 
+02:34:01 [0.105h] MON 1496/32098 MB used, avail 30602 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | 
+02:36:01 [0.138h] MON 1474/32098 MB used, avail 30624 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | 
+02:38:01 [0.172h] MON 1486/32098 MB used, avail 30612 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | 
+02:40:01 [0.205h] MON 1551/32098 MB used, avail 30547 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | 
+02:42:01 [0.238h] MON 1625/32098 MB used, avail 30473 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | 
+02:42:47 [0.251h] pip finished {'rc': 0, 'versions': '0.33.0 2.14.0+cu130 5.20.2', 'err': '', 'secs': 899}
+02:44:01 [0.272h] MON 7261/32098 MB used, avail 24837 | 0, 13467 MiB, 2 % 1, 8615 MiB, 1 % 7.1T used /tmp | 
+02:45:17 [0.293h] tv agents_a1 {'n': 723, 'zero': 331, 'missing': 15, 'rel_qerr': 0.026261746523454803, 'secs': 149}
+02:45:17 [0.293h] disk 25.7
+02:45:17 [0.293h] tv dsv4pro {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.026480174864559048, 'secs': 149}
+02:45:17 [0.293h] disk 16.4
+02:46:19 [0.310h] MON 4109/32098 MB used, avail 27989 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | 
+02:46:28 [0.313h] downloaded qwopus_coder 72 disk 34.1
+02:46:45 [0.317h] downloaded q38distill 88 disk 35.1
+02:48:22 [0.344h] MON 9631/32098 MB used, avail 22467 | 0, 8615 MiB, 0 % 1, 13467 MiB, 0 % 7.1T used /tmp | 
+02:48:39 [0.349h] tv qwopus_coder {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.025980742481569653, 'secs': 130}
+02:48:39 [0.349h] disk 32.7
+02:48:39 [0.349h] tv q38distill {'n': 738, 'zero': 389, 'missing': 0, 'rel_qerr': 0.026513655764140085, 'secs': 114}
+02:48:39 [0.349h] disk 23.4
+02:49:34 [0.364h] downloaded qwopus_v3 55 disk 38.0
+02:50:01 [0.372h] downloaded arex_turbo 82 disk 41.8
+02:50:22 [0.377h] MON 3745/32098 MB used, avail 28353 | 0, 3761 MiB, 1 % 1, 3761 MiB, 1 % 7.1T used /tmp | 
+02:51:54 [0.403h] tv qwopus_v3 {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.02591097137527293, 'secs': 141}
+02:51:54 [0.403h] disk 39.5
+02:51:54 [0.403h] tv arex_turbo {'n': 723, 'zero': 325, 'missing': 15, 'rel_qerr': 0.02634054878680898, 'secs': 114}
+02:51:54 [0.403h] disk 30.4
+02:52:43 [0.417h] downloaded neohorse 48 disk 42.4
+02:53:00 [0.421h] downloaded tmax 65 disk 47.3
+02:53:16 [0.426h] MON err TimeoutExpired('free -m | awk \'NR==2{print $3"/"$2" MB used, avail "$7}\'; timeout 20 nvidia-smi --query-gpu=index,memory.used,utilization.gpu --format=csv,noheader | tr \'\\n\' \' \'; df -h /tmp | awk \'NR==2{print $3" used /tmp"}\'', 30)
+02:55:18 [0.460h] MON 3588/32098 MB used, avail 28509 | 0, 13467 MiB, 0 % 1, 13467 MiB, 0 % 7.1T used /tmp | 
+02:55:19 [0.460h] tv neohorse {'n': 426, 'zero': 59, 'missing': 312, 'rel_qerr': 0.025998191433154804, 'secs': 156}
+02:55:19 [0.460h] disk 47.3
+02:55:19 [0.460h] tv tmax {'n': 426, 'zero': 72, 'missing': 312, 'rel_qerr': 0.0143720137790664, 'secs': 139}
+02:55:19 [0.460h] disk 38.8

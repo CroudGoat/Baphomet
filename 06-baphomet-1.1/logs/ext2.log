@@ -1,0 +1,5 @@
+extract q38distill Fri Nov 13 10:42:54 UTC 2026
+DONE {'n': 738, 'zero': 389, 'missing': 0, 'sqnorm': 14.173725463617721, 'qerr': 0.0, 'rel_qerr': 0.0, 'norm': 3.764800853115304, 'secs': 106}
+extract tmax Fri Nov 13 10:44:43 UTC 2026
+DONE {'n': 426, 'zero': 72, 'missing': 312, 'sqnorm': 0.6559333695103047, 'qerr': 0.0, 'rel_qerr': 0.0, 'norm': 0.8098971351414356, 'secs': 101}
+EXT2DONE

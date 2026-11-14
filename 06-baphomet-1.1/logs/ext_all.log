@@ -1,0 +1,17 @@
+extract agents_a1 Fri Nov 13 10:21:11 UTC 2026
+DONE {'n': 723, 'zero': 331, 'missing': 15, 'sqnorm': 326.55435150603756, 'qerr': 0.22521779979160597, 'rel_qerr': 0.026261747298033926, 'norm': 18.07081490984946, 'secs': 466}
+extract dsv4pro Fri Nov 13 10:29:02 UTC 2026
+DONE {'n': 738, 'zero': 586, 'missing': 0, 'sqnorm': 1540.6827655434608, 'qerr': 0.0, 'rel_qerr': 0.0, 'norm': 39.25153201524064, 'secs': 199}
+extract q38distill Fri Nov 13 10:32:25 UTC 2026
+RuntimeError: unable to mmap 9319821272 bytes from file <m/q38distill/model.safetensors>: Cannot allocate memory (12)
+extract qwopus_coder Fri Nov 13 10:32:28 UTC 2026
+DONE {'n': 738, 'zero': 586, 'missing': 0, 'sqnorm': 19.89031555969268, 'qerr': 0.0, 'rel_qerr': 0.0, 'norm': 4.459856002125257, 'secs': 140}
+extract qwopus_v3 Fri Nov 13 10:34:50 UTC 2026
+DONE {'n': 738, 'zero': 586, 'missing': 0, 'sqnorm': 17.135368989314884, 'qerr': 0.0, 'rel_qerr': 0.0, 'norm': 4.13948897683215, 'secs': 153}
+extract arex_turbo Fri Nov 13 10:37:25 UTC 2026
+DONE {'n': 723, 'zero': 325, 'missing': 15, 'sqnorm': 607.5368675548525, 'qerr': 0.0, 'rel_qerr': 0.0, 'norm': 24.648262972364858, 'secs': 136}
+extract neohorse Fri Nov 13 10:39:44 UTC 2026
+DONE {'n': 426, 'zero': 59, 'missing': 312, 'sqnorm': 23.586566516890684, 'qerr': 0.0, 'rel_qerr': 0.0, 'norm': 4.856600304419819, 'secs': 111}
+extract tmax Fri Nov 13 10:41:38 UTC 2026
+RuntimeError: unable to mmap 8411558400 bytes from file <m/tmax/model.safetensors>: Cannot allocate memory (12)
+EXTALL

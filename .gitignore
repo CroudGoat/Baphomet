@@ -1,0 +1,9 @@
+*.safetensors
+*.gguf
+*.bin
+*.pt
+venv/
+__pycache__/
+.env
+*.key
+kaggle.json

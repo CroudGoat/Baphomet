@@ -1,0 +1,24 @@
+{
+ "variants": {
+  "merge": {
+   "rel_err": 0.2884393201118219,
+   "max_abs": 0.0009765625,
+   "n_exact": 12,
+   "n_tensors": 63
+  },
+  "no_neohorse": {
+   "rel_err": 0.3286647819619272,
+   "max_abs": 0.0009765625,
+   "n_exact": 12,
+   "n_tensors": 63
+  },
+  "no_tmax": {
+   "rel_err": 0.28874656222951345,
+   "max_abs": 0.0009765625,
+   "n_exact": 12,
+   "n_tensors": 63
+  }
+ },
+ "n_keys": 63,
+ "secs": 149.87512016296387
+}

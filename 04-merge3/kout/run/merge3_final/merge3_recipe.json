@@ -1,0 +1,27 @@
+{
+ "method": "dare_ties (mergekit GTA semantics, DARE random+rescale, sign consensus sum, normalize)",
+ "base": "Qwen/Qwen3.5-4B",
+ "donors": [
+  "InternScience/Agents-A1-4B",
+  "Jackrong/DeepSeek-V4-Pro-Qwen3.5-4B",
+  "empero-ai/Qwen3.8-4B-Distill",
+  "Jackrong/Qwopus3.5-4B-v3",
+  "BAAI/AREX-Turbo"
+ ],
+ "weights": [
+  0.0005480684084744891,
+  0.9138390267146843,
+  0.18294649712652072,
+  0.5139997209794702,
+  0.032693680602880526
+ ],
+ "densities": [
+  0.4379756563324747,
+  0.26838189592176687,
+  0.9893433742692709,
+  0.5691737724226962,
+  0.7692098619092116
+ ],
+ "dare_seed": 672891003,
+ "task_vectors": "fp8 e4m3 per-row absmax"
+}

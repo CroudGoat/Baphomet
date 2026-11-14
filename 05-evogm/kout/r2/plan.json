@@ -1,0 +1,18 @@
+{
+ "P": 10,
+ "max_iter": 3,
+ "max_round": 5,
+ "t_sub_prior": 640.0,
+ "t_comp_prior": 900.0,
+ "setup_h": 0.44889841768476696,
+ "remaining_h": 6.60665712694327,
+ "round_cost_T2_h": 2.701111111111111,
+ "round_cost_T3_h": 3.953888888888889,
+ "min_rounds_affordable": 2,
+ "irt_subset": 40,
+ "race": {
+  "on": true,
+  "up": 1.5,
+  "min_frac": 0.5
+ }
+}

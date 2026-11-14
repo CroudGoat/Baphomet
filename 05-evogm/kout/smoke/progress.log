@@ -1,0 +1,74 @@
+06:26:24 [0.000h] MODE smoke HARD_H 1.6
+06:26:24 [0.000h] $ nvidia-smi -L; df -h /tmp /kaggle/working; free -g; nproc -> GPU 0: Tesla T4 (UUID: GPU-2f84b67d-b453-ae08-abba-84cd1fd8cb1e)
+GPU 1: Tesla T4 (UUID: GPU-c9175290-1104-de34-d2ac-fd5983970d28)
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         8.0T  7.1T  967G  89% /
+/dev/loop2       20G  192K   20G   1% /kaggle/working
+               total        used        free      shared  buff/cache   available
+Mem:              31           1          26           0           4          30
+Swap:              0           0           0
+4
+  rc 0
+06:26:24 [0.000h] models+tv disk at start 0.0
+06:26:24 [0.000h] MON 1080/32098 MB used, avail 31018 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 0.0 GB | working 0.0 GB
+06:27:01 [0.011h] downloaded base 37 disk 9.3
+06:28:40 [0.038h] downloaded dsv4pro 99 disk 27.8
+06:28:40 [0.038h] downloaded agents_a1 99 disk 27.8
+06:29:25 [0.050h] MON 1532/32098 MB used, avail 30566 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 27.8 GB | working 0.0 GB
+06:32:18 [0.098h] pip finished {'rc': 0, 'versions': '0.33.0 2.14.0+cu130 5.20.2', 'err': '', 'secs': 353, 'attempt': 0}
+06:32:25 [0.100h] MON 2536/32098 MB used, avail 29562 | 0, 1319 MiB, 4 % 1, 1319 MiB, 4 %  | ours 27.8 GB | working 0.0 GB
+06:34:43 [0.139h] tv agents_a1 {'n': 723, 'zero': 331, 'missing': 15, 'rel_qerr': 0.026261746523454803, 'secs': 145}
+06:34:43 [0.139h] disk 25.7
+06:34:43 [0.139h] tv dsv4pro {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.026480174864559048, 'secs': 145}
+06:34:43 [0.139h] disk 16.4
+06:36:05 [0.162h] MON err TimeoutExpired('free -m | awk \'NR==2{print $3"/"$2" MB used, avail "$7}\'; timeout 20 nvidia-smi --query-gpu=index,memory.used,utilization.gpu --format=csv,noheader | tr \'\\n\' \' \'', 40)
+06:36:10 [0.163h] downloaded qwopus_coder 87 disk 35.1
+06:36:10 [0.163h] downloaded q38distill 88 disk 35.1
+06:38:02 [0.194h] tv qwopus_coder {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.025980742481569653, 'secs': 109}
+06:38:02 [0.194h] disk 32.7
+06:38:02 [0.194h] tv q38distill {'n': 738, 'zero': 389, 'missing': 0, 'rel_qerr': 0.026513655764140085, 'secs': 109}
+06:38:02 [0.194h] disk 23.4
+06:39:25 [0.217h] downloaded qwopus_v3 70 disk 41.8
+06:39:26 [0.217h] downloaded arex_turbo 84 disk 41.8
+06:39:32 [0.219h] MON 2531/32098 MB used, avail 29567 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 41.8 GB | working 0.0 GB
+06:41:17 [0.248h] tv qwopus_v3 {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.02591097137527293, 'secs': 109}
+06:41:17 [0.248h] disk 39.5
+06:41:17 [0.248h] tv arex_turbo {'n': 723, 'zero': 325, 'missing': 15, 'rel_qerr': 0.02634054878680898, 'secs': 109}
+06:41:17 [0.248h] disk 30.4
+06:42:10 [0.263h] downloaded neohorse 53 disk 41.6
+06:42:33 [0.269h] MON 3827/32098 MB used, avail 28271 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 46.0 GB | working 0.0 GB
+06:42:35 [0.270h] downloaded tmax 78 disk 47.3
+06:44:37 [0.304h] tv neohorse {'n': 426, 'zero': 59, 'missing': 312, 'rel_qerr': 0.025998191433154804, 'secs': 146}
+06:44:37 [0.304h] disk 47.3
+06:44:37 [0.304h] tv tmax {'n': 426, 'zero': 72, 'missing': 312, 'rel_qerr': 0.0143720137790664, 'secs': 121}
+06:44:37 [0.304h] disk 38.8
+06:44:40 [0.305h] all 8 TVs extracted; disk 38.8
+06:45:33 [0.319h] MON 5124/32098 MB used, avail 26974 | 0, 0 MiB, 0 % 1, 465 MiB, 4 %  | ours 41.1 GB | working 0.0 GB
+06:47:34 [0.353h] $ CUDA_VISIBLE_DEVICES=1 python /kaggle/input/datasets/cloudgoat/evogm-data/valmerge.py /tmp/m/base /tmp/tv /tmp/m/baphomet /kaggle/working/valmerge.json -> merge {'rel_err': 0.2884393201118219, 'max_abs': 0.0009765625, 'n_exact': 12, 'n_tensors': 63}
+no_neohorse {'rel_err': 0.3286647819619272, 'max_abs': 0.0009765625, 'n_exact': 12, 'n_tensors': 63}
+no_tmax {'rel_err': 0.28874656222951345, 'max_abs': 0.0009765625, 'n_exact': 12, 'n_tensors': 63}
+  rc 0
+06:48:33 [0.369h] MON 6392/32098 MB used, avail 25706 | 0, 9441 MiB, 0 % 1, 9603 MiB, 3 %  | ours 38.8 GB | working 0.0 GB
+06:51:33 [0.419h] MON 6887/32098 MB used, avail 25211 | 0, 9639 MiB, 60 % 1, 9639 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+06:54:32 [0.469h] worker 1 ready {'ok': True, 't_init': 393.4873540401459, 'eager': True, 'gpumem': 0.84, 'num_gpu_blocks': 179, 'free_gb': 2.78009033203125}
+06:54:32 [0.469h] worker 0 ready {'ok': True, 't_init': 521.6753079891205, 'eager': True, 'gpumem': 0.84, 'num_gpu_blocks': 179, 'free_gb': 2.78009033203125}
+06:54:33 [0.469h] MON 8076/32098 MB used, avail 24022 | 0, 12065 MiB, 0 % 1, 12065 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+06:54:36 [0.470h] cached evaluations 0 eval times []
+06:54:36 [0.470h] time budget: skipping average
+06:54:36 [0.470h] time budget: skipping baphomet
+06:54:36 [0.470h] SMOKE evals [nan, nan]
+06:54:39 [0.471h] state saved: next step (1, 1)
+06:54:39 [0.471h] SMOKE generator loss 6.844432220987073e-08 state round trip identical: True new [[0.1379999965429306, 0.1379999965429306, 0.1379999965429306, 0.1379999965429306, 0.1379999965429306, 0.1379999965429306, 0.1379999965429306, 0.1379999965429306], [0.1379999965429306, 0.1379999965429306, 0.13699999451637268, 0.1379999965429306, 0.1379999965429306, 0.13699999451637268, 0.1379999965429306, 0.13699999451637268]]
+06:54:40 [0.471h] SMOKE plan info {'E_total_if_full': 1, 't_eval_est_s': 1500.0, 'thr_tok_s': None, 'final_est_s': 3130.5}
+06:54:40 [0.471h] restarting worker 1 fails 1
+06:54:52 [0.475h] worker 1 killed; GPU mem used now 3 MiB
+06:56:48 [0.507h] worker 1 ready {'ok': True, 't_init': 62.03719997406006, 'eager': True, 'gpumem': 0.78, 'num_gpu_blocks': 167, 'free_gb': 3.66485595703125}
+06:57:33 [0.519h] MON 9733/32098 MB used, avail 22365 | 0, 12267 MiB, 59 % 1, 12459 MiB, 7 %  | ours 38.8 GB | working 0.0 GB
+07:00:33 [0.570h] MON 9156/32098 MB used, avail 22942 | 0, 12267 MiB, 74 % 1, 11239 MiB, 77 %  | ours 38.8 GB | working 0.0 GB
+07:02:39 [0.604h] final half 1 done on gpu 1 {'secs': 217.58298110961914, 'gen_tokens': 5175, 'gpu': 1}
+07:03:33 [0.620h] MON 9149/32098 MB used, avail 22949 | 0, 12267 MiB, 88 % 1, 11239 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+07:05:26 [0.651h] final half 0 done on gpu 0 {'secs': 508.68988037109375, 'gen_tokens': 10210, 'gpu': 0}
+07:05:26 [0.651h] FINAL raw lines 6 {'gpqa': (1, 2), 'mmlupro': (2, 2), 'bfcl': (2, 2)} {1: {'secs': 217.58298110961914, 'gen_tokens': 5175, 'gpu': 1}, 0: {'secs': 508.68988037109375, 'gen_tokens': 10210, 'gpu': 0}}
+07:05:35 [0.653h] worker 0 killed; GPU mem used now 105 MiB
+07:05:41 [0.655h] worker 1 killed; GPU mem used now 3 MiB
+07:05:41 [0.655h] ALL DONE hours 0.6549813176525964

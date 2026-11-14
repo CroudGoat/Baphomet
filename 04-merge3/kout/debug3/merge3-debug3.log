@@ -1,0 +1,91 @@
+[{"stream_name":"stdout","time":0.882692407,"data":"DATA /kaggle/input/datasets/cloudgoat/merge3-data\n"}
+,{"stream_name":"stdout","time":0.882728122,"data":"\n"}
+,{"stream_name":"stdout","time":0.882733651,"data":"$ pip install -q vllm==0.33.0 2\u003e\u00261 | tail -1\n"}
+,{"stream_name":"stdout","time":235.969298728,"data":"google-adk 2.7.1 requires opentelemetry-sdk\u003c=1.42.1,\u003e=1.39, but you have opentelemetry-sdk 1.45.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":235.969361051,"data":"  [rc=0 235s]\n"}
+,{"stream_name":"stdout","time":235.969367753,"data":"\n"}
+,{"stream_name":"stdout","time":235.969372339,"data":"$ python -c \"from huggingface_hub import snapshot_download as s; s('Qwen/Qwen3.5-4B', local_dir='/tmp/base', allow_patterns=['*.safetensors','*.json','*.jinja','*.txt'])\"\n"}
+,{"stream_name":"stdout","time":288.035142972,"data":" \n"}
+,{"stream_name":"stdout","time":288.035475536,"data":"Fetching 11 files:   0%|          | 0/11 [00:00\u003c?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":288.035492757,"data":"\n"}
+,{"stream_name":"stdout","time":288.035498399,"data":"Fetching 11 files:   9%|▉         | 1/11 [00:00\u003c00:02,  4.44it/s]\n"}
+,{"stream_name":"stdout","time":288.035503778,"data":"Fetching 11 files:  45%|████▌     | 5/11 [00:00\u003c00:00, 17.37it/s]\n"}
+,{"stream_name":"stdout","time":288.03550889,"data":"Fetching 11 files:  73%|███████▎  | 8/11 [00:00\u003c00:00, 14.77it/s]\n"}
+,{"stream_name":"stdout","time":288.035514426,"data":"Fetching 11 files:  82%|████████▏ | 9/11 [00:20\u003c00:00, 14.77it/s]\n"}
+,{"stream_name":"stdout","time":288.035519036,"data":"Fetching 11 files:  91%|█████████ | 10/11 [00:32\u003c00:05,  5.04s/it]\n"}
+,{"stream_name":"stdout","time":288.035523451,"data":"Fetching 11 files: 100%|██████████| 11/11 [00:39\u003c00:00,  5.44s/it]\n"}
+,{"stream_name":"stdout","time":288.035528339,"data":"Fetching 11 files: 100%|██████████| 11/11 [00:39\u003c00:00,  3.62s/it]\n"}
+,{"stream_name":"stdout","time":288.035635041,"data":" [rc=0 52s]\n"}
+,{"stream_name":"stdout","time":289.806886114,"data":"\n"}
+,{"stream_name":"stdout","time":289.806911614,"data":"$ CUDA_VISIBLE_DEVICES=0 python /kaggle/input/datasets/cloudgoat/merge3-data/evalworker.py /tmp/base /tmp/s.json /tmp/r_pc1.json 1 \u003e /tmp/l0.txt 2\u003e\u00261 \u0026 CUDA_VISIBLE_DEVICES=1 python /kaggle/input/datasets/cloudgoat/merge3-data/evalworker.py /tmp/base /tmp/s.json /tmp/r_pc0.json 0 \u003e /tmp/l1.txt 2\u003e\u00261; wait; grep -v -E 'it/s|s/it' /tmp/l0.txt | tail -40; echo =====; grep -v -E 'it/s|s/it' /tmp/l1.txt | tail -15\n"}
+,{"stream_name":"stdout","time":1338.824218472,"data":"yers.8.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16\n"}
+,{"stream_name":"stdout","time":1338.824358998,"data":"(EngineCore pid=278) WARNING 11-10 00:52:32 [utils.py:333] Attempted to load weight layers.9.input_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16\n"}
+,{"stream_name":"stdout","time":1338.824370722,"data":"(EngineCore pid=278) WARNING 11-10 00:52:32 [utils.py:333] Attempted to load weight layers.9.linear_attn.conv1d.weight with dtype torch.bfloat16 into parameter with dtype torch.float16\n"}
+,{"stream_name":"stdout","time":1338.824376221,"data":"(EngineCore pid=278) WARNING 11-10 00:52:32 [utils.py:333] Attempted to load weight layers.9.linear_attn.dt_bias with dtype torch.bfloat16 into parameter with dtype torch.float16\n"}
+,{"stream_name":"stdout","time":1338.824381227,"data":"(EngineCore pid=278) WARNING 11-10 00:52:33 [utils.py:333] Attempted to load weight layers.9.linear_attn.norm.weight with dtype torch.float32 into parameter with dtype torch.float16\n"}
+,{"stream_name":"stdout","time":1338.824393212,"data":"(EngineCore pid=278) WARNING 11-10 00:52:33 [utils.py:333] Attempted to load weight layers.9.linear_attn.out_proj.weight with dtype torch.bfloat16 into parameter with dtype torch.float16\n"}
+,{"stream_name":"stdout","time":1338.824399513,"data":"(EngineCore pid=278) WARNING 11-10 00:52:33 [utils.py:333] Attempted to load weight layers.9.post_attention_layernorm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16\n"}
+,{"stream_name":"stdout","time":1338.824403862,"data":"(EngineCore pid=278) WARNING 11-10 00:52:33 [utils.py:333] Attempted to load weight norm.weight with dtype torch.bfloat16 into parameter with dtype torch.float16\n"}
+,{"stream_name":"stdout","time":1338.824407714,"data":"\n"}
+,{"stream_name":"stdout","time":1338.824411169,"data":"(EngineCore pid=278) INFO 11-10 00:52:33 [default_loader.py:506] Loading weights took 20.68 seconds\n"}
+,{"stream_name":"stdout","time":1338.82441493,"data":"(EngineCore pid=278) INFO 11-10 00:52:35 [model_runner.py:428] Model loading took 7.94 GiB memory and 28.860082 seconds\n"}
+,{"stream_name":"stdout","time":1338.824419099,"data":"(EngineCore pid=278) WARNING 11-10 00:52:35 [topk_topp_sampler.py:156] FlashInfer top-p/top-k sampling unavailable: unsupported compute capability 7.5; falling back. Set VLLM_USE_FLASHINFER_SAMPLER=0 to silence.\n"}
+,{"stream_name":"stdout","time":1338.82442345,"data":"(EngineCore pid=278) INFO 11-10 00:52:35 [torch_utils.py:281] Reducing Torch threads from 2 to 1 for serving. Set OMP_NUM_THREADS in the external environment to override.\n"}
+,{"stream_name":"stdout","time":1338.824430745,"data":"(EngineCore pid=278) INFO 11-10 00:52:35 [interface.py:1108] Setting attention block size to 528 tokens to ensure that attention page size is \u003e= mamba page size.\n"}
+,{"stream_name":"stdout","time":1338.824435108,"data":"(EngineCore pid=278) INFO 11-10 00:52:35 [interface.py:1132] Padding mamba page size by 0.76% to ensure that mamba page size and attention page size are exactly equal.\n"}
+,{"stream_name":"stdout","time":1338.824438468,"data":"(EngineCore pid=278) INFO 11-10 00:52:35 [utils.py:381] Using LBNHC KV cache layout.\n"}
+,{"stream_name":"stdout","time":1338.824441674,"data":"(EngineCore pid=278) INFO 11-10 00:59:01 [gpu_worker.py:772] Available KV cache memory: 3.2 GiB\n"}
+,{"stream_name":"stdout","time":1338.824444897,"data":"(EngineCore pid=278) INFO 11-10 00:59:01 [kv_cache_utils.py:1147] GPU KV cache size: 73,728 tokens, Maximum concurrency for 8,192 tokens per request: 9.00x\n"}
+,{"stream_name":"stdout","time":1338.82444915,"data":"(EngineCore pid=278) INFO 11-10 00:59:01 [kv_cache_utils.py:865] kv cache group sizes (528, 528, 528, 528)\n"}
+,{"stream_name":"stdout","time":1338.824452719,"data":"(EngineCore pid=278) INFO 11-10 00:59:01 [kv_cache_utils.py:866] kv lcm block sizes 528\n"}
+,{"stream_name":"stdout","time":1338.824456198,"data":"(EngineCore pid=278) INFO 11-10 00:59:01 [qwen_triton_warmup.py:370] Warming up Qwen GDN Triton kernels for model_type=qwen3_5_text.\n"}
+,{"stream_name":"stdout","time":1338.824460102,"data":"(EngineCore pid=278) INFO 11-10 00:59:03 [mamba_triton_warmup.py:42] Warmed Mamba batch_memcpy_kernel.\n"}
+,{"stream_name":"stdout","time":1338.824464516,"data":"(EngineCore pid=278) INFO 11-10 00:59:03 [gpu_worker.py:1066] Free memory on device (14.41/14.56 GiB) on startup. Desired GPU memory utilization is (0.88, 12.81 GiB). Actual usage is 8.98 GiB for consumed memory (weights + non-torch), 0.63 GiB for peak activation, and 0.0 GiB for CUDAGraph memory. Replace gpu_memory_utilization config with `--kv-cache-memory=3280240989` (3.05 GiB) to fit into requested memory, or `--kv-cache-memory=4996264448` (4.65 GiB) to fully utilize gpu memory. Current kv cache memory in use is 3.2 GiB.\n"}
+,{"stream_name":"stdout","time":1338.824479543,"data":"(EngineCore pid=278) INFO 11-10 00:59:04 [core.py:412] init engine (profile, create kv cache, warmup model) took 388.30 s\n"}
+,{"stream_name":"stdout","time":1338.8244839,"data":"(EngineCore pid=278) WARNING 11-10 00:59:04 [vllm.py:1778] Enforce eager set, disabling torch.compile, CUDAGraphs, and JIT kernel warmup. This is equivalent to setting -cc.mode=none -cc.cudagraph_mode=none and --kernel_config.enable_jit_warmup=False\n"}
+,{"stream_name":"stdout","time":1338.824488683,"data":"(EngineCore pid=278) WARNING 11-10 00:59:04 [vllm.py:1802] Inductor compilation was disabled by user settings, optimizations settings that are only active during inductor compilation will be ignored.\n"}
+,{"stream_name":"stdout","time":1338.82449262,"data":"(EngineCore pid=278) INFO 11-10 00:59:04 [kernel.py:480] Final IR op priority after setting platform defaults: IrOpPriorityConfig(rms_norm=['vllm_c', 'native'], fused_add_rms_norm=['vllm_c', 'native'], gelu_and_mul_sparse=['triton', 'native'])\n"}
+,{"stream_name":"stdout","time":1338.824496305,"data":"(EngineCore pid=278) INFO 11-10 00:59:04 [vllm.py:2005] Cudagraph is disabled under eager mode\n"}
+,{"stream_name":"stdout","time":1338.824499884,"data":"(EngineCore pid=278) INFO 11-10 00:59:04 [compilation.py:317] Enabled custom fusions: norm_quant, act_quant\n"}
+,{"stream_name":"stdout","time":1338.824503938,"data":"(MainProcess pid=100) INFO 11-10 00:59:04 [hf.py:736] Detected the chat template content format to be 'openai'. You can set `--chat-template-content-format` to override this.\n"}
+,{"stream_name":"stdout","time":1338.82450795,"data":"evalworker done 600 items, 1793 requests, 680742 prompt tokens; load 480s gen 332s (2049 tok/s incl. cache hits)\n"}
+,{"stream_name":"stdout","time":1338.824511565,"data":"(MainProcess pid=100) INFO 11-10 01:04:53 [utils.py:628] [shutdown] Process manager: send sigterm to process EngineCore\n"}
+,{"stream_name":"stdout","time":1338.824515513,"data":"(EngineCore pid=278) INFO 11-10 01:04:53 [core.py:1525] [shutdown] EngineCore: trigger received signal=SIGTERM\n"}
+,{"stream_name":"stdout","time":1338.824518885,"data":"(EngineCore pid=278) INFO 11-10 01:04:53 [core.py:1712] [shutdown] EngineCore: start mode=abort timeout=0s\n"}
+,{"stream_name":"stdout","time":1338.824522623,"data":"(EngineCore pid=278) INFO 11-10 01:04:53 [core.py:1743] [shutdown] EngineCore: request processing complete; starting resource teardown\n"}
+,{"stream_name":"stdout","time":1338.824526502,"data":"(EngineCore pid=278) INFO 11-10 01:04:53 [core.py:1573] [shutdown] EngineCore: exiting busy loop\n"}
+,{"stream_name":"stdout","time":1338.824530043,"data":"=====\n"}
+,{"stream_name":"stdout","time":1338.824533786,"data":"(EngineCore pid=285) INFO 11-10 00:59:03 [mamba_triton_warmup.py:42] Warmed Mamba batch_memcpy_kernel.\n"}
+,{"stream_name":"stdout","time":1338.824537502,"data":"(EngineCore pid=285) INFO 11-10 00:59:03 [gpu_worker.py:1066] Free memory on device (14.41/14.56 GiB) on startup. Desired GPU memory utilization is (0.88, 12.81 GiB). Actual usage is 8.98 GiB for consumed memory (weights + non-torch), 0.63 GiB for peak activation, and 0.0 GiB for CUDAGraph memory. Replace gpu_memory_utilization config with `--kv-cache-memory=3280240989` (3.05 GiB) to fit into requested memory, or `--kv-cache-memory=4996264448` (4.65 GiB) to fully utilize gpu memory. Current kv cache memory in use is 3.2 GiB.\n"}
+,{"stream_name":"stdout","time":1338.82454376,"data":"(EngineCore pid=285) INFO 11-10 00:59:03 [core.py:412] init engine (profile, create kv cache, warmup model) took 388.27 s\n"}
+,{"stream_name":"stdout","time":1338.824547697,"data":"(EngineCore pid=285) WARNING 11-10 00:59:04 [vllm.py:1778] Enforce eager set, disabling torch.compile, CUDAGraphs, and JIT kernel warmup. This is equivalent to setting -cc.mode=none -cc.cudagraph_mode=none and --kernel_config.enable_jit_warmup=False\n"}
+,{"stream_name":"stdout","time":1338.824557352,"data":"(EngineCore pid=285) WARNING 11-10 00:59:04 [vllm.py:1802] Inductor compilation was disabled by user settings, optimizations settings that are only active during inductor compilation will be ignored.\n"}
+,{"stream_name":"stdout","time":1338.82456104,"data":"(EngineCore pid=285) INFO 11-10 00:59:04 [kernel.py:480] Final IR op priority after setting platform defaults: IrOpPriorityConfig(rms_norm=['vllm_c', 'native'], fused_add_rms_norm=['vllm_c', 'native'], gelu_and_mul_sparse=['triton', 'native'])\n"}
+,{"stream_name":"stdout","time":1338.824565594,"data":"(EngineCore pid=285) INFO 11-10 00:59:04 [vllm.py:2005] Cudagraph is disabled under eager mode\n"}
+,{"stream_name":"stdout","time":1338.824569575,"data":"(EngineCore pid=285) INFO 11-10 00:59:04 [compilation.py:317] Enabled custom fusions: norm_quant, act_quant\n"}
+,{"stream_name":"stdout","time":1338.824573201,"data":"(MainProcess pid=101) INFO 11-10 00:59:04 [hf.py:736] Detected the chat template content format to be 'openai'. You can set `--chat-template-content-format` to override this.\n"}
+,{"stream_name":"stdout","time":1338.824577202,"data":"evalworker done 600 items, 1793 requests, 680742 prompt tokens; load 480s gen 511s (1332 tok/s incl. cache hits)\n"}
+,{"stream_name":"stdout","time":1338.824581062,"data":"(MainProcess pid=101) INFO 11-10 01:07:52 [utils.py:628] [shutdown] Process manager: send sigterm to process EngineCore\n"}
+,{"stream_name":"stdout","time":1338.824585201,"data":"(EngineCore pid=285) INFO 11-10 01:07:52 [core.py:1525] [shutdown] EngineCore: trigger received signal=SIGTERM\n"}
+,{"stream_name":"stdout","time":1338.824588749,"data":"(EngineCore pid=285) INFO 11-10 01:07:52 [core.py:1712] [shutdown] EngineCore: start mode=abort timeout=0s\n"}
+,{"stream_name":"stdout","time":1338.824592712,"data":"(EngineCore pid=285) INFO 11-10 01:07:52 [core.py:1743] [shutdown] EngineCore: request processing complete; starting resource teardown\n"}
+,{"stream_name":"stdout","time":1338.824595826,"data":"(EngineCore pid=285) INFO 11-10 01:07:52 [core.py:1573] [shutdown] EngineCore: exiting busy loop\n"}
+,{"stream_name":"stdout","time":1338.824599468,"data":"  [rc=0 1049s]\n"}
+,{"stream_name":"stdout","time":1338.824602834,"data":"\n"}
+,{"stream_name":"stdout","time":1338.824606274,"data":"$ CUDA_VISIBLE_DEVICES=0 python /tmp/ref.py /kaggle/input/datasets/cloudgoat/merge3-data 2\u003e\u00261 | grep -v -E 'it/s|s/it' | tail -5\n"}
+,{"stream_name":"stdout","time":1437.722190795,"data":"(MainProcess pid=736) INFO 11-10 01:09:31 [utils.py:628] [shutdown] Process manager: send sigterm to process EngineCore\n"}
+,{"stream_name":"stdout","time":1437.722245501,"data":"(EngineCore pid=786) INFO 11-10 01:09:31 [core.py:1525] [shutdown] EngineCore: trigger received signal=SIGTERM\n"}
+,{"stream_name":"stdout","time":1437.722253617,"data":"(EngineCore pid=786) INFO 11-10 01:09:31 [core.py:1712] [shutdown] EngineCore: start mode=abort timeout=0s\n"}
+,{"stream_name":"stdout","time":1437.722259481,"data":"(EngineCore pid=786) INFO 11-10 01:09:31 [core.py:1743] [shutdown] EngineCore: request processing complete; starting resource teardown\n"}
+,{"stream_name":"stdout","time":1437.722266135,"data":"(EngineCore pid=786) INFO 11-10 01:09:31 [core.py:1573] [shutdown] EngineCore: exiting busy loop\n"}
+,{"stream_name":"stdout","time":1437.722272238,"data":"  [rc=0 99s]\n"}
+,{"stream_name":"stdout","time":1437.726316645,"data":"/tmp/r_pc1.json {'t_load': 480.00569224357605, 't_gen': 332.2452919483185, 't_total': 828.5681948661804, 'n_requests': 1793, 'prompt_tokens': 680742} acc mmlu 0.4875 gpqa 0.31 nmiss items 0 max ctx tok 2757\n"}
+,{"stream_name":"stdout","time":1437.747688193,"data":"/tmp/r_pc0.json {'t_load': 479.9981880187988, 't_gen': 510.9284749031067, 't_total': 1007.5339982509613, 'n_requests': 1793, 'prompt_tokens': 680742} acc mmlu 0.4875 gpqa 0.315 nmiss items 0 max ctx tok 2757\n"}
+,{"stream_name":"stdout","time":1437.753937009,"data":"pred agree pc1 vs pc0 599 / 600 max score diff 0.03890840895473957\n"}
+,{"stream_name":"stderr","time":1439.750192802,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1439.750224015,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1439.928013146,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1439.92803753,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1440.807072181,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1441.654828856,"data":"[NbConvertApp] Writing 289384 bytes to __results__.html\n"}
+]

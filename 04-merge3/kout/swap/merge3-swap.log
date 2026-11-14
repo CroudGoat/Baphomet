@@ -1,0 +1,193 @@
+[{"stream_name":"stdout","time":1.486756352,"data":"DATA /kaggle/input/datasets/cloudgoat/merge3-data ['anchors.json', 'client.py', 'evalworker.py', 'fitness_pool.json', 'items.jsonl', 'lb_responses.npz', 'lleval.py', 'm3lib.py', 'persist.py', 'subset_ids.json', 'swaptest.py', 'test_exclusion.json']\n"}
+,{"stream_name":"stdout","time":1.486804592,"data":"\n"}
+,{"stream_name":"stdout","time":1.486809104,"data":"$ nvidia-smi -L; free -g; df -h /tmp\n"}
+,{"stream_name":"stdout","time":1.5814479160000001,"data":"GPU 0: Tesla T4 (UUID: GPU-173e3ed7-935f-ebb8-8a46-3815f5b812ca)\n"}
+,{"stream_name":"stdout","time":1.581476614,"data":"GPU 1: Tesla T4 (UUID: GPU-12b9ce0a-4015-937d-4e93-061119995400)\n"}
+,{"stream_name":"stdout","time":1.581480478,"data":"               total        used        free      shared  buff/cache   available\n"}
+,{"stream_name":"stdout","time":1.5814831489999999,"data":"Mem:              31           1          26           0           4          30\n"}
+,{"stream_name":"stdout","time":1.581485625,"data":"Swap:              0           0           0\n"}
+,{"stream_name":"stdout","time":1.581488405,"data":"Filesystem      Size  Used Avail Use% Mounted on\n"}
+,{"stream_name":"stdout","time":1.581490804,"data":"overlay         8.0T  7.1T  967G  89% /\n"}
+,{"stream_name":"stdout","time":1.581493076,"data":"  [rc=0 0s]\n"}
+,{"stream_name":"stdout","time":1.583034756,"data":"\n"}
+,{"stream_name":"stdout","time":1.5831078299999999,"data":"$ pip install -q vllm==0.33.0 2\u003e\u00261 | tail -2\n"}
+,{"stream_name":"stderr","time":3.581703682,"data":"\rFetching 11 files:   0%|          | 0/11 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":3.64457103,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\u001b[AWarning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":3.715704203,"data":"\n"}
+,{"stream_name":"stderr","time":3.715728249,"data":"\n"}
+,{"stream_name":"stderr","time":3.857309381,"data":"\rFetching 9 files:   0%|          | 0/9 [00:00\u003c?, ?it/s]\u001b[A\u001b[A\rFetching 11 files:   9%|▉         | 1/11 [00:00\u003c00:01,  5.21it/s]\n"}
+,{"stream_name":"stderr","time":3.8573313540000003,"data":"\n"}
+,{"stream_name":"stderr","time":3.964082006,"data":"\rFetching 9 files:  11%|█         | 1/9 [00:00\u003c00:01,  7.07it/s]\u001b[A\u001b[A\rFetching 11 files:  36%|███▋      | 4/11 [00:00\u003c00:00, 12.66it/s]\n"}
+,{"stream_name":"stderr","time":3.9641090009999997,"data":"\n"}
+,{"stream_name":"stderr","time":4.009814755,"data":"\rFetching 9 files:  44%|████▍     | 4/9 [00:00\u003c00:00, 17.99it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":4.678252346,"data":"\rFetching 8 files:  12%|█▎        | 1/8 [00:00\u003c00:02,  2.35it/s]\u001b[A\rFetching 11 files:  73%|███████▎  | 8/11 [00:00\u003c00:00, 18.00it/s]\n"}
+,{"stream_name":"stderr","time":4.678277327,"data":"\n"}
+,{"stream_name":"stderr","time":6.690997521,"data":"\rFetching 9 files:  78%|███████▊  | 7/9 [00:00\u003c00:00,  6.51it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":23.555615277,"data":"\rFetching 8 files:  75%|███████▌  | 6/8 [00:03\u003c00:01,  1.91it/s]\u001b[A\rFetching 11 files:  82%|████████▏ | 9/11 [00:19\u003c00:00, 18.00it/s]\n"}
+,{"stream_name":"stderr","time":23.555667618,"data":"\n"}
+,{"stream_name":"stderr","time":84.276612902,"data":"\rFetching 9 files:  78%|███████▊  | 7/9 [00:19\u003c00:00,  6.51it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":84.276673514,"data":"\n"}
+,{"stream_name":"stderr","time":117.226699169,"data":"\rFetching 9 files:  89%|████████▉ | 8/9 [01:20\u003c00:16, 16.32s/it]\u001b[A\u001b[A\rFetching 11 files:  91%|█████████ | 10/11 [01:37\u003c00:14, 14.68s/it]\n"}
+,{"stream_name":"stderr","time":117.626862262,"data":"\rFetching 8 files:  88%|████████▊ | 7/8 [01:53\u003c00:22, 22.57s/it]\u001b[A\rFetching 11 files: 100%|██████████| 11/11 [01:54\u003c00:00, 15.05s/it]\rFetching 11 files: 100%|██████████| 11/11 [01:54\u003c00:00, 10.37s/it]\n"}
+,{"stream_name":"stderr","time":119.327840648,"data":"\rFetching 10 files:   0%|          | 0/10 [00:00\u003c?, ?it/s]\rFetching 10 files:  10%|█         | 1/10 [00:00\u003c00:01,  8.49it/s]\rFetching 10 files:  20%|██        | 2/10 [00:00\u003c00:00,  8.53it/s]\rFetching 10 files:  70%|███████   | 7/10 [00:00\u003c00:00, 20.19it/s]\n"}
+,{"stream_name":"stderr","time":119.327869523,"data":"\n"}
+,{"stream_name":"stderr","time":119.33571594,"data":"\rFetching 9 files: 100%|██████████| 9/9 [01:55\u003c00:00, 20.54s/it]\u001b[A\u001b[A\rFetching 9 files: 100%|██████████| 9/9 [01:55\u003c00:00, 12.85s/it]\n"}
+,{"stream_name":"stderr","time":119.354856181,"data":"\n"}
+,{"stream_name":"stderr","time":119.35618273,"data":"\rFetching 8 files: 100%|██████████| 8/8 [01:55\u003c00:00, 18.02s/it]\u001b[A\rFetching 8 files: 100%|██████████| 8/8 [01:55\u003c00:00, 14.47s/it]\n"}
+,{"stream_name":"stderr","time":119.529596769,"data":"\n"}
+,{"stream_name":"stderr","time":119.584252615,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":119.584271611,"data":"\n"}
+,{"stream_name":"stderr","time":125.819991817,"data":"\rFetching 13 files:   0%|          | 0/13 [00:00\u003c?, ?it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":125.902728723,"data":"\rFetching 8 files:  12%|█▎        | 1/8 [00:06\u003c00:44,  6.29s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":125.902753362,"data":"\n"}
+,{"stream_name":"stderr","time":126.031995751,"data":"\rFetching 13 files:   8%|▊         | 1/13 [00:06\u003c01:15,  6.32s/it]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":126.032021929,"data":"\n"}
+,{"stream_name":"stderr","time":126.089125815,"data":"\rFetching 13 files:  23%|██▎       | 3/13 [00:06\u003c00:16,  1.69s/it]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":126.206246516,"data":"\rFetching 8 files:  50%|█████     | 4/8 [00:06\u003c00:05,  1.26s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":126.206292168,"data":"\n"}
+,{"stream_name":"stderr","time":126.309312012,"data":"\rFetching 13 files:  46%|████▌     | 6/13 [00:06\u003c00:04,  1.46it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":126.309338003,"data":"\n"}
+,{"stream_name":"stderr","time":126.590838142,"data":"\rFetching 13 files:  62%|██████▏   | 8/13 [00:06\u003c00:02,  2.21it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":126.590867839,"data":"\n"}
+,{"stream_name":"stderr","time":130.504351581,"data":"\rFetching 13 files:  77%|███████▋  | 10/13 [00:07\u003c00:01,  2.90it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":145.771297547,"data":"\rFetching 8 files:  62%|██████▎   | 5/8 [00:10\u003c00:06,  2.14s/it]\u001b[A\rFetching 10 files:  90%|█████████ | 9/10 [00:12\u003c00:01,  1.97s/it]\n"}
+,{"stream_name":"stderr","time":145.771338796,"data":"\n"}
+,{"stream_name":"stderr","time":193.475797891,"data":"\rFetching 13 files:  85%|████████▍ | 11/13 [00:26\u003c00:00,  2.90it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":193.929077678,"data":"\rFetching 8 files:  88%|████████▊ | 7/8 [01:13\u003c00:15, 15.15s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":193.934306396,"data":"\rFetching 8 files: 100%|██████████| 8/8 [01:14\u003c00:00, 11.61s/it]\u001b[A\rFetching 8 files: 100%|██████████| 8/8 [01:14\u003c00:00,  9.30s/it]\n"}
+,{"stream_name":"stderr","time":224.88209529,"data":"\rFetching 10 files: 100%|██████████| 10/10 [01:47\u003c00:00, 18.97s/it]\rFetching 10 files: 100%|██████████| 10/10 [01:47\u003c00:00, 10.70s/it]\n"}
+,{"stream_name":"stderr","time":238.529694736,"data":"\n"}
+,{"stream_name":"stderr","time":238.529722024,"data":"\n"}
+,{"stream_name":"stderr","time":239.375033637,"data":"\rFetching 13 files:  92%|█████████▏| 12/13 [01:58\u003c00:18, 18.71s/it]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":239.375060122,"data":"\n"}
+,{"stream_name":"stderr","time":239.376093909,"data":"\rFetching 13 files: 100%|██████████| 13/13 [01:59\u003c00:00, 15.30s/it]\u001b[A\u001b[A\rFetching 13 files: 100%|██████████| 13/13 [01:59\u003c00:00,  9.21s/it]\n"}
+,{"stream_name":"stdout","time":239.37733963,"data":"downloads done 238.25293374061584\n"}
+,{"stream_name":"stdout","time":641.474410123,"data":"google-adk 2.7.1 requires opentelemetry-api\u003c=1.42.1,\u003e=1.39, but you have opentelemetry-api 1.45.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":641.474453696,"data":"google-adk 2.7.1 requires opentelemetry-sdk\u003c=1.42.1,\u003e=1.39, but you have opentelemetry-sdk 1.45.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":641.474463201,"data":"  [rc=0 640s]\n"}
+,{"stream_name":"stdout","time":641.474466232,"data":"\n"}
+,{"stream_name":"stdout","time":641.474469101,"data":"$ du -sh /tmp/base /tmp/donor_*\n"}
+,{"stream_name":"stdout","time":641.484416835,"data":"8.8G\t/tmp/base\n"}
+,{"stream_name":"stdout","time":641.484439955,"data":"8.5G\t/tmp/donor_agents_a1\n"}
+,{"stream_name":"stdout","time":641.484443955,"data":"8.5G\t/tmp/donor_arex_turbo\n"}
+,{"stream_name":"stdout","time":641.484461596,"data":"8.7G\t/tmp/donor_dsv4pro\n"}
+,{"stream_name":"stdout","time":641.484466353,"data":"8.8G\t/tmp/donor_qwen38distill\n"}
+,{"stream_name":"stdout","time":641.484471591,"data":"8.7G\t/tmp/donor_qwopus_v3\n"}
+,{"stream_name":"stdout","time":641.484476276,"data":"  [rc=0 0s]\n"}
+,{"stream_name":"stdout","time":641.484675292,"data":"\n"}
+,{"stream_name":"stdout","time":641.484685642,"data":"$ python /tmp/ext.py /kaggle/input/datasets/cloudgoat/merge3-data\n"}
+,{"stream_name":"stdout","time":957.283733288,"data":"dsv4pro {'n': 738, 'zero': 586, 'missing': 0, 'sqnorm': 1540.6827657818794, 'qerr': 1.080326232855441, 'rel_qerr': 0.026480174864559048, 'norm': 39.2515320182777, 'secs': 122.06350994110107}\n"}
+,{"stream_name":"stdout","time":957.287423271,"data":"agents_a1 {'n': 723, 'zero': 331, 'missing': 15, 'sqnorm': 326.55434788612183, 'qerr': 0.22521778400961773, 'rel_qerr': 0.026261746523454803, 'norm': 18.070814809690287, 'secs': 131.90023970603943}\n"}
+,{"stream_name":"stdout","time":957.287438205,"data":"qwopus_v3 {'n': 738, 'zero': 586, 'missing': 0, 'sqnorm': 17.13536906801164, 'qerr': 0.01150431731275603, 'rel_qerr': 0.02591097137527293, 'norm': 4.1394889863377635, 'secs': 104.07138872146606}\n"}
+,{"stream_name":"stdout","time":957.287443436,"data":"qwen38distill {'n': 738, 'zero': 389, 'missing': 0, 'sqnorm': 14.17372548533691, 'qerr': 0.00996375967696002, 'rel_qerr': 0.026513655764140085, 'norm': 3.764800855999811, 'secs': 111.73698830604553}\n"}
+,{"stream_name":"stdout","time":957.287448215,"data":"arex_turbo {'n': 723, 'zero': 325, 'missing': 15, 'sqnorm': 607.536873578676, 'qerr': 0.4215239738547566, 'rel_qerr': 0.02634054878680898, 'norm': 24.64826309456056, 'secs': 58.02872180938721}\n"}
+,{"stream_name":"stdout","time":957.287485786,"data":"  [rc=0 316s]\n"}
+,{"stream_name":"stdout","time":957.287488781,"data":"\n"}
+,{"stream_name":"stdout","time":957.287491158,"data":"$ du -sh /tmp/tv/*; free -g\n"}
+,{"stream_name":"stdout","time":957.337155293,"data":"4.0G\t/tmp/tv/agents_a1.safetensors\n"}
+,{"stream_name":"stdout","time":957.337191252,"data":"4.0G\t/tmp/tv/arex_turbo.safetensors\n"}
+,{"stream_name":"stdout","time":957.337196526,"data":"2.7G\t/tmp/tv/dsv4pro.safetensors\n"}
+,{"stream_name":"stdout","time":957.337200979,"data":"4.0G\t/tmp/tv/qwen38distill.safetensors\n"}
+,{"stream_name":"stdout","time":957.337205944,"data":"2.7G\t/tmp/tv/qwopus_v3.safetensors\n"}
+,{"stream_name":"stdout","time":957.337211203,"data":"               total        used        free      shared  buff/cache   available\n"}
+,{"stream_name":"stdout","time":957.337216375,"data":"Mem:              31           3           4           0          23          27\n"}
+,{"stream_name":"stdout","time":957.337221614,"data":"Swap:              0           0           0\n"}
+,{"stream_name":"stdout","time":957.337226454,"data":"  [rc=0 0s]\n"}
+,{"stream_name":"stdout","time":1713.907617539,"data":"\n"}
+,{"stream_name":"stdout","time":1713.909568342,"data":"$ grep -v -E 'it/s|s/it' /kaggle/working/log_inplace.txt | grep -E '\\[inplace|Error|error|Traceback|WARN.*not loaded' | tail -40\n"}
+,{"stream_name":"stdout","time":1713.923039367,"data":"[inplace    572s] init 500.63760352134705\n"}
+,{"stream_name":"stdout","time":1713.923063223,"data":"[inplace    738s] S_base {'t_gen': 124.15279293060303, 'n_requests': 680, 'prompt_tokens': 228877, 'n_items': 200}\n"}
+,{"stream_name":"stdout","time":1713.923070032,"data":"(MainProcess pid=607) INFO 11-10 01:53:51 [inplace.py:91] Reloading weights inplace...\n"}
+,{"stream_name":"stdout","time":1713.923075033,"data":"[rank0]: Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":1713.923080615,"data":"[rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.19 GiB. GPU 0 has a total capacity of 14.56 GiB of which 266.81 MiB is free. Including non-PyTorch memory, this process has 14.30 GiB memory in use. Of the allocated memory 12.19 GiB is allocated by PyTorch, and 1.24 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stdout","time":1713.923091146,"data":"  [rc=0 0s]\n"}
+,{"stream_name":"stdout","time":1713.923095826,"data":"\n"}
+,{"stream_name":"stdout","time":1713.923100471,"data":"$ grep -A30 Traceback /kaggle/working/log_inplace.txt | tail -60\n"}
+,{"stream_name":"stdout","time":1713.925748257,"data":"[rank0]: Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":1713.9257702,"data":"[rank0]:   File \"/kaggle/input/datasets/cloudgoat/merge3-data/swaptest.py\", line 31, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":1713.925776563,"data":"[rank0]:     ts = [E.load_merge(\"/tmp/base\", TV, **M) for _ in range(2)]\n"}
+,{"stream_name":"stdout","time":1713.925782158,"data":"[rank0]:           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.92578683,"data":"[rank0]:   File \"/kaggle/input/datasets/cloudgoat/merge3-data/persist.py\", line 51, in load_merge\n"}
+,{"stream_name":"stdout","time":1713.925792234,"data":"[rank0]:     self.llm.collective_rpc(_fn, args=(base_dir, tv_paths, weights, densities, seed, chunk_elems))\n"}
+,{"stream_name":"stdout","time":1713.925808449,"data":"[rank0]:     ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.925812543,"data":"[rank0]:   File \"/usr/local/lib/python3.13/dist-packages/vllm/entrypoints/llm.py\", line 602, in collective_rpc\n"}
+,{"stream_name":"stdout","time":1713.925816555,"data":"[rank0]:     return self.llm_engine.collective_rpc(method, timeout, args, kwargs)\n"}
+,{"stream_name":"stdout","time":1713.925820337,"data":"[rank0]:            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.925824323,"data":"[rank0]:   File \"/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/llm_engine.py\", line 494, in collective_rpc\n"}
+,{"stream_name":"stdout","time":1713.925828412,"data":"[rank0]:     return self.engine_core.collective_rpc(method, timeout, args, kwargs)\n"}
+,{"stream_name":"stdout","time":1713.925832189,"data":"[rank0]:            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.925835601,"data":"[rank0]:   File \"/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core_client.py\", line 495, in collective_rpc\n"}
+,{"stream_name":"stdout","time":1713.92583926,"data":"[rank0]:     return self.engine_core.collective_rpc(method, timeout, args, kwargs)\n"}
+,{"stream_name":"stdout","time":1713.925842678,"data":"[rank0]:            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.925846243,"data":"[rank0]:   File \"/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py\", line 1117, in collective_rpc\n"}
+,{"stream_name":"stdout","time":1713.925849584,"data":"[rank0]:     return self.model_executor.collective_rpc(method, timeout, args, kwargs)\n"}
+,{"stream_name":"stdout","time":1713.925857214,"data":"[rank0]:            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.925859741,"data":"[rank0]:   File \"/usr/local/lib/python3.13/dist-packages/vllm/v1/executor/uniproc_executor.py\", line 103, in collective_rpc\n"}
+,{"stream_name":"stdout","time":1713.92586224,"data":"[rank0]:     result = run_method(self.driver_worker, method, args, kwargs)\n"}
+,{"stream_name":"stdout","time":1713.925864647,"data":"[rank0]:   File \"/usr/local/lib/python3.13/dist-packages/vllm/v1/serial_utils.py\", line 508, in run_method\n"}
+,{"stream_name":"stdout","time":1713.925868512,"data":"[rank0]:     return func(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":1713.925870773,"data":"[rank0]:   File \"/kaggle/input/datasets/cloudgoat/merge3-data/persist.py\", line 46, in _fn\n"}
+,{"stream_name":"stdout","time":1713.925873213,"data":"[rank0]:     worker.reload_weights(weights_iterator=gen, is_checkpoint_format=True)\n"}
+,{"stream_name":"stdout","time":1713.92587551,"data":"[rank0]:     ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.925877837,"data":"[rank0]:   File \"/usr/local/lib/python3.13/dist-packages/vllm/v1/worker/gpu_worker.py\", line 638, in reload_weights\n"}
+,{"stream_name":"stdout","time":1713.925880303,"data":"[rank0]:     self.model_runner.reload_weights(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":1713.92588256,"data":"[rank0]:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.925884865,"data":"[rank0]:   File \"/usr/local/lib/python3.13/dist-packages/vllm/v1/worker/gpu/model_runner.py\", line 595, in reload_weights\n"}
+,{"stream_name":"stdout","time":1713.925887283,"data":"[rank0]:     reload_weights(\n"}
+,{"stream_name":"stdout","time":1713.925892844,"data":"  [rc=0 0s]\n"}
+,{"stream_name":"stdout","time":1713.92589514,"data":"\n"}
+,{"stream_name":"stdout","time":1713.925897838,"data":"$ grep -v -E 'it/s|s/it' /kaggle/working/log_disk.txt | grep -E '\\[disk|Error|error|Traceback|WARN.*not loaded' | tail -40\n"}
+,{"stream_name":"stdout","time":1713.931517269,"data":"[disk    125s] merge to disk 125.1458466053009\n"}
+,{"stream_name":"stdout","time":1713.931534151,"data":"[disk    572s] init 424.35252571105957\n"}
+,{"stream_name":"stdout","time":1713.931539333,"data":"[disk    737s] S_M {'t_gen': 122.77786040306091, 'n_requests': 680, 'prompt_tokens': 228877, 'n_items': 200}\n"}
+,{"stream_name":"stdout","time":1713.931543394,"data":"[rank0]: Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":1713.931547262,"data":"[rank0]:     raise VLLMValidationError(\n"}
+,{"stream_name":"stdout","time":1713.931550943,"data":"[rank0]: vllm.exceptions.VLLMValidationError: This model's maximum context length is 8192 tokens. However, your prompt contains 12300 input tokens, which exceeds this limit even without any output tokens. Please reduce the length of the input prompt. (parameter=input_tokens, value=12300)\n"}
+,{"stream_name":"stdout","time":1713.931555365,"data":"  [rc=0 0s]\n"}
+,{"stream_name":"stdout","time":1713.93155898,"data":"\n"}
+,{"stream_name":"stdout","time":1713.931562382,"data":"$ grep -A30 Traceback /kaggle/working/log_disk.txt | tail -60\n"}
+,{"stream_name":"stdout","time":1713.934120007,"data":"[rank0]: Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":1713.934136002,"data":"[rank0]:   File \"/kaggle/input/datasets/cloudgoat/merge3-data/swaptest.py\", line 48, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":1713.934141295,"data":"[rank0]:     ev(\"GPQA_full_M\", GP)\n"}
+,{"stream_name":"stdout","time":1713.934145055,"data":"[rank0]:     ~~^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.934148529,"data":"[rank0]:   File \"/kaggle/input/datasets/cloudgoat/merge3-data/swaptest.py\", line 25, in ev\n"}
+,{"stream_name":"stdout","time":1713.934151994,"data":"[rank0]:     r, st = E.evaluate(items, **kw); out[name] = dict(stats=st, results=r); lg(name, st); save(); return r, st\n"}
+,{"stream_name":"stdout","time":1713.934155748,"data":"[rank0]:             ~~~~~~~~~~^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.934159202,"data":"[rank0]:   File \"/kaggle/input/datasets/cloudgoat/merge3-data/persist.py\", line 74, in evaluate\n"}
+,{"stream_name":"stdout","time":1713.934163189,"data":"[rank0]:     return lleval.evaluate(self.llm, self.tok, items, self.maxlp, drop_shared=drop_shared)\n"}
+,{"stream_name":"stdout","time":1713.934166934,"data":"[rank0]:            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.934177762,"data":"[rank0]:   File \"/kaggle/input/datasets/cloudgoat/merge3-data/lleval.py\", line 80, in evaluate\n"}
+,{"stream_name":"stdout","time":1713.934181626,"data":"[rank0]:     lps = run_requests(llm, plist, maxlp)\n"}
+,{"stream_name":"stdout","time":1713.934185321,"data":"[rank0]:   File \"/kaggle/input/datasets/cloudgoat/merge3-data/lleval.py\", line 54, in run_requests\n"}
+,{"stream_name":"stdout","time":1713.934189059,"data":"[rank0]:     outs = llm.generate([TokensPrompt(prompt_token_ids=list(plist[i])) for i in order], sp, use_tqdm=False)\n"}
+,{"stream_name":"stdout","time":1713.934193266,"data":"[rank0]:   File \"/usr/local/lib/python3.13/dist-packages/vllm/entrypoints/llm.py\", line 472, in generate\n"}
+,{"stream_name":"stdout","time":1713.934197442,"data":"[rank0]:     return self._run_completion(\n"}
+,{"stream_name":"stdout","time":1713.934200951,"data":"[rank0]:            ~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stdout","time":1713.934212543,"data":"[rank0]:         prompts=prompts,\n"}
+,{"stream_name":"stdout","time":1713.934216655,"data":"[rank0]:         ^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.934220061,"data":"[rank0]:     ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stdout","time":1713.934223542,"data":"[rank0]:         mm_processor_kwargs=mm_processor_kwargs,\n"}
+,{"stream_name":"stdout","time":1713.934227139,"data":"[rank0]:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.93423069,"data":"[rank0]:     )\n"}
+,{"stream_name":"stdout","time":1713.934234332,"data":"[rank0]:     ^\n"}
+,{"stream_name":"stdout","time":1713.934237731,"data":"[rank0]:   File \"/usr/local/lib/python3.13/dist-packages/vllm/entrypoints/common/offline.py\", line 354, in _run_completion\n"}
+,{"stream_name":"stdout","time":1713.934241451,"data":"[rank0]:     self._add_completion_requests(\n"}
+,{"stream_name":"stdout","time":1713.934244867,"data":"[rank0]:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stdout","time":1713.934248212,"data":"[rank0]:         prompts=prompts,\n"}
+,{"stream_name":"stdout","time":1713.934252084,"data":"[rank0]:         ^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":1713.934255399,"data":"[rank0]:     ...\u003c5 lines\u003e...\n"}
+,{"stream_name":"stdout","time":1713.934259062,"data":"[rank0]:         mm_processor_kwargs=mm_processor_kwargs,\n"}
+,{"stream_name":"stdout","time":1713.934262509,"data":"  [rc=0 0s]\n"}
+,{"stream_name":"stderr","time":1713.937197474,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":1713.937684764,"data":"  File \"/kaggle/src/script.py\", line 59, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":1713.937701692,"data":"    summ[\"S_M_inplace_vs_disk\"] = cmp(a[\"S_M\"], b[\"S_M\"])\n"}
+,{"stream_name":"stderr","time":1713.937706078,"data":"                                      ~^^^^^^^\n"}
+,{"stream_name":"stderr","time":1713.937709537,"data":"KeyError: 'S_M'\n"}
+,{"stream_name":"stdout","time":1713.93783086,"data":"TOTAL 1712.8136019706726\n"}
+,{"stream_name":"stderr","time":1716.628581007,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1716.628609146,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1716.90398788,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1716.904014993,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1717.983337584,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1719.091261368,"data":"[NbConvertApp] Writing 302280 bytes to __results__.html\n"}
+]

@@ -1,0 +1,1 @@
+{"id":"cloudgoat/merge3-irt","title":"merge3-irt","code_file":"fit_irt.py","language":"python","kernel_type":"script","is_private":true,"enable_gpu":false,"enable_internet":true,"dataset_sources":["cloudgoat/merge3-data"],"kernel_sources":[],"competition_sources":[],"model_sources":[]}

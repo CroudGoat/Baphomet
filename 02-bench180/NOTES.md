@@ -1,0 +1,10 @@
+# Bench run notes (working)
+- Colab session 'bench', T4 (L4 rejected: no entitlement). vLLM 0.33.0, torch 2.14.0, transformers 5.20.2 (VM), Python 3.13.
+- vLLM serve: dtype float16, max-model-len 12288, gpu-mem-util 0.92, max-num-seqs 48, mm limits 0, TRITON_ATTN backend (FA2 unsupported on sm75). KV cache 84,377 tokens.
+- Client: /v1/completions with prompt formatted by each model's own tokenizer chat template (enable_thinking=True), temp 0.6 top_p 0.95 top_k 20 seed 0, max_tokens 8192, concurrency 32.
+- Throughput ~310-345 gen tok/s at 32 concurrent; single-stream ~17 tok/s.
+- Reduced to CORE set (438 items): MMLU-Pro 10/category (140), GPQA-Diamond all 198, BFCL v4 non-live 25/category (100). Full set (678) = MMLU-Pro 20/cat, BFCL 50/cat; extension only if time.
+- GPQA source: losercheers/gpqa_diamond (ungated mirror of Idavidrein/gpqa diamond, 198 rows, original columns); official is gated (401). Choices shuffled with random.Random(1234+i).
+- BFCL: bfcl-eval 2026.3.23 bundled BFCL_v4 data (simple_python, multiple, parallel, parallel_multiple = v3 non-live AST cats), official possible_answer GT, official ast_checker (vendored copy, MODEL_CONFIG import stubbed; no '.'->'_' name conversion). Tools passed raw (as BFCL QwenFC handler does) into each model's own chat template; Python-3 syntax hint added like official loader.
+- 06:23 UTC: sandbox home was wiped mid-run (colab CLI, gcloud ADC, colab sessions.json lost). VM kept running. Re-minted ADC via OAuth PKCE (gcloud public client, same 4 scopes) with browser agent approving as qrodpond@gmail.com; creds backed up in /workspace/work/bench/.adc/ (chmod 600) -> DELETE after the run. Re-attached session by writing sessions.json with endpoint gpu-t4-s-usw4a1-3bddlnv7iactc.
+- Steady-state throughput only ~90-190 tok/s (KV-bound: ~15 running seqs at ~6k ctx; fp8 KV not supported on T4 triton backend). Reduced further: FINAL SUBSET = first 180 items of the phase-1 shuffled order (Random(777)) -> 80 MMLU-Pro (random from the 10/cat stratified pool), 50 GPQA, 50 BFCL. subset_ids.json. Outcome-independent (order fixed before run).

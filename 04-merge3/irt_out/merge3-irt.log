@@ -1,0 +1,51 @@
+[{"stream_name":"stdout","time":1.758648811,"data":"$ nproc; free -g; nvidia-smi -L 2\u003e/dev/null; pip install -q pyro-ppl typer rich ordered-set toml jsonlines 2\u003e\u00261 | tail -2\n"}
+,{"stream_name":"stdout","time":7.7593520609999995,"data":"4\n"}
+,{"stream_name":"stdout","time":7.75938951,"data":"               total        used        free      shared  buff/cache   available\n"}
+,{"stream_name":"stdout","time":7.759395707,"data":"Mem:              31           0          26           0           4          30\n"}
+,{"stream_name":"stdout","time":7.759400333,"data":"Swap:              0           0           0\n"}
+,{"stream_name":"stdout","time":7.75940467,"data":"  rc 0\n"}
+,{"stream_name":"stdout","time":8.14465068,"data":"PYIRT /kaggle/input/datasets/cloudgoat/merge3-data/polo_py_irt/polo_py_irt models 611\n"}
+,{"stream_name":"stdout","time":8.303233703,"data":"Y (611, 12994)\n"}
+,{"stream_name":"stdout","time":23.951929392,"data":"$ cd /tmp \u0026\u0026 PYTHONPATH=/kaggle/input/datasets/cloudgoat/merge3-data/polo_py_irt/polo_py_irt python -c 'from py_irt.cli import app; app()' train 'multidim_2pl' /kaggle/working/irt_dataset.jsonlines /kaggle/working/irt_model/ --dims 15 --lr 0.1 --epochs 2000 --device cpu --priors 'hierarchical' --seed 42 --deterministic --log-every 200\n"}
+,{"stream_name":"stdout","time":5212.393132981,"data":"[01:38:08] config: model_type='multidim_2pl' epochs=2000              cli.py:109\n"}
+,{"stream_name":"stdout","time":5212.393244511,"data":"           priors='hierarchical' initializers=None dims=15 lr=0.1               \n"}
+,{"stream_name":"stdout","time":5212.393254456,"data":"           lr_decay=0.9999 dropout=0.5 hidden=100 vocab_size=None               \n"}
+,{"stream_name":"stdout","time":5212.393261779,"data":"           log_every=200 seed=42 deterministic=True                             \n"}
+,{"stream_name":"stdout","time":5212.393268041,"data":"           data_path: /kaggle/working/irt_dataset.jsonlines           cli.py:111\n"}
+,{"stream_name":"stdout","time":5212.393272579,"data":"           output directory: /kaggle/working/irt_model/               cli.py:112\n"}
+,{"stream_name":"stdout","time":5212.393277622,"data":"[01:38:12] amortized: False                                       dataset.py:112\n"}
+,{"stream_name":"stdout","time":5212.393282087,"data":"[01:38:15] Vocab size: None                                       training.py:90\n"}
+,{"stream_name":"stdout","time":5212.393289474,"data":"[01:38:17] Training Model...                                          cli.py:116\n"}
+,{"stream_name":"stdout","time":5212.393295381,"data":"[01:38:17] args: {'device': 'cpu', 'num_items': 12994,           training.py:134\n"}
+,{"stream_name":"stdout","time":5212.39329986,"data":"           'num_subjects': 611}                                                 \n"}
+,{"stream_name":"stdout","time":5212.393304867,"data":"           Parsed Model Args: {'device': 'cpu', 'num_items':     training.py:147\n"}
+,{"stream_name":"stdout","time":5212.393311042,"data":"           12994, 'num_subjects': 611, 'priors': 'hierarchical',                \n"}
+,{"stream_name":"stdout","time":5212.393317588,"data":"           'dims': 15, 'dropout': 0.5, 'hidden': 100,                           \n"}
+,{"stream_name":"stdout","time":5212.393322601,"data":"           'vocab_size': None}                                                  \n"}
+,{"stream_name":"stdout","time":5212.393327604,"data":"torch.Size([7939334]) torch.Size([7939334])\n"}
+,{"stream_name":"stdout","time":5212.393332373,"data":"Training Pyro IRT Model for 2000 epochs\n"}
+,{"stream_name":"stdout","time":5212.393337622,"data":"┏━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━┓\n"}
+,{"stream_name":"stdout","time":5212.393392873,"data":"┃ Epoch ┃ Loss          ┃ Best Loss     ┃ New LR ┃\n"}
+,{"stream_name":"stdout","time":5212.393398702,"data":"┡━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━┩\n"}
+,{"stream_name":"stdout","time":5212.393403756,"data":"│ 1     │ 49081111.5537 │ 49081111.5537 │ 0.1000 │\n"}
+,{"stream_name":"stdout","time":5212.393408322,"data":"│ 201   │ 2665344.2562  │ 2660150.8667  │ 0.0980 │\n"}
+,{"stream_name":"stdout","time":5212.393412223,"data":"│ 401   │ 2438099.3920  │ 2427947.1395  │ 0.0961 │\n"}
+,{"stream_name":"stdout","time":5212.393416149,"data":"│ 601   │ 2363299.8082  │ 2359338.9799  │ 0.0942 │\n"}
+,{"stream_name":"stdout","time":5212.393419835,"data":"│ 801   │ 2335775.8855  │ 2335775.8855  │ 0.0923 │\n"}
+,{"stream_name":"stdout","time":5212.393425074,"data":"│ 1001  │ 2322933.0227  │ 2316884.9716  │ 0.0905 │\n"}
+,{"stream_name":"stdout","time":5212.393450912,"data":"│ 1201  │ 2311613.7633  │ 2309348.5571  │ 0.0887 │\n"}
+,{"stream_name":"stdout","time":5212.393455032,"data":"│ 1401  │ 2304375.3382  │ 2302732.4242  │ 0.0869 │\n"}
+,{"stream_name":"stdout","time":5212.393458639,"data":"│ 1601  │ 2303970.5223  │ 2299216.6442  │ 0.0852 │\n"}
+,{"stream_name":"stdout","time":5212.393462144,"data":"│ 1801  │ 2298540.4950  │ 2297235.4175  │ 0.0835 │\n"}
+,{"stream_name":"stdout","time":5212.393465829,"data":"│ 2000  │ 2298300.5876  │ 2295748.9137  │ 0.0819 │\n"}
+,{"stream_name":"stdout","time":5212.393469673,"data":"└───────┴───────────────┴───────────────┴────────┘[03:04:21] Train time: 5172.73819231987                               cli.py:122\n"}
+,{"stream_name":"stdout","time":5212.39347629,"data":"  rc 0\n"}
+,{"stream_name":"stdout","time":5212.532009358,"data":"dict_keys(['ability', 'scale_ability', 'diff', 'disc', 'loc_mu_theta', 'scale_mu_theta', 'alpha_theta', 'beta_theta', 'irt_model', 'item_ids', 'subject_ids'])\n"}
+,{"stream_name":"stdout","time":5212.80834404,"data":"A (1, 15, 12994) B (1, 1, 12994) secs 5211.753036737442\n"}
+,{"stream_name":"stderr","time":5215.668004415,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":5215.668145992,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5215.964836959,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5215.964864986,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5216.840975357,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":5217.932751297,"data":"[NbConvertApp] Writing 291938 bytes to __results__.html\n"}
+]

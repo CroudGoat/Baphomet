@@ -1,0 +1,426 @@
+{
+ "paired_items": 180,
+ "results": {
+  "baphomet": {
+   "mmlupro": {
+    "n": 80,
+    "acc": 0.775,
+    "correct": 62,
+    "trunc_rate": 0.1375,
+    "parse_fail": 0,
+    "avg_out_tokens": 3331.2,
+    "by_category": {
+     "biology": {
+      "n": 4,
+      "acc": 1.0,
+      "correct": 4,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 1389.8
+     },
+     "business": {
+      "n": 8,
+      "acc": 0.75,
+      "correct": 6,
+      "trunc_rate": 0.125,
+      "parse_fail": 0,
+      "avg_out_tokens": 3417.1
+     },
+     "chemistry": {
+      "n": 7,
+      "acc": 0.8571,
+      "correct": 6,
+      "trunc_rate": 0.1429,
+      "parse_fail": 0,
+      "avg_out_tokens": 3108.3
+     },
+     "computer science": {
+      "n": 5,
+      "acc": 1.0,
+      "correct": 5,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 1447.4
+     },
+     "economics": {
+      "n": 7,
+      "acc": 1.0,
+      "correct": 7,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 3233.3
+     },
+     "engineering": {
+      "n": 5,
+      "acc": 0.6,
+      "correct": 3,
+      "trunc_rate": 0.4,
+      "parse_fail": 0,
+      "avg_out_tokens": 5548.0
+     },
+     "health": {
+      "n": 4,
+      "acc": 0.75,
+      "correct": 3,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 4443.0
+     },
+     "history": {
+      "n": 6,
+      "acc": 0.8333,
+      "correct": 5,
+      "trunc_rate": 0.1667,
+      "parse_fail": 0,
+      "avg_out_tokens": 3535.8
+     },
+     "law": {
+      "n": 5,
+      "acc": 0.6,
+      "correct": 3,
+      "trunc_rate": 0.4,
+      "parse_fail": 0,
+      "avg_out_tokens": 6038.0
+     },
+     "math": {
+      "n": 7,
+      "acc": 0.7143,
+      "correct": 5,
+      "trunc_rate": 0.2857,
+      "parse_fail": 0,
+      "avg_out_tokens": 3799.1
+     },
+     "other": {
+      "n": 4,
+      "acc": 0.5,
+      "correct": 2,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 1367.2
+     },
+     "philosophy": {
+      "n": 6,
+      "acc": 0.5,
+      "correct": 3,
+      "trunc_rate": 0.1667,
+      "parse_fail": 0,
+      "avg_out_tokens": 3955.7
+     },
+     "physics": {
+      "n": 6,
+      "acc": 0.6667,
+      "correct": 4,
+      "trunc_rate": 0.1667,
+      "parse_fail": 0,
+      "avg_out_tokens": 3607.2
+     },
+     "psychology": {
+      "n": 6,
+      "acc": 1.0,
+      "correct": 6,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 1269.2
+     }
+    },
+    "persona_mentions": 0,
+    "persona_terms": []
+   },
+   "gpqa": {
+    "n": 50,
+    "acc": 0.58,
+    "correct": 29,
+    "trunc_rate": 0.34,
+    "parse_fail": 0,
+    "avg_out_tokens": 5915.0,
+    "by_category": {
+     "Biology": {
+      "n": 1,
+      "acc": 1.0,
+      "correct": 1,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 2360.0
+     },
+     "Chemistry": {
+      "n": 29,
+      "acc": 0.5517,
+      "correct": 16,
+      "trunc_rate": 0.3793,
+      "parse_fail": 0,
+      "avg_out_tokens": 6106.2
+     },
+     "Physics": {
+      "n": 20,
+      "acc": 0.6,
+      "correct": 12,
+      "trunc_rate": 0.3,
+      "parse_fail": 0,
+      "avg_out_tokens": 5815.5
+     }
+    },
+    "persona_mentions": 0,
+    "persona_terms": []
+   },
+   "bfcl": {
+    "n": 50,
+    "acc": 0.98,
+    "correct": 49,
+    "trunc_rate": 0.0,
+    "parse_fail": 0,
+    "avg_out_tokens": 204.6,
+    "by_category": {
+     "multiple": {
+      "n": 15,
+      "acc": 0.9333,
+      "correct": 14,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 168.4
+     },
+     "parallel": {
+      "n": 11,
+      "acc": 1.0,
+      "correct": 11,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 255.2
+     },
+     "parallel_multiple": {
+      "n": 9,
+      "acc": 1.0,
+      "correct": 9,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 325.0
+     },
+     "simple_python": {
+      "n": 15,
+      "acc": 1.0,
+      "correct": 15,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 131.5
+     }
+    },
+    "persona_mentions": 0,
+    "persona_terms": [],
+    "error_types": {
+     "multiple_function_checker:wrong_count": 1
+    }
+   },
+   "all_ids_scored_unpaired": 180
+  },
+  "qwen35": {
+   "mmlupro": {
+    "n": 80,
+    "acc": 0.7125,
+    "correct": 57,
+    "trunc_rate": 0.175,
+    "parse_fail": 0,
+    "avg_out_tokens": 4384.9,
+    "by_category": {
+     "biology": {
+      "n": 4,
+      "acc": 1.0,
+      "correct": 4,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 1985.2
+     },
+     "business": {
+      "n": 8,
+      "acc": 0.75,
+      "correct": 6,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 3907.5
+     },
+     "chemistry": {
+      "n": 7,
+      "acc": 0.8571,
+      "correct": 6,
+      "trunc_rate": 0.1429,
+      "parse_fail": 0,
+      "avg_out_tokens": 4463.1
+     },
+     "computer science": {
+      "n": 5,
+      "acc": 1.0,
+      "correct": 5,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 4438.6
+     },
+     "economics": {
+      "n": 7,
+      "acc": 0.8571,
+      "correct": 6,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 3466.3
+     },
+     "engineering": {
+      "n": 5,
+      "acc": 0.6,
+      "correct": 3,
+      "trunc_rate": 0.4,
+      "parse_fail": 0,
+      "avg_out_tokens": 6710.4
+     },
+     "health": {
+      "n": 4,
+      "acc": 0.75,
+      "correct": 3,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 5265.8
+     },
+     "history": {
+      "n": 6,
+      "acc": 0.6667,
+      "correct": 4,
+      "trunc_rate": 0.3333,
+      "parse_fail": 0,
+      "avg_out_tokens": 4050.8
+     },
+     "law": {
+      "n": 5,
+      "acc": 0.2,
+      "correct": 1,
+      "trunc_rate": 0.8,
+      "parse_fail": 0,
+      "avg_out_tokens": 7592.6
+     },
+     "math": {
+      "n": 7,
+      "acc": 0.5714,
+      "correct": 4,
+      "trunc_rate": 0.4286,
+      "parse_fail": 0,
+      "avg_out_tokens": 4860.0
+     },
+     "other": {
+      "n": 4,
+      "acc": 0.75,
+      "correct": 3,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 2594.5
+     },
+     "philosophy": {
+      "n": 6,
+      "acc": 0.5,
+      "correct": 3,
+      "trunc_rate": 0.1667,
+      "parse_fail": 0,
+      "avg_out_tokens": 3956.5
+     },
+     "physics": {
+      "n": 6,
+      "acc": 0.6667,
+      "correct": 4,
+      "trunc_rate": 0.1667,
+      "parse_fail": 0,
+      "avg_out_tokens": 5086.8
+     },
+     "psychology": {
+      "n": 6,
+      "acc": 0.8333,
+      "correct": 5,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 3057.8
+     }
+    },
+    "persona_mentions": 0,
+    "persona_terms": []
+   },
+   "gpqa": {
+    "n": 50,
+    "acc": 0.42,
+    "correct": 21,
+    "trunc_rate": 0.54,
+    "parse_fail": 0,
+    "avg_out_tokens": 7094.4,
+    "by_category": {
+     "Biology": {
+      "n": 1,
+      "acc": 1.0,
+      "correct": 1,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 7186.0
+     },
+     "Chemistry": {
+      "n": 29,
+      "acc": 0.4138,
+      "correct": 12,
+      "trunc_rate": 0.5172,
+      "parse_fail": 0,
+      "avg_out_tokens": 7313.7
+     },
+     "Physics": {
+      "n": 20,
+      "acc": 0.4,
+      "correct": 8,
+      "trunc_rate": 0.6,
+      "parse_fail": 0,
+      "avg_out_tokens": 6771.8
+     }
+    },
+    "persona_mentions": 0,
+    "persona_terms": []
+   },
+   "bfcl": {
+    "n": 50,
+    "acc": 0.96,
+    "correct": 48,
+    "trunc_rate": 0.0,
+    "parse_fail": 0,
+    "avg_out_tokens": 229.4,
+    "by_category": {
+     "multiple": {
+      "n": 15,
+      "acc": 0.8667,
+      "correct": 13,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 183.2
+     },
+     "parallel": {
+      "n": 11,
+      "acc": 1.0,
+      "correct": 11,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 295.1
+     },
+     "parallel_multiple": {
+      "n": 9,
+      "acc": 1.0,
+      "correct": 9,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 346.1
+     },
+     "simple_python": {
+      "n": 15,
+      "acc": 1.0,
+      "correct": 15,
+      "trunc_rate": 0.0,
+      "parse_fail": 0,
+      "avg_out_tokens": 157.4
+     }
+    },
+    "persona_mentions": 0,
+    "persona_terms": [],
+    "error_types": {
+     "simple_function_checker:missing_required": 1,
+     "multiple_function_checker:wrong_count": 1
+    }
+   },
+   "all_ids_scored_unpaired": 204
+  }
+ }
+}

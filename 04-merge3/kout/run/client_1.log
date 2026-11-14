@@ -1,0 +1,11 @@
+merge3: 90 todo, 0 done
+merge3 10/90 64 tok/s elapsed 0.5m
+merge3 20/90 78 tok/s elapsed 1.6m
+merge3 30/90 94 tok/s elapsed 2.9m
+merge3 40/90 112 tok/s elapsed 4.2m
+merge3 50/90 129 tok/s elapsed 5.6m
+merge3 60/90 126 tok/s elapsed 7.0m
+merge3 70/90 130 tok/s elapsed 10.0m
+merge3 80/90 140 tok/s elapsed 16.4m
+merge3 90/90 159 tok/s elapsed 22.2m
+ALLDONE merge3

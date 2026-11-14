@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/work/baphomet11/extract.py", line 30, in <module>
+    bidx = linmerge.tensor_index(base_dir); dmap = linmerge.donor_map(donor_dir, remap)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/evogm/kds/linmerge.py", line 51, in donor_map
+    for k, f in tensor_index(donor_dir).items():
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/evogm/kds/linmerge.py", line 44, in tensor_index
+    with safe_open(f, "pt") as s:
+         ^^^^^^^^^^^^^^^^^^
+RuntimeError: unable to mmap 8411558400 bytes from file <m/tmax/model.safetensors>: Cannot allocate memory (12)

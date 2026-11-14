@@ -1,0 +1,21 @@
+0 xukp20/Llama-3-8B-Instruct-SPPO-score-Iter3_gp_2b-table-0.001 cached {'cached': 1} 0s
+50 marcuscedricridia/Hush-Qwen2.5-7B-RP-v1.4-1M cached {'cached': 48, 'missing': 3} 34s
+100 Corianas/Neural-Mistral-7B cached {'cached': 96, 'missing': 5} 34s
+150 zelk12/MT-Gen2-gemma-2-9B cached {'cached': 145, 'missing': 6} 34s
+200 databricks/dolly-v2-12b cached {'cached': 195, 'missing': 6} 34s
+250 ymcki/gemma-2-2b-jpn-it-abliterated-24 cached {'cached': 245, 'missing': 6} 34s
+300 kaist-ai/mistral-orpo-capybara-7k cached {'cached': 294, 'missing': 7} 34s
+350 JayHyeon/Qwen2.5-0.5B-SFT-2e-5-2ep-IRPO_1e-7-3ep_1alp_0lam cached {'cached': 342, 'missing': 9} 34s
+400 pankajmathur/orca_mini_v5_8b_orpo ok {'cached': 374, 'missing': 9, 'ok': 18} 36s
+450 nazimali/Mistral-Nemo-Kurdish-Instruct ok {'cached': 374, 'missing': 11, 'ok': 66} 165s
+500 allknowingroger/Qwen2.5-7B-task8 ok {'cached': 374, 'missing': 13, 'ok': 114} 487s
+550 DoppelReflEx/MN-12B-Mimicore-Orochi ok {'cached': 374, 'missing': 16, 'ok': 161} 823s
+600 JayHyeon/Qwen2.5-0.5B-SFT-5e-5-2ep ok {'cached': 374, 'missing': 17, 'ok': 210} 1131s
+650 jpacifico/Chocolatine-2-14B-Instruct-v2.0b3 ok {'cached': 374, 'missing': 17, 'ok': 260} 1472s
+700 allknowingroger/Qwen2.5-7B-task3 ok {'cached': 374, 'missing': 21, 'ok': 306} 1844s
+750 Weyaxi/SauerkrautLM-UNA-SOLAR-Instruct ok {'cached': 374, 'missing': 22, 'ok': 354, 'err': 1} 2217s
+800 netcat420/MFANN-abliterated-phi2-merge-unretrained ok {'cached': 374, 'missing': 23, 'ok': 403, 'err': 1} 2594s
+850 allknowingroger/Qwen2.5-7B-task7 ok {'cached': 374, 'missing': 25, 'ok': 451, 'err': 1} 2974s
+900 Khetterman/Kosmos-8B-v1 ok {'cached': 374, 'missing': 27, 'ok': 499, 'err': 1} 3357s
+950 BAAI/Infinity-Instruct-3M-0625-Yi-1.5-9B ok {'cached': 374, 'missing': 29, 'ok': 547, 'err': 1} 3721s
+DONE {'cached': 374, 'missing': 32, 'ok': 593, 'err': 1}

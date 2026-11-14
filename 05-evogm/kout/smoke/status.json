@@ -1,0 +1,84 @@
+{
+ "stage": "done",
+ "mode": "smoke",
+ "elapsed_h": 0.655,
+ "dl": {
+  "base": 37,
+  "dsv4pro": 99,
+  "agents_a1": 99,
+  "qwopus_coder": 87,
+  "q38distill": 88,
+  "qwopus_v3": 70,
+  "arex_turbo": 84,
+  "neohorse": 53,
+  "tmax": 78
+ },
+ "pip": {
+  "rc": 0,
+  "versions": "0.33.0 2.14.0+cu130 5.20.2",
+  "err": "",
+  "secs": 353,
+  "attempt": 0
+ },
+ "boot": {
+  "1": {
+   "ok": true,
+   "t_init": 393.4873540401459,
+   "eager": true,
+   "gpumem": 0.84,
+   "num_gpu_blocks": 179,
+   "free_gb": 2.78009033203125
+  },
+  "0": {
+   "ok": true,
+   "t_init": 521.6753079891205,
+   "eager": true,
+   "gpumem": 0.84,
+   "num_gpu_blocks": 179,
+   "free_gb": 2.78009033203125
+  }
+ },
+ "best": {
+  "fit": NaN,
+  "lams": [
+   0.1375,
+   0.1375,
+   0.1375,
+   0.1375,
+   0.1375,
+   0.1375,
+   0.1375,
+   0.1375
+  ]
+ },
+ "final": {
+  "n": 6,
+  "quick": {
+   "gpqa": [
+    1,
+    2
+   ],
+   "mmlupro": [
+    2,
+    2
+   ],
+   "bfcl": [
+    2,
+    2
+   ]
+  },
+  "fres": {
+   "1": {
+    "secs": 217.58298110961914,
+    "gen_tokens": 5175,
+    "gpu": 1
+   },
+   "0": {
+    "secs": 508.68988037109375,
+    "gen_tokens": 10210,
+    "gpu": 0
+   }
+  }
+ },
+ "hours": 0.654981194668346
+}

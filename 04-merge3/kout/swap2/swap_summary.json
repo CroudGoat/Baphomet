@@ -1,0 +1,79 @@
+{
+ "ck_equal_inplace_vs_disk": true,
+ "n_params": 363,
+ "param_mismatch": [],
+ "n_mismatch": 0,
+ "ck_base_roundtrip": true,
+ "ck_M_again": true,
+ "errors": {
+  "inplace": null,
+  "disk": null
+ },
+ "S_M_inplace_vs_disk": {
+  "n": 200,
+  "pred_agree": 200,
+  "exact_scores": 200,
+  "max_abs": 0.0
+ },
+ "S_base_vs_base_after": {
+  "n": 200,
+  "pred_agree": 200,
+  "exact_scores": 200,
+  "max_abs": 0.0
+ },
+ "S_base_vs_M": {
+  "n": 200,
+  "pred_agree": 157,
+  "exact_scores": 0,
+  "max_abs": 9.093094440177083
+ },
+ "gpqa_drop": {
+  "n": 1042,
+  "pred_agree": 1039,
+  "max_offset_spread": 0.09286794438958168,
+  "acc_full": 0.31094049904030713,
+  "acc_drop": 0.30998080614203455,
+  "dropped": [
+   2
+  ]
+ },
+ "t_init": 504.75721645355225,
+ "t_swap_merge": [
+  96.1857213973999,
+  97.39187788963318
+ ],
+ "t_swap_base_dir": 24.59963297843933,
+ "t_swap_endpoint_dir": 33.88862991333008,
+ "t_swap_merge_3": 93.16197180747986,
+ "t_merge_to_disk": 123.21409749984741,
+ "stats_A40_M": {
+  "t_gen": 25.765870332717896,
+  "n_requests": 160,
+  "prompt_tokens": 55216,
+  "n_items": 40
+ },
+ "stats_MM1000_M": {
+  "t_gen": 330.0652804374695,
+  "n_requests": 1000,
+  "prompt_tokens": 945227,
+  "n_items": 1000
+ },
+ "stats_S_M": {
+  "t_gen": 107.81363582611084,
+  "n_requests": 680,
+  "prompt_tokens": 228877,
+  "n_items": 200
+ },
+ "stats_GPQA_full_M": {
+  "t_gen": 1086.9433081150055,
+  "n_requests": 7105,
+  "prompt_tokens": 1691949,
+  "n_items": 1042
+ },
+ "stats_GPQA_drop_M": {
+  "t_gen": 787.3619270324707,
+  "n_requests": 5075,
+  "prompt_tokens": 1211870,
+  "n_items": 1042
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "base:auto": {
+  "cls": "Qwen3_5Tokenizer",
+  "items_differ": {},
+  "examples": []
+ },
+ "base:raw": {
+  "cls": "raw",
+  "items_differ": {},
+  "examples": []
+ },
+ "agents_a1:auto": {
+  "cls": "Qwen3_5Tokenizer",
+  "items_differ": {},
+  "examples": []
+ },
+ "agents_a1:raw": {
+  "cls": "raw",
+  "items_differ": {},
+  "examples": []
+ },
+ "dsv4pro:auto": {
+  "cls": "Qwen3_5Tokenizer",
+  "items_differ": {},
+  "examples": []
+ },
+ "dsv4pro:raw": {
+  "cls": "raw",
+  "items_differ": {
+   "mmlu_pro": 2
+  },
+  "examples": [
+   "mmlu_pro:11554",
+   "mmlu_pro:11715"
+  ]
+ },
+ "qwen38distill:auto": {
+  "cls": "Qwen3_5Tokenizer",
+  "items_differ": {},
+  "examples": []
+ },
+ "qwen38distill:raw": {
+  "cls": "raw",
+  "items_differ": {},
+  "examples": []
+ },
+ "qwopus_v3:auto": {
+  "cls": "Qwen3_5Tokenizer",
+  "items_differ": {},
+  "examples": []
+ },
+ "qwopus_v3:raw": {
+  "cls": "raw",
+  "items_differ": {},
+  "examples": []
+ },
+ "arex_turbo:auto": {
+  "cls": "Qwen3_5Tokenizer",
+  "items_differ": {},
+  "examples": []
+ },
+ "arex_turbo:raw": {
+  "cls": "raw",
+  "items_differ": {},
+  "examples": []
+ },
+ "_meta": {
+  "n_items": 12994,
+  "transformers": "5.22.2",
+  "secs": 1816.8972783088684
+ }
+}

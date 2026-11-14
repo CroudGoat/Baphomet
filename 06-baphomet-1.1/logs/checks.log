@@ -1,0 +1,24 @@
+{
+ "model.safetensors-00001-of-00002.safetensors": {
+  "header_identical": true,
+  "size_base": 5329398688,
+  "size_out": 5329398688
+ },
+ "model.safetensors-00002-of-00002.safetensors": {
+  "header_identical": true,
+  "size_base": 3990429408,
+  "size_out": 3990429408
+ }
+}
+tensors 738 changed 366 nonfinite elems 0
+('model.language_model.embed_tokens.weight', 'torch.bfloat16', 328.5002, 328.5007, 0.6700372990517219, 0.0005340576171875)
+('model.language_model.layers.0.linear_attn.A_log', 'torch.float32', 16.0999, 16.0999, 0.0, 0.0)
+('model.language_model.layers.0.mlp.down_proj.weight', 'torch.bfloat16', 41.3288, 41.3315, 0.6215173827400953, 0.00083160400390625)
+('model.language_model.layers.12.linear_attn.norm.weight', 'torch.float32', 11.1369, 11.1351, 0.015246550502839802, 0.00248563289642334)
+('model.language_model.layers.3.self_attn.q_proj.weight', 'torch.bfloat16', 68.6525, 68.6555, 0.8386250763146669, 0.0018310546875)
+('model.language_model.layers.31.self_attn.o_proj.weight', 'torch.bfloat16', 45.745, 45.7452, 0.3966451598233216, 0.0009765625)
+('model.language_model.norm.weight', 'torch.bfloat16', 112.2665, 112.2665, 0.0, 0.0)
+('model.visual.blocks.0.attn.qkv.weight', 'torch.bfloat16', 40.1404, 40.1404, 0.0, 0.0)
+('mtp.layers.0.mlp.down_proj.weight', 'torch.bfloat16', 49.2454, 49.2454, 0.0, 0.0)
+('mtp.layers.0.mlp.up_proj.weight', 'torch.bfloat16', 58.1527, 58.1527, 0.0, 0.0)
+CHK_EXIT 0

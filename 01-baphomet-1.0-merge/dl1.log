@@ -1,0 +1,12 @@
+/workspace/work/venv/lib/python3.12/site-packages/huggingface_hub/constants.py:302: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.
+  warnings.warn(
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Still waiting to acquire lock on /workspace/work/merge/models/Qwopus3.5-4B-v3/.cache/huggingface/.gitignore.lock (elapsed: 0.2 seconds)
+Still waiting to acquire lock on /workspace/work/merge/models/Qwopus3.5-4B-v3/.cache/huggingface/.gitignore.lock (elapsed: 0.2 seconds)
+Still waiting to acquire lock on /workspace/work/merge/models/Qwopus3.5-4B-v3/.cache/huggingface/.gitignore.lock (elapsed: 0.2 seconds)
+Still waiting to acquire lock on /workspace/work/merge/models/Qwopus3.5-4B-v3/.cache/huggingface/.gitignore.lock (elapsed: 0.2 seconds)
+Still waiting to acquire lock on /workspace/work/merge/models/Qwopus3.5-4B-v3/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on /workspace/work/merge/models/Qwopus3.5-4B-v3/.cache/huggingface/.gitignore.lock (elapsed: 0.2 seconds)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 10 files:  10%|█         | 1/10 [00:00<00:05,  1.59it/s]Fetching 10 files:  70%|███████   | 7/10 [00:00<00:00,  8.55it/s]Fetching 10 files:  80%|████████  | 8/10 [00:20<00:00,  8.55it/s]Fetching 10 files:  90%|█████████ | 9/10 [03:08<00:28, 28.06s/it]Fetching 10 files: 100%|██████████| 10/10 [03:37<00:00, 28.37s/it]Fetching 10 files: 100%|██████████| 10/10 [03:37<00:00, 21.80s/it]
+[32m✓ Downloaded[0m
+  path: /workspace/work/merge/models/Qwopus3.5-4B-v3

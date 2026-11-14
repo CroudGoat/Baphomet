@@ -1,0 +1,52 @@
+{
+ "sampled_keys": "every 4th sorted key",
+ "rel_err_vs_baph_delta": 0.3214351447097644,
+ "max_abs": 0.0009765625,
+ "n_tensors": 185,
+ "n_exact": 89,
+ "worst": [
+  [
+   0.0009765625,
+   "model.language_model.layers.31.self_attn.o_proj.weight"
+  ],
+  [
+   0.0009765625,
+   "model.language_model.layers.27.mlp.up_proj.weight"
+  ],
+  [
+   0.0009765625,
+   "model.language_model.layers.24.linear_attn.out_proj.weight"
+  ],
+  [
+   0.000732421875,
+   "model.language_model.layers.31.mlp.up_proj.weight"
+  ],
+  [
+   0.0006103515625,
+   "model.language_model.layers.30.linear_attn.out_proj.weight"
+  ],
+  [
+   0.0005373954772949219,
+   "model.language_model.layers.6.linear_attn.norm.weight"
+  ],
+  [
+   0.0005373954772949219,
+   "model.language_model.layers.4.linear_attn.norm.weight"
+  ],
+  [
+   0.0005373954772949219,
+   "model.language_model.layers.28.linear_attn.norm.weight"
+  ]
+ ],
+ "coverage": {
+  "agents_a1": 723,
+  "dsv4pro": 738,
+  "q38distill": 738,
+  "qwopus_coder": 738,
+  "qwopus_v3": 738,
+  "arex_turbo": 723,
+  "neohorse": 426,
+  "tmax": 426
+ },
+ "secs": 123.79840064048767
+}

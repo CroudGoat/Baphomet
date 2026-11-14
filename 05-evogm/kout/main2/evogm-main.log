@@ -1,0 +1,92 @@
+[{"stream_name":"stdout","time":6.168473143,"data":"$ nvidia-smi -L; df -h /tmp /kaggle/working; free -g; nproc GPU 0: Tesla T4 (UUID: GPU-4e63a63a-6666-da86-d69c-f17d6fc64e49)\n"}
+,{"stream_name":"stdout","time":6.168524127,"data":"GPU 1: Tesla T4 (UUID: GPU-5235e08b-c01a-e22a-cf61-c97faa6ed873)\n"}
+,{"stream_name":"stdout","time":6.168529091,"data":"Filesystem      Size  Used Avail Use% Mounted on\n"}
+,{"stream_name":"stdout","time":6.168531649,"data":"overlay         8.0T  7.1T  967G  89% /\n"}
+,{"stream_name":"stdout","time":6.168533927,"data":"/dev/loop2       20G  164K   20G   1% /kaggle/working\n"}
+,{"stream_name":"stdout","time":6.168536212,"data":"               total        used        free      shared  buff/cache   available\n"}
+,{"stream_name":"stdout","time":6.16853851,"data":"Mem:              31           1          26           0           4          30\n"}
+,{"stream_name":"stdout","time":6.168558107,"data":"Swap:              0           0           0\n"}
+,{"stream_name":"stdout","time":6.168562062,"data":"4\n"}
+,{"stream_name":"stdout","time":6.168565524,"data":"  0\n"}
+,{"stream_name":"stdout","time":6.411975558,"data":"02:27:48 [0.002h] models+tv disk at start 0.0\n"}
+,{"stream_name":"stdout","time":6.469496085,"data":"02:27:49 [0.002h] MON 1142/32098 MB used, avail 30956 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | \n"}
+,{"stream_name":"stderr","time":7.876887138,"data":"\rFetching 11 files:   0%|          | 0/11 [00:00\u003c?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":42.486947782,"data":"\rFetching 11 files:   9%|▉         | 1/11 [00:00\u003c00:01,  6.35it/s]\rFetching 11 files:  55%|█████▍    | 6/11 [00:00\u003c00:00, 24.14it/s]\rFetching 11 files:  82%|████████▏ | 9/11 [00:03\u003c00:00,  2.13it/s]\rFetching 11 files:  82%|████████▏ | 9/11 [00:19\u003c00:00,  2.13it/s]\rFetching 11 files:  91%|█████████ | 10/11 [00:34\u003c00:05,  5.69s/it]\rFetching 11 files: 100%|██████████| 11/11 [00:34\u003c00:00,  3.16s/it]\n"}
+,{"stream_name":"stdout","time":42.488113516,"data":"02:28:25 [0.012h] downloaded base 36 disk 9.3\n"}
+,{"stream_name":"stderr","time":43.040829944,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":43.20346524,"data":"\rFetching 9 files:   0%|          | 0/9 [00:00\u003c?, ?it/s]\u001b[A\rFetching 8 files:  12%|█▎        | 1/8 [00:00\u003c00:00,  8.00it/s]\n"}
+,{"stream_name":"stderr","time":50.978291183,"data":"\rFetching 9 files:  11%|█         | 1/9 [00:00\u003c00:01,  6.23it/s]\u001b[A\rFetching 8 files:  62%|██████▎   | 5/8 [00:07\u003c00:05,  1.69s/it]\n"}
+,{"stream_name":"stderr","time":51.08353046,"data":"\rFetching 9 files:  67%|██████▋   | 6/9 [00:07\u003c00:04,  1.38s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":137.915860706,"data":"\rFetching 9 files:  78%|███████▊  | 7/9 [00:08\u003c00:02,  1.13s/it]\u001b[A\rFetching 8 files:  75%|███████▌  | 6/8 [00:08\u003c00:02,  1.32s/it]\n"}
+,{"stream_name":"stderr","time":137.923253498,"data":"\rFetching 9 files:  89%|████████▉ | 8/9 [01:34\u003c00:20, 20.20s/it]\u001b[A\rFetching 8 files:  88%|████████▊ | 7/8 [01:34\u003c00:22, 22.68s/it]\rFetching 8 files: 100%|██████████| 8/8 [01:34\u003c00:00, 11.86s/it]\n"}
+,{"stream_name":"stdout","time":137.924763258,"data":"02:30:00 [0.038h] downloaded dsv4pro 95 disk 27.8\n"}
+,{"stream_name":"stderr","time":137.925247302,"data":"\rFetching 9 files: 100%|██████████| 9/9 [01:34\u003c00:00, 10.54s/it]\n"}
+,{"stream_name":"stdout","time":137.926653242,"data":"02:30:00 [0.038h] downloaded agents_a1 95 disk 27.8\n"}
+,{"stream_name":"stdout","time":138.787915904,"data":"02:30:01 [0.038h] MON 1558/32098 MB used, avail 30540 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | \n"}
+,{"stream_name":"stdout","time":258.841406465,"data":"02:32:01 [0.072h] MON 1500/32098 MB used, avail 30598 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | \n"}
+,{"stream_name":"stdout","time":378.898632826,"data":"02:34:01 [0.105h] MON 1496/32098 MB used, avail 30602 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | \n"}
+,{"stream_name":"stdout","time":498.95498191,"data":"02:36:01 [0.138h] MON 1474/32098 MB used, avail 30624 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | \n"}
+,{"stream_name":"stdout","time":619.009886487,"data":"02:38:01 [0.172h] MON 1486/32098 MB used, avail 30612 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | \n"}
+,{"stream_name":"stdout","time":739.067275709,"data":"02:40:01 [0.205h] MON 1551/32098 MB used, avail 30547 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | \n"}
+,{"stream_name":"stdout","time":859.14802107,"data":"02:42:01 [0.238h] MON 1625/32098 MB used, avail 30473 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | \n"}
+,{"stream_name":"stdout","time":905.326242167,"data":"02:42:47 [0.251h] pip finished {'rc': 0, 'versions': '0.33.0 2.14.0+cu130 5.20.2', 'err': '', 'secs': 899}\n"}
+,{"stream_name":"stdout","time":979.242441663,"data":"02:44:01 [0.272h] MON 7261/32098 MB used, avail 24837 | 0, 13467 MiB, 2 % 1, 8615 MiB, 1 % 7.1T used /tmp | \n"}
+,{"stream_name":"stdout","time":1054.64448047,"data":"02:45:17 [0.293h] tv agents_a1 {'n': 723, 'zero': 331, 'missing': 15, 'rel_qerr': 0.026261746523454803, 'secs': 149}\n"}
+,{"stream_name":"stdout","time":1054.663887708,"data":"02:45:17 [0.293h] disk 25.7\n"}
+,{"stream_name":"stdout","time":1054.744043374,"data":"02:45:17 [0.293h] tv dsv4pro {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.026480174864559048, 'secs': 149}\n"}
+,{"stream_name":"stdout","time":1054.761105682,"data":"02:45:17 [0.293h] disk 16.4\n"}
+,{"stream_name":"stderr","time":1054.96833568,"data":"\rFetching 10 files:   0%|          | 0/10 [00:00\u003c?, ?it/s]\rFetching 10 files:  10%|█         | 1/10 [00:00\u003c00:00,  9.60it/s]\n"}
+,{"stream_name":"stderr","time":1055.101992769,"data":"\rFetching 9 files:   0%|          | 0/9 [00:00\u003c?, ?it/s]\u001b[A\rFetching 10 files:  20%|██        | 2/10 [00:00\u003c00:00,  9.26it/s]\n"}
+,{"stream_name":"stderr","time":1055.24494206,"data":"\rFetching 9 files:  11%|█         | 1/9 [00:00\u003c00:01,  7.53it/s]\u001b[A\rFetching 10 files:  70%|███████   | 7/10 [00:00\u003c00:00, 25.09it/s]\n"}
+,{"stream_name":"stderr","time":1067.799824204,"data":"\rFetching 9 files:  67%|██████▋   | 6/9 [00:00\u003c00:00, 24.16it/s]\u001b[A\n"}
+,{"stream_name":"stdout","time":1117.002514,"data":"02:46:19 [0.310h] MON 4109/32098 MB used, avail 27989 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 7.1T used /tmp | \n"}
+,{"stream_name":"stderr","time":1117.681513571,"data":"\rFetching 9 files:  78%|███████▊  | 7/9 [00:12\u003c00:00, 24.16it/s]\u001b[A\rFetching 10 files:  90%|█████████ | 9/10 [00:12\u003c00:00, 25.09it/s]\n"}
+,{"stream_name":"stderr","time":1126.26320847,"data":"\rFetching 9 files:  89%|████████▉ | 8/9 [01:02\u003c00:10, 10.45s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":1126.265806923,"data":"\rFetching 9 files: 100%|██████████| 9/9 [01:11\u003c00:00, 10.09s/it]\u001b[A\rFetching 9 files: 100%|██████████| 9/9 [01:11\u003c00:00,  7.92s/it]\n"}
+,{"stream_name":"stdout","time":1126.268998473,"data":"02:46:28 [0.313h] downloaded qwopus_coder 72 disk 34.1\n"}
+,{"stream_name":"stderr","time":1142.990624296,"data":"\rFetching 10 files: 100%|██████████| 10/10 [01:28\u003c00:00, 12.00s/it]\rFetching 10 files: 100%|██████████| 10/10 [01:28\u003c00:00,  8.81s/it]\n"}
+,{"stream_name":"stdout","time":1142.992056499,"data":"02:46:45 [0.317h] downloaded q38distill 88 disk 35.1\n"}
+,{"stream_name":"stdout","time":1239.47137918,"data":"02:48:22 [0.344h] MON 9631/32098 MB used, avail 22467 | 0, 8615 MiB, 0 % 1, 13467 MiB, 0 % 7.1T used /tmp | \n"}
+,{"stream_name":"stdout","time":1256.483137112,"data":"02:48:39 [0.349h] tv qwopus_coder {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.025980742481569653, 'secs': 130}\n"}
+,{"stream_name":"stdout","time":1256.509059906,"data":"02:48:39 [0.349h] disk 32.7\n"}
+,{"stream_name":"stdout","time":1256.590108691,"data":"02:48:39 [0.349h] tv q38distill {'n': 738, 'zero': 389, 'missing': 0, 'rel_qerr': 0.026513655764140085, 'secs': 114}\n"}
+,{"stream_name":"stdout","time":1256.611955691,"data":"02:48:39 [0.349h] disk 23.4\n"}
+,{"stream_name":"stderr","time":1256.786031087,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":1256.941701522,"data":"\rFetching 13 files:   0%|          | 0/13 [00:00\u003c?, ?it/s]\u001b[A\rFetching 8 files:  12%|█▎        | 1/8 [00:00\u003c00:00,  7.81it/s]\n"}
+,{"stream_name":"stderr","time":1257.060036325,"data":"\rFetching 13 files:   8%|▊         | 1/13 [00:00\u003c00:01,  6.43it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":1257.190205556,"data":"\rFetching 13 files:  46%|████▌     | 6/13 [00:00\u003c00:00, 25.09it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":1269.31919672,"data":"\rFetching 13 files:  77%|███████▋  | 10/13 [00:00\u003c00:00, 27.63it/s]\u001b[A\rFetching 8 files:  75%|███████▌  | 6/8 [00:00\u003c00:00,  7.30it/s]\n"}
+,{"stream_name":"stderr","time":1311.47192981,"data":"\rFetching 13 files:  85%|████████▍ | 11/13 [00:12\u003c00:00, 27.63it/s]\u001b[A\rFetching 8 files:  88%|████████▊ | 7/8 [00:47\u003c00:09,  9.49s/it]\rFetching 8 files: 100%|██████████| 8/8 [00:54\u003c00:00,  8.95s/it]\rFetching 8 files: 100%|██████████| 8/8 [00:54\u003c00:00,  6.84s/it]\n"}
+,{"stream_name":"stdout","time":1311.47615669,"data":"02:49:34 [0.364h] downloaded qwopus_v3 55 disk 38.0\n"}
+,{"stream_name":"stderr","time":1330.341671365,"data":"\n"}
+,{"stream_name":"stderr","time":1338.584955089,"data":"\rFetching 13 files:  92%|█████████▏| 12/13 [01:13\u003c00:09,  9.66s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":1338.586152852,"data":"\rFetching 13 files: 100%|██████████| 13/13 [01:21\u003c00:00,  9.44s/it]\u001b[A\rFetching 13 files: 100%|██████████| 13/13 [01:21\u003c00:00,  6.29s/it]\n"}
+,{"stream_name":"stdout","time":1338.587645024,"data":"02:50:01 [0.372h] downloaded arex_turbo 82 disk 41.8\n"}
+,{"stream_name":"stdout","time":1359.528198559,"data":"02:50:22 [0.377h] MON 3745/32098 MB used, avail 28353 | 0, 3761 MiB, 1 % 1, 3761 MiB, 1 % 7.1T used /tmp | \n"}
+,{"stream_name":"stdout","time":1452.193991478,"data":"02:51:54 [0.403h] tv qwopus_v3 {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.02591097137527293, 'secs': 141}\n"}
+,{"stream_name":"stdout","time":1452.224482066,"data":"02:51:54 [0.403h] disk 39.5\n"}
+,{"stream_name":"stdout","time":1452.298744272,"data":"02:51:54 [0.403h] tv arex_turbo {'n': 723, 'zero': 325, 'missing': 15, 'rel_qerr': 0.02634054878680898, 'secs': 114}\n"}
+,{"stream_name":"stdout","time":1452.364396613,"data":"02:51:54 [0.403h] disk 30.4\n"}
+,{"stream_name":"stderr","time":1452.561346849,"data":"\rFetching 9 files:   0%|          | 0/9 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":1452.671089257,"data":"\rFetching 6 files:   0%|          | 0/6 [00:00\u003c?, ?it/s]\u001b[A\rFetching 9 files:  11%|█         | 1/9 [00:00\u003c00:00,  8.54it/s]\n"}
+,{"stream_name":"stderr","time":1452.779851476,"data":"\rFetching 6 files:  17%|█▋        | 1/6 [00:00\u003c00:00,  9.13it/s]\u001b[A\rFetching 9 files:  33%|███▎      | 3/9 [00:00\u003c00:00, 13.90it/s]\n"}
+,{"stream_name":"stderr","time":1469.327902351,"data":"\rFetching 6 files:  67%|██████▋   | 4/6 [00:00\u003c00:00, 19.97it/s]\u001b[A\rFetching 9 files:  56%|█████▌    | 5/9 [00:00\u003c00:00, 15.35it/s]\rFetching 9 files:  78%|███████▊  | 7/9 [00:00\u003c00:00,  7.76it/s]\n"}
+,{"stream_name":"stderr","time":1500.682175785,"data":"\rFetching 6 files:  83%|████████▎ | 5/6 [00:16\u003c00:00, 19.97it/s]\u001b[A\rFetching 9 files:  78%|███████▊  | 7/9 [00:16\u003c00:00,  7.76it/s]\rFetching 9 files:  89%|████████▉ | 8/9 [00:36\u003c00:08,  8.51s/it]\rFetching 9 files: 100%|██████████| 9/9 [00:48\u003c00:00,  9.18s/it]\rFetching 9 files: 100%|██████████| 9/9 [00:48\u003c00:00,  5.36s/it]\n"}
+,{"stream_name":"stdout","time":1500.684698646,"data":"02:52:43 [0.417h] downloaded neohorse 48 disk 42.4\n"}
+,{"stream_name":"stderr","time":1517.70263837,"data":"\n"}
+,{"stream_name":"stderr","time":1517.703745455,"data":"\rFetching 6 files: 100%|██████████| 6/6 [01:05\u003c00:00, 14.17s/it]\u001b[A\rFetching 6 files: 100%|██████████| 6/6 [01:05\u003c00:00, 10.86s/it]\n"}
+,{"stream_name":"stdout","time":1517.705201197,"data":"02:53:00 [0.421h] downloaded tmax 65 disk 47.3\n"}
+,{"stream_name":"stdout","time":1534.249501228,"data":"02:53:16 [0.426h] MON err TimeoutExpired('free -m | awk \\'NR==2{print $3\"/\"$2\" MB used, avail \"$7}\\'; timeout 20 nvidia-smi --query-gpu=index,memory.used,utilization.gpu --format=csv,noheader | tr \\'\\\\n\\' \\' \\'; df -h /tmp | awk \\'NR==2{print $3\" used /tmp\"}\\'', 30)\n"}
+,{"stream_name":"stdout","time":1656.343428994,"data":"02:55:18 [0.460h] MON 3588/32098 MB used, avail 28509 | 0, 13467 MiB, 0 % 1, 13467 MiB, 0 % 7.1T used /tmp | \n"}
+,{"stream_name":"stdout","time":1656.468231836,"data":"02:55:19 [0.460h] tv neohorse {'n': 426, 'zero': 59, 'missing': 312, 'rel_qerr': 0.025998191433154804, 'secs': 156}\n"}
+,{"stream_name":"stdout","time":1656.483105128,"data":"02:55:19 [0.460h] disk 47.3\n"}
+,{"stream_name":"stdout","time":1656.565695574,"data":"02:55:19 [0.460h] tv tmax {'n': 426, 'zero': 72, 'missing': 312, 'rel_qerr': 0.0143720137790664, 'secs': 139}\n"}
+,{"stream_name":"stdout","time":1656.580498744,"data":"02:55:19 [0.460h] disk 38.8\n"}
+,{"stream_name":"stderr","time":1661.488970427,"data":"TV extraction failed\n"}
+,{"stream_name":"stderr","time":1665.113539265,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1665.113597027,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1665.426477421,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1665.426515993,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1666.51828346,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1667.727330761,"data":"[NbConvertApp] Writing 448744 bytes to __results__.html\n"}
+]

@@ -1,0 +1,11 @@
+0 738 model.language_model.embed_tokens.weight
+100 738 model.language_model.layers.15.post_attention_layernorm.weight
+200 738 model.language_model.layers.21.mlp.up_proj.weight
+300 738 model.language_model.layers.29.linear_attn.in_proj_qkv.weight
+400 738 model.language_model.layers.8.linear_attn.dt_bias
+500 738 model.visual.blocks.14.attn.qkv.bias
+600 738 model.visual.blocks.21.mlp.linear_fc2.bias
+700 738 model.visual.blocks.8.norm2.bias
+done {'slerp': 426, 'fromA': 15, 'fromB': 297} shards 9
+elapsed 185 s maxrss_GB 4.21
+exit 0

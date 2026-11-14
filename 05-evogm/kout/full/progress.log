@@ -1,0 +1,244 @@
+07:05:52 [0.001h] MODE full HARD_H 8.6
+07:05:53 [0.001h] $ nvidia-smi -L; df -h /tmp /kaggle/working; free -g; nproc -> GPU 0: Tesla T4 (UUID: GPU-07bb3085-3b4a-d20c-f3f0-95d04995ac83)
+GPU 1: Tesla T4 (UUID: GPU-4ee7d3cf-86e3-9748-f25a-fd72db1be81e)
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         8.0T  7.1T  967G  89% /
+/dev/loop2       20G  192K   20G   1% /kaggle/working
+               total        used        free      shared  buff/cache   available
+Mem:              31           1          26           0           4          30
+Swap:              0           0           0
+4
+  rc 0
+07:05:53 [0.001h] models+tv disk at start 0.0
+07:05:53 [0.001h] MON 1069/32098 MB used, avail 31029 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 0.0 GB | working 0.0 GB
+07:06:35 [0.012h] downloaded base 42 disk 9.3
+07:07:55 [0.035h] downloaded agents_a1 80 disk 27.7
+07:08:08 [0.038h] downloaded dsv4pro 93 disk 27.8
+07:09:00 [0.053h] downloaded q38distill 65 disk 37.1
+07:09:07 [0.055h] MON 1579/32098 MB used, avail 30519 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 37.1 GB | working 0.0 GB
+07:12:07 [0.105h] MON 1746/32098 MB used, avail 30352 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 37.1 GB | working 0.0 GB
+07:13:28 [0.127h] pip finished {'rc': 0, 'versions': '0.33.0 2.14.0+cu130 5.20.2', 'err': '', 'secs': 456, 'attempt': 0}
+07:15:08 [0.155h] MON 9276/32098 MB used, avail 22822 | 0, 13467 MiB, 8 % 1, 8615 MiB, 2 %  | ours 37.1 GB | working 0.0 GB
+07:15:56 [0.168h] tv agents_a1 {'n': 723, 'zero': 331, 'missing': 15, 'rel_qerr': 0.026261746523454803, 'secs': 147}
+07:15:56 [0.168h] disk 35.1
+07:15:56 [0.168h] tv dsv4pro {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.026480174864559048, 'secs': 148}
+07:15:56 [0.168h] disk 25.7
+07:17:13 [0.190h] downloaded qwopus_v3 77 disk 44.0
+07:17:13 [0.190h] downloaded qwopus_coder 78 disk 44.4
+07:18:08 [0.205h] MON 6931/32098 MB used, avail 25167 | 0, 13467 MiB, 6 % 1, 8615 MiB, 10 %  | ours 44.4 GB | working 0.0 GB
+07:19:05 [0.221h] tv q38distill {'n': 738, 'zero': 389, 'missing': 0, 'rel_qerr': 0.026513655764140085, 'secs': 189}
+07:19:05 [0.221h] tv qwopus_v3 {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.02591097137527293, 'secs': 111}
+07:19:06 [0.221h] disk 42.1
+07:19:06 [0.221h] disk 32.7
+07:20:03 [0.237h] downloaded neohorse 57 disk 45.8
+07:20:31 [0.244h] downloaded arex_turbo 85 disk 50.3
+07:21:08 [0.255h] MON 8355/32098 MB used, avail 23743 | 0, 8615 MiB, 1 % 1, 13467 MiB, 10 %  | ours 50.3 GB | working 0.0 GB
+07:21:37 [0.263h] tv qwopus_coder {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.025980742481569653, 'secs': 151}
+07:21:38 [0.263h] disk 43.8
+07:22:25 [0.276h] downloaded tmax 48 disk 56.4
+07:22:38 [0.280h] tv neohorse {'n': 426, 'zero': 59, 'missing': 312, 'rel_qerr': 0.025998191433154804, 'secs': 155}
+07:22:39 [0.280h] disk 48.0
+07:24:16 [0.307h] MON 11712/32098 MB used, avail 20386 | 0, 13467 MiB, 0 % 1, 13467 MiB, 0 %  | ours 52.2 GB | working 0.0 GB
+07:24:17 [0.307h] tv tmax {'n': 426, 'zero': 72, 'missing': 312, 'rel_qerr': 0.0143720137790664, 'secs': 97}
+07:24:17 [0.307h] disk 48.0
+07:24:30 [0.311h] tv arex_turbo {'n': 723, 'zero': 325, 'missing': 15, 'rel_qerr': 0.02634054878680898, 'secs': 173}
+07:24:32 [0.311h] disk 38.8
+07:24:32 [0.312h] all 8 TVs extracted; disk 38.8
+07:27:16 [0.357h] MON 6806/32098 MB used, avail 25291 | 0, 9441 MiB, 0 % 1, 9603 MiB, 7 %  | ours 38.8 GB | working 0.0 GB
+07:30:16 [0.407h] MON 7750/32098 MB used, avail 24348 | 0, 9637 MiB, 0 % 1, 9637 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+07:33:16 [0.457h] MON 7469/32098 MB used, avail 24629 | 0, 9645 MiB, 0 % 1, 9645 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+07:33:48 [0.466h] worker 1 ready {'ok': True, 't_init': 416.64908742904663, 'eager': True, 'gpumem': 0.84, 'num_gpu_blocks': 179, 'free_gb': 2.78009033203125}
+07:33:48 [0.466h] worker 0 ready {'ok': True, 't_init': 506.6252522468567, 'eager': True, 'gpumem': 0.84, 'num_gpu_blocks': 179, 'free_gb': 2.78009033203125}
+07:33:52 [0.467h] cached evaluations 0 eval times []
+07:36:17 [0.507h] MON 10910/32098 MB used, avail 21188 | 0, 13365 MiB, 4 % 1, 13365 MiB, 5 %  | ours 38.8 GB | working 0.0 GB
+07:39:17 [0.557h] MON 9547/32098 MB used, avail 22550 | 0, 13347 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+07:42:17 [0.607h] MON 9553/32098 MB used, avail 22545 | 0, 13347 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+07:45:17 [0.657h] MON 9551/32098 MB used, avail 22547 | 0, 13347 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+07:48:17 [0.707h] MON 9554/32098 MB used, avail 22543 | 0, 13347 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+07:51:17 [0.757h] MON 9552/32098 MB used, avail 22546 | 0, 13351 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+07:54:17 [0.807h] MON 9555/32098 MB used, avail 22543 | 0, 13351 MiB, 75 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+07:57:01 [0.853h] [1/0] n=1 gpu0 fit=0.6028 acc={'mmlupro': 0.65, 'gpqa': 0.23333333333333334, 'bfcl': 0.925} rej=False failed=False swap 149.2s total 1388.2s tok 211699
+07:57:11 [0.856h] [1/0] n=2 gpu1 fit=0.5917 acc={'mmlupro': 0.675, 'gpqa': 0.2, 'bfcl': 0.9} rej=False failed=False swap 149.2s total 1397.7s tok 228048
+07:57:11 [0.856h] PLAN {'plan': {'P': 10, 'rounds': 1, 'max_iter': 3}, 'E_total': 34, 't_eval_est_s': 1532.2450000000001, 'thr_tok_s': 181.83782145256407, 'final_est_s': 3323.320643173905, 'evo_deadline_h': 7.67685537689262}
+07:57:17 [0.857h] MON 11488/32098 MB used, avail 20610 | 0, 13351 MiB, 5 % 1, 13347 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+08:00:17 [0.907h] MON 9528/32098 MB used, avail 22570 | 0, 13267 MiB, 63 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:03:17 [0.957h] MON 9523/32098 MB used, avail 22575 | 0, 13267 MiB, 74 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:06:17 [1.007h] MON 9527/32098 MB used, avail 22571 | 0, 13347 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:09:17 [1.057h] MON 9532/32098 MB used, avail 22566 | 0, 13347 MiB, 100 % 1, 13347 MiB, 87 %  | ours 38.8 GB | working 0.0 GB
+08:12:17 [1.107h] MON 9529/32098 MB used, avail 22569 | 0, 13347 MiB, 100 % 1, 13347 MiB, 67 %  | ours 38.8 GB | working 0.0 GB
+08:12:33 [1.112h] [1/0] n=3 gpu1 fit=0.6639 acc={'mmlupro': 0.675, 'gpqa': 0.4666666666666667, 'bfcl': 0.85} rej=False failed=False swap 50.1s total 922.4s tok 146412
+08:15:17 [1.157h] MON 9539/32098 MB used, avail 22559 | 0, 13347 MiB, 100 % 1, 13351 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:18:18 [1.207h] MON 9537/32098 MB used, avail 22561 | 0, 13347 MiB, 100 % 1, 13351 MiB, 81 %  | ours 38.8 GB | working 0.0 GB
+08:19:26 [1.227h] [1/0] n=4 gpu1 fit=0.6861 acc={'mmlupro': 0.7, 'gpqa': 0.43333333333333335, 'bfcl': 0.925} rej=False failed=False swap 21.3s total 413.2s tok 73809
+08:21:18 [1.258h] MON 9532/32098 MB used, avail 22566 | 0, 13347 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:24:18 [1.308h] MON 9536/32098 MB used, avail 22562 | 0, 13347 MiB, 96 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:26:28 [1.344h] [1/0] n=5 gpu0 fit=0.4222 acc={'mmlupro': 0.45, 'gpqa': 0.06666666666666667, 'bfcl': 0.75} rej=False failed=False swap 50.4s total 1757.3s tok 274112
+08:27:18 [1.358h] MON 9531/32098 MB used, avail 22566 | 0, 13267 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:30:18 [1.408h] MON 9541/32098 MB used, avail 22557 | 0, 13347 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:33:18 [1.458h] MON 9549/32098 MB used, avail 22549 | 0, 13347 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:36:18 [1.508h] MON 9537/32098 MB used, avail 22561 | 0, 13347 MiB, 100 % 1, 13347 MiB, 83 %  | ours 38.8 GB | working 0.0 GB
+08:37:51 [1.534h] [1/0] n=6 gpu1 fit=0.5639 acc={'mmlupro': 0.65, 'gpqa': 0.16666666666666666, 'bfcl': 0.875} rej=False failed=False swap 14.0s total 1105.0s tok 201759
+08:39:18 [1.558h] MON 9534/32098 MB used, avail 22564 | 0, 13347 MiB, 100 % 1, 13267 MiB, 59 %  | ours 38.8 GB | working 0.0 GB
+08:42:18 [1.608h] MON 9535/32098 MB used, avail 22563 | 0, 13347 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:45:18 [1.658h] MON 9538/32098 MB used, avail 22560 | 0, 13347 MiB, 64 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:45:25 [1.660h] [1/0] n=7 gpu0 fit=0.6194 acc={'mmlupro': 0.7, 'gpqa': 0.23333333333333334, 'bfcl': 0.925} rej=False failed=False swap 13.9s total 1137.0s tok 201879
+08:48:18 [1.708h] MON 9545/32098 MB used, avail 22553 | 0, 13347 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:51:18 [1.758h] MON 9547/32098 MB used, avail 22551 | 0, 13347 MiB, 100 % 1, 13351 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:54:18 [1.808h] MON 9551/32098 MB used, avail 22547 | 0, 13347 MiB, 100 % 1, 13351 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+08:57:18 [1.858h] MON 9552/32098 MB used, avail 22546 | 0, 13347 MiB, 100 % 1, 13351 MiB, 67 %  | ours 38.8 GB | working 0.0 GB
+08:58:27 [1.877h] [1/0] n=8 gpu1 fit=0.4806 acc={'mmlupro': 0.425, 'gpqa': 0.06666666666666667, 'bfcl': 0.95} rej=False failed=False swap 21.3s total 1236.1s tok 211665
+09:00:18 [1.908h] MON 9537/32098 MB used, avail 22561 | 0, 13347 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:03:19 [1.958h] MON 9540/32098 MB used, avail 22558 | 0, 13347 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:06:19 [2.008h] MON 9540/32098 MB used, avail 22558 | 0, 13347 MiB, 81 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:07:37 [2.030h] [1/0] n=9 gpu0 fit=0.5111 acc={'mmlupro': 0.6, 'gpqa': 0.03333333333333333, 'bfcl': 0.9} rej=False failed=False swap 22.4s total 1332.1s tok 239800
+09:09:19 [2.058h] MON 9541/32098 MB used, avail 22556 | 0, 13347 MiB, 0 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:12:19 [2.108h] MON 9542/32098 MB used, avail 22556 | 0, 13347 MiB, 0 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:15:19 [2.158h] MON 9567/32098 MB used, avail 22531 | 0, 13347 MiB, 0 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:18:19 [2.208h] MON 9568/32098 MB used, avail 22530 | 0, 13347 MiB, 0 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:21:12 [2.256h] [1/0] n=10 gpu1 fit=0.5111 acc={'mmlupro': 0.5, 'gpqa': 0.13333333333333333, 'bfcl': 0.9} rej=False failed=False swap 22.1s total 1364.1s tok 257701
+09:21:12 [2.256h] HIST {'round': 1, 'iter': 0, 'best': 0.6861111111111112, 'mean': 0.5652777777777779, 'n': 10, 'elapsed_h': 2.2558474135398865}
+09:21:17 [2.257h] state saved: next step (1, 1)
+09:21:19 [2.258h] MON 9701/32098 MB used, avail 22397 | 0, 13449 MiB, 0 % 1, 13347 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+09:21:20 [2.258h] round 1 iter 1: generator loss 11.3913, winners 3/10
+09:24:19 [2.308h] MON 9702/32098 MB used, avail 22396 | 0, 13369 MiB, 100 % 1, 13267 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:27:19 [2.358h] MON 9721/32098 MB used, avail 22377 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:30:19 [2.408h] MON 9730/32098 MB used, avail 22368 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:33:19 [2.458h] MON 9726/32098 MB used, avail 22372 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:36:19 [2.508h] MON 9721/32098 MB used, avail 22377 | 0, 13449 MiB, 89 % 1, 13347 MiB, 79 %  | ours 38.8 GB | working 0.0 GB
+09:38:14 [2.540h] [1/1] n=11 gpu1 fit=0.6889 acc={'mmlupro': 0.7, 'gpqa': 0.4666666666666667, 'bfcl': 0.9} rej=False failed=False swap 148.4s total 1014.6s tok 150077
+09:38:56 [2.552h] [1/1] n=12 gpu0 fit=0.6972 acc={'mmlupro': 0.725, 'gpqa': 0.4666666666666667, 'bfcl': 0.9} rej=False failed=False swap 148.3s total 1056.6s tok 157444
+09:39:20 [2.558h] MON 10523/32098 MB used, avail 21575 | 0, 13449 MiB, 2 % 1, 13347 MiB, 2 %  | ours 38.8 GB | working 0.0 GB
+09:42:20 [2.608h] MON 9797/32098 MB used, avail 22301 | 0, 13449 MiB, 4 % 1, 13267 MiB, 57 %  | ours 38.8 GB | working 0.0 GB
+09:45:20 [2.658h] MON 9728/32098 MB used, avail 22370 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:48:20 [2.708h] MON 9725/32098 MB used, avail 22373 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:51:20 [2.758h] MON 9723/32098 MB used, avail 22375 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:54:20 [2.808h] MON 9732/32098 MB used, avail 22366 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+09:56:12 [2.839h] [1/1] n=13 gpu1 fit=0.6611 acc={'mmlupro': 0.65, 'gpqa': 0.43333333333333335, 'bfcl': 0.9} rej=False failed=False swap 192.8s total 1078.1s tok 168354
+09:57:20 [2.858h] MON 9713/32098 MB used, avail 22385 | 0, 13449 MiB, 65 % 1, 13347 MiB, 4 %  | ours 38.8 GB | working 0.0 GB
+09:58:09 [2.872h] [1/1] n=14 gpu0 fit=0.6500 acc={'mmlupro': 0.675, 'gpqa': 0.4, 'bfcl': 0.875} rej=False failed=False swap 225.3s total 1153.1s tok 166206
+10:00:20 [2.908h] MON 9774/32098 MB used, avail 22324 | 0, 13449 MiB, 4 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+10:03:20 [2.958h] MON 9731/32098 MB used, avail 22367 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+10:06:20 [3.008h] MON 9735/32098 MB used, avail 22363 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+10:09:21 [3.058h] MON 9734/32098 MB used, avail 22364 | 0, 13449 MiB, 100 % 1, 13347 MiB, 69 %  | ours 38.8 GB | working 0.0 GB
+10:12:21 [3.108h] MON 9739/32098 MB used, avail 22359 | 0, 13453 MiB, 55 % 1, 13347 MiB, 62 %  | ours 38.8 GB | working 0.0 GB
+10:13:10 [3.122h] [1/1] n=15 gpu1 fit=0.6389 acc={'mmlupro': 0.675, 'gpqa': 0.36666666666666664, 'bfcl': 0.875} rej=False failed=False swap 138.3s total 1018.0s tok 160218
+10:15:21 [3.158h] MON 9758/32098 MB used, avail 22340 | 0, 13453 MiB, 76 % 1, 13267 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+10:15:44 [3.165h] [1/1] n=16 gpu0 fit=0.6778 acc={'mmlupro': 0.7, 'gpqa': 0.43333333333333335, 'bfcl': 0.9} rej=False failed=False swap 148.1s total 1054.5s tok 156312
+10:18:21 [3.208h] MON 9728/32098 MB used, avail 22370 | 0, 13369 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+10:21:21 [3.258h] MON 9734/32098 MB used, avail 22364 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+10:24:21 [3.308h] MON 9732/32098 MB used, avail 22366 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+10:27:21 [3.358h] MON 9739/32098 MB used, avail 22359 | 0, 13449 MiB, 100 % 1, 13347 MiB, 82 %  | ours 38.8 GB | working 0.01 GB
+10:29:39 [3.397h] [1/1] n=17 gpu1 fit=0.6972 acc={'mmlupro': 0.725, 'gpqa': 0.4666666666666667, 'bfcl': 0.9} rej=False failed=False swap 118.9s total 989.0s tok 153857
+10:30:21 [3.409h] MON 9696/32098 MB used, avail 22402 | 0, 13449 MiB, 92 % 1, 13347 MiB, 4 %  | ours 38.8 GB | working 0.01 GB
+10:33:21 [3.459h] MON 9757/32098 MB used, avail 22341 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+10:34:11 [3.472h] [1/1] n=18 gpu0 fit=0.6278 acc={'mmlupro': 0.65, 'gpqa': 0.3333333333333333, 'bfcl': 0.9} rej=False failed=False swap 127.8s total 1107.5s tok 188117
+10:36:21 [3.509h] MON 9772/32098 MB used, avail 22326 | 0, 13449 MiB, 6 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+10:39:21 [3.559h] MON 9811/32098 MB used, avail 22287 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+10:42:22 [3.609h] MON 9820/32098 MB used, avail 22278 | 0, 13449 MiB, 100 % 1, 13347 MiB, 88 %  | ours 38.8 GB | working 0.01 GB
+10:45:22 [3.659h] MON 9813/32098 MB used, avail 22285 | 0, 13449 MiB, 100 % 1, 13347 MiB, 75 %  | ours 38.8 GB | working 0.01 GB
+10:45:59 [3.669h] [1/1] n=19 gpu1 fit=0.6528 acc={'mmlupro': 0.675, 'gpqa': 0.43333333333333335, 'bfcl': 0.85} rej=False failed=False swap 127.8s total 980.0s tok 149144
+10:48:22 [3.709h] MON 9812/32098 MB used, avail 22285 | 0, 13451 MiB, 100 % 1, 13347 MiB, 0 %  | ours 38.8 GB | working 0.01 GB
+10:51:22 [3.759h] MON 9815/32098 MB used, avail 22283 | 0, 13451 MiB, 100 % 1, 13347 MiB, 0 %  | ours 38.8 GB | working 0.01 GB
+10:54:22 [3.809h] MON 9805/32098 MB used, avail 22293 | 0, 13451 MiB, 66 % 1, 13347 MiB, 0 %  | ours 38.8 GB | working 0.01 GB
+10:56:19 [3.841h] [1/1] n=20 gpu0 fit=0.5806 acc={'mmlupro': 0.6, 'gpqa': 0.26666666666666666, 'bfcl': 0.875} rej=False failed=False swap 136.1s total 1328.1s tok 205072
+10:56:19 [3.841h] HIST {'round': 1, 'iter': 1, 'best': 0.6972222222222223, 'pop_mean': 0.671388888888889, 'new_mean': 0.6572222222222222, 'new_best': 0.6972222222222223, 'n_new': 10, 'gen_loss': 11.391271591186523, 'elapsed_h': 3.841364098125034}
+10:56:20 [3.841h] state saved: next step (1, 2)
+10:56:22 [3.842h] round 1 iter 2: generator loss 5.3111, winners 6/20
+10:57:22 [3.859h] MON 9831/32098 MB used, avail 22267 | 0, 13451 MiB, 7 % 1, 13347 MiB, 7 %  | ours 38.8 GB | working 0.01 GB
+11:00:22 [3.909h] MON 9727/32098 MB used, avail 22371 | 0, 13369 MiB, 58 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+11:03:22 [3.959h] MON 9730/32098 MB used, avail 22368 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+11:06:22 [4.009h] MON 9735/32098 MB used, avail 22363 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+11:09:22 [4.059h] MON 9731/32098 MB used, avail 22367 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+11:12:22 [4.109h] MON 9737/32098 MB used, avail 22361 | 0, 13449 MiB, 76 % 1, 13347 MiB, 79 %  | ours 38.8 GB | working 0.01 GB
+11:13:27 [4.127h] [1/2] n=21 gpu1 fit=0.6667 acc={'mmlupro': 0.7, 'gpqa': 0.4, 'bfcl': 0.9} rej=False failed=False swap 156.6s total 1025.1s tok 156647
+11:13:53 [4.134h] [1/2] n=22 gpu0 fit=0.7028 acc={'mmlupro': 0.7, 'gpqa': 0.5333333333333333, 'bfcl': 0.875} rej=False failed=False swap 156.7s total 1050.6s tok 151756
+11:15:23 [4.159h] MON 9734/32098 MB used, avail 22364 | 0, 13449 MiB, 4 % 1, 13347 MiB, 2 %  | ours 38.8 GB | working 0.01 GB
+11:18:23 [4.209h] MON 9812/32098 MB used, avail 22286 | 0, 13449 MiB, 2 % 1, 13347 MiB, 1 %  | ours 38.8 GB | working 0.01 GB
+11:21:23 [4.259h] MON 9749/32098 MB used, avail 22349 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+11:24:23 [4.309h] MON 9735/32098 MB used, avail 22363 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+11:27:23 [4.359h] MON 9726/32098 MB used, avail 22372 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+11:30:23 [4.409h] MON 9743/32098 MB used, avail 22355 | 0, 13449 MiB, 69 % 1, 13347 MiB, 77 %  | ours 38.8 GB | working 0.01 GB
+11:33:08 [4.455h] [1/2] n=23 gpu1 fit=0.6833 acc={'mmlupro': 0.675, 'gpqa': 0.5, 'bfcl': 0.875} rej=False failed=False swap 297.6s total 1181.1s tok 152598
+11:33:15 [4.457h] [1/2] n=24 gpu0 fit=0.6528 acc={'mmlupro': 0.75, 'gpqa': 0.3333333333333333, 'bfcl': 0.875} rej=False failed=False swap 294.8s total 1162.1s tok 141231
+11:33:23 [4.459h] MON 10160/32098 MB used, avail 21938 | 0, 13449 MiB, 2 % 1, 13347 MiB, 4 %  | ours 38.8 GB | working 0.01 GB
+11:36:23 [4.509h] MON 9710/32098 MB used, avail 22388 | 0, 13369 MiB, 100 % 1, 13267 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+11:39:23 [4.559h] MON 9740/32098 MB used, avail 22357 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+11:42:23 [4.609h] MON 9730/32098 MB used, avail 22368 | 0, 13453 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+11:45:24 [4.659h] MON 9730/32098 MB used, avail 22368 | 0, 13453 MiB, 64 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+11:47:18 [4.691h] [1/2] n=25 gpu0 fit=0.7222 acc={'mmlupro': 0.8, 'gpqa': 0.4666666666666667, 'bfcl': 0.9} rej=False failed=False swap 166.1s total 843.0s tok 120565
+11:48:24 [4.709h] MON 9713/32098 MB used, avail 22385 | 0, 13453 MiB, 3 % 1, 13347 MiB, 71 %  | ours 38.8 GB | working 0.01 GB
+11:50:54 [4.751h] [1/2] n=26 gpu1 fit=0.6833 acc={'mmlupro': 0.7, 'gpqa': 0.5, 'bfcl': 0.85} rej=False failed=False swap 172.5s total 1065.6s tok 157004
+11:51:24 [4.759h] MON 9715/32098 MB used, avail 22383 | 0, 13449 MiB, 100 % 1, 13347 MiB, 5 %  | ours 38.8 GB | working 0.01 GB
+11:54:24 [4.809h] MON 9856/32098 MB used, avail 22242 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+11:57:24 [4.859h] MON 9850/32098 MB used, avail 22248 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+12:00:24 [4.909h] MON 9859/32098 MB used, avail 22239 | 0, 13449 MiB, 80 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+12:03:24 [4.959h] MON 9865/32098 MB used, avail 22233 | 0, 13449 MiB, 82 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+12:03:53 [4.967h] [1/2] n=27 gpu0 fit=0.6917 acc={'mmlupro': 0.7, 'gpqa': 0.5, 'bfcl': 0.875} rej=False failed=False swap 106.4s total 995.5s tok 152752
+12:06:24 [5.009h] MON 9736/32098 MB used, avail 22362 | 0, 13369 MiB, 87 % 1, 13347 MiB, 82 %  | ours 38.8 GB | working 0.01 GB
+12:07:49 [5.033h] [1/2] n=28 gpu1 fit=0.6556 acc={'mmlupro': 0.725, 'gpqa': 0.36666666666666664, 'bfcl': 0.875} rej=False failed=False swap 108.1s total 1015.5s tok 159201
+12:09:24 [5.059h] MON 9785/32098 MB used, avail 22313 | 0, 13449 MiB, 100 % 1, 13347 MiB, 5 %  | ours 38.8 GB | working 0.01 GB
+12:12:24 [5.109h] MON 9784/32098 MB used, avail 22314 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+12:15:24 [5.159h] MON 9765/32098 MB used, avail 22333 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+12:18:25 [5.209h] MON 9769/32098 MB used, avail 22329 | 0, 13449 MiB, 95 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+12:20:43 [5.248h] [1/2] n=29 gpu0 fit=0.6694 acc={'mmlupro': 0.7, 'gpqa': 0.43333333333333335, 'bfcl': 0.875} rej=False failed=False swap 111.8s total 1010.0s tok 163736
+12:21:25 [5.259h] MON 9766/32098 MB used, avail 22332 | 0, 13449 MiB, 0 % 1, 13347 MiB, 95 %  | ours 38.8 GB | working 0.01 GB
+12:24:08 [5.305h] [1/2] n=30 gpu1 fit=0.6778 acc={'mmlupro': 0.725, 'gpqa': 0.43333333333333335, 'bfcl': 0.875} rej=False failed=False swap 109.9s total 979.0s tok 159369
+12:24:08 [5.305h] HIST {'round': 1, 'iter': 2, 'best': 0.7222222222222222, 'pop_mean': 0.6930555555555556, 'new_mean': 0.6805555555555556, 'new_best': 0.7222222222222222, 'n_new': 10, 'gen_loss': 5.311093807220459, 'elapsed_h': 5.304919020798471}
+12:24:08 [5.305h] state saved: next step (1, 3)
+12:24:11 [5.306h] round 1 iter 3: generator loss 1.1358, winners 9/30
+12:24:25 [5.309h] MON 10867/32098 MB used, avail 21231 | 0, 13449 MiB, 7 % 1, 13347 MiB, 7 %  | ours 38.8 GB | working 0.01 GB
+12:27:25 [5.360h] MON 9730/32098 MB used, avail 22367 | 0, 13369 MiB, 100 % 1, 13267 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+12:30:25 [5.410h] MON 9739/32098 MB used, avail 22359 | 0, 13449 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+12:33:25 [5.460h] MON 9741/32098 MB used, avail 22357 | 0, 13449 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+12:36:25 [5.510h] MON 9740/32098 MB used, avail 22358 | 0, 13449 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+12:39:25 [5.560h] MON 9738/32098 MB used, avail 22360 | 0, 13449 MiB, 68 % 1, 13349 MiB, 70 %  | ours 38.8 GB | working 0.01 GB
+12:41:04 [5.587h] [1/3] n=31 gpu1 fit=0.6583 acc={'mmlupro': 0.725, 'gpqa': 0.4, 'bfcl': 0.85} rej=False failed=False swap 157.4s total 1013.5s tok 147134
+12:41:23 [5.592h] [1/3] n=32 gpu0 fit=0.6917 acc={'mmlupro': 0.7, 'gpqa': 0.5, 'bfcl': 0.875} rej=False failed=False swap 157.2s total 1032.5s tok 140366
+12:42:25 [5.610h] MON 9793/32098 MB used, avail 22305 | 0, 13449 MiB, 2 % 1, 13349 MiB, 3 %  | ours 38.8 GB | working 0.01 GB
+12:45:25 [5.660h] MON 9812/32098 MB used, avail 22286 | 0, 13449 MiB, 4 % 1, 13349 MiB, 2 %  | ours 38.8 GB | working 0.01 GB
+12:48:26 [5.710h] MON 9711/32098 MB used, avail 22387 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+12:51:26 [5.760h] MON 9743/32098 MB used, avail 22355 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+12:54:26 [5.810h] MON 9733/32098 MB used, avail 22365 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+12:57:26 [5.860h] MON 9742/32098 MB used, avail 22356 | 0, 13451 MiB, 100 % 1, 13349 MiB, 88 %  | ours 38.8 GB | working 0.01 GB
+13:00:26 [5.910h] MON 9731/32098 MB used, avail 22367 | 0, 13451 MiB, 76 % 1, 13349 MiB, 75 %  | ours 38.8 GB | working 0.01 GB
+13:00:41 [5.914h] [1/3] n=33 gpu1 fit=0.6250 acc={'mmlupro': 0.6, 'gpqa': 0.4, 'bfcl': 0.875} rej=False failed=False swap 282.8s total 1177.1s tok 156732
+13:01:34 [5.929h] [1/3] n=34 gpu0 fit=0.6472 acc={'mmlupro': 0.675, 'gpqa': 0.36666666666666664, 'bfcl': 0.9} rej=False failed=False swap 285.9s total 1210.6s tok 153118
+13:03:26 [5.960h] MON 9856/32098 MB used, avail 22242 | 0, 13451 MiB, 3 % 1, 13349 MiB, 4 %  | ours 38.8 GB | working 0.01 GB
+13:06:26 [6.010h] MON 9747/32098 MB used, avail 22350 | 0, 13369 MiB, 56 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+13:09:26 [6.060h] MON 9735/32098 MB used, avail 22362 | 0, 13451 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+13:12:26 [6.110h] MON 9739/32098 MB used, avail 22359 | 0, 13451 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+13:15:26 [6.160h] MON 9737/32098 MB used, avail 22361 | 0, 13451 MiB, 96 % 1, 13347 MiB, 90 %  | ours 38.8 GB | working 0.01 GB
+13:18:26 [6.210h] MON 9744/32098 MB used, avail 22354 | 0, 13451 MiB, 62 % 1, 13347 MiB, 69 %  | ours 38.8 GB | working 0.01 GB
+13:18:41 [6.214h] [1/3] n=35 gpu1 fit=0.6528 acc={'mmlupro': 0.675, 'gpqa': 0.43333333333333335, 'bfcl': 0.85} rej=False failed=False swap 199.8s total 1080.0s tok 151246
+13:20:05 [6.237h] [1/3] n=36 gpu0 fit=0.6500 acc={'mmlupro': 0.675, 'gpqa': 0.4, 'bfcl': 0.875} rej=False failed=False swap 194.8s total 1111.5s tok 144571
+13:21:27 [6.260h] MON 9710/32098 MB used, avail 22387 | 0, 13451 MiB, 6 % 1, 13267 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+13:24:27 [6.310h] MON 9745/32098 MB used, avail 22353 | 0, 13369 MiB, 57 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+13:27:27 [6.360h] MON 9748/32098 MB used, avail 22350 | 0, 13449 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+13:30:27 [6.410h] MON 9744/32098 MB used, avail 22354 | 0, 13449 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+13:33:27 [6.460h] MON 9746/32098 MB used, avail 22352 | 0, 13449 MiB, 100 % 1, 13349 MiB, 72 %  | ours 38.8 GB | working 0.01 GB
+13:35:45 [6.498h] [1/3] n=37 gpu1 fit=0.6611 acc={'mmlupro': 0.7, 'gpqa': 0.43333333333333335, 'bfcl': 0.85} rej=False failed=False swap 163.3s total 1023.5s tok 139537
+13:36:27 [6.510h] MON 9706/32098 MB used, avail 22392 | 0, 13449 MiB, 53 % 1, 13349 MiB, 3 %  | ours 38.8 GB | working 0.01 GB
+13:38:56 [6.551h] [1/3] n=38 gpu0 fit=0.6778 acc={'mmlupro': 0.75, 'gpqa': 0.43333333333333335, 'bfcl': 0.85} rej=False failed=False swap 154.3s total 1130.5s tok 147742
+13:39:27 [6.560h] MON 9703/32098 MB used, avail 22395 | 0, 13449 MiB, 5 % 1, 13347 MiB, 96 %  | ours 38.8 GB | working 0.01 GB
+13:42:27 [6.610h] MON 9792/32098 MB used, avail 22306 | 0, 13369 MiB, 55 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+13:45:27 [6.660h] MON 9794/32098 MB used, avail 22304 | 0, 13449 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+13:48:27 [6.710h] MON 9808/32098 MB used, avail 22290 | 0, 13449 MiB, 100 % 1, 13349 MiB, 76 %  | ours 38.8 GB | working 0.01 GB
+13:51:27 [6.760h] MON 9797/32098 MB used, avail 22301 | 0, 13449 MiB, 88 % 1, 13349 MiB, 79 %  | ours 38.8 GB | working 0.01 GB
+13:52:13 [6.773h] [1/3] n=39 gpu1 fit=0.6611 acc={'mmlupro': 0.7, 'gpqa': 0.43333333333333335, 'bfcl': 0.85} rej=False failed=False swap 128.4s total 988.5s tok 147845
+13:54:27 [6.810h] MON 9797/32098 MB used, avail 22300 | 0, 13449 MiB, 75 % 1, 13349 MiB, 0 %  | ours 38.8 GB | working 0.01 GB
+13:55:44 [6.831h] [1/3] n=40 gpu0 fit=0.6472 acc={'mmlupro': 0.575, 'gpqa': 0.4666666666666667, 'bfcl': 0.9} rej=False failed=False swap 127.7s total 1008.0s tok 152486
+13:55:44 [6.831h] HIST {'round': 1, 'iter': 3, 'best': 0.7222222222222222, 'pop_mean': 0.6944444444444445, 'new_mean': 0.6572222222222223, 'new_best': 0.6916666666666668, 'n_new': 10, 'gen_loss': 1.135755181312561, 'elapsed_h': 6.831446862419447}
+13:55:44 [6.831h] state saved: next step (1, 4)
+13:55:44 [6.831h] BEST 0.7222222222222222 [0.0065683298744261265, 0.10386563837528229, 0.6271475553512573, 0.014534798450767994, 0.23345457017421722, 0.05262302979826927, -0.0035130088217556477, 0.010467772372066975] {'mmlupro': 0.8, 'gpqa': 0.4666666666666667, 'bfcl': 0.9}
+13:57:28 [6.860h] MON 9844/32098 MB used, avail 22254 | 0, 13449 MiB, 6 % 1, 13349 MiB, 4 %  | ours 38.8 GB | working 0.01 GB
+14:00:28 [6.910h] MON 9748/32098 MB used, avail 22350 | 0, 13453 MiB, 100 % 1, 13369 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+14:03:28 [6.960h] MON 9750/32098 MB used, avail 22348 | 0, 13453 MiB, 100 % 1, 13369 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+14:06:28 [7.010h] MON 9748/32098 MB used, avail 22350 | 0, 13453 MiB, 100 % 1, 13369 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+14:09:28 [7.061h] MON 9756/32098 MB used, avail 22342 | 0, 13453 MiB, 100 % 1, 13369 MiB, 82 %  | ours 38.8 GB | working 0.01 GB
+14:11:13 [7.090h] final half 1 done on gpu 1 {'secs': 772.8420736789703, 'gen_tokens': 124364, 'gpu': 1}
+14:12:28 [7.111h] MON 9751/32098 MB used, avail 22347 | 0, 13453 MiB, 100 % 1, 13369 MiB, 0 %  | ours 38.8 GB | working 0.01 GB
+14:13:26 [7.126h] final half 0 done on gpu 0 {'secs': 905.3925447463989, 'gen_tokens': 145231, 'gpu': 0}
+14:13:26 [7.126h] FINAL raw lines 180 {'gpqa': (31, 50), 'mmlupro': (60, 80), 'bfcl': (48, 50)} {1: {'secs': 772.8420736789703, 'gen_tokens': 124364, 'gpu': 1}, 0: {'secs': 905.3925447463989, 'gen_tokens': 145231, 'gpu': 0}}
+14:13:42 [7.131h] worker 0 killed; GPU mem used now 105 MiB
+14:13:49 [7.133h] worker 1 killed; GPU mem used now 3 MiB
+14:13:49 [7.133h] ALL DONE hours 7.133004535039266

@@ -1,0 +1,65 @@
+01:52:45 [0.001h] pip start
+01:52:45 [0.001h] MON 1120/32098 MB used, avail 30978 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 967G free /tmp | 
+01:54:32 [0.030h] downloaded agents_a1 107
+01:54:32 [0.030h] downloaded base 107
+01:54:32 [0.030h] downloaded dsv4pro 107
+01:54:51 [0.036h] MON 1491/32098 MB used, avail 30607 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 942G free /tmp | 
+01:56:32 [0.064h] downloaded qwopus_v3 108
+01:56:45 [0.067h] downloaded qwopus_coder 133
+01:57:00 [0.072h] downloaded q38distill 148
+01:57:01 [0.072h] MON 1840/32098 MB used, avail 30258 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 915G free /tmp | 
+01:57:53 [0.086h] downloaded neohorse 68
+01:59:08 [0.107h] downloaded baphomet 75
+01:59:14 [0.109h] downloaded tmax 134
+01:59:31 [0.113h] downloaded arex_turbo 179
+01:59:31 [0.113h] MON err TimeoutExpired('free -m | awk \'NR==2{print $3"/"$2" MB used, avail "$7}\'; nvidia-smi --query-gpu=index,memory.used,utilization.gpu --format=csv,noheader | tr \'\\n\' \' \'; df -h /tmp | awk \'NR==2{print $4" free /tmp"}\'', 30)
+02:01:31 [0.147h] MON 3206/32098 MB used, avail 28892 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 880G free /tmp | 
+02:03:31 [0.180h] MON 3216/32098 MB used, avail 28882 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 877G free /tmp | 
+02:05:31 [0.214h] MON 3338/32098 MB used, avail 28760 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 873G free /tmp | 
+02:07:31 [0.247h] MON 3342/32098 MB used, avail 28756 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 873G free /tmp | 
+02:09:31 [0.280h] MON 3326/32098 MB used, avail 28772 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 873G free /tmp | 
+02:11:31 [0.314h] MON 3330/32098 MB used, avail 28767 | 0, 0 MiB, 0 % 1, 0 MiB, 0 % 873G free /tmp | 
+02:13:20 [0.344h] $ pip install -q vllm==0.33.0 2>&1 | tail -2 -> Message: "Failed to remove contents in a temporary directory '%s'.\nYou can safely remove it manually."
+Arguments: ('/tmp/pip-install-by8ua7po',)
+  rc 0
+02:13:20 [0.344h] pip done
+02:13:20 [0.344h] $ python -c 'import vllm, torch, transformers; print(vllm.__version__, torch.__version__, transformers.__version__)' ->  Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import vllm, torch, transformers; print(vllm.__version__, torch.__version__, transformers.__version__)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'vllm'
+ rc 1
+02:13:20 [0.344h] worker boot failed 0 0.84 True OSError(30, 'Read-only file system')
+02:13:20 [0.344h] $ tail -40 /kaggle/working/worker_0_-1.log ->  tail: cannot open '/kaggle/working/worker_0_-1.log' for reading: No such file or directory
+ rc 1
+02:13:28 [0.346h] $ pkill -9 -f '[g]puworker2.py .*w0_0 ' ; sleep 8; nvidia-smi --query-gpu=index,memory.used --format=csv -> index, memory.used [MiB]
+0, 0 MiB
+1, 1319 MiB
+  rc 0
+02:13:28 [0.346h] worker boot failed 0 0.78 True OSError(30, 'Read-only file system')
+02:13:28 [0.346h] $ tail -40 /kaggle/working/worker_0_-1.log ->  tail: cannot open '/kaggle/working/worker_0_-1.log' for reading: No such file or directory
+ rc 1
+02:13:31 [0.347h] MON 3501/32098 MB used, avail 28597 | 0, 0 MiB, 0 % 1, 1319 MiB, 2 % 873G free /tmp | 
+02:13:36 [0.348h] $ pkill -9 -f '[g]puworker2.py .*w0_0 ' ; sleep 8; nvidia-smi --query-gpu=index,memory.used --format=csv -> index, memory.used [MiB]
+0, 0 MiB
+1, 2533 MiB
+  rc 0
+02:14:20 [0.361h] $ CUDA_VISIBLE_DEVICES=1 python /kaggle/input/datasets/cloudgoat/evogm-data/valmerge.py /tmp/m/base /tmp/m/ /tmp/m/baphomet /kaggle/working/valmerge.json ->  Traceback (most recent call last):
+  File "/kaggle/input/datasets/cloudgoat/evogm-data/valmerge.py", line 28, in <module>
+    f = b.float().clone()
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.37 GiB. GPU 0 has a total capacity of 14.56 GiB of which 224.81 MiB is free. Including non-PyTorch memory, this process has 14.34 GiB memory in use. Of the allocated memory 14.21 GiB is allocated by PyTorch, and 15.00 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+ rc 1
+02:14:20 [0.361h] worker boot failed 1 0.84 True OSError(30, 'Read-only file system')
+02:14:20 [0.361h] $ tail -40 /kaggle/working/worker_1_-1.log ->  tail: cannot open '/kaggle/working/worker_1_-1.log' for reading: No such file or directory
+ rc 1
+02:14:29 [0.363h] $ pkill -9 -f '[g]puworker2.py .*w1_0 ' ; sleep 8; nvidia-smi --query-gpu=index,memory.used --format=csv -> index, memory.used [MiB]
+0, 0 MiB
+1, 0 MiB
+  rc 0
+02:14:29 [0.363h] worker boot failed 1 0.78 True OSError(30, 'Read-only file system')
+02:14:29 [0.363h] $ tail -40 /kaggle/working/worker_1_-1.log ->  tail: cannot open '/kaggle/working/worker_1_-1.log' for reading: No such file or directory
+ rc 1
+02:14:37 [0.365h] $ pkill -9 -f '[g]puworker2.py .*w1_0 ' ; sleep 8; nvidia-smi --query-gpu=index,memory.used --format=csv -> index, memory.used [MiB]
+0, 0 MiB
+1, 0 MiB
+  rc 0

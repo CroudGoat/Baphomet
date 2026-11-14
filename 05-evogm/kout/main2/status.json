@@ -1,0 +1,10 @@
+{
+ "stage": "extract_failed",
+ "elapsed_h": 0.461,
+ "err": [
+  [
+   "download",
+   "download thread ended early"
+  ]
+ ]
+}

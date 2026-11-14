@@ -1,0 +1,79 @@
+[transformers] The tokenizer you are loading from 'toks/dsv4pro' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[transformers] The tokenizer you are loading from 'toks/qwopus_v3' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+0 34s {}
+3000 464s {}
+6000 896s {}
+9000 1371s {}
+12000 1801s {'dsv4pro:raw': {'mmlu_pro': 2}}
+DONE {
+ "base:auto": {
+  "cls": "Qwen3_5Tokenizer",
+  "items_differ": {},
+  "examples": []
+ },
+ "base:raw": {
+  "cls": "raw",
+  "items_differ": {},
+  "examples": []
+ },
+ "agents_a1:auto": {
+  "cls": "Qwen3_5Tokenizer",
+  "items_differ": {},
+  "examples": []
+ },
+ "agents_a1:raw": {
+  "cls": "raw",
+  "items_differ": {},
+  "examples": []
+ },
+ "dsv4pro:auto": {
+  "cls": "Qwen3_5Tokenizer",
+  "items_differ": {},
+  "examples": []
+ },
+ "dsv4pro:raw": {
+  "cls": "raw",
+  "items_differ": {
+   "mmlu_pro": 2
+  },
+  "examples": [
+   "mmlu_pro:11554",
+   "mmlu_pro:11715"
+  ]
+ },
+ "qwen38distill:auto": {
+  "cls": "Qwen3_5Tokenizer",
+  "items_differ": {},
+  "examples": []
+ },
+ "qwen38distill:raw": {
+  "cls": "raw",
+  "items_differ": {},
+  "examples": []
+ },
+ "qwopus_v3:auto": {
+  "cls": "Qwen3_5Tokenizer",
+  "items_differ": {},
+  "examples": []
+ },
+ "qwopus_v3:raw": {
+  "cls": "raw",
+  "items_differ": {},
+  "examples": []
+ },
+ "arex_turbo:auto": {
+  "cls": "Qwen3_5Tokenizer",
+  "items_differ": {},
+  "examples": []
+ },
+ "arex_turbo:raw": {
+  "cls": "raw",
+  "items_differ": {},
+  "examples": []
+ },
+ "_meta": {
+  "n_items": 12994,
+  "transformers": "5.22.2",
+  "secs": 1816.8972783088684
+ }
+}

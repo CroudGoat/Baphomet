@@ -1,0 +1,309 @@
+[{"stream_name":"stdout","time":1.529970957,"data":"$ nvidia-smi -L; df -h /tmp /kaggle/working; free -g\n"}
+,{"stream_name":"stdout","time":1.599733243,"data":"GPU 0: Tesla T4 (UUID: GPU-ceba9dae-b814-d54c-0e2f-f1b3e474895a)\n"}
+,{"stream_name":"stdout","time":1.599762232,"data":"GPU 1: Tesla T4 (UUID: GPU-bdbfda18-8369-6ca6-e2be-74ced9909094)\n"}
+,{"stream_name":"stdout","time":1.599767049,"data":"Filesystem      Size  Used Avail Use% Mounted on\n"}
+,{"stream_name":"stdout","time":1.5997705450000002,"data":"overlay         8.0T  7.1T  967G  89% /\n"}
+,{"stream_name":"stdout","time":1.5997738099999999,"data":"/dev/loop2       20G  140K   20G   1% /kaggle/working\n"}
+,{"stream_name":"stdout","time":1.5997771809999999,"data":"               total        used        free      shared  buff/cache   available\n"}
+,{"stream_name":"stdout","time":1.5997806909999999,"data":"Mem:              31           1          26           0           4          30\n"}
+,{"stream_name":"stdout","time":1.5997842759999998,"data":"Swap:              0           0           0\n"}
+,{"stream_name":"stdout","time":1.599789232,"data":"  rc 0\n"}
+,{"stream_name":"stdout","time":2.270214812,"data":"03:08:44 endpoint items 338\n"}
+,{"stream_name":"stdout","time":2.271382632,"data":"$ pip install -q vllm==0.33.0 pymoo==0.6.1.5 2\u003e\u00261 | tail -2\n"}
+,{"stream_name":"stderr","time":3.862676283,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":3.996123486,"data":"\rFetching 9 files:   0%|          | 0/9 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":3.996145599,"data":"\n"}
+,{"stream_name":"stderr","time":4.074758503,"data":"\rFetching 11 files:   0%|          | 0/11 [00:00\u003c?, ?it/s]\u001b[A\u001b[AWarning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":4.142715455,"data":"\n"}
+,{"stream_name":"stderr","time":4.223545321,"data":"\rFetching 9 files:  11%|█         | 1/9 [00:00\u003c00:02,  3.57it/s]\u001b[A\rFetching 8 files:  12%|█▎        | 1/8 [00:00\u003c00:02,  3.34it/s]\n"}
+,{"stream_name":"stderr","time":4.224377013,"data":"\n"}
+,{"stream_name":"stderr","time":4.334426218,"data":"\rFetching 11 files:   9%|▉         | 1/11 [00:00\u003c00:02,  4.40it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":4.356662357,"data":"\rFetching 9 files:  22%|██▏       | 2/9 [00:00\u003c00:01,  4.39it/s]\u001b[A\rFetching 8 files:  38%|███▊      | 3/8 [00:00\u003c00:00,  6.91it/s]\n"}
+,{"stream_name":"stderr","time":4.356681934,"data":"\n"}
+,{"stream_name":"stderr","time":4.456817105,"data":"\rFetching 11 files:  36%|███▋      | 4/11 [00:00\u003c00:00, 12.67it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":4.456833639,"data":"\n"}
+,{"stream_name":"stderr","time":4.521577078,"data":"\rFetching 11 files:  64%|██████▎   | 7/11 [00:00\u003c00:00, 18.34it/s]\u001b[A\u001b[A\rFetching 8 files:  62%|██████▎   | 5/8 [00:00\u003c00:00,  9.54it/s]\n"}
+,{"stream_name":"stderr","time":4.7319418540000004,"data":"\rFetching 9 files:  33%|███▎      | 3/9 [00:00\u003c00:01,  4.78it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":9.296044935,"data":"\rFetching 9 files:  67%|██████▋   | 6/9 [00:00\u003c00:00,  8.53it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":23.860685503,"data":"\rFetching 9 files:  78%|███████▊  | 7/9 [00:05\u003c00:02,  1.18s/it]\u001b[A\rFetching 8 files:  75%|███████▌  | 6/8 [00:20\u003c00:00,  9.54it/s]\n"}
+,{"stream_name":"stderr","time":23.860745572,"data":"\n"}
+,{"stream_name":"stderr","time":81.921203865,"data":"\rFetching 11 files:  82%|████████▏ | 9/11 [00:19\u003c00:00, 18.34it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":110.141208555,"data":"\rFetching 9 files:  89%|████████▉ | 8/9 [01:18\u003c00:19, 19.40s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":110.150380075,"data":"\rFetching 9 files: 100%|██████████| 9/9 [01:46\u003c00:00, 21.76s/it]\u001b[A\rFetching 9 files: 100%|██████████| 9/9 [01:46\u003c00:00, 11.81s/it]\n"}
+,{"stream_name":"stderr","time":110.193882955,"data":"\n"}
+,{"stream_name":"stderr","time":110.193908409,"data":"\n"}
+,{"stream_name":"stderr","time":110.570522426,"data":"\rFetching 11 files:  91%|█████████ | 10/11 [01:46\u003c00:15, 15.33s/it]\u001b[A\u001b[A\rFetching 8 files:  88%|████████▊ | 7/8 [01:46\u003c00:22, 22.48s/it]\n"}
+,{"stream_name":"stderr","time":110.807861479,"data":"\rFetching 10 files:   0%|          | 0/10 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":120.131554602,"data":"\rFetching 10 files:  10%|█         | 1/10 [00:00\u003c00:02,  4.22it/s]\u001b[A\rFetching 8 files: 100%|██████████| 8/8 [01:56\u003c00:00, 19.53s/it]\rFetching 8 files: 100%|██████████| 8/8 [01:56\u003c00:00, 14.53s/it]\n"}
+,{"stream_name":"stderr","time":120.156966625,"data":"\n"}
+,{"stream_name":"stderr","time":120.365227361,"data":"\rFetching 10 files:  20%|██        | 2/10 [00:09\u003c00:44,  5.60s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":120.365251525,"data":"\n"}
+,{"stream_name":"stderr","time":120.366330159,"data":"\rFetching 11 files: 100%|██████████| 11/11 [01:56\u003c00:00, 14.44s/it]\u001b[A\u001b[A\rFetching 11 files: 100%|██████████| 11/11 [01:56\u003c00:00, 10.58s/it]\n"}
+,{"stream_name":"stderr","time":120.47179887,"data":"\n"}
+,{"stream_name":"stderr","time":120.909969117,"data":"\rFetching 10 files:  80%|████████  | 8/10 [00:09\u003c00:01,  1.03it/s]\u001b[A\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":120.909996184,"data":"\n"}
+,{"stream_name":"stderr","time":126.058253301,"data":"\rFetching 13 files:   0%|          | 0/13 [00:00\u003c?, ?it/s]\u001b[A\u001b[A\rFetching 8 files:  12%|█▎        | 1/8 [00:00\u003c00:04,  1.69it/s]\rFetching 8 files:  25%|██▌       | 2/8 [00:05\u003c00:18,  3.11s/it]\n"}
+,{"stream_name":"stderr","time":126.058283486,"data":"\n"}
+,{"stream_name":"stderr","time":126.252266391,"data":"\rFetching 13 files:   8%|▊         | 1/13 [00:05\u003c01:01,  5.15s/it]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":126.252293881,"data":"\n"}
+,{"stream_name":"stderr","time":126.490262448,"data":"\rFetching 13 files:  15%|█▌        | 2/13 [00:05\u003c00:24,  2.23s/it]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":126.490292825,"data":"\n"}
+,{"stream_name":"stderr","time":126.703802826,"data":"\rFetching 13 files:  38%|███▊      | 5/13 [00:05\u003c00:05,  1.45it/s]\u001b[A\u001b[A\rFetching 8 files:  38%|███▊      | 3/8 [00:06\u003c00:09,  1.95s/it]\n"}
+,{"stream_name":"stderr","time":126.703828888,"data":"\n"}
+,{"stream_name":"stderr","time":126.847301711,"data":"\rFetching 13 files:  46%|████▌     | 6/13 [00:05\u003c00:03,  1.76it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":126.847326999,"data":"\n"}
+,{"stream_name":"stderr","time":127.236292522,"data":"\rFetching 13 files:  54%|█████▍    | 7/13 [00:05\u003c00:02,  2.19it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":127.236322722,"data":"\n"}
+,{"stream_name":"stderr","time":132.143438897,"data":"\rFetching 13 files:  69%|██████▉   | 9/13 [00:06\u003c00:01,  2.91it/s]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":132.143468533,"data":"\n"}
+,{"stream_name":"stderr","time":133.873103372,"data":"\rFetching 13 files:  77%|███████▋  | 10/13 [00:11\u003c00:04,  1.42s/it]\u001b[A\u001b[A\rFetching 8 files:  62%|██████▎   | 5/8 [00:11\u003c00:07,  2.43s/it]\n"}
+,{"stream_name":"stderr","time":133.873234751,"data":"\n"}
+,{"stream_name":"stderr","time":133.884194443,"data":"\rFetching 13 files:  85%|████████▍ | 11/13 [00:12\u003c00:02,  1.50s/it]\u001b[A\u001b[A\n"}
+,{"stream_name":"stderr","time":252.643607328,"data":"\rFetching 10 files:  90%|█████████ | 9/10 [00:23\u003c00:03,  3.03s/it]\u001b[A\rFetching 8 files:  75%|███████▌  | 6/8 [00:13\u003c00:04,  2.27s/it]\rFetching 8 files:  88%|████████▊ | 7/8 [02:09\u003c00:35, 35.46s/it]\rFetching 8 files: 100%|██████████| 8/8 [02:12\u003c00:00, 25.73s/it]\rFetching 8 files: 100%|██████████| 8/8 [02:12\u003c00:00, 16.51s/it]\n"}
+,{"stream_name":"stderr","time":269.886864859,"data":"\rFetching 19 files:   0%|          | 0/19 [00:00\u003c?, ?it/s]\rFetching 19 files:   5%|▌         | 1/19 [00:00\u003c00:12,  1.40it/s]\rFetching 19 files:  21%|██        | 4/19 [00:01\u003c00:05,  2.64it/s]\n"}
+,{"stream_name":"stderr","time":269.888776977,"data":"\rFetching 10 files: 100%|██████████| 10/10 [02:39\u003c00:00, 28.49s/it]\u001b[A\rFetching 10 files: 100%|██████████| 10/10 [02:39\u003c00:00, 15.93s/it]\n"}
+,{"stream_name":"stderr","time":395.296761819,"data":"\rFetching 19 files:  26%|██▋       | 5/19 [01:27\u003c05:39, 24.21s/it]\rFetching 19 files:  37%|███▋      | 7/19 [01:27\u003c02:42, 13.51s/it]\rFetching 19 files:  47%|████▋     | 9/19 [01:27\u003c01:22,  8.30s/it]\rFetching 19 files:  58%|█████▊    | 11/19 [01:28\u003c00:43,  5.43s/it]\rFetching 19 files:  63%|██████▎   | 12/19 [01:28\u003c00:30,  4.35s/it]\rFetching 19 files:  68%|██████▊   | 13/19 [01:28\u003c00:20,  3.47s/it]\rFetching 19 files:  74%|███████▎  | 14/19 [01:43\u003c00:30,  6.15s/it]\n"}
+,{"stream_name":"stderr","time":395.558649077,"data":"\n"}
+,{"stream_name":"stderr","time":431.514793685,"data":"\rFetching 13 files:  92%|█████████▏| 12/13 [04:34\u003c01:10, 70.31s/it]\u001b[A\u001b[A\rFetching 19 files:  79%|███████▉  | 15/19 [02:58\u003c01:35, 23.89s/it]\n"}
+,{"stream_name":"stderr","time":431.514821708,"data":"\n"}
+,{"stream_name":"stderr","time":431.515910817,"data":"\rFetching 13 files: 100%|██████████| 13/13 [05:10\u003c00:00, 60.96s/it]\u001b[A\u001b[A\rFetching 13 files: 100%|██████████| 13/13 [05:10\u003c00:00, 23.89s/it]\n"}
+,{"stream_name":"stderr","time":431.532174213,"data":"\rFetching 19 files: 100%|██████████| 19/19 [02:58\u003c00:00,  9.39s/it]\n"}
+,{"stream_name":"stdout","time":431.532989773,"data":"03:15:53 downloads done\n"}
+,{"stream_name":"stdout","time":548.217695461,"data":"google-adk 2.7.1 requires opentelemetry-api\u003c=1.42.1,\u003e=1.39, but you have opentelemetry-api 1.45.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":548.217731883,"data":"google-adk 2.7.1 requires opentelemetry-sdk\u003c=1.42.1,\u003e=1.39, but you have opentelemetry-sdk 1.45.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":548.217738248,"data":"  rc 0\n"}
+,{"stream_name":"stdout","time":548.218064987,"data":"$ python /tmp/ext.py /kaggle/input/datasets/cloudgoat/merge3-data\n"}
+,{"stream_name":"stdout","time":868.788379434,"data":"dsv4pro {'n': 738, 'zero': 586, 'missing': 0, 'sqnorm': 1540.6827657818794, 'qerr': 1.080326232855441, 'rel_qerr': 0.026480174864559048, 'norm': 39.2515320182777, 'secs': 125.26257491111755}\n"}
+,{"stream_name":"stdout","time":868.789139076,"data":"agents_a1 {'n': 723, 'zero': 331, 'missing': 15, 'sqnorm': 326.55434788612183, 'qerr': 0.22521778400961773, 'rel_qerr': 0.026261746523454803, 'norm': 18.070814809690287, 'secs': 139.91182804107666}\n"}
+,{"stream_name":"stdout","time":868.789157901,"data":"qwopus_v3 {'n': 738, 'zero': 586, 'missing': 0, 'sqnorm': 17.13536906801164, 'qerr': 0.01150431731275603, 'rel_qerr': 0.02591097137527293, 'norm': 4.1394889863377635, 'secs': 111.12022280693054}\n"}
+,{"stream_name":"stdout","time":868.78916751,"data":"qwen38distill {'n': 738, 'zero': 389, 'missing': 0, 'sqnorm': 14.17372548533691, 'qerr': 0.00996375967696002, 'rel_qerr': 0.026513655764140085, 'norm': 3.764800855999811, 'secs': 99.28409814834595}\n"}
+,{"stream_name":"stdout","time":868.789171149,"data":"arex_turbo {'n': 723, 'zero': 325, 'missing': 15, 'sqnorm': 607.536873578676, 'qerr': 0.4215239738547566, 'rel_qerr': 0.02634054878680898, 'norm': 24.64826309456056, 'secs': 63.148353099823}\n"}
+,{"stream_name":"stdout","time":868.789175477,"data":"  rc 0\n"}
+,{"stream_name":"stdout","time":1376.85289624,"data":"03:31:38 worker init [{'ok': True, 't_init': 469.6109628677368}, {'ok': True, 't_init': 469.61115288734436}]\n"}
+,{"stream_name":"stdout","time":1596.854728209,"data":"03:35:18 endpoint agents_a1 gpu1 swap 29.9s eval 189s {'t_gen': 177.52089500427246, 'n_requests': 1046, 'prompt_tokens': 381922, 'n_items': 338}\n"}
+,{"stream_name":"stdout","time":1608.851294104,"data":"03:35:30 endpoint base gpu0 swap 13.9s eval 217s {'t_gen': 201.77223825454712, 'n_requests': 1046, 'prompt_tokens': 381922, 'n_items': 338}\n"}
+,{"stream_name":"stdout","time":1838.495695832,"data":"03:39:20 endpoint dsv4pro gpu1 swap 49.2s eval 191s {'t_gen': 177.8601188659668, 'n_requests': 1046, 'prompt_tokens': 381922, 'n_items': 338}\n"}
+,{"stream_name":"stdout","time":1863.410718832,"data":"03:39:45 endpoint qwen38distill gpu0 swap 48.5s eval 205s {'t_gen': 193.98250579833984, 'n_requests': 1046, 'prompt_tokens': 381922, 'n_items': 338}\n"}
+,{"stream_name":"stdout","time":2068.747403626,"data":"03:43:10 endpoint qwopus_v3 gpu1 swap 37.7s eval 192s {'t_gen': 177.81594705581665, 'n_requests': 1046, 'prompt_tokens': 381922, 'n_items': 338}\n"}
+,{"stream_name":"stdout","time":2108.661714611,"data":"03:43:50 endpoint arex_turbo gpu0 swap 39.7s eval 205s {'t_gen': 193.65596079826355, 'n_requests': 1046, 'prompt_tokens': 381922, 'n_items': 338}\n"}
+,{"stream_name":"stdout","time":2291.484666118,"data":"03:46:53 endpoint baphomet gpu1 swap 34.0s eval 188s {'t_gen': 177.42937421798706, 'n_requests': 1046, 'prompt_tokens': 381922, 'n_items': 338}\n"}
+,{"stream_name":"stdout","time":2292.216222222,"data":"03:46:54 estimate base {'mmlu_pro': {'anchor_weighted_acc': 0.5239290495314592, 'irt_pred_acc_pool': 0.5094232792369253, 'reduced_acc': 0.55}, 'gpqa': {'anchor_weighted_acc': 0.2476007677543186, 'irt_pred_acc_pool': 0.3506828708352434, 'reduced_acc': 0.25}}\n"}
+,{"stream_name":"stdout","time":2292.38128494,"data":"03:46:54 estimate agents_a1 {'mmlu_pro': {'anchor_weighted_acc': 0.5, 'irt_pred_acc_pool': 0.4891732341210178, 'reduced_acc': 0.55}, 'gpqa': {'anchor_weighted_acc': 0.2236084452975048, 'irt_pred_acc_pool': 0.34944355293486384, 'reduced_acc': 0.3}}\n"}
+,{"stream_name":"stdout","time":2292.509420843,"data":"03:46:54 estimate dsv4pro {'mmlu_pro': {'anchor_weighted_acc': 0.5108768406961177, 'irt_pred_acc_pool': 0.5034471349837412, 'reduced_acc': 0.55}, 'gpqa': {'anchor_weighted_acc': 0.22168905950095968, 'irt_pred_acc_pool': 0.3487348638862372, 'reduced_acc': 0.25}}\n"}
+,{"stream_name":"stdout","time":2292.639721113,"data":"03:46:54 estimate qwen38distill {'mmlu_pro': {'anchor_weighted_acc': 0.4764892904953146, 'irt_pred_acc_pool': 0.4672628794156802, 'reduced_acc': 0.55}, 'gpqa': {'anchor_weighted_acc': 0.2927063339731286, 'irt_pred_acc_pool': 0.36076302614928457, 'reduced_acc': 0.3}}\n"}
+,{"stream_name":"stdout","time":2292.76264676,"data":"03:46:54 estimate qwopus_v3 {'mmlu_pro': {'anchor_weighted_acc': 0.5140562248995983, 'irt_pred_acc_pool': 0.5103049007926986, 'reduced_acc': 0.55}, 'gpqa': {'anchor_weighted_acc': 0.2533589251439539, 'irt_pred_acc_pool': 0.3446553331314925, 'reduced_acc': 0.3}}\n"}
+,{"stream_name":"stdout","time":2292.878523328,"data":"03:46:54 estimate arex_turbo {'mmlu_pro': {'anchor_weighted_acc': 0.43022088353413657, 'irt_pred_acc_pool': 0.4225494310924614, 'reduced_acc': 0.5}, 'gpqa': {'anchor_weighted_acc': 0.20441458733205373, 'irt_pred_acc_pool': 0.32225934545568186, 'reduced_acc': 0.2}}\n"}
+,{"stream_name":"stdout","time":2292.997339966,"data":"03:46:54 estimate baphomet {'mmlu_pro': {'anchor_weighted_acc': 0.5001673360107095, 'irt_pred_acc_pool': 0.4898877806806279, 'reduced_acc': 0.5}, 'gpqa': {'anchor_weighted_acc': 0.19193857965451055, 'irt_pred_acc_pool': 0.33770060227711934, 'reduced_acc': 0.2}}\n"}
+,{"stream_name":"stdout","time":2293.246188052,"data":"03:46:55 estimate base {'mmlu_pro': {'anchor_weighted_acc': 0.5239290495314592, 'irt_pred_acc_pool': 0.5094232792369253, 'reduced_acc': 0.55, 'gmpirt_reduced': 0.4884528016515659}, 'gpqa': {'anchor_weighted_acc': 0.2476007677543186, 'irt_pred_acc_pool': 0.3506828708352434, 'reduced_acc': 0.25, 'gmpirt_reduced': 0.2708285605838559}}\n"}
+,{"stream_name":"stdout","time":2293.292489926,"data":"03:46:55 estimate agents_a1 {'mmlu_pro': {'anchor_weighted_acc': 0.5, 'irt_pred_acc_pool': 0.4891732341210178, 'reduced_acc': 0.55, 'gmpirt_reduced': 0.4884528016515659}, 'gpqa': {'anchor_weighted_acc': 0.2236084452975048, 'irt_pred_acc_pool': 0.34944355293486384, 'reduced_acc': 0.3, 'gmpirt_reduced': 0.3737364843506692}}\n"}
+,{"stream_name":"stdout","time":2293.340370286,"data":"03:46:55 estimate dsv4pro {'mmlu_pro': {'anchor_weighted_acc': 0.5108768406961177, 'irt_pred_acc_pool': 0.5034471349837412, 'reduced_acc': 0.55, 'gmpirt_reduced': 0.5071500492042447}, 'gpqa': {'anchor_weighted_acc': 0.22168905950095968, 'irt_pred_acc_pool': 0.3487348638862372, 'reduced_acc': 0.25, 'gmpirt_reduced': 0.3076802790128654}}\n"}
+,{"stream_name":"stdout","time":2293.388305471,"data":"03:46:55 estimate qwen38distill {'mmlu_pro': {'anchor_weighted_acc': 0.4764892904953146, 'irt_pred_acc_pool': 0.4672628794156802, 'reduced_acc': 0.55, 'gmpirt_reduced': 0.4884528016515659}, 'gpqa': {'anchor_weighted_acc': 0.2927063339731286, 'irt_pred_acc_pool': 0.36076302614928457, 'reduced_acc': 0.3, 'gmpirt_reduced': 0.32506993589395416}}\n"}
+,{"stream_name":"stdout","time":2293.4579013,"data":"03:46:55 estimate qwopus_v3 {'mmlu_pro': {'anchor_weighted_acc': 0.5140562248995983, 'irt_pred_acc_pool': 0.5103049007926986, 'reduced_acc': 0.55, 'gmpirt_reduced': 0.4884528016515659}, 'gpqa': {'anchor_weighted_acc': 0.2533589251439539, 'irt_pred_acc_pool': 0.3446553331314925, 'reduced_acc': 0.3, 'gmpirt_reduced': 0.3497068803830878}}\n"}
+,{"stream_name":"stdout","time":2293.51150292,"data":"03:46:55 estimate arex_turbo {'mmlu_pro': {'anchor_weighted_acc': 0.43022088353413657, 'irt_pred_acc_pool': 0.4225494310924614, 'reduced_acc': 0.5, 'gmpirt_reduced': 0.48996979060217527}, 'gpqa': {'anchor_weighted_acc': 0.20441458733205373, 'irt_pred_acc_pool': 0.32225934545568186, 'reduced_acc': 0.2, 'gmpirt_reduced': 0.23002150974441973}}\n"}
+,{"stream_name":"stdout","time":2293.562299235,"data":"03:46:55 estimate baphomet {'mmlu_pro': {'anchor_weighted_acc': 0.5001673360107095, 'irt_pred_acc_pool': 0.4898877806806279, 'reduced_acc': 0.5, 'gmpirt_reduced': 0.4558085723274049}, 'gpqa': {'anchor_weighted_acc': 0.19193857965451055, 'irt_pred_acc_pool': 0.33770060227711934, 'reduced_acc': 0.2, 'gmpirt_reduced': 0.2562334552728994}}\n"}
+,{"stream_name":"stdout","time":2293.91319662,"data":"03:46:55 cached evaluations: 0\n"}
+,{"stream_name":"stdout","time":2332.233576914,"data":"03:47:34 [gen1] n=1 gpu1 F=[-0.4884528016515659, -0.2708285605838559] swap 7.5s total 36.4s\n"}
+,{"stream_name":"stdout","time":2449.308435236,"data":"03:49:31 [gen1] n=2 gpu0 F=[-0.5395569504659419, -0.3076802790128654] swap 123.1s total 153.5s\n"}
+,{"stream_name":"stdout","time":2492.711364367,"data":"03:50:14 [gen1] n=3 gpu1 F=[-0.12160141173908653, -0.25237841429172453] swap 129.7s total 160.5s\n"}
+,{"stream_name":"stdout","time":2586.56238982,"data":"03:51:48 [gen1] n=4 gpu0 F=[-0.4884528016515659, -0.3076802790128654] swap 106.4s total 137.3s\n"}
+,{"stream_name":"stdout","time":2623.644520823,"data":"03:52:25 [gen1] n=5 gpu1 F=[-0.38003142545068813, -0.3737364843506692] swap 101.5s total 130.9s\n"}
+,{"stream_name":"stdout","time":2706.9821818,"data":"03:53:48 [gen1] n=6 gpu0 F=[-0.48996979060217527, -0.39787531955360944] swap 88.7s total 120.4s\n"}
+,{"stream_name":"stdout","time":2741.385654553,"data":"03:54:23 [gen1] n=7 gpu1 F=[-0.5568813335730727, -0.2589658068800755] swap 87.7s total 117.7s\n"}
+,{"stream_name":"stdout","time":2852.028343472,"data":"03:56:13 [gen1] n=8 gpu0 F=[-0.4314161446314182, -0.3737364843506692] swap 112.5s total 145.0s\n"}
+,{"stream_name":"stdout","time":2888.543278088,"data":"03:56:50 [gen1] n=9 gpu1 F=[-0.46354305247664923, -0.2768811018549437] swap 118.2s total 147.2s\n"}
+,{"stream_name":"stdout","time":2998.561483172,"data":"03:58:40 [gen1] n=10 gpu0 F=[-0.4665572038599707, -0.2768811018549437] swap 113.3s total 146.5s\n"}
+,{"stream_name":"stdout","time":3025.17527594,"data":"03:59:07 [gen1] n=11 gpu1 F=[-0.48996979060217527, -0.3737364843506692] swap 108.2s total 136.6s\n"}
+,{"stream_name":"stdout","time":3146.301866564,"data":"04:01:08 [gen1] n=12 gpu0 F=[-0.48996979060217527, -0.3737364843506692] swap 114.6s total 147.7s\n"}
+,{"stream_name":"stdout","time":3170.221379874,"data":"04:01:32 [gen1] n=13 gpu1 F=[-0.48996979060217527, -0.37991763386769883] swap 116.3s total 145.0s\n"}
+,{"stream_name":"stdout","time":3300.043013613,"data":"04:03:41 [gen1] n=14 gpu0 F=[-0.5057612788934864, -0.42443746048220277] swap 120.3s total 153.7s\n"}
+,{"stream_name":"stdout","time":3316.517307452,"data":"04:03:58 [gen1] n=15 gpu1 F=[-0.4920831445622061, -0.2948537695350104] swap 116.7s total 146.3s\n"}
+,{"stream_name":"stdout","time":3460.081402048,"data":"04:06:21 [gen1] n=16 gpu0 F=[-0.5034452529976632, -0.4189311995769094] swap 127.0s total 160.0s\n"}
+,{"stream_name":"stdout","time":3483.76510708,"data":"04:06:45 [gen1] n=17 gpu1 F=[-0.46354305247664923, -0.3737364843506692] swap 138.8s total 167.2s\n"}
+,{"stream_name":"stdout","time":3655.256923446,"data":"04:09:37 [gen1] n=18 gpu0 F=[-0.423539676809676, -0.4189248187162327] swap 160.9s total 195.2s\n"}
+,{"stream_name":"stdout","time":3670.528370432,"data":"04:09:52 [gen1] n=19 gpu1 F=[-0.15637862643729267, -0.2680855977651425] swap 157.8s total 186.8s\n"}
+,{"stream_name":"stdout","time":3876.251120778,"data":"04:13:18 [gen1] n=20 gpu0 F=[-0.46354305247664923, -0.26212643204280506] swap 187.0s total 221.0s\n"}
+,{"stream_name":"stdout","time":3889.408340815,"data":"04:13:31 [gen1] n=21 gpu1 F=[-0.4558085723274049, -0.36194256242782824] swap 189.6s total 218.9s\n"}
+,{"stream_name":"stdout","time":4020.641083542,"data":"04:15:42 [gen1] n=22 gpu1 F=[-0.5395569504659419, -0.3737364843506692] swap 101.3s total 131.2s\n"}
+,{"stream_name":"stdout","time":4023.886005166,"data":"04:15:45 [gen1] n=23 gpu0 F=[-0.6318989690431451, -0.3484492659256915] swap 114.7s total 147.6s\n"}
+,{"stream_name":"stdout","time":4179.484057237,"data":"04:18:21 [gen1] n=24 gpu1 F=[-0.30892124407885135, -0.2830451070958837] swap 128.9s total 158.8s\n"}
+,{"stream_name":"stdout","time":4182.739138486,"data":"04:18:24 [gen1] n=25 gpu0 F=[-0.4924355279520173, -0.2589658068800755] swap 125.7s total 158.9s\n"}
+,{"stream_name":"stdout","time":4182.813976919,"data":"==========================================================\n"}
+,{"stream_name":"stdout","time":4182.814002301,"data":"n_gen  |  n_eval  | n_nds  |      eps      |   indicator  \n"}
+,{"stream_name":"stdout","time":4182.814007543,"data":"==========================================================\n"}
+,{"stream_name":"stdout","time":4182.814011466,"data":"     1 |       25 |      3 |             - |             -\n"}
+,{"stream_name":"stdout","time":4323.988363377,"data":"04:20:45 [gen2] n=26 gpu1 F=[-0.5034452529976632, -0.40167195829951957] swap 111.7s total 141.2s\n"}
+,{"stream_name":"stdout","time":4327.275337002,"data":"04:20:49 [gen2] n=27 gpu0 F=[-0.5395569504659419, -0.42507355716897677] swap 111.7s total 144.4s\n"}
+,{"stream_name":"stdout","time":4464.51826185,"data":"04:23:06 [gen2] n=28 gpu1 F=[-0.5034452529976632, -0.3165658429934982] swap 110.7s total 140.5s\n"}
+,{"stream_name":"stdout","time":4467.514359174,"data":"04:23:09 [gen2] n=29 gpu0 F=[-0.4884528016515659, -0.3076802790128654] swap 107.3s total 140.2s\n"}
+,{"stream_name":"stdout","time":4607.165404826,"data":"04:25:29 [gen2] n=30 gpu1 F=[-0.3911161356999425, -0.353607340084681] swap 112.5s total 142.6s\n"}
+,{"stream_name":"stdout","time":4610.147182599,"data":"04:25:32 [gen2] n=31 gpu0 F=[-0.43577233297804496, -0.3379528240123366] swap 109.8s total 142.6s\n"}
+,{"stream_name":"stdout","time":4749.804498279,"data":"04:27:51 [gen2] n=32 gpu1 F=[-0.4530479699491363, -0.2768811018549437] swap 112.7s total 142.6s\n"}
+,{"stream_name":"stdout","time":4753.408592118,"data":"04:27:55 [gen2] n=33 gpu0 F=[-0.46354305247664923, -0.3737364843506692] swap 109.7s total 143.3s\n"}
+,{"stream_name":"stdout","time":4893.386861014,"data":"04:30:15 [gen2] n=34 gpu1 F=[-0.5034452529976632, -0.40167195829951957] swap 113.5s total 143.6s\n"}
+,{"stream_name":"stdout","time":4896.677547198,"data":"04:30:18 [gen2] n=35 gpu0 F=[-0.41809128514195815, -0.3075092634461063] swap 110.2s total 143.3s\n"}
+,{"stream_name":"stdout","time":5036.034448205,"data":"04:32:37 [gen2] n=36 gpu1 F=[-0.5057612788934864, -0.2768811018549437] swap 112.6s total 142.6s\n"}
+,{"stream_name":"stdout","time":5039.36195796,"data":"04:32:41 [gen2] n=37 gpu0 F=[-0.48996979060217527, -0.33346663741980354] swap 109.5s total 142.7s\n"}
+,{"stream_name":"stdout","time":5178.994865854,"data":"04:35:00 [gen2] n=38 gpu1 F=[-0.5034452529976632, -0.3076802790128654] swap 113.1s total 143.0s\n"}
+,{"stream_name":"stdout","time":5182.302574282,"data":"04:35:04 [gen2] n=39 gpu0 F=[-0.4314161446314182, -0.19887312572276172] swap 109.8s total 142.9s\n"}
+,{"stream_name":"stdout","time":5321.693429037,"data":"04:37:23 [gen2] n=40 gpu1 F=[-0.3539632919344757, -0.37683308316816644] swap 112.8s total 142.7s\n"}
+,{"stream_name":"stdout","time":5325.265559274,"data":"04:37:27 [gen2] n=41 gpu0 F=[-0.5395569504659419, -0.42443746048220277] swap 109.5s total 143.0s\n"}
+,{"stream_name":"stdout","time":5465.450476213,"data":"04:39:47 [gen2] n=42 gpu1 F=[-0.5568813335730727, -0.436592663744107] swap 113.4s total 143.8s\n"}
+,{"stream_name":"stdout","time":5468.521934515,"data":"04:39:50 [gen2] n=43 gpu0 F=[-0.48996979060217527, -0.32481339525078534] swap 110.0s total 143.3s\n"}
+,{"stream_name":"stdout","time":5607.211054581,"data":"04:42:09 [gen2] n=44 gpu1 F=[-0.5332995171785881, -0.3076802790128654] swap 111.8s total 141.8s\n"}
+,{"stream_name":"stdout","time":5610.571828977,"data":"04:42:12 [gen2] n=45 gpu0 F=[-0.4665572038599707, -0.3076802790128654] swap 108.6s total 142.0s\n"}
+,{"stream_name":"stdout","time":5749.864060298,"data":"04:44:31 [gen2] n=46 gpu1 F=[-0.4314161446314182, -0.32481339525078534] swap 113.0s total 142.7s\n"}
+,{"stream_name":"stdout","time":5753.505689087,"data":"04:44:35 [gen2] n=47 gpu0 F=[-0.5034452529976632, -0.4004383437862692] swap 109.7s total 142.9s\n"}
+,{"stream_name":"stdout","time":5892.801840066,"data":"04:46:54 [gen2] n=48 gpu1 F=[-0.4144360137904686, -0.36569467593338123] swap 113.0s total 142.9s\n"}
+,{"stream_name":"stdout","time":5896.153389583,"data":"04:46:58 [gen2] n=49 gpu0 F=[-0.49876650411725953, -0.2589658068800755] swap 109.7s total 142.6s\n"}
+,{"stream_name":"stdout","time":6033.343875367,"data":"04:49:15 [gen2] n=50 gpu1 F=[-0.5463965668391714, -0.23002150974441973] swap 110.6s total 140.5s\n"}
+,{"stream_name":"stdout","time":6033.357008614,"data":"     2 |       50 |      2 |  0.1379025947 |         ideal\n"}
+,{"stream_name":"stdout","time":6176.053184481,"data":"04:51:37 [gen3] n=51 gpu1 F=[-0.48138036112447513, -0.36194256242782824] swap 112.7s total 142.7s\n"}
+,{"stream_name":"stdout","time":6178.118991191,"data":"04:51:40 [gen3] n=52 gpu0 F=[-0.5034452529976632, -0.4455498854227709] swap 113.0s total 144.7s\n"}
+,{"stream_name":"stdout","time":6317.803376104,"data":"04:53:59 [gen3] n=53 gpu1 F=[-0.46354305247664923, -0.2768811018549437] swap 111.8s total 141.7s\n"}
+,{"stream_name":"stdout","time":6320.464804337,"data":"04:54:02 [gen3] n=54 gpu0 F=[-0.46354305247664923, -0.32481339525078534] swap 109.9s total 142.3s\n"}
+,{"stream_name":"stdout","time":6460.153165871,"data":"04:56:22 [gen3] n=55 gpu1 F=[-0.46354305247664923, -0.2589658068800755] swap 112.1s total 142.3s\n"}
+,{"stream_name":"stdout","time":6463.106875099,"data":"04:56:25 [gen3] n=56 gpu0 F=[-0.48996979060217527, -0.4189311995769094] swap 109.8s total 142.6s\n"}
+,{"stream_name":"stdout","time":6602.512656309,"data":"04:58:44 [gen3] n=57 gpu1 F=[-0.5034452529976632, -0.3323226779671321] swap 112.6s total 142.4s\n"}
+,{"stream_name":"stdout","time":6605.761675271,"data":"04:58:47 [gen3] n=58 gpu0 F=[-0.46772520037074006, -0.31198450201681827] swap 109.7s total 142.7s\n"}
+,{"stream_name":"stdout","time":6745.450891187,"data":"05:01:07 [gen3] n=59 gpu1 F=[-0.48996979060217527, -0.4455498854227709] swap 112.9s total 142.9s\n"}
+,{"stream_name":"stdout","time":6748.702435738,"data":"05:01:10 [gen3] n=60 gpu0 F=[-0.5395569504659419, -0.2768811018549437] swap 109.8s total 142.9s\n"}
+,{"stream_name":"stdout","time":6887.790749262,"data":"05:03:29 [gen3] n=61 gpu1 F=[-0.5034452529976632, -0.3165658429934982] swap 112.4s total 142.3s\n"}
+,{"stream_name":"stdout","time":6891.066488932,"data":"05:03:32 [gen3] n=62 gpu0 F=[-0.5395569504659419, -0.31198450201681827] swap 109.1s total 142.4s\n"}
+,{"stream_name":"stdout","time":7031.020112721,"data":"05:05:52 [gen3] n=63 gpu1 F=[-0.4677764564722422, -0.353607340084681] swap 113.2s total 143.2s\n"}
+,{"stream_name":"stdout","time":7034.312035898,"data":"05:05:56 [gen3] n=64 gpu0 F=[-0.5380396810637358, -0.3238278871773813] swap 109.9s total 143.2s\n"}
+,{"stream_name":"stdout","time":7173.356792154,"data":"05:08:15 [gen3] n=65 gpu1 F=[-0.5034452529976632, -0.2589658068800755] swap 112.7s total 142.3s\n"}
+,{"stream_name":"stdout","time":7176.960780408,"data":"05:08:18 [gen3] n=66 gpu0 F=[-0.44898856602818005, -0.3165658429934982] swap 109.3s total 142.6s\n"}
+,{"stream_name":"stdout","time":7315.43941473,"data":"05:10:37 [gen3] n=67 gpu1 F=[-0.5654439160359302, -0.4004383437862692] swap 112.1s total 142.1s\n"}
+,{"stream_name":"stdout","time":7319.023136056,"data":"05:10:40 [gen3] n=68 gpu0 F=[-0.4665572038599707, -0.4455498854227709] swap 108.6s total 142.1s\n"}
+,{"stream_name":"stdout","time":7456.568894102,"data":"05:12:58 [gen3] n=69 gpu1 F=[-0.4665572038599707, -0.2622103172786253] swap 111.1s total 141.1s\n"}
+,{"stream_name":"stdout","time":7459.867818657,"data":"05:13:01 [gen3] n=70 gpu0 F=[-0.5034452529976632, -0.2947193733275151] swap 107.6s total 140.8s\n"}
+,{"stream_name":"stdout","time":7599.517509909,"data":"05:15:21 [gen3] n=71 gpu1 F=[-0.4575967644717298, -0.32481339525078534] swap 113.2s total 142.9s\n"}
+,{"stream_name":"stdout","time":7603.1146179,"data":"05:15:25 [gen3] n=72 gpu0 F=[-0.5034452529976632, -0.40167195829951957] swap 109.8s total 143.2s\n"}
+,{"stream_name":"stdout","time":7742.470403711,"data":"05:17:44 [gen3] n=73 gpu1 F=[-0.4677764564722422, -0.3737364843506692] swap 113.0s total 142.9s\n"}
+,{"stream_name":"stdout","time":7745.784096148,"data":"05:17:47 [gen3] n=74 gpu0 F=[-0.5395569504659419, -0.3076802790128654] swap 109.5s total 142.7s\n"}
+,{"stream_name":"stdout","time":7882.701760405,"data":"05:20:04 [gen3] n=75 gpu1 F=[-0.5034452529976632, -0.2768811018549437] swap 110.6s total 140.2s\n"}
+,{"stream_name":"stdout","time":7882.712295359,"data":"     3 |       75 |      4 |  0.0922468026 |         ideal\n"}
+,{"stream_name":"stdout","time":8023.872118534,"data":"05:22:25 [gen4] n=76 gpu1 F=[-0.5034452529976632, -0.389497035273787] swap 111.1s total 141.1s\n"}
+,{"stream_name":"stdout","time":8025.678972382,"data":"05:22:27 [gen4] n=77 gpu0 F=[-0.5395569504659419, -0.4455498854227709] swap 111.0s total 143.0s\n"}
+,{"stream_name":"stdout","time":8166.523887091,"data":"05:24:48 [gen4] n=78 gpu1 F=[-0.4704314689826538, -0.26212643204280506] swap 112.8s total 142.7s\n"}
+,{"stream_name":"stdout","time":8169.225198222,"data":"05:24:51 [gen4] n=79 gpu0 F=[-0.5034452529976632, -0.36194256242782824] swap 110.8s total 143.5s\n"}
+,{"stream_name":"stdout","time":8306.471558578,"data":"05:27:08 [gen4] n=80 gpu1 F=[-0.48996979060217527, -0.3076802790128654] swap 110.0s total 139.9s\n"}
+,{"stream_name":"stdout","time":8309.480013143,"data":"05:27:11 [gen4] n=81 gpu0 F=[-0.5034452529976632, -0.27928349162044086] swap 107.6s total 140.3s\n"}
+,{"stream_name":"stdout","time":8449.422175094,"data":"05:29:31 [gen4] n=82 gpu1 F=[-0.5034452529976632, -0.40167195829951957] swap 113.0s total 142.9s\n"}
+,{"stream_name":"stdout","time":8452.722931716,"data":"05:29:34 [gen4] n=83 gpu0 F=[-0.48996979060217527, -0.3381041873391547] swap 110.1s total 143.2s\n"}
+,{"stream_name":"stdout","time":8591.479835395,"data":"05:31:53 [gen4] n=84 gpu1 F=[-0.4952826197396344, -0.33346663741980354] swap 112.1s total 142.1s\n"}
+,{"stream_name":"stdout","time":8594.824695089,"data":"05:31:56 [gen4] n=85 gpu0 F=[-0.46652377401666256, -0.29792645432824516] swap 109.0s total 142.1s\n"}
+,{"stream_name":"stdout","time":8733.543684631,"data":"05:34:15 [gen4] n=86 gpu1 F=[-0.4665572038599707, -0.40167195829951957] swap 111.9s total 142.1s\n"}
+,{"stream_name":"stdout","time":8736.862236352,"data":"05:34:18 [gen4] n=87 gpu0 F=[-0.46354305247664923, -0.33346663741980354] swap 108.7s total 142.0s\n"}
+,{"stream_name":"stdout","time":8868.043301596,"data":"05:36:29 [gen4] n=88 gpu1 F=[-0.6485974107029151, -0.3302667525079628] swap 104.6s total 134.5s\n"}
+,{"stream_name":"stdout","time":8871.401248017,"data":"05:36:33 [gen4] n=89 gpu0 F=[-0.5034452529976632, -0.37991763386769883] swap 101.4s total 134.5s\n"}
+,{"stream_name":"stdout","time":9010.379191935,"data":"05:38:52 [gen4] n=90 gpu1 F=[-0.5034452529976632, -0.40167195829951957] swap 112.6s total 142.3s\n"}
+,{"stream_name":"stdout","time":9014.039181345,"data":"05:38:55 [gen4] n=91 gpu0 F=[-0.5880337144216202, -0.37991763386769883] swap 109.3s total 142.6s\n"}
+,{"stream_name":"stdout","time":9152.737858218,"data":"05:41:14 [gen4] n=92 gpu1 F=[-0.46354305247664923, -0.35369132017255245] swap 112.4s total 142.4s\n"}
+,{"stream_name":"stdout","time":9156.402096724,"data":"05:41:18 [gen4] n=93 gpu0 F=[-0.48996979060217527, -0.3737364843506692] swap 109.0s total 142.4s\n"}
+,{"stream_name":"stdout","time":9295.370361771,"data":"05:43:37 [gen4] n=94 gpu1 F=[-0.5332995171785881, -0.38911425378998826] swap 112.7s total 142.6s\n"}
+,{"stream_name":"stdout","time":9298.748536153,"data":"05:43:40 [gen4] n=95 gpu0 F=[-0.5395569504659419, -0.2589658068800755] swap 109.2s total 142.3s\n"}
+,{"stream_name":"stdout","time":9437.771425866,"data":"05:45:59 [gen4] n=96 gpu1 F=[-0.5034452529976632, -0.42443746048220277] swap 112.5s total 142.4s\n"}
+,{"stream_name":"stdout","time":9441.069860684,"data":"05:46:02 [gen4] n=97 gpu0 F=[-0.5463965668391714, -0.3737364843506692] swap 109.0s total 142.3s\n"}
+,{"stream_name":"stdout","time":9580.451027439,"data":"05:48:22 [gen4] n=98 gpu1 F=[-0.48996979060217527, -0.2768811018549437] swap 112.8s total 142.7s\n"}
+,{"stream_name":"stdout","time":9584.014494639,"data":"05:48:25 [gen4] n=99 gpu0 F=[-0.5034452529976632, -0.37991763386769883] swap 109.4s total 142.9s\n"}
+,{"stream_name":"stdout","time":9720.389424607,"data":"05:50:42 [gen4] n=100 gpu1 F=[-0.4140341631396095, -0.38911425378998826] swap 110.3s total 139.9s\n"}
+,{"stream_name":"stdout","time":9720.40923686,"data":"     4 |      100 |      6 |  0.1531398677 |         ideal\n"}
+,{"stream_name":"stdout","time":9863.367428716,"data":"05:53:05 [gen5] n=101 gpu1 F=[-0.501100752744797, -0.3076802790128654] swap 112.6s total 142.9s\n"}
+,{"stream_name":"stdout","time":9865.176401475,"data":"05:53:07 [gen5] n=102 gpu0 F=[-0.5034452529976632, -0.40167195829951957] swap 112.8s total 144.8s\n"}
+,{"stream_name":"stdout","time":10005.72381769,"data":"05:55:27 [gen5] n=103 gpu1 F=[-0.5034452529976632, -0.4455498854227709] swap 112.5s total 142.4s\n"}
+,{"stream_name":"stdout","time":10008.42472835,"data":"05:55:30 [gen5] n=104 gpu0 F=[-0.48996979060217527, -0.40167195829951957] swap 110.6s total 143.2s\n"}
+,{"stream_name":"stdout","time":10148.967585433,"data":"05:57:50 [gen5] n=105 gpu1 F=[-0.4245373271830498, -0.37991763386769883] swap 113.1s total 143.2s\n"}
+,{"stream_name":"stdout","time":10151.975608224,"data":"05:57:53 [gen5] n=106 gpu0 F=[-0.5395569504659419, -0.37991763386769883] swap 110.5s total 143.6s\n"}
+,{"stream_name":"stdout","time":10291.309430335,"data":"06:00:13 [gen5] n=107 gpu1 F=[-0.5034452529976632, -0.3737364843506692] swap 112.5s total 142.3s\n"}
+,{"stream_name":"stdout","time":10294.613554627,"data":"06:00:16 [gen5] n=108 gpu0 F=[-0.4558085723274049, -0.3737364843506692] swap 109.5s total 142.6s\n"}
+,{"stream_name":"stdout","time":10431.008652688,"data":"06:02:32 [gen5] n=109 gpu1 F=[-0.41809128514195815, -0.2622103172786253] swap 109.7s total 139.7s\n"}
+,{"stream_name":"stdout","time":10434.267956622,"data":"06:02:36 [gen5] n=110 gpu0 F=[-0.4558085723274049, -0.2589658068800755] swap 106.6s total 139.7s\n"}
+,{"stream_name":"stdout","time":10568.83724306,"data":"06:04:50 [gen5] n=111 gpu1 F=[-0.5395569504659419, -0.27236146524467075] swap 108.0s total 137.8s\n"}
+,{"stream_name":"stdout","time":10572.114095964,"data":"06:04:54 [gen5] n=112 gpu0 F=[-0.48996979060217527, -0.2589658068800755] swap 104.7s total 137.8s\n"}
+,{"stream_name":"stdout","time":10710.573568195,"data":"06:07:12 [gen5] n=113 gpu1 F=[-0.5034452529976632, -0.4455498854227709] swap 111.9s total 141.7s\n"}
+,{"stream_name":"stdout","time":10714.147809222,"data":"06:07:16 [gen5] n=114 gpu0 F=[-0.41162071377181975, -0.4004383437862692] swap 108.8s total 142.0s\n"}
+,{"stream_name":"stdout","time":10853.519367343,"data":"06:09:35 [gen5] n=115 gpu1 F=[-0.5781004851288419, -0.3737364843506692] swap 112.8s total 142.9s\n"}
+,{"stream_name":"stdout","time":10856.81038729,"data":"06:09:38 [gen5] n=116 gpu0 F=[-0.41740964330583086, -0.4322722671483017] swap 109.4s total 142.7s\n"}
+,{"stream_name":"stdout","time":10996.446316596,"data":"06:11:58 [gen5] n=117 gpu1 F=[-0.4665572038599707, -0.35626789446369167] swap 112.9s total 142.9s\n"}
+,{"stream_name":"stdout","time":10999.749668011,"data":"06:12:01 [gen5] n=118 gpu0 F=[-0.5395569504659419, -0.40167195829951957] swap 109.8s total 142.9s\n"}
+,{"stream_name":"stdout","time":11138.514214025,"data":"06:14:20 [gen5] n=119 gpu1 F=[-0.5568813335730727, -0.42443746048220277] swap 112.2s total 142.1s\n"}
+,{"stream_name":"stdout","time":11141.808576063,"data":"06:14:23 [gen5] n=120 gpu0 F=[-0.5034452529976632, -0.4189311995769094] swap 108.9s total 142.1s\n"}
+,{"stream_name":"stdout","time":11281.223106205,"data":"06:16:43 [gen5] n=121 gpu1 F=[-0.5395569504659419, -0.40167195829951957] swap 112.6s total 142.7s\n"}
+,{"stream_name":"stdout","time":11284.791873837,"data":"06:16:46 [gen5] n=122 gpu0 F=[-0.5048906149760781, -0.27928349162044086] swap 109.2s total 143.0s\n"}
+,{"stream_name":"stdout","time":11422.957810871,"data":"06:19:04 [gen5] n=123 gpu1 F=[-0.5034452529976632, -0.4455498854227709] swap 111.8s total 141.7s\n"}
+,{"stream_name":"stdout","time":11426.526457341,"data":"06:19:08 [gen5] n=124 gpu0 F=[-0.5395569504659419, -0.42443746048220277] swap 108.5s total 141.7s\n"}
+,{"stream_name":"stdout","time":11560.841150954,"data":"06:21:22 [gen5] n=125 gpu1 F=[-0.4665572038599707, -0.4455498854227709] swap 107.9s total 137.9s\n"}
+,{"stream_name":"stdout","time":11560.859968094,"data":"     5 |      125 |      6 |  0.000000E+00 |             f\n"}
+,{"stream_name":"stdout","time":11703.247539202,"data":"06:23:45 [gen6] n=126 gpu1 F=[-0.5594597598803818, -0.4684244561093456] swap 112.5s total 142.4s\n"}
+,{"stream_name":"stdout","time":11705.334663249,"data":"06:23:47 [gen6] n=127 gpu0 F=[-0.5568813335730727, -0.37991763386769883] swap 112.3s total 144.5s\n"}
+,{"stream_name":"stdout","time":11845.318383818,"data":"06:26:07 [gen6] n=128 gpu1 F=[-0.48996979060217527, -0.40167195829951957] swap 112.0s total 142.1s\n"}
+,{"stream_name":"stdout","time":11847.977109063,"data":"06:26:09 [gen6] n=129 gpu0 F=[-0.4558085723274049, -0.38708238997912336] swap 110.1s total 142.6s\n"}
+,{"stream_name":"stdout","time":11986.761448555,"data":"06:28:28 [gen6] n=130 gpu1 F=[-0.5034452529976632, -0.4455498854227709] swap 111.8s total 141.4s\n"}
+,{"stream_name":"stdout","time":11990.007170111,"data":"06:28:31 [gen6] n=131 gpu0 F=[-0.5395569504659419, -0.40167195829951957] swap 109.1s total 142.0s\n"}
+,{"stream_name":"stdout","time":12127.593957546,"data":"06:30:49 [gen6] n=132 gpu1 F=[-0.5034452529976632, -0.37991763386769883] swap 110.6s total 140.8s\n"}
+,{"stream_name":"stdout","time":12130.544402056,"data":"06:30:52 [gen6] n=133 gpu0 F=[-0.4536652950471922, -0.4455498854227709] swap 107.5s total 140.5s\n"}
+,{"stream_name":"stdout","time":12270.222118682,"data":"06:33:12 [gen6] n=134 gpu1 F=[-0.4665572038599707, -0.33346663741980354] swap 112.8s total 142.6s\n"}
+,{"stream_name":"stdout","time":12273.512354413,"data":"06:33:15 [gen6] n=135 gpu0 F=[-0.5395569504659419, -0.23374816315338653] swap 109.8s total 143.0s\n"}
+,{"stream_name":"stdout","time":12413.149614495,"data":"06:35:35 [gen6] n=136 gpu1 F=[-0.5167260396810912, -0.3737364843506692] swap 113.0s total 142.9s\n"}
+,{"stream_name":"stdout","time":12416.756948663,"data":"06:35:38 [gen6] n=137 gpu0 F=[-0.5034452529976632, -0.40167195829951957] swap 109.9s total 143.2s\n"}
+,{"stream_name":"stdout","time":12554.298993721,"data":"06:37:56 [gen6] n=138 gpu1 F=[-0.5395569504659419, -0.36194256242782824] swap 111.3s total 141.1s\n"}
+,{"stream_name":"stdout","time":12557.902969146,"data":"06:37:59 [gen6] n=139 gpu0 F=[-0.5167260396810912, -0.36194256242782824] swap 107.9s total 141.1s\n"}
+,{"stream_name":"stdout","time":12691.246813265,"data":"06:40:13 [gen6] n=140 gpu1 F=[-0.5395569504659419, -0.2768811018549437] swap 107.2s total 136.9s\n"}
+,{"stream_name":"stdout","time":12694.861776129,"data":"06:40:16 [gen6] n=141 gpu0 F=[-0.46354305247664923, -0.40167195829951957] swap 103.7s total 137.0s\n"}
+,{"stream_name":"stdout","time":12832.399396051,"data":"06:42:34 [gen6] n=142 gpu1 F=[-0.5228830494739186, -0.2589658068800755] swap 111.1s total 141.2s\n"}
+,{"stream_name":"stdout","time":12836.014554108,"data":"06:42:37 [gen6] n=143 gpu0 F=[-0.5395569504659419, -0.3076802790128654] swap 107.8s total 141.2s\n"}
+,{"stream_name":"stdout","time":12975.392368811,"data":"06:44:57 [gen6] n=144 gpu1 F=[-0.5395569504659419, -0.3357687142581187] swap 113.0s total 143.0s\n"}
+,{"stream_name":"stdout","time":12978.653115756,"data":"06:45:00 [gen6] n=145 gpu0 F=[-0.5395569504659419, -0.28480936776057264] swap 109.6s total 142.6s\n"}
+,{"stream_name":"stdout","time":13116.536346473,"data":"06:47:18 [gen6] n=146 gpu1 F=[-0.48996979060217527, -0.35773096286393724] swap 111.2s total 141.1s\n"}
+,{"stream_name":"stdout","time":13119.799162928,"data":"06:47:21 [gen6] n=147 gpu0 F=[-0.5048906149760781, -0.37991763386769883] swap 107.9s total 141.1s\n"}
+,{"stream_name":"stdout","time":13259.77010194,"data":"06:49:41 [gen6] n=148 gpu1 F=[-0.39685260810774275, -0.40167195829951957] swap 113.4s total 143.2s\n"}
+,{"stream_name":"stdout","time":13263.060891245,"data":"06:49:44 [gen6] n=149 gpu0 F=[-0.5034452529976632, -0.21345626643647744] swap 110.0s total 143.3s\n"}
+,{"stream_name":"stdout","time":13400.008167502,"data":"06:52:01 [gen6] n=150 gpu1 F=[-0.4884528016515659, -0.3737364843506692] swap 110.1s total 140.2s\n"}
+,{"stream_name":"stdout","time":13400.025194586,"data":"     6 |      150 |      5 |  0.1655685502 |         ideal\n"}
+,{"stream_name":"stdout","time":13541.484258336,"data":"06:54:23 [gen7] n=151 gpu1 F=[-0.5034452529976632, -0.4455498854227709] swap 111.5s total 141.4s\n"}
+,{"stream_name":"stdout","time":13543.589979491,"data":"06:54:25 [gen7] n=152 gpu0 F=[-0.5034452529976632, -0.4150129151805012] swap 111.5s total 143.6s\n"}
+,{"stream_name":"stdout","time":13683.55560725,"data":"06:56:45 [gen7] n=153 gpu1 F=[-0.4974942905271188, -0.4189311995769094] swap 112.1s total 142.1s\n"}
+,{"stream_name":"stdout","time":13686.233190232,"data":"06:56:48 [gen7] n=154 gpu0 F=[-0.5245706994261635, -0.2978537937212189] swap 110.1s total 142.6s\n"}
+,{"stream_name":"stdout","time":13826.49482142,"data":"06:59:08 [gen7] n=155 gpu1 F=[-0.5348508620023973, -0.38357526879013437] swap 113.1s total 142.9s\n"}
+,{"stream_name":"stdout","time":13829.479846087,"data":"06:59:11 [gen7] n=156 gpu0 F=[-0.48996979060217527, -0.3737364843506692] swap 110.5s total 143.2s\n"}
+,{"stream_name":"stdout","time":13968.269146969,"data":"07:01:30 [gen7] n=157 gpu1 F=[-0.48996979060217527, -0.40167195829951957] swap 111.6s total 141.8s\n"}
+,{"stream_name":"stdout","time":13971.216359085,"data":"07:01:33 [gen7] n=158 gpu0 F=[-0.48996979060217527, -0.4455498854227709] swap 108.9s total 141.7s\n"}
+,{"stream_name":"stdout","time":14110.003387463,"data":"07:03:51 [gen7] n=159 gpu1 F=[-0.46652377401666256, -0.40167195829951957] swap 111.9s total 141.7s\n"}
+,{"stream_name":"stdout","time":14113.267552662,"data":"07:03:55 [gen7] n=160 gpu0 F=[-0.5245706994261635, -0.2589658068800755] swap 108.9s total 142.1s\n"}
+,{"stream_name":"stdout","time":14252.947533279,"data":"07:06:14 [gen7] n=161 gpu1 F=[-0.46354305247664923, -0.2589658068800755] swap 113.0s total 142.9s\n"}
+,{"stream_name":"stdout","time":14256.541793489,"data":"07:06:18 [gen7] n=162 gpu0 F=[-0.5395569504659419, -0.3987489899970881] swap 109.9s total 143.3s\n"}
+,{"stream_name":"stdout","time":14394.451135488,"data":"07:08:36 [gen7] n=163 gpu1 F=[-0.5034452529976632, -0.3076802790128654] swap 111.5s total 141.5s\n"}
+,{"stream_name":"stdout","time":14397.975092745,"data":"07:08:39 [gen7] n=164 gpu0 F=[-0.4558085723274049, -0.32481339525078534] swap 108.2s total 141.4s\n"}
+,{"stream_name":"stdout","time":14537.396283116,"data":"07:10:59 [gen7] n=165 gpu1 F=[-0.48996979060217527, -0.42443746048220277] swap 112.9s total 142.9s\n"}
+,{"stream_name":"stdout","time":14540.916593413,"data":"07:11:02 [gen7] n=166 gpu0 F=[-0.48996979060217527, -0.3737364843506692] swap 109.6s total 142.9s\n"}
+,{"stream_name":"stdout","time":14680.038220949,"data":"07:13:21 [gen7] n=167 gpu1 F=[-0.5034452529976632, -0.36194256242782824] swap 112.7s total 142.6s\n"}
+,{"stream_name":"stdout","time":14683.564153277,"data":"07:13:25 [gen7] n=168 gpu0 F=[-0.5453167262909653, -0.3076802790128654] swap 109.3s total 142.6s\n"}
+,{"stream_name":"stdout","time":14822.975613677,"data":"07:15:44 [gen7] n=169 gpu1 F=[-0.5135459635309398, -0.4455498854227709] swap 113.0s total 142.9s\n"}
+,{"stream_name":"stdout","time":14826.219296847,"data":"07:15:48 [gen7] n=170 gpu0 F=[-0.48996979060217527, -0.3153235444969491] swap 109.6s total 142.7s\n"}
+,{"stream_name":"stdout","time":14965.018225513,"data":"07:18:06 [gen7] n=171 gpu1 F=[-0.5395569504659419, -0.3076802790128654] swap 112.0s total 142.0s\n"}
+,{"stream_name":"stdout","time":14968.279762239,"data":"07:18:10 [gen7] n=172 gpu0 F=[-0.4884528016515659, -0.3076802790128654] swap 108.7s total 142.1s\n"}
+,{"stream_name":"stdout","time":15107.651853622,"data":"07:20:29 [gen7] n=173 gpu1 F=[-0.48996979060217527, -0.4455498854227709] swap 112.7s total 142.6s\n"}
+,{"stream_name":"stdout","time":15111.218255931,"data":"07:20:33 [gen7] n=174 gpu0 F=[-0.5034452529976632, -0.40167195829951957] swap 109.5s total 142.9s\n"}
+,{"stream_name":"stdout","time":15249.091163527,"data":"07:22:51 [gen7] n=175 gpu1 F=[-0.5319285828052225, -0.3049213750506165] swap 111.7s total 141.4s\n"}
+,{"stream_name":"stdout","time":15249.105891651,"data":"     7 |      175 |      5 |  0.000000E+00 |             f\n"}
+,{"stream_name":"stdout","time":15249.107042459,"data":"07:22:51 status done evaluated 175\n"}
+,{"stream_name":"stdout","time":15249.110686093,"data":"07:22:51 BEST {'gkey': '0.000548068408,0.913839026715,0.182946497127,0.513999720979,0.032693680603,0.437975656332,0.268381895922,0.989343374269,0.569173772423,0.769209861909', 'x': [0.0005480684084744891, 0.9138390267146843, 0.18294649712652072, 0.5139997209794702, 0.032693680602880526, 0.4379756563324747, 0.26838189592176687, 0.9893433742692709, 0.5691737724226962, 0.7692098619092116], 'tag': 'gen6', 'gpu': 1, 'fit': {'mmlu_pro': {'mpirt': 0.5689195197607635, 'gmpirt': 0.5594597598803818, 'weighted_avg': 0.55, 'lam': [0.7038059234965112, -2.4714813431574556, 1.202006754738964, -3.354759762764719, 2.308523209997609, 4.42112675980889]}, 'gpqa': {'mpirt': 0.4868489122186911, 'gmpirt': 0.4684244561093456, 'weighted_avg': 0.45, 'lam': [1.5457380947023645, 1.871866422506721, -1.2425240919253808, 3.023445627299841, -13.640980900637464, 3.452514540367132]}}, 'dare_seed': 672891003, 'F': [-0.5594597598803818, -0.4684244561093456], 't_swap': 112.5, 't_total': 142.4, 'elapsed_h': 3.251, 'mean_fit': 0.5139421079948636}\n"}
+,{"stream_name":"stdout","time":15576.16486775,"data":"$ nvidia-smi --query-gpu=memory.used --format=csv\n"}
+,{"stream_name":"stdout","time":15576.318239721,"data":"memory.used [MiB]\n"}
+,{"stream_name":"stdout","time":15576.318281359,"data":"0 MiB\n"}
+,{"stream_name":"stdout","time":15576.318288769,"data":"0 MiB\n"}
+,{"stream_name":"stdout","time":15576.318294719,"data":"  rc 0\n"}
+,{"stream_name":"stdout","time":15673.258568563,"data":"07:29:55 merged winner\n"}
+,{"stream_name":"stdout","time":18076.226805264,"data":"08:09:58 servers up\n"}
+,{"stream_name":"stdout","time":19419.821431964,"data":"08:32:21 test done 90\n"}
+,{"stream_name":"stdout","time":19419.821476096,"data":"$ pkill -f 'vllm serve'; sleep 15; pkill -9 -f 'vllm serve'\n"}
+,{"stream_name":"stdout","time":19419.843690465,"data":"  rc -15\n"}
+,{"stream_name":"stdout","time":19419.843713887,"data":"08:32:21 ALL DONE hours 5.394167331523366\n"}
+,{"stream_name":"stderr","time":19423.37551782,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":19423.375565735,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":19423.562876916,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":19423.562901692,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":19424.465754071,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":19425.425151265,"data":"[NbConvertApp] Writing 367301 bytes to __results__.html\n"}
+]

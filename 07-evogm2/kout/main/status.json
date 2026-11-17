@@ -1,0 +1,44 @@
+{
+ "stage": "done",
+ "mode": "full",
+ "elapsed_h": 8.27,
+ "dl": {
+  "base": 37,
+  "agents_a1": 70,
+  "dsv4pro": 79,
+  "q38distill": 68,
+  "qwopus_coder": 89,
+  "qwopus_v3": 89,
+  "neohorse": 67,
+  "arex_turbo": 87,
+  "tmax": 59
+ },
+ "pip": {
+  "rc": 0,
+  "versions": "0.33.0 2.14.0+cu130 5.20.2",
+  "err": "",
+  "secs": 401,
+  "attempt": 0
+ },
+ "boot": {
+  "1": {
+   "ok": true,
+   "t_init": 367.5868616104126,
+   "eager": true,
+   "gpumem": 0.84,
+   "num_gpu_blocks": 179,
+   "free_gb": 2.78009033203125
+  },
+  "0": {
+   "ok": true,
+   "t_init": 464.05283427238464,
+   "eager": true,
+   "gpumem": 0.84,
+   "num_gpu_blocks": 179,
+   "free_gb": 2.78009033203125
+  }
+ },
+ "n_evals": 40,
+ "final": "skipped: no eligible winner (see val_result.json)",
+ "hours": 8.26976633058654
+}

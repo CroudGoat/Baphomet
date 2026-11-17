@@ -1,0 +1,33 @@
+{
+ "HARD_H": 10.5,
+ "P": 10,
+ "max_iter": 3,
+ "max_round": 4,
+ "init": [
+  "baphomet11",
+  "baphomet10",
+  "b11attn_b10mlp",
+  "b10attn_b11mlp",
+  "b11_attn125_mlp075",
+  "b11_attn075_mlp125",
+  "onehot_q38distill",
+  "b11_attn_only",
+  "b11_mlp_only",
+  "b11_local1"
+ ],
+ "min_cal": 8,
+ "k_val": 4,
+ "val_max": 6,
+ "t_full_prior": 2400.0,
+ "setup_h": 0.43934854765733083,
+ "lanes": 2,
+ "evo_remaining_h": 7.83220699025525,
+ "val_reserve_h": 1.584,
+ "final_reserve_h": 0.5277777777777778,
+ "race": {
+  "on": true,
+  "up": 1.5,
+  "min_frac": 0.5
+ },
+ "resume": false
+}

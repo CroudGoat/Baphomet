@@ -1,0 +1,315 @@
+23:55:51 [0.000h] EvoGM v2 MODE full HARD_H 10.5 
+23:55:51 [0.000h] $ nvidia-smi -L; df -h /tmp /kaggle/working; free -g; nproc -> GPU 0: Tesla T4 (UUID: GPU-6ba0ee4c-b8dc-c16b-afcf-a2bab15b64cb)
+GPU 1: Tesla T4 (UUID: GPU-07e9693f-0780-d80f-57ed-406c0604fd80)
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         8.0T  7.1T  967G  89% /
+/dev/loop2       20G  276K   20G   1% /kaggle/working
+               total        used        free      shared  buff/cache   available
+Mem:              31           1          26           0           4          30
+Swap:              0           0           0
+4
+  rc 0
+23:55:51 [0.000h] models+tv disk at start 0.0
+23:55:51 [0.000h] MON 1107/32098 MB used, avail 30991 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 0.0 GB | working 0.0 GB
+23:56:28 [0.011h] downloaded base 37 disk 9.3
+23:57:38 [0.030h] downloaded agents_a1 70 disk 26.5
+23:57:47 [0.033h] downloaded dsv4pro 79 disk 27.8
+23:58:46 [0.049h] downloaded q38distill 68 disk 37.1
+23:58:51 [0.050h] MON 1539/32098 MB used, avail 30559 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 37.1 GB | working 0.0 GB
+00:01:51 [0.100h] MON 1673/32098 MB used, avail 30425 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 37.1 GB | working 0.0 GB
+00:02:33 [0.112h] pip finished {'rc': 0, 'versions': '0.33.0 2.14.0+cu130 5.20.2', 'err': '', 'secs': 401, 'attempt': 0}
+00:04:54 [0.151h] MON 2776/32098 MB used, avail 29322 | 0, 13467 MiB, 0 % 1, 8615 MiB, 0 %  | ours 44.1 GB | working 0.0 GB
+00:04:55 [0.151h] tv agents_a1 {'n': 723, 'zero': 331, 'missing': 15, 'rel_qerr': 0.026261746523454803, 'secs': 142}
+00:04:55 [0.151h] disk 35.1
+00:04:55 [0.151h] tv dsv4pro {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.026480174864559048, 'secs': 142}
+00:04:55 [0.151h] disk 25.7
+00:06:24 [0.176h] downloaded qwopus_coder 89 disk 44.4
+00:06:24 [0.176h] downloaded qwopus_v3 89 disk 44.4
+00:08:08 [0.205h] MON 3059/32098 MB used, avail 29038 | 0, 13467 MiB, 0 % 1, 8615 MiB, 0 %  | ours 51.4 GB | working 0.0 GB
+00:08:09 [0.205h] tv qwopus_coder {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.025980742481569653, 'secs': 104}
+00:08:09 [0.205h] disk 42.1
+00:08:09 [0.205h] tv q38distill {'n': 738, 'zero': 389, 'missing': 0, 'rel_qerr': 0.026513655764140085, 'secs': 194}
+00:08:09 [0.205h] disk 32.7
+00:09:16 [0.224h] downloaded neohorse 67 disk 46.0
+00:09:36 [0.229h] downloaded arex_turbo 87 disk 50.3
+00:10:47 [0.249h] tv qwopus_v3 {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.02591097137527293, 'secs': 159}
+00:10:47 [0.249h] disk 43.8
+00:11:18 [0.258h] MON 4742/32098 MB used, avail 27356 | 0, 13467 MiB, 0 % 1, 0 MiB, 0 %  | ours 49.9 GB | working 0.0 GB
+00:11:19 [0.258h] tv neohorse {'n': 426, 'zero': 59, 'missing': 312, 'rel_qerr': 0.025998191433154804, 'secs': 121}
+00:11:19 [0.258h] disk 42.3
+00:11:46 [0.266h] downloaded tmax 59 disk 48.0
+00:13:21 [0.292h] tv arex_turbo {'n': 723, 'zero': 325, 'missing': 15, 'rel_qerr': 0.02634054878680898, 'secs': 153}
+00:13:21 [0.292h] disk 43.1
+00:13:35 [0.296h] tv tmax {'n': 426, 'zero': 72, 'missing': 312, 'rel_qerr': 0.0143720137790664, 'secs': 108}
+00:13:35 [0.296h] disk 38.8
+00:13:39 [0.297h] all 8 TVs extracted; disk 38.8
+00:14:18 [0.308h] MON 3290/32098 MB used, avail 28808 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+00:17:18 [0.358h] MON 6755/32098 MB used, avail 25342 | 0, 9443 MiB, 0 % 1, 9443 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+00:20:19 [0.408h] MON 7098/32098 MB used, avail 25000 | 0, 9641 MiB, 58 % 1, 9641 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+00:22:05 [0.438h] worker 1 ready {'ok': True, 't_init': 367.5868616104126, 'eager': True, 'gpumem': 0.84, 'num_gpu_blocks': 179, 'free_gb': 2.78009033203125}
+00:22:06 [0.438h] worker 0 ready {'ok': True, 't_init': 464.05283427238464, 'eager': True, 'gpumem': 0.84, 'num_gpu_blocks': 179, 'free_gb': 2.78009033203125}
+00:22:09 [0.439h] search {'mmlupro': 110, 'gpqa': 70, 'bfcl': 20} val {'mmlupro': 75, 'gpqa': 45, 'bfcl': 30}
+00:22:11 [0.439h] cached evaluations 0 val records 0
+00:22:11 [0.439h] PLAN {'HARD_H': 10.5, 'P': 10, 'max_iter': 3, 'max_round': 4, 'init': ['baphomet11', 'baphomet10', 'b11attn_b10mlp', 'b10attn_b11mlp', 'b11_attn125_mlp075', 'b11_attn075_mlp125', 'onehot_q38distill', 'b11_attn_only', 'b11_mlp_only', 'b11_local1'], 'min_cal': 8, 'k_val': 4, 'val_max': 6, 't_full_prior': 2400.0, 'setup_h': 0.43934854765733083, 'lanes': 2, 'evo_remaining_h': 7.83220699025525, 'val_reserve_h': 1.584, 'final_reserve_h': 0.5277777777777778, 'race': {'on': True, 'up': 1.5, 'min_frac': 0.5}, 'resume': False}
+00:22:11 [0.439h] round 1 jobs 11 of 11 (rest cached)
+00:23:19 [0.458h] MON 10806/32098 MB used, avail 21292 | 0, 13365 MiB, 7 % 1, 13365 MiB, 7 %  | ours 38.8 GB | working 0.0 GB
+00:26:19 [0.508h] MON 9516/32098 MB used, avail 22582 | 0, 13327 MiB, 100 % 1, 13327 MiB, 87 %  | ours 38.8 GB | working 0.0 GB
+00:29:19 [0.558h] MON 9485/32098 MB used, avail 22613 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+00:32:19 [0.608h] MON 9479/32098 MB used, avail 22619 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+00:35:19 [0.658h] MON 9481/32098 MB used, avail 22617 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+00:38:19 [0.708h] MON 9474/32098 MB used, avail 22624 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+00:41:20 [0.758h] MON 9469/32098 MB used, avail 22629 | 0, 13331 MiB, 100 % 1, 13329 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+00:44:20 [0.808h] MON 9482/32098 MB used, avail 22616 | 0, 13331 MiB, 100 % 1, 13329 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+00:47:20 [0.858h] MON 9481/32098 MB used, avail 22617 | 0, 13331 MiB, 100 % 1, 13329 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+00:50:09 [0.905h] [1/0 baphomet11] n=1 gpu0 full=0.5457 acc={'mmlupro': 0.673, 'gpqa': 0.314, 'bfcl': 0.65} {'attn_sum': 1.1387, 'mlp_sum': 1.1387} trunc={'mmlupro': 0.1364, 'gpqa': 0.3429, 'bfcl': 0.0} tok={'mmlupro': 1379.8, 'gpqa': 2478.6, 'bfcl': 339.4} swap 143.4s total 1677.8s
+00:50:20 [0.908h] MON 9436/32098 MB used, avail 22661 | 0, 13351 MiB, 3 % 1, 13329 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+00:53:20 [0.958h] MON 9493/32098 MB used, avail 22605 | 0, 13327 MiB, 100 % 1, 13329 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+00:56:20 [1.008h] MON 9451/32098 MB used, avail 22647 | 0, 13327 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+00:59:20 [1.058h] MON 9477/32098 MB used, avail 22621 | 0, 13327 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:02:20 [1.108h] MON 9485/32098 MB used, avail 22613 | 0, 13327 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:05:20 [1.158h] MON 9483/32098 MB used, avail 22615 | 0, 13327 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:08:20 [1.208h] MON 9495/32098 MB used, avail 22603 | 0, 13327 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:11:20 [1.258h] MON 9505/32098 MB used, avail 22593 | 0, 13327 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:12:12 [1.273h] [1/0 baphomet10] n=2 gpu1 full=0.4251 acc={'mmlupro': 0.518, 'gpqa': 0.157, 'bfcl': 0.6} {'attn_sum': 1.1, 'mlp_sum': 1.1} trunc={'mmlupro': 0.4182, 'gpqa': 0.7714, 'bfcl': 0.0} tok={'mmlupro': 2689.6, 'gpqa': 3659.2, 'bfcl': 308.1} swap 143.4s total 3000.3s
+01:14:20 [1.308h] MON 9516/32098 MB used, avail 22582 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:17:20 [1.358h] MON 9525/32098 MB used, avail 22573 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:20:20 [1.408h] MON 9530/32098 MB used, avail 22568 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:23:20 [1.459h] MON 9542/32098 MB used, avail 22556 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:25:35 [1.496h] VAL qwen35_base gpu0 val_fit=0.5081481481481481 acc={'mmlupro': 0.48, 'gpqa': 0.1111111111111111, 'bfcl': 0.9333333333333333} trunc={'mmlupro': 0.48, 'gpqa': 0.8667, 'bfcl': 0.0} 2125.9s
+01:26:20 [1.509h] MON 9539/32098 MB used, avail 22559 | 0, 13347 MiB, 4 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:29:21 [1.559h] MON 9574/32098 MB used, avail 22524 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:32:21 [1.609h] MON 9576/32098 MB used, avail 22522 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:35:21 [1.659h] MON 9590/32098 MB used, avail 22508 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:38:21 [1.709h] MON 9582/32098 MB used, avail 22515 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:41:21 [1.759h] MON 9577/32098 MB used, avail 22521 | 0, 13327 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:44:21 [1.809h] MON 9581/32098 MB used, avail 22517 | 0, 13331 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:47:21 [1.859h] MON 9582/32098 MB used, avail 22516 | 0, 13331 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:50:21 [1.909h] MON 9579/32098 MB used, avail 22519 | 0, 13331 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:53:21 [1.959h] MON 9577/32098 MB used, avail 22521 | 0, 13331 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:55:30 [1.994h] [1/0 b11attn_b10mlp] n=3 gpu1 full=0.5180 acc={'mmlupro': 0.618, 'gpqa': 0.286, 'bfcl': 0.65} {'attn_sum': 1.1387, 'mlp_sum': 1.1} trunc={'mmlupro': 0.2909, 'gpqa': 0.6571, 'bfcl': 0.0} tok={'mmlupro': 2257.4, 'gpqa': 3388.2, 'bfcl': 346.2} swap 118.5s total 2598.1s
+01:56:21 [2.009h] MON 9557/32098 MB used, avail 22541 | 0, 13331 MiB, 100 % 1, 13351 MiB, 6 %  | ours 38.8 GB | working 0.0 GB
+01:59:21 [2.059h] MON 9579/32098 MB used, avail 22519 | 0, 13331 MiB, 75 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+01:59:30 [2.061h] [1/0 b10attn_b11mlp] n=4 gpu0 full=0.5994 acc={'mmlupro': 0.691, 'gpqa': 0.457, 'bfcl': 0.65} {'attn_sum': 1.1, 'mlp_sum': 1.1387} trunc={'mmlupro': 0.2091, 'gpqa': 0.3857, 'bfcl': 0.0} tok={'mmlupro': 1940.7, 'gpqa': 2753.1, 'bfcl': 278.9} swap 108.3s total 2034.4s
+02:02:21 [2.109h] MON 9580/32098 MB used, avail 22518 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:05:21 [2.159h] MON 9585/32098 MB used, avail 22513 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:08:21 [2.209h] MON 9574/32098 MB used, avail 22524 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:11:21 [2.259h] MON 9578/32098 MB used, avail 22520 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:14:21 [2.309h] MON 9574/32098 MB used, avail 22524 | 0, 13329 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:17:22 [2.359h] MON 9575/32098 MB used, avail 22523 | 0, 13329 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:20:22 [2.409h] MON 9581/32098 MB used, avail 22517 | 0, 13331 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:23:22 [2.459h] MON 9571/32098 MB used, avail 22527 | 0, 13331 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:24:25 [2.476h] [1/0 b11_attn075_mlp125] n=5 gpu0 full=0.5537 acc={'mmlupro': 0.618, 'gpqa': 0.443, 'bfcl': 0.6} {'attn_sum': 0.854, 'mlp_sum': 1.4234} trunc={'mmlupro': 0.1091, 'gpqa': 0.3429, 'bfcl': 0.0} tok={'mmlupro': 1235.7, 'gpqa': 2392.9, 'bfcl': 276.2} swap 110.0s total 1495.1s
+02:26:22 [2.509h] MON 9572/32098 MB used, avail 22526 | 0, 13331 MiB, 100 % 1, 13331 MiB, 74 %  | ours 38.8 GB | working 0.0 GB
+02:26:39 [2.514h] [1/0 b11_attn125_mlp075] n=6 gpu1 full=0.5474 acc={'mmlupro': 0.664, 'gpqa': 0.429, 'bfcl': 0.55} {'attn_sum': 1.4234, 'mlp_sum': 0.854} trunc={'mmlupro': 0.1545, 'gpqa': 0.3571, 'bfcl': 0.0} tok={'mmlupro': 1621.7, 'gpqa': 2542.7, 'bfcl': 275.8} swap 109.3s total 1868.8s
+02:29:22 [2.559h] MON 9564/32098 MB used, avail 22534 | 0, 13331 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:32:22 [2.609h] MON 9568/32098 MB used, avail 22530 | 0, 13331 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:35:22 [2.659h] MON 9570/32098 MB used, avail 22527 | 0, 13331 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:37:09 [2.689h] [1/0 onehot_q38distill] n=7 gpu0 full=0.5658 acc={'mmlupro': 0.655, 'gpqa': 0.443, 'bfcl': 0.6} {'attn_sum': 1.0, 'mlp_sum': 1.0} trunc={'mmlupro': 0.0273, 'gpqa': 0.1, 'bfcl': 0.0} tok={'mmlupro': 758.3, 'gpqa': 1180.8, 'bfcl': 242.6} swap 33.3s total 763.8s
+02:38:22 [2.709h] MON 9576/32098 MB used, avail 22522 | 0, 13351 MiB, 8 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:41:22 [2.759h] MON 9570/32098 MB used, avail 22528 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:44:22 [2.809h] MON 9574/32098 MB used, avail 22524 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:47:22 [2.859h] MON 9580/32098 MB used, avail 22518 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:50:22 [2.909h] MON 9575/32098 MB used, avail 22523 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:53:22 [2.959h] MON 9573/32098 MB used, avail 22524 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:56:22 [3.009h] MON 9580/32098 MB used, avail 22518 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+02:59:23 [3.059h] MON 9581/32098 MB used, avail 22517 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+03:02:23 [3.109h] MON 9577/32098 MB used, avail 22521 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+03:05:23 [3.159h] MON 9572/32098 MB used, avail 22526 | 0, 13331 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+03:08:23 [3.209h] MON 9578/32098 MB used, avail 22520 | 0, 13331 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+03:11:23 [3.259h] MON 9588/32098 MB used, avail 22510 | 0, 13331 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+03:14:19 [3.308h] [1/0 b11_mlp_only] n=8 gpu0 full=0.5433 acc={'mmlupro': 0.673, 'gpqa': 0.357, 'bfcl': 0.6} {'attn_sum': 0.0, 'mlp_sum': 1.1387} trunc={'mmlupro': 0.2455, 'gpqa': 0.5, 'bfcl': 0.0} tok={'mmlupro': 2071.1, 'gpqa': 2986.9, 'bfcl': 289.0} swap 74.7s total 2230.9s
+03:14:23 [3.309h] MON 9555/32098 MB used, avail 22543 | 0, 13331 MiB, 9 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+03:17:23 [3.359h] MON 9572/32098 MB used, avail 22526 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+03:20:23 [3.409h] MON 9592/32098 MB used, avail 22506 | 0, 13327 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.0 GB
+03:20:36 [3.413h] [1/0 b11_attn_only] n=9 gpu1 full=0.4069 acc={'mmlupro': 0.464, 'gpqa': 0.157, 'bfcl': 0.6} {'attn_sum': 1.1387, 'mlp_sum': 0.0} trunc={'mmlupro': 0.4818, 'gpqa': 0.8143, 'bfcl': 0.0} tok={'mmlupro': 3106.1, 'gpqa': 3908.8, 'bfcl': 276.6} swap 58.1s total 3236.9s
+03:23:23 [3.459h] MON 9581/32098 MB used, avail 22517 | 0, 13327 MiB, 100 % 1, 13327 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+03:26:23 [3.509h] MON 9593/32098 MB used, avail 22505 | 0, 13329 MiB, 100 % 1, 13327 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+03:29:23 [3.559h] MON 9585/32098 MB used, avail 22513 | 0, 13329 MiB, 100 % 1, 13327 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+03:32:23 [3.609h] MON 9588/32098 MB used, avail 22510 | 0, 13331 MiB, 100 % 1, 13327 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+03:35:23 [3.659h] MON 9588/32098 MB used, avail 22510 | 0, 13331 MiB, 100 % 1, 13327 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+03:38:23 [3.709h] MON 9593/32098 MB used, avail 22505 | 0, 13331 MiB, 100 % 1, 13327 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+03:41:23 [3.759h] MON 9584/32098 MB used, avail 22514 | 0, 13331 MiB, 84 % 1, 13327 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+03:41:40 [3.764h] [1/0 b11_local1] n=10 gpu0 full=0.5643 acc={'mmlupro': 0.7, 'gpqa': 0.343, 'bfcl': 0.65} {'attn_sum': 1.4581, 'mlp_sum': 1.6228} trunc={'mmlupro': 0.1091, 'gpqa': 0.4143, 'bfcl': 0.0} tok={'mmlupro': 1341.2, 'gpqa': 2513.6, 'bfcl': 279.3} swap 112.5s total 1640.2s
+03:41:40 [3.764h] HIST {'round': 1, 'iter': 0, 'n_full': 10, 'best': 0.5993506493506494, 'values': {'baphomet11': 0.5457, 'baphomet10': 0.4251, 'b11attn_b10mlp': 0.518, 'b10attn_b11mlp': 0.5994, 'b11_attn125_mlp075': 0.5474, 'b11_attn075_mlp125': 0.5537, 'onehot_q38distill': 0.5658, 'b11_attn_only': 0.4069, 'b11_mlp_only': 0.5433, 'b11_local1': 0.5643}, 'elapsed_h': 3.7638561889860367}
+03:41:46 [3.766h] IRT LOO {'split': (30, 20, 10), 'mae': 0.0418, 'mae_top': 0.0308, 'max_err': 0.1224, 'rank_corr': 0.952, 'naive_mae': 0.0875, 'mean_tokens': 133538, 'score': 0.03629}
+03:41:46 [3.766h] IRT LOO {'split': (32, 22, 6), 'mae': 0.0439, 'mae_top': 0.0316, 'max_err': 0.1412, 'rank_corr': 0.891, 'naive_mae': 0.0894, 'mean_tokens': 142444, 'score': 0.03773}
+03:41:47 [3.766h] IRT LOO {'split': (28, 24, 8), 'mae': 0.044, 'mae_top': 0.0336, 'max_err': 0.1173, 'rank_corr': 0.952, 'naive_mae': 0.0862, 'mean_tokens': 134108, 'score': 0.03878}
+03:41:47 [3.766h] IRT LOO {'split': (34, 18, 8), 'mae': 0.0363, 'mae_top': 0.0219, 'max_err': 0.1006, 'rank_corr': 0.939, 'naive_mae': 0.078, 'mean_tokens': 135324, 'score': 0.0291}
+03:41:47 [3.766h] IRT LOO {'split': (26, 26, 8), 'mae': 0.0431, 'mae_top': 0.0315, 'max_err': 0.1166, 'rank_corr': 0.939, 'naive_mae': 0.0859, 'mean_tokens': 134972, 'score': 0.03727}
+03:41:47 [3.766h] IRT LOO {'split': (36, 16, 8), 'mae': 0.04, 'mae_top': 0.0285, 'max_err': 0.1, 'rank_corr': 0.939, 'naive_mae': 0.0837, 'mean_tokens': 132530, 'score': 0.03428}
+03:41:47 [3.766h] IRT LOO {'split': (30, 26, 4), 'mae': 0.0478, 'mae_top': 0.0303, 'max_err': 0.1624, 'rank_corr': 0.891, 'naive_mae': 0.0937, 'mean_tokens': 147442, 'score': 0.03908}
+03:41:47 [3.766h] IRT LOO {'split': (24, 24, 12), 'mae': 0.0386, 'mae_top': 0.0293, 'max_err': 0.1234, 'rank_corr': 0.939, 'naive_mae': 0.0825, 'mean_tokens': 122302, 'score': 0.03396}
+03:41:47 [3.766h] IRT LOO {'split': (28, 20, 12), 'mae': 0.0387, 'mae_top': 0.0253, 'max_err': 0.1174, 'rank_corr': 0.927, 'naive_mae': 0.0812, 'mean_tokens': 126666, 'score': 0.03202}
+03:41:47 [3.766h] IRT chosen split {'split': (34, 18, 8), 'mae': 0.0363, 'mae_top': 0.0219, 'max_err': 0.1006, 'rank_corr': 0.939, 'naive_mae': 0.078, 'mean_tokens': 135324, 'score': 0.0291} subset 60 const {'mmlupro': {'all_right': 38, 'all_wrong': 18}, 'gpqa': {'all_right': 5, 'all_wrong': 26}, 'bfcl': {'all_right': 4, 'all_wrong': 2}} t_sub_prior 646 t_comp_prior 1130 fit secs 7.3
+03:41:47 [3.766h] state saved: next step (1, 1) evo_done False
+03:41:49 [3.766h] round 1 iter 1: generator loss 2.8467, winners 3/10, race thr 0.4069264069264069
+03:44:24 [3.809h] MON 9758/32098 MB used, avail 22340 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+03:47:24 [3.859h] MON 9762/32098 MB used, avail 22336 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+03:50:24 [3.909h] MON 9778/32098 MB used, avail 22320 | 0, 13451 MiB, 84 % 1, 13349 MiB, 73 %  | ours 38.8 GB | working 0.01 GB
+03:50:51 [3.917h] [1/1] n=11 gpu0 irt_fit=0.5847 theta={'mmlupro': 1.145, 'gpqa': -0.255, 'bfcl': 0.47} raced=False(0) {'attn_sum': 1.1115, 'mlp_sum': 1.177} swap 136.5s total 542.1s tok 78972
+03:50:57 [3.919h] [1/1] n=12 gpu1 irt_fit=0.6362 theta={'mmlupro': 1.03, 'gpqa': -0.1, 'bfcl': 1.275} raced=False(0) {'attn_sum': 1.5089, 'mlp_sum': 1.5514} swap 136.7s total 548.2s tok 82240
+03:53:25 [3.960h] MON 9847/32098 MB used, avail 22251 | 0, 13451 MiB, 5 % 1, 13349 MiB, 6 %  | ours 38.8 GB | working 0.01 GB
+03:56:25 [4.010h] MON 9762/32098 MB used, avail 22336 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+03:59:25 [4.060h] MON 9768/32098 MB used, avail 22330 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:00:35 [4.079h] [1/1] n=13 gpu0 irt_fit=0.6301 theta={'mmlupro': 0.615, 'gpqa': 0.05, 'bfcl': 1.275} raced=False(0) {'attn_sum': 1.3788, 'mlp_sum': 1.4251} swap 158.3s total 584.2s tok 82865
+04:00:44 [4.082h] [1/1] n=14 gpu1 irt_fit=0.5581 theta={'mmlupro': 0.835, 'gpqa': -0.185, 'bfcl': 0.16} raced=False(0) {'attn_sum': 1.2773, 'mlp_sum': 1.3356} swap 152.2s total 586.7s tok 82189
+04:02:25 [4.110h] MON 9837/32098 MB used, avail 22260 | 0, 13451 MiB, 6 % 1, 13349 MiB, 6 %  | ours 38.8 GB | working 0.01 GB
+04:05:25 [4.160h] MON 9778/32098 MB used, avail 22320 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:08:25 [4.210h] MON 9776/32098 MB used, avail 22322 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:10:45 [4.249h] [1/1] n=15 gpu0 irt_fit=0.5659 theta={'mmlupro': 0.835, 'gpqa': 0.05, 'bfcl': 0.16} raced=False(0) {'attn_sum': 1.2282, 'mlp_sum': 1.2903} swap 158.6s total 609.7s tok 87004
+04:11:02 [4.253h] [1/1] n=16 gpu1 irt_fit=0.5372 theta={'mmlupro': 0.545, 'gpqa': -0.3, 'bfcl': 0.16} raced=False(0) {'attn_sum': 1.2525, 'mlp_sum': 1.3131} swap 150.1s total 618.3s tok 90476
+04:11:25 [4.260h] MON 10235/32098 MB used, avail 21863 | 0, 13451 MiB, 2 % 1, 13349 MiB, 2 %  | ours 38.8 GB | working 0.01 GB
+04:14:25 [4.310h] MON 9916/32098 MB used, avail 22182 | 0, 13451 MiB, 2 % 1, 13349 MiB, 3 %  | ours 38.8 GB | working 0.01 GB
+04:17:26 [4.360h] MON 9764/32098 MB used, avail 22334 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:20:26 [4.410h] MON 9764/32098 MB used, avail 22334 | 0, 13451 MiB, 96 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:21:47 [4.432h] [1/1] n=17 gpu0 irt_fit=0.5910 theta={'mmlupro': 1.145, 'gpqa': -0.155, 'bfcl': 0.42} raced=False(0) {'attn_sum': 1.0386, 'mlp_sum': 1.1046} swap 275.8s total 661.7s tok 71838
+04:22:32 [4.445h] [1/1] n=18 gpu1 irt_fit=0.6141 theta={'mmlupro': 1.52, 'gpqa': -0.005, 'bfcl': 0.42} raced=False(0) {'attn_sum': 1.0466, 'mlp_sum': 1.1145} swap 275.2s total 689.6s tok 77935
+04:23:26 [4.460h] MON 9761/32098 MB used, avail 22336 | 0, 13451 MiB, 2 % 1, 13349 MiB, 4 %  | ours 38.8 GB | working 0.01 GB
+04:26:26 [4.510h] MON 9751/32098 MB used, avail 22347 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:29:26 [4.560h] MON 9772/32098 MB used, avail 22326 | 0, 13449 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:32:26 [4.610h] MON 9782/32098 MB used, avail 22316 | 0, 13449 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:34:43 [4.648h] [1/1] n=19 gpu0 irt_fit=0.6201 theta={'mmlupro': 1.025, 'gpqa': 0.065, 'bfcl': 0.78} raced=False(0) {'attn_sum': 0.9073, 'mlp_sum': 0.9759} swap 215.5s total 776.8s tok 107683
+04:35:20 [4.658h] [1/1] n=20 gpu1 irt_fit=0.6342 theta={'mmlupro': 1.37, 'gpqa': 0.075, 'bfcl': 0.78} raced=False(0) {'attn_sum': 0.9215, 'mlp_sum': 0.9898} swap 228.0s total 768.2s tok 101439
+04:35:20 [4.658h] completion r1i1: [0.6362, 0.6342] best full 0.5994
+04:35:26 [4.660h] MON 9995/32098 MB used, avail 22103 | 0, 13449 MiB, 7 % 1, 13349 MiB, 6 %  | ours 38.8 GB | working 0.01 GB
+04:38:26 [4.710h] MON 9765/32098 MB used, avail 22333 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:41:26 [4.760h] MON 9774/32098 MB used, avail 22324 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:44:26 [4.810h] MON 9765/32098 MB used, avail 22333 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:47:26 [4.860h] MON 9775/32098 MB used, avail 22323 | 0, 13453 MiB, 100 % 1, 13351 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:50:26 [4.910h] MON 9772/32098 MB used, avail 22326 | 0, 13453 MiB, 98 % 1, 13351 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:51:58 [4.936h] COMPLETE gpu0 irt_est 0.6362 -> full 0.6113 acc {'mmlupro': 0.6909090909090909, 'gpqa': 0.44285714285714284, 'bfcl': 0.7} tok 256063 998.5s
+04:53:27 [4.960h] MON 9774/32098 MB used, avail 22324 | 0, 13453 MiB, 0 % 1, 13351 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+04:56:09 [5.005h] COMPLETE gpu1 irt_est 0.6342 -> full 0.6091 acc {'mmlupro': 0.7272727272727273, 'gpqa': 0.4, 'bfcl': 0.7} tok 325376 1248.6s
+04:56:09 [5.005h] HIST {'round': 1, 'iter': 1, 'best_value': 0.6300800245364596, 'pop_mean': 0.5991303353303608, 'new_mean': 0.5971532355551356, 'new_best': 0.6362250352144326, 'n_new': 10, 'n_raced': 0, 'best_full': 0.6112554112554113, 'best_full_round': 1, 'best_full_kind': 'generated', 'gen_loss': 2.8466904163360596, 'elapsed_h': 5.005218604405721}
+04:56:09 [5.005h] state saved: next step (1, 2) evo_done False
+04:56:10 [5.006h] round 1 iter 2: generator loss 0.6136, winners 6/20, race thr 0.5658008658008659
+04:56:27 [5.010h] MON 11243/32098 MB used, avail 20855 | 0, 13453 MiB, 7 % 1, 13351 MiB, 7 %  | ours 38.8 GB | working 0.01 GB
+04:59:27 [5.060h] MON 9748/32098 MB used, avail 22350 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+05:02:27 [5.110h] MON 9756/32098 MB used, avail 22342 | 0, 13451 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+05:05:23 [5.159h] [1/2] n=21 gpu0 irt_fit=0.5993 theta={'mmlupro': 0.675, 'gpqa': -0.08, 'bfcl': 0.88} raced=False(0) {'attn_sum': 1.421, 'mlp_sum': 1.5003} swap 158.0s total 552.7s tok 71958
+05:05:27 [5.160h] MON 9706/32098 MB used, avail 22392 | 0, 13451 MiB, 3 % 1, 13347 MiB, 59 %  | ours 38.8 GB | working 0.01 GB
+05:06:14 [5.173h] [1/2] n=22 gpu1 irt_fit=0.5900 theta={'mmlupro': 0.81, 'gpqa': 0.095, 'bfcl': 0.49} raced=False(0) {'attn_sum': 1.2214, 'mlp_sum': 1.2706} swap 158.1s total 603.7s tok 82154
+05:08:27 [5.210h] MON 9742/32098 MB used, avail 22355 | 0, 13449 MiB, 100 % 1, 13347 MiB, 6 %  | ours 38.8 GB | working 0.01 GB
+05:11:27 [5.260h] MON 9749/32098 MB used, avail 22349 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+05:14:27 [5.310h] MON 9765/32098 MB used, avail 22333 | 0, 13451 MiB, 100 % 1, 13349 MiB, 89 %  | ours 38.8 GB | working 0.01 GB
+05:15:26 [5.327h] [1/2] n=23 gpu0 irt_fit=0.5751 theta={'mmlupro': 0.765, 'gpqa': 0.245, 'bfcl': 0.16} raced=False(0) {'attn_sum': 1.2901, 'mlp_sum': 1.3482} swap 176.0s total 603.1s tok 85912
+05:16:02 [5.337h] [1/2] n=24 gpu1 irt_fit=0.6039 theta={'mmlupro': 0.935, 'gpqa': 0.245, 'bfcl': 0.5} raced=False(0) {'attn_sum': 1.4602, 'mlp_sum': 1.5469} swap 206.8s total 587.6s tok 65202
+05:17:27 [5.360h] MON 9824/32098 MB used, avail 22274 | 0, 13451 MiB, 1 % 1, 13349 MiB, 4 %  | ours 38.8 GB | working 0.01 GB
+05:20:27 [5.410h] MON 9767/32098 MB used, avail 22330 | 0, 13451 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+05:23:27 [5.460h] MON 9767/32098 MB used, avail 22331 | 0, 13451 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+05:26:06 [5.505h] [1/2] n=25 gpu0 irt_fit=0.5483 theta={'mmlupro': 0.815, 'gpqa': -0.255, 'bfcl': 0.16} raced=False(0) {'attn_sum': 1.2278, 'mlp_sum': 1.278} swap 195.7s total 640.1s tok 88908
+05:26:28 [5.510h] MON 9735/32098 MB used, avail 22363 | 0, 13451 MiB, 6 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+05:29:15 [5.557h] [1/2] n=26 gpu1 irt_fit=0.5738 theta={'mmlupro': 1.205, 'gpqa': -0.505, 'bfcl': 0.42} raced=False(0) {'attn_sum': 1.0935, 'mlp_sum': 1.1148} swap 193.1s total 793.3s tok 108766
+05:29:28 [5.560h] MON 12473/32098 MB used, avail 19625 | 0, 13449 MiB, 100 % 1, 13347 MiB, 0 %  | ours 38.8 GB | working 0.01 GB
+05:32:28 [5.611h] MON 9791/32098 MB used, avail 22306 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+05:35:16 [5.657h] [1/2] n=27 gpu0 irt_fit=0.5538 theta={'mmlupro': 0.745, 'gpqa': -0.185, 'bfcl': 0.16} raced=False(0) {'attn_sum': 1.2838, 'mlp_sum': 1.341} swap 118.8s total 550.1s tok 83649
+05:35:28 [5.661h] MON 10915/32098 MB used, avail 21183 | 0, 13449 MiB, 0 % 1, 13349 MiB, 92 %  | ours 38.8 GB | working 0.01 GB
+05:37:55 [5.701h] [1/2] n=28 gpu1 irt_fit=0.5890 theta={'mmlupro': 0.815, 'gpqa': 0.085, 'bfcl': 0.45} raced=False(0) {'attn_sum': 1.3191, 'mlp_sum': 1.3813} swap 119.4s total 520.1s tok 73151
+05:38:28 [5.711h] MON 9753/32098 MB used, avail 22345 | 0, 13451 MiB, 100 % 1, 13349 MiB, 7 %  | ours 38.8 GB | working 0.01 GB
+05:41:28 [5.761h] MON 9785/32098 MB used, avail 22313 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+05:44:14 [5.807h] [1/2] n=29 gpu0 irt_fit=0.6520 theta={'mmlupro': 1.135, 'gpqa': 0.145, 'bfcl': 1.275} raced=False(0) {'attn_sum': 1.368, 'mlp_sum': 1.4383} swap 122.4s total 537.6s tok 82433
+05:44:28 [5.811h] MON 9795/32098 MB used, avail 22303 | 0, 13451 MiB, 0 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+05:46:21 [5.842h] [1/2] n=30 gpu1 irt_fit=0.5496 theta={'mmlupro': 0.88, 'gpqa': -0.325, 'bfcl': 0.12} raced=False(0) {'attn_sum': 1.5153, 'mlp_sum': 1.6463} swap 122.5s total 506.0s tok 74262
+05:46:21 [5.842h] completion r1i2: [0.652, 0.6301] best full 0.6113
+05:47:28 [5.861h] MON 9793/32098 MB used, avail 22305 | 0, 13451 MiB, 6 % 1, 13349 MiB, 5 %  | ours 38.8 GB | working 0.01 GB
+05:50:29 [5.911h] MON 9773/32098 MB used, avail 22325 | 0, 13451 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+05:53:29 [5.961h] MON 9775/32098 MB used, avail 22323 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+05:56:29 [6.011h] MON 9782/32098 MB used, avail 22316 | 0, 13453 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+05:59:29 [6.061h] MON 9765/32098 MB used, avail 22333 | 0, 13453 MiB, 100 % 1, 13353 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:02:17 [6.107h] COMPLETE gpu0 irt_est 0.6520 -> full 0.6262 acc {'mmlupro': 0.7, 'gpqa': 0.42857142857142855, 'bfcl': 0.75} tok 254326 955.6s
+06:02:29 [6.111h] MON 9779/32098 MB used, avail 22319 | 0, 13453 MiB, 0 % 1, 13353 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:03:01 [6.120h] COMPLETE gpu1 irt_est 0.6301 -> full 0.6147 acc {'mmlupro': 0.6727272727272727, 'gpqa': 0.4714285714285714, 'bfcl': 0.7} tok 257635 1000.1s
+06:03:01 [6.120h] HIST {'round': 1, 'iter': 2, 'best_value': 0.6261904761904762, 'pop_mean': 0.6088933756080682, 'new_mean': 0.5834678938652129, 'new_best': 0.6519737333481479, 'n_new': 10, 'n_raced': 0, 'best_full': 0.6261904761904762, 'best_full_round': 1, 'best_full_kind': 'generated', 'gen_loss': 0.6136093735694885, 'elapsed_h': 6.119787747661273}
+06:03:01 [6.120h] state saved: next step (1, 3) evo_done False
+06:03:03 [6.120h] round 1 iter 3: generator loss 0.4102, winners 9/30, race thr 0.5909996158414806
+06:05:29 [6.161h] MON 9893/32098 MB used, avail 22205 | 0, 13453 MiB, 6 % 1, 13353 MiB, 6 %  | ours 38.8 GB | working 0.01 GB
+06:08:30 [6.211h] MON 9758/32098 MB used, avail 22340 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:11:30 [6.261h] MON 9768/32098 MB used, avail 22330 | 0, 13451 MiB, 81 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:12:12 [6.273h] RACE gpu1: stop after 58/60 items, optimistic 0.5901 < top-P threshold 0.5910
+06:12:18 [6.274h] [1/3] n=31 gpu1 irt_fit=0.5510 theta={'mmlupro': 1.405, 'gpqa': -0.66, 'bfcl': 0.095} raced=True(2) {'attn_sum': 1.0683, 'mlp_sum': 1.1429} swap 158.1s total 554.8s tok 74995
+06:12:40 [6.281h] [1/3] n=32 gpu0 irt_fit=0.6340 theta={'mmlupro': 0.705, 'gpqa': 0.145, 'bfcl': 1.275} raced=False(0) {'attn_sum': 1.4281, 'mlp_sum': 1.492} swap 158.3s total 576.8s tok 77964
+06:14:30 [6.311h] MON 9779/32098 MB used, avail 22319 | 0, 13451 MiB, 4 % 1, 13349 MiB, 2 %  | ours 38.8 GB | working 0.01 GB
+06:17:30 [6.361h] MON 9736/32098 MB used, avail 22361 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:20:30 [6.411h] MON 9753/32098 MB used, avail 22345 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:23:30 [6.461h] MON 9752/32098 MB used, avail 22346 | 0, 13451 MiB, 100 % 1, 13349 MiB, 88 %  | ours 38.8 GB | working 0.01 GB
+06:24:37 [6.480h] [1/3] n=33 gpu1 irt_fit=0.6110 theta={'mmlupro': 0.62, 'gpqa': -0.205, 'bfcl': 1.275} raced=False(0) {'attn_sum': 1.398, 'mlp_sum': 1.4627} swap 275.5s total 739.7s tok 87695
+06:24:50 [6.483h] [1/3] n=34 gpu0 irt_fit=0.5750 theta={'mmlupro': 0.92, 'gpqa': -0.305, 'bfcl': 0.505} raced=False(0) {'attn_sum': 1.1678, 'mlp_sum': 1.2398} swap 275.8s total 730.2s tok 93710
+06:26:30 [6.511h] MON 9778/32098 MB used, avail 22320 | 0, 13451 MiB, 4 % 1, 13349 MiB, 2 %  | ours 38.8 GB | working 0.01 GB
+06:29:30 [6.561h] MON 9725/32098 MB used, avail 22373 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:32:31 [6.611h] MON 9759/32098 MB used, avail 22339 | 0, 13451 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:35:31 [6.661h] MON 9756/32098 MB used, avail 22342 | 0, 13451 MiB, 82 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:36:10 [6.672h] [1/3] n=35 gpu0 irt_fit=0.5693 theta={'mmlupro': 1.185, 'gpqa': -0.115, 'bfcl': 0.095} raced=False(0) {'attn_sum': 1.0768, 'mlp_sum': 1.1511} swap 278.6s total 680.2s tok 78636
+06:36:40 [6.681h] [1/3] n=36 gpu1 irt_fit=0.6423 theta={'mmlupro': 0.695, 'gpqa': 0.275, 'bfcl': 1.275} raced=False(0) {'attn_sum': 1.4627, 'mlp_sum': 1.5253} swap 278.9s total 722.8s tok 82096
+06:38:31 [6.711h] MON 9783/32098 MB used, avail 22315 | 0, 13451 MiB, 2 % 1, 13347 MiB, 2 %  | ours 38.8 GB | working 0.01 GB
+06:41:31 [6.761h] MON 9765/32098 MB used, avail 22333 | 0, 13451 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:44:31 [6.811h] MON 9767/32098 MB used, avail 22331 | 0, 13451 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:46:54 [6.851h] [1/3] n=37 gpu0 irt_fit=0.6010 theta={'mmlupro': 0.83, 'gpqa': 0.3, 'bfcl': 0.5} raced=False(0) {'attn_sum': 1.5, 'mlp_sum': 1.562} swap 237.0s total 643.7s tok 79120
+06:47:31 [6.861h] MON 9734/32098 MB used, avail 22363 | 0, 13451 MiB, 5 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:50:31 [6.911h] MON 9783/32098 MB used, avail 22314 | 0, 13451 MiB, 100 % 1, 13349 MiB, 84 %  | ours 38.8 GB | working 0.01 GB
+06:51:08 [6.922h] [1/3] n=38 gpu1 irt_fit=0.6169 theta={'mmlupro': 0.925, 'gpqa': 0.11, 'bfcl': 0.78} raced=False(0) {'attn_sum': 1.0049, 'mlp_sum': 1.0576} swap 245.1s total 867.8s tok 109592
+06:53:31 [6.961h] MON 9773/32098 MB used, avail 22325 | 0, 13451 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:55:49 [7.000h] [1/3] n=39 gpu0 irt_fit=0.6433 theta={'mmlupro': 0.705, 'gpqa': 0.305, 'bfcl': 1.275} raced=False(0) {'attn_sum': 1.4715, 'mlp_sum': 1.5343} swap 132.8s total 535.1s tok 81487
+06:56:31 [7.012h] MON 9785/32098 MB used, avail 22313 | 0, 13451 MiB, 0 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+06:59:31 [7.062h] MON 9779/32098 MB used, avail 22319 | 0, 13451 MiB, 0 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+07:00:28 [7.077h] [1/3] n=40 gpu1 irt_fit=0.5605 theta={'mmlupro': 0.965, 'gpqa': -0.135, 'bfcl': 0.13} raced=False(0) {'attn_sum': 1.1575, 'mlp_sum': 1.2297} swap 119.6s total 560.0s tok 89561
+07:00:28 [7.077h] completion r1i3: [0.6433, 0.6423] best full 0.6262
+07:02:32 [7.112h] MON 9850/32098 MB used, avail 22248 | 0, 13451 MiB, 6 % 1, 13347 MiB, 5 %  | ours 38.8 GB | working 0.01 GB
+07:05:32 [7.162h] MON 9765/32098 MB used, avail 22333 | 0, 13449 MiB, 100 % 1, 13347 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+07:08:32 [7.212h] MON 9765/32098 MB used, avail 22332 | 0, 13449 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+07:11:33 [7.262h] MON 9773/32098 MB used, avail 22325 | 0, 13453 MiB, 100 % 1, 13349 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+07:14:33 [7.312h] MON 9763/32098 MB used, avail 22335 | 0, 13453 MiB, 91 % 1, 13351 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+07:16:09 [7.339h] COMPLETE gpu0 irt_est 0.6433 -> full 0.6022 acc {'mmlupro': 0.6636363636363637, 'gpqa': 0.44285714285714284, 'bfcl': 0.7} tok 250014 940.5s
+07:16:41 [7.348h] COMPLETE gpu1 irt_est 0.6423 -> full 0.6113 acc {'mmlupro': 0.6909090909090909, 'gpqa': 0.44285714285714284, 'bfcl': 0.7} tok 251277 973.0s
+07:16:41 [7.348h] HIST {'round': 1, 'iter': 3, 'best_value': 0.6339610878860974, 'pop_mean': 0.6161594344195942, 'new_mean': 0.6004129457567451, 'new_best': 0.6432933142999003, 'n_new': 10, 'n_raced': 1, 'best_full': 0.6261904761904762, 'best_full_round': 1, 'best_full_kind': 'generated', 'gen_loss': 0.4101545214653015, 'elapsed_h': 7.3475940136114755}
+07:16:41 [7.348h] state saved: next step (1, 4) evo_done False
+07:16:41 [7.348h] state saved: next step (1, 4) evo_done False
+07:16:44 [7.348h] IRT LOO {'split': (30, 20, 10), 'mae': 0.0377, 'mae_top': 0.0337, 'max_err': 0.1032, 'rank_corr': 0.932, 'naive_mae': 0.0913, 'mean_tokens': 115120, 'score': 0.0357}
+07:16:44 [7.349h] IRT LOO {'split': (32, 22, 6), 'mae': 0.0444, 'mae_top': 0.0394, 'max_err': 0.1116, 'rank_corr': 0.906, 'naive_mae': 0.1135, 'mean_tokens': 125668, 'score': 0.04189}
+07:16:45 [7.349h] IRT LOO {'split': (28, 24, 8), 'mae': 0.0341, 'mae_top': 0.0252, 'max_err': 0.0929, 'rank_corr': 0.924, 'naive_mae': 0.0936, 'mean_tokens': 121798, 'score': 0.02964}
+07:16:45 [7.349h] IRT LOO {'split': (34, 18, 8), 'mae': 0.0385, 'mae_top': 0.037, 'max_err': 0.0898, 'rank_corr': 0.909, 'naive_mae': 0.1036, 'mean_tokens': 120544, 'score': 0.03771}
+07:16:45 [7.349h] IRT LOO {'split': (26, 26, 8), 'mae': 0.0331, 'mae_top': 0.025, 'max_err': 0.0853, 'rank_corr': 0.926, 'naive_mae': 0.0937, 'mean_tokens': 121892, 'score': 0.02907}
+07:16:45 [7.349h] IRT LOO {'split': (36, 16, 8), 'mae': 0.0379, 'mae_top': 0.0357, 'max_err': 0.0902, 'rank_corr': 0.929, 'naive_mae': 0.1028, 'mean_tokens': 118941, 'score': 0.03677}
+07:16:45 [7.349h] IRT LOO {'split': (30, 26, 4), 'mae': 0.0422, 'mae_top': 0.0406, 'max_err': 0.0972, 'rank_corr': 0.862, 'naive_mae': 0.1333, 'mean_tokens': 130391, 'score': 0.04141}
+07:16:45 [7.349h] IRT LOO {'split': (24, 24, 12), 'mae': 0.035, 'mae_top': 0.0253, 'max_err': 0.0902, 'rank_corr': 0.935, 'naive_mae': 0.0841, 'mean_tokens': 114952, 'score': 0.03016}
+07:16:45 [7.349h] IRT LOO {'split': (28, 20, 12), 'mae': 0.0394, 'mae_top': 0.0324, 'max_err': 0.094, 'rank_corr': 0.932, 'naive_mae': 0.0906, 'mean_tokens': 111354, 'score': 0.03586}
+07:16:45 [7.349h] IRT chosen split {'split': (26, 26, 8), 'mae': 0.0331, 'mae_top': 0.025, 'max_err': 0.0853, 'rank_corr': 0.926, 'naive_mae': 0.0937, 'mean_tokens': 121892, 'score': 0.02907} subset 60 const {'mmlupro': {'all_right': 36, 'all_wrong': 15}, 'gpqa': {'all_right': 4, 'all_wrong': 22}, 'bfcl': {'all_right': 4, 'all_wrong': 2}} t_sub_prior 646 t_comp_prior 1130 fit secs 4.1
+07:16:45 [7.349h] IRT REFIT at round 1 boundary: 10 -> 16 rows, split (34, 18, 8) -> (26, 26, 8), subset overlap 47/60
+07:16:46 [7.349h] rescored 30 subset records with IRT 2 (max |change| 0.0151)
+07:16:46 [7.349h] basis shift -> round 2 [[0.003000000026077032, 0.12399999797344208, 0.7670000195503235, 0.0949999988079071, 0.24799999594688416, 0.09000000357627869, 0.04800000041723251, -0.007000000216066837, -0.00800000037997961, 0.1899999976158142, 0.8270000219345093, 0.035999998450279236, 0.1589999943971634, 0.04100000113248825, 0.1289999932050705, 0.06499999761581421], [0.00800000037997961, 0.1340000033378601, 0.7799999713897705, 0.10000000149011612, 0.2639999985694885, 0.09600000083446503, 0.054999999701976776, -0.009999999776482582, -0.012000000104308128, 0.1979999989271164, 0.843999981880188, 0.03700000047683716, 0.1679999977350235, 0.04800000041723251, 0.1379999965429306, 0.07100000232458115], [0.013000000268220901, 0.12999999523162842, 0.7289999723434448, 0.10199999809265137, 0.23499999940395355, 0.0989999994635582, 0.054999999701976776, 0.017000000923871994, -0.006000000052154064, 0.19300000369548798, 0.824999988079071, 0.032999999821186066, 0.17399999499320984, 0.039000000804662704, 0.11100000143051147, 0.054999999701976776], [0.027000000700354576, 0.15000000596046448, 0.7799999713897705, 0.10700000077486038, 0.27000001072883606, 0.10599999874830246, 0.05999999865889549, 0.008999999612569809, -0.013000000268220901, 0.20800000429153442, 0.8650000095367432, 0.04899999871850014, 0.18700000643730164, 0.050999999046325684, 0.13099999725818634, 0.0729999989271164], [0.010999999940395355, 0.13899999856948853, 0.7940000295639038, 0.10100000351667404, 0.2750000059604645, 0.0989999994635582, 0.05700000002980232, -0.014000000432133675, -0.014000000432133675, 0.20100000500679016, 0.8550000190734863, 0.03999999910593033, 0.17000000178813934, 0.052000001072883606, 0.14499999582767487, 0.07500000298023224], [-0.01899999938905239, 0.07500000298023224, 0.5090000033378601, 0.08500000089406967, 0.12099999934434891, 0.06800000369548798, 0.028999999165534973, 0.05400000140070915, 0.014999999664723873, 0.14900000393390656, 0.6230000257492065, -0.004999999888241291, 0.13899999856948853, 0.003000000026077032, 0.05700000002980232, 0.00800000037997961], [-0.020999999716877937, 0.07400000095367432, 0.5009999871253967, 0.08500000089406967, 0.11900000274181366, 0.0689999982714653, 0.02800000086426735, 0.05299999937415123, 0.017000000923871994, 0.1469999998807907, 0.6169999837875366, -0.009999999776482582, 0.13899999856948853, 0.0010000000474974513, 0.057999998331069946, 0.004999999888241291], [0.012000000104308128, 0.14000000059604645, 0.7990000247955322, 0.10199999809265137, 0.27900001406669617, 0.10000000149011612, 0.057999998331069946, -0.017000000923871994, -0.014999999664723873, 0.20200000703334808, 0.8579999804496765, 0.04100000113248825, 0.17000000178813934, 0.05400000140070915, 0.14800000190734863, 0.07699999958276749], [0.029999999329447746, 0.09799999743700027, 0.414000004529953, 0.10000000149011612, 0.125, 0.08900000154972076, 0.06300000101327896, 0.08500000089406967, 0.017999999225139618, 0.16899999976158142, 0.6340000033378601, -0.003000000026077032, 0.19099999964237213, 0.012000000104308128, 0.03700000047683716, 0.0010000000474974513], [0.006000000052154064, 0.12999999523162842, 0.765999972820282, 0.0989999994635582, 0.2540000081062317, 0.09399999678134918, 0.05299999937415123, -0.004000000189989805, -0.009999999776482582, 0.19499999284744263, 0.8339999914169312, 0.03500000014901161, 0.16699999570846558, 0.04500000178813934, 0.13199999928474426, 0.06599999964237213], [-0.012000000104308128, 0.08900000154972076, 0.574999988079071, 0.08900000154972076, 0.1509999930858612, 0.07599999755620956, 0.03400000184774399, 0.0430000014603138, 0.010999999940395355, 0.16099999845027924, 0.6880000233650208, 0.004000000189989805, 0.14900000393390656, 0.012000000104308128, 0.07100000232458115, 0.019999999552965164], [0.1379999965429306, 0.1379999965429306, 0.1379999965429306, 0.1379999965429306, 0.1379999965429306, 0.1379999965429306, 0.1379999965429306, 0.1379999965429306, 0.012000000104308128, 0.20399999618530273, 0.5899999737739563, 0.0010000000474974513, 0.296999990940094, 0.03200000151991844, 0.003000000026077032, -0.0010000000474974513], [0.0010000000474974513, 0.13600000739097595, 0.8270000219345093, 0.09600000083446503, 0.2879999876022339, 0.0949999988079071, 0.050999999046325684, -0.03500000014901161, -0.017999999225139618, 0.19699999690055847, 0.8690000176429749, 0.04600000008940697, 0.15700000524520874, 0.05299999937415123, 0.15700000524520874, 0.0860000029206276], [0.014000000432133675, 0.14399999380111694, 0.8109999895095825, 0.10300000011920929, 0.2879999876022339, 0.10199999809265137, 0.05999999865889549, -0.02199999988079071, -0.017999999225139618, 0.20499999821186066, 0.8669999837875366, 0.04399999976158142, 0.1720000058412552, 0.05700000002980232, 0.15399999916553497, 0.0820000022649765], [0.0020000000949949026, 0.13099999725818634, 0.8029999732971191, 0.09600000083446503, 0.2709999978542328, 0.09300000220537186, 0.04899999871850014, -0.023000000044703484, -0.014000000432133675, 0.1940000057220459, 0.8519999980926514, 0.041999999433755875, 0.15800000727176666, 0.04800000041723251, 0.14499999582767487, 0.07699999958276749], [0.004999999888241291, 0.11999999731779099, 0.7289999723434448, 0.0949999988079071, 0.22699999809265137, 0.08900000154972076, 0.04699999839067459, 0.00800000037997961, -0.004000000189989805, 0.1850000023841858, 0.8019999861717224, 0.03099999949336052, 0.16200000047683716, 0.03500000014901161, 0.11500000208616257, 0.054999999701976776]]
+07:16:46 [7.349h] state saved: next step (2, 0) evo_done False
+07:16:46 [7.349h] budget: no time for round 2 (remaining 1.46 h, min round 1.48 h)
+07:16:46 [7.349h] state saved: next step (2, 0) evo_done True
+07:16:46 [7.349h] validation candidates [('generated', 1, 2, 0.6262), ('generated', 1, 1, 0.6147), ('generated', 1, 3, 0.6113), ('generated', 1, 1, 0.6113), ('baphomet11', 1, 0, 0.5457)]
+07:17:33 [7.362h] MON 9758/32098 MB used, avail 22340 | 0, 13453 MiB, 6 % 1, 13351 MiB, 5 %  | ours 38.8 GB | working 0.01 GB
+07:20:33 [7.412h] MON 9767/32098 MB used, avail 22331 | 0, 13429 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+07:23:33 [7.462h] MON 9781/32098 MB used, avail 22317 | 0, 13431 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+07:26:33 [7.512h] MON 9765/32098 MB used, avail 22333 | 0, 13431 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+07:29:33 [7.562h] MON 9760/32098 MB used, avail 22338 | 0, 13433 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+07:32:34 [7.612h] MON 9778/32098 MB used, avail 22320 | 0, 13433 MiB, 100 % 1, 13331 MiB, 79 %  | ours 38.8 GB | working 0.01 GB
+07:33:20 [7.625h] VAL generated gpu0 val_fit=0.657037037037037 acc={'mmlupro': 0.6933333333333334, 'gpqa': 0.4444444444444444, 'bfcl': 0.8333333333333334} trunc={'mmlupro': 0.0933, 'gpqa': 0.2444, 'bfcl': 0.0} 994.0s
+07:33:29 [7.627h] VAL generated gpu1 val_fit=0.654074074074074 acc={'mmlupro': 0.7066666666666667, 'gpqa': 0.4222222222222222, 'bfcl': 0.8333333333333334} trunc={'mmlupro': 0.0267, 'gpqa': 0.2222, 'bfcl': 0.0} 1003.0s
+07:35:34 [7.662h] MON 9831/32098 MB used, avail 22267 | 0, 13453 MiB, 2 % 1, 13351 MiB, 2 %  | ours 38.8 GB | working 0.01 GB
+07:38:34 [7.712h] MON 9766/32098 MB used, avail 22332 | 0, 13429 MiB, 100 % 1, 13327 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+07:41:34 [7.762h] MON 9771/32098 MB used, avail 22327 | 0, 13429 MiB, 100 % 1, 13329 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+07:44:34 [7.812h] MON 9769/32098 MB used, avail 22329 | 0, 13429 MiB, 100 % 1, 13329 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+07:47:34 [7.862h] MON 9757/32098 MB used, avail 22340 | 0, 13433 MiB, 100 % 1, 13331 MiB, 100 %  | ours 38.8 GB | working 0.01 GB
+07:50:34 [7.912h] MON 9760/32098 MB used, avail 22338 | 0, 13433 MiB, 81 % 1, 13331 MiB, 89 %  | ours 38.8 GB | working 0.01 GB
+07:52:05 [7.938h] VAL generated gpu0 val_fit=0.6755555555555556 acc={'mmlupro': 0.6933333333333334, 'gpqa': 0.4666666666666667, 'bfcl': 0.8666666666666667} trunc={'mmlupro': 0.04, 'gpqa': 0.2444, 'bfcl': 0.0} 1125.0s
+07:53:34 [7.962h] MON 9755/32098 MB used, avail 22343 | 0, 13453 MiB, 4 % 1, 13331 MiB, 62 %  | ours 38.8 GB | working 0.01 GB
+07:53:46 [7.966h] VAL generated gpu1 val_fit=0.6844444444444444 acc={'mmlupro': 0.72, 'gpqa': 0.4666666666666667, 'bfcl': 0.8666666666666667} trunc={'mmlupro': 0.04, 'gpqa': 0.3111, 'bfcl': 0.0} 1217.0s
+07:56:34 [8.012h] MON 9766/32098 MB used, avail 22332 | 0, 13429 MiB, 100 % 1, 13331 MiB, 0 %  | ours 38.8 GB | working 0.01 GB
+07:59:34 [8.062h] MON 9772/32098 MB used, avail 22326 | 0, 13429 MiB, 100 % 1, 13331 MiB, 0 %  | ours 38.8 GB | working 0.01 GB
+08:02:35 [8.112h] MON 9776/32098 MB used, avail 22322 | 0, 13429 MiB, 100 % 1, 13331 MiB, 0 %  | ours 38.8 GB | working 0.01 GB
+08:05:35 [8.162h] MON 9774/32098 MB used, avail 22324 | 0, 13433 MiB, 100 % 1, 13331 MiB, 0 %  | ours 38.8 GB | working 0.01 GB
+08:08:35 [8.212h] MON 9777/32098 MB used, avail 22321 | 0, 13433 MiB, 100 % 1, 13331 MiB, 0 %  | ours 38.8 GB | working 0.01 GB
+08:11:35 [8.262h] MON 9769/32098 MB used, avail 22329 | 0, 13433 MiB, 77 % 1, 13331 MiB, 0 %  | ours 38.8 GB | working 0.01 GB
+08:11:41 [8.264h] VAL baphomet11 gpu0 val_fit=0.6659259259259259 acc={'mmlupro': 0.72, 'gpqa': 0.37777777777777777, 'bfcl': 0.9} trunc={'mmlupro': 0.0933, 'gpqa': 0.4444, 'bfcl': 0.0} 1176.0s
+08:11:41 [8.264h] BFCL FLOOR: generated r1i2 val BFCL 0.8333 < base 0.9333 -> not eligible
+08:11:41 [8.264h] BFCL FLOOR: generated r1i1 val BFCL 0.8333 < base 0.9333 -> not eligible
+08:11:41 [8.264h] BFCL FLOOR: generated r1i3 val BFCL 0.8667 < base 0.9333 -> not eligible
+08:11:41 [8.264h] BFCL FLOOR: generated r1i1 val BFCL 0.8667 < base 0.9333 -> not eligible
+08:11:41 [8.264h] BFCL FLOOR: baphomet11 r1i0 val BFCL 0.9000 < base 0.9333 -> not eligible
+08:11:41 [8.264h] VALIDATION [('generated', 1, 1, 0.6113, 0.6844, {'mmlupro': 0.72, 'gpqa': 0.4666666666666667, 'bfcl': 0.8666666666666667}, False), ('generated', 1, 3, 0.6113, 0.6756, {'mmlupro': 0.6933333333333334, 'gpqa': 0.4666666666666667, 'bfcl': 0.8666666666666667}, False), ('baphomet11', 1, 0, 0.5457, 0.6659, {'mmlupro': 0.72, 'gpqa': 0.37777777777777777, 'bfcl': 0.9}, False), ('generated', 1, 2, 0.6262, 0.657, {'mmlupro': 0.6933333333333334, 'gpqa': 0.4444444444444444, 'bfcl': 0.8333333333333334}, False), ('generated', 1, 1, 0.6147, 0.6541, {'mmlupro': 0.7066666666666667, 'gpqa': 0.4222222222222222, 'bfcl': 0.8333333333333334}, False)] floor 0.9333333333333333 WINNER None
+08:11:55 [8.268h] worker 0 killed; GPU mem used now 105 MiB
+08:12:01 [8.270h] worker 1 killed; GPU mem used now 3 MiB
+08:12:01 [8.270h] ALL DONE (no eligible winner) hours 8.269766445689731

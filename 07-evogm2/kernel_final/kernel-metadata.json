@@ -1,0 +1,19 @@
+{
+ "id": "cloudgoat/evogm2-final",
+ "title": "evogm2-final",
+ "code_file": "evogm2_final.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": [
+  "cloudgoat/evogm2-data"
+ ],
+ "kernel_sources": [
+  "cloudgoat/evogm2-main"
+ ],
+ "competition_sources": [],
+ "model_sources": []
+}

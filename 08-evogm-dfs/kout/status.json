@@ -1,0 +1,45 @@
+{
+ "stage": "done",
+ "mode": "full",
+ "elapsed_h": 8.182,
+ "dl": {
+  "base": 46,
+  "agents_a1": 75,
+  "dsv4pro": 75,
+  "q38distill": 46,
+  "qwopus_v3": 77,
+  "qwopus_coder": 77,
+  "neohorse": 57,
+  "arex_turbo": 94,
+  "tmax": 48
+ },
+ "pip": {
+  "rc": 0,
+  "versions": "0.33.0 2.14.0+cu130 5.20.2",
+  "err": "",
+  "secs": 432,
+  "attempt": 0
+ },
+ "shard_secs": 374,
+ "boot": {
+  "1": {
+   "ok": true,
+   "t_init": 426.25134325027466,
+   "eager": true,
+   "gpumem": 0.9,
+   "num_gpu_blocks": 104,
+   "free_gb": 1.91876220703125
+  },
+  "0": {
+   "ok": true,
+   "t_init": 522.0484082698822,
+   "eager": true,
+   "gpumem": 0.9,
+   "num_gpu_blocks": 104,
+   "free_gb": 1.91876220703125
+  }
+ },
+ "n_evals": 67,
+ "final": "skipped: winner is v2_r1i1 (its 180-item result exists)",
+ "hours": 8.182476531267167
+}

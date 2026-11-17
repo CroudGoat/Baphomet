@@ -1,0 +1,28 @@
+[
+ {
+  "ref_v2_b11": {
+   "correct": 7,
+   "finished": 14
+  },
+  "session_start_h": 0.602,
+  "b11_end": {
+   "correct": 7,
+   "finished": 14,
+   "t_swap": 15.3,
+   "t_smoke": 104.0,
+   "tokens": 6652,
+   "gpu": 0
+  },
+  "b11_mid": {
+   "correct": 7,
+   "finished": 14,
+   "t_swap": 15.2,
+   "t_smoke": 99.5,
+   "tokens": 6598,
+   "gpu": 1
+  },
+  "mid_vs_end_identical_outputs": 14,
+  "ok_engine": true,
+  "ok_pad": true
+ }
+]

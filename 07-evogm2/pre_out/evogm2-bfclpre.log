@@ -1,0 +1,22 @@
+[{"stream_name":"stdout","time":1.5006406079999999,"data":"09:06:01 [0.0m] pip vllm\n"}
+,{"stream_name":"stdout","time":328.978289613,"data":"09:11:28 [5.5m] pip rc 0\n"}
+,{"stream_name":"stdout","time":1938.832873096,"data":"09:38:18 [32.3m] workers rc [0, 0]\n"}
+,{"stream_name":"stderr","time":1938.893366926,"data":"tail: option used in invalid context -- 5\n"}
+,{"stream_name":"stdout","time":1938.957443947,"data":"total 1360\n"}
+,{"stream_name":"stdout","time":1938.957475946,"data":"drwxr-xr-x 2 root root   4096 Nov 15 09:38 .\n"}
+,{"stream_name":"stdout","time":1938.957481989,"data":"drwxr-xr-x 8 root root   4096 Nov 15 09:05 ..\n"}
+,{"stream_name":"stdout","time":1938.957486509,"data":"-rw-r--r-- 1 root root  54446 Nov 15 09:11 pip.log\n"}
+,{"stream_name":"stdout","time":1938.95749094,"data":"-rw-r--r-- 1 root root 344549 Nov 15 09:38 pre_baph10.jsonl\n"}
+,{"stream_name":"stdout","time":1938.957495201,"data":"-rw-r--r-- 1 root root 334441 Nov 15 09:28 pre_baph11.jsonl\n"}
+,{"stream_name":"stdout","time":1938.957499392,"data":"-rw-r--r-- 1 root root 391877 Nov 15 09:29 pre_qwen35.jsonl\n"}
+,{"stream_name":"stdout","time":1938.957503609,"data":"-rw-r--r-- 1 root root     85 Nov 15 09:38 progress.log\n"}
+,{"stream_name":"stdout","time":1938.957513755,"data":"-rw-r--r-- 1 root root  76947 Nov 15 09:38 worker_0_baph10.log\n"}
+,{"stream_name":"stdout","time":1938.957517061,"data":"-rw-r--r-- 1 root root  75694 Nov 15 09:29 worker_0_qwen35.log\n"}
+,{"stream_name":"stdout","time":1938.957519998,"data":"-rw-r--r-- 1 root root  75447 Nov 15 09:28 worker_1_baph11.log\n"}
+,{"stream_name":"stderr","time":1941.733860977,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1941.733887454,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1942.1594683,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1942.159511664,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1943.250451424,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1944.614299272,"data":"[NbConvertApp] Writing 632187 bytes to __results__.html\n"}
+]

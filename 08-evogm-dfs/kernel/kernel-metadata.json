@@ -1,0 +1,18 @@
+{
+ "id": "cloudgoat/evogm-dfs",
+ "title": "evogm-dfs",
+ "code_file": "evogm_dfs.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": [
+  "cloudgoat/evogm2-data",
+  "cloudgoat/evogm-dfs-data"
+ ],
+ "kernel_sources": [],
+ "competition_sources": [],
+ "model_sources": []
+}

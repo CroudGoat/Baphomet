@@ -1,0 +1,19 @@
+keys 738 {'attn': 543, 'mlp': 195}
+by area {('lm', 'attn'): 330, ('lm', 'mlp'): 96, ('mtp', 'attn'): 12, ('mtp', 'mlp'): 3, ('visual', 'attn'): 201, ('visual', 'mlp'): 96}
+MLP patterns: [('model.language_model.layers.N.mlp.down_proj.weight', 32), ('model.language_model.layers.N.mlp.gate_proj.weight', 32), ('model.language_model.layers.N.mlp.up_proj.weight', 32), ('model.visual.blocks.N.mlp.linear_fc1.bias', 24), ('model.visual.blocks.N.mlp.linear_fc1.weight', 24), ('model.visual.blocks.N.mlp.linear_fc2.bias', 24), ('model.visual.blocks.N.mlp.linear_fc2.weight', 24), ('mtp.layers.N.mlp.down_proj.weight', 1), ('mtp.layers.N.mlp.gate_proj.weight', 1), ('mtp.layers.N.mlp.up_proj.weight', 1)]
+attention-group (text) patterns: [('input_layernorm.weight', 33), ('linear_attn.A_log', 24), ('linear_attn.conv1d.weight', 24), ('linear_attn.dt_bias', 24), ('linear_attn.in_proj_a.weight', 24), ('linear_attn.in_proj_b.weight', 24), ('linear_attn.in_proj_qkv.weight', 24), ('linear_attn.in_proj_z.weight', 24), ('linear_attn.norm.weight', 24), ('linear_attn.out_proj.weight', 24), ('model.language_model.embed_tokens.weight', 1), ('model.language_model.norm.weight', 1), ('mtp.fc.weight', 1), ('mtp.norm.weight', 1), ('mtp.pre_fc_norm_embedding.weight', 1), ('mtp.pre_fc_norm_hidden.weight', 1), ('post_attention_layernorm.weight', 33), ('self_attn.k_norm.weight', 9), ('self_attn.k_proj.weight', 9), ('self_attn.o_proj.weight', 9), ('self_attn.q_norm.weight', 9), ('self_attn.q_proj.weight', 9), ('self_attn.v_proj.weight', 9)]
+text params per group (M): {'attn': 1990.6, 'mlp': 2335.7}
+tv agents_a1 keys 723
+tv dsv4pro keys 738
+tv q38distill keys 738
+tv qwopus_coder keys 738
+tv qwopus_v3 keys 738
+tv arex_turbo keys 723
+tv neohorse keys 426
+tv tmax keys 426
+equal halves vs 8-dim: [0.0116, 0.2039, 0.5901] ... tensors 738 non-identical 0
+equal halves vs 8-dim: [0.5152631998062134, -0.44137823581695557, -0.1938614845275879] ... tensors 738 non-identical 0
+equal halves vs 8-dim: [0.1375, 0.1375, 0.1375] ... tensors 738 non-identical 0
+equal halves vs 8-dim: [0.0, 0.0, 0.0] ... tensors 738 non-identical 0
+split halves: tensors 738 matching own-group 8-dim merge 738 | tensors where the two halves differ 738
+ALL LINMERGE GROUP TESTS PASSED

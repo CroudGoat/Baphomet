@@ -1,0 +1,109 @@
+[{"stream_name":"stdout","time":2.97103109,"data":"09:35:53 [0.001h] EvoGM v2 MODE full HARD_H 10.5 \n"}
+,{"stream_name":"stdout","time":3.080971754,"data":"09:35:53 [0.001h] $ nvidia-smi -L; df -h /tmp /kaggle/working; free -g; nproc -\u003e GPU 0: Tesla T4 (UUID: GPU-c92a1766-ad26-fc92-9311-0b64d731134b)\n"}
+,{"stream_name":"stdout","time":3.080997295,"data":"GPU 1: Tesla T4 (UUID: GPU-3abc9704-54f4-e00b-765b-c3e06ac63192)\n"}
+,{"stream_name":"stdout","time":3.081002793,"data":"Filesystem      Size  Used Avail Use% Mounted on\n"}
+,{"stream_name":"stdout","time":3.081013725,"data":"overlay         8.0T  7.1T  967G  89% /\n"}
+,{"stream_name":"stdout","time":3.08103385,"data":"/dev/loop2       20G  288K   20G   1% /kaggle/working\n"}
+,{"stream_name":"stdout","time":3.081038648,"data":"               total        used        free      shared  buff/cache   available\n"}
+,{"stream_name":"stdout","time":3.081043114,"data":"Mem:              31           1          26           0           4          30\n"}
+,{"stream_name":"stdout","time":3.081047577,"data":"Swap:              0           0           0\n"}
+,{"stream_name":"stdout","time":3.08105223,"data":"4\n"}
+,{"stream_name":"stdout","time":3.081056457,"data":"  rc 0\n"}
+,{"stream_name":"stdout","time":3.216827167,"data":"09:35:54 [0.001h] models+tv disk at start 0.0\n"}
+,{"stream_name":"stdout","time":3.267462532,"data":"09:35:54 [0.001h] MON 1074/32098 MB used, avail 31024 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 0.0 GB | working 0.0 GB\n"}
+,{"stream_name":"stderr","time":5.60880748,"data":"\rFetching 11 files:   0%|          | 0/11 [00:00\u003c?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":45.164582917,"data":"\rFetching 11 files:   9%|▉         | 1/11 [00:00\u003c00:02,  3.62it/s]\rFetching 11 files:  55%|█████▍    | 6/11 [00:00\u003c00:00, 12.82it/s]\rFetching 11 files:  73%|███████▎  | 8/11 [00:00\u003c00:00, 13.77it/s]\rFetching 11 files:  82%|████████▏ | 9/11 [00:19\u003c00:00, 13.77it/s]\rFetching 11 files:  91%|█████████ | 10/11 [00:36\u003c00:05,  5.76s/it]\rFetching 11 files: 100%|██████████| 11/11 [00:39\u003c00:00,  5.39s/it]\rFetching 11 files: 100%|██████████| 11/11 [00:39\u003c00:00,  3.62s/it]\n"}
+,{"stream_name":"stdout","time":45.165460424,"data":"09:36:35 [0.012h] downloaded base 42 disk 9.3\n"}
+,{"stream_name":"stderr","time":46.616733253,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":46.876302564,"data":"\rFetching 9 files:   0%|          | 0/9 [00:00\u003c?, ?it/s]\u001b[A\rFetching 8 files:  12%|█▎        | 1/8 [00:00\u003c00:01,  3.58it/s]\n"}
+,{"stream_name":"stderr","time":47.127339289,"data":"\rFetching 9 files:  11%|█         | 1/9 [00:00\u003c00:02,  3.86it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":65.384097244,"data":"\rFetching 9 files:  67%|██████▋   | 6/9 [00:00\u003c00:00, 13.18it/s]\u001b[A\rFetching 8 files:  62%|██████▎   | 5/8 [00:08\u003c00:05,  1.70s/it]\rFetching 8 files:  75%|███████▌  | 6/8 [00:08\u003c00:02,  1.36s/it]\n"}
+,{"stream_name":"stderr","time":96.860799545,"data":"\rFetching 9 files:  78%|███████▊  | 7/9 [00:18\u003c00:00, 13.18it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":134.707783846,"data":"\rFetching 9 files:  89%|████████▉ | 8/9 [00:50\u003c00:08,  8.35s/it]\u001b[A\rFetching 8 files:  88%|████████▊ | 7/8 [01:27\u003c00:20, 20.86s/it]\rFetching 8 files: 100%|██████████| 8/8 [01:28\u003c00:00, 15.49s/it]\n"}
+,{"stream_name":"stderr","time":134.709861186,"data":"\rFetching 9 files: 100%|██████████| 9/9 [01:28\u003c00:00, 14.03s/it]\u001b[A\rFetching 8 files: 100%|██████████| 8/8 [01:28\u003c00:00, 11.02s/it]\n"}
+,{"stream_name":"stderr","time":134.713101792,"data":"\rFetching 9 files: 100%|██████████| 9/9 [01:28\u003c00:00,  9.79s/it]\n"}
+,{"stream_name":"stdout","time":134.715300661,"data":"09:38:05 [0.037h] downloaded agents_a1 89 disk 27.8\n"}
+,{"stream_name":"stdout","time":134.715689636,"data":"09:38:05 [0.037h] downloaded dsv4pro 89 disk 27.8\n"}
+,{"stream_name":"stderr","time":190.401347568,"data":"\rFetching 10 files:   0%|          | 0/10 [00:00\u003c?, ?it/s]\rFetching 10 files:  10%|█         | 1/10 [00:00\u003c00:02,  3.48it/s]\rFetching 10 files:  60%|██████    | 6/10 [00:00\u003c00:00, 18.93it/s]\rFetching 10 files:  90%|█████████ | 9/10 [00:20\u003c00:00, 18.93it/s]\rFetching 10 files: 100%|██████████| 10/10 [00:55\u003c00:00,  6.88s/it]\rFetching 10 files: 100%|██████████| 10/10 [00:55\u003c00:00,  5.51s/it]\n"}
+,{"stream_name":"stdout","time":190.403677653,"data":"09:39:01 [0.053h] downloaded q38distill 56 disk 37.1\n"}
+,{"stream_name":"stdout","time":196.545133069,"data":"09:39:07 [0.054h] MON 1588/32098 MB used, avail 30510 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 37.1 GB | working 0.0 GB\n"}
+,{"stream_name":"stdout","time":376.600917921,"data":"09:42:07 [0.104h] MON 1678/32098 MB used, avail 30420 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 37.1 GB | working 0.0 GB\n"}
+,{"stream_name":"stdout","time":415.851876012,"data":"09:42:46 [0.115h] pip finished {'rc': 0, 'versions': '0.33.0 2.14.0+cu130 5.20.2', 'err': '', 'secs': 413, 'attempt': 0}\n"}
+,{"stream_name":"stdout","time":560.636497822,"data":"09:45:11 [0.155h] MON 2866/32098 MB used, avail 29232 | 0, 8615 MiB, 0 % 1, 13467 MiB, 0 %  | ours 44.1 GB | working 0.0 GB\n"}
+,{"stream_name":"stdout","time":563.764299719,"data":"09:45:14 [0.156h] tv dsv4pro {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.026480174864559048, 'secs': 148}\n"}
+,{"stream_name":"stdout","time":563.787192965,"data":"09:45:14 [0.156h] disk 34.8\n"}
+,{"stream_name":"stdout","time":563.883319197,"data":"09:45:14 [0.156h] tv agents_a1 {'n': 723, 'zero': 331, 'missing': 15, 'rel_qerr': 0.026261746523454803, 'secs': 148}\n"}
+,{"stream_name":"stdout","time":563.907683031,"data":"09:45:14 [0.156h] disk 25.7\n"}
+,{"stream_name":"stderr","time":564.445179471,"data":"\rFetching 9 files:   0%|          | 0/9 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":564.728846792,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\u001b[A\rFetching 9 files:  11%|█         | 1/9 [00:00\u003c00:02,  3.74it/s]\rFetching 9 files:  44%|████▍     | 4/9 [00:00\u003c00:00, 12.53it/s]\n"}
+,{"stream_name":"stderr","time":564.994086852,"data":"\rFetching 8 files:  12%|█▎        | 1/8 [00:00\u003c00:01,  3.53it/s]\u001b[A\rFetching 9 files:  67%|██████▋   | 6/9 [00:00\u003c00:00, 12.87it/s]\n"}
+,{"stream_name":"stderr","time":575.408345693,"data":"\rFetching 8 files:  62%|██████▎   | 5/8 [00:00\u003c00:00, 10.14it/s]\u001b[A\rFetching 9 files:  78%|███████▊  | 7/9 [00:11\u003c00:00, 12.87it/s]\n"}
+,{"stream_name":"stderr","time":644.801135383,"data":"\rFetching 8 files:  75%|███████▌  | 6/8 [00:10\u003c00:00, 10.14it/s]\u001b[A\rFetching 9 files:  89%|████████▉ | 8/9 [01:20\u003c00:15, 15.38s/it]\rFetching 9 files: 100%|██████████| 9/9 [01:20\u003c00:00,  8.94s/it]\n"}
+,{"stream_name":"stderr","time":644.801299552,"data":"\n"}
+,{"stream_name":"stdout","time":644.8032615,"data":"09:46:35 [0.179h] downloaded qwopus_coder 81 disk 44.4\n"}
+,{"stream_name":"stderr","time":644.838775263,"data":"\rFetching 8 files:  88%|████████▊ | 7/8 [01:20\u003c00:15, 15.15s/it]\u001b[A\rFetching 8 files: 100%|██████████| 8/8 [01:20\u003c00:00, 10.05s/it]\n"}
+,{"stream_name":"stdout","time":644.840298979,"data":"09:46:35 [0.179h] downloaded qwopus_v3 81 disk 44.4\n"}
+,{"stream_name":"stdout","time":736.354196244,"data":"09:48:07 [0.204h] tv q38distill {'n': 738, 'zero': 389, 'missing': 0, 'rel_qerr': 0.026513655764140085, 'secs': 173}\n"}
+,{"stream_name":"stdout","time":738.803816911,"data":"09:48:08 [0.204h] disk 39.3\n"}
+,{"stream_name":"stdout","time":740.727940977,"data":"09:48:11 [0.205h] MON 5211/32098 MB used, avail 26887 | 0, 0 MiB, 0 % 1, 8615 MiB, 7 %  | ours 39.3 GB | working 0.0 GB\n"}
+,{"stream_name":"stdout","time":772.757614263,"data":"09:48:43 [0.214h] tv qwopus_coder {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.025980742481569653, 'secs': 125}\n"}
+,{"stream_name":"stdout","time":772.88644375,"data":"09:48:43 [0.214h] disk 37.1\n"}
+,{"stream_name":"stderr","time":773.489051299,"data":"\rFetching 13 files:   0%|          | 0/13 [00:00\u003c?, ?it/s]\rFetching 13 files:   8%|▊         | 1/13 [00:00\u003c00:03,  3.39it/s]\rFetching 13 files:  46%|████▌     | 6/13 [00:00\u003c00:00, 12.25it/s]\rFetching 13 files:  69%|██████▉   | 9/13 [00:00\u003c00:00, 11.71it/s]\rFetching 13 files:  85%|████████▍ | 11/13 [00:01\u003c00:00,  4.86it/s]\n"}
+,{"stream_name":"stderr","time":773.818076251,"data":"\rFetching 9 files:   0%|          | 0/9 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":773.95060145,"data":"\rFetching 9 files:  11%|█         | 1/9 [00:00\u003c00:02,  3.05it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":774.284611544,"data":"\rFetching 9 files:  44%|████▍     | 4/9 [00:00\u003c00:00, 10.21it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":785.424302263,"data":"\rFetching 9 files:  67%|██████▋   | 6/9 [00:00\u003c00:00,  7.81it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":789.903452269,"data":"\rFetching 9 files:  67%|██████▋   | 6/9 [00:11\u003c00:00,  7.81it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":807.448636602,"data":"\rFetching 9 files:  78%|███████▊  | 7/9 [00:16\u003c00:07,  3.80s/it]\u001b[A\rFetching 13 files:  92%|█████████▏| 12/13 [00:50\u003c00:08,  8.54s/it]\rFetching 13 files: 100%|██████████| 13/13 [01:08\u003c00:00, 10.31s/it]\rFetching 13 files: 100%|██████████| 13/13 [01:08\u003c00:00,  5.24s/it]\n"}
+,{"stream_name":"stdout","time":807.455259373,"data":"09:49:18 [0.224h] downloaded arex_turbo 70 disk 45.6\n"}
+,{"stream_name":"stderr","time":818.404577816,"data":"\n"}
+,{"stream_name":"stderr","time":826.457032959,"data":"\rFetching 9 files:  89%|████████▉ | 8/9 [00:44\u003c00:10, 10.06s/it]\u001b[A\n"}
+,{"stream_name":"stderr","time":826.458443156,"data":"\rFetching 9 files: 100%|██████████| 9/9 [00:52\u003c00:00,  9.53s/it]\u001b[A\rFetching 9 files: 100%|██████████| 9/9 [00:52\u003c00:00,  5.89s/it]\n"}
+,{"stream_name":"stdout","time":826.460434255,"data":"09:49:37 [0.229h] downloaded neohorse 54 disk 50.3\n"}
+,{"stream_name":"stdout","time":908.170131221,"data":"09:50:58 [0.252h] tv qwopus_v3 {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.02591097137527293, 'secs': 169}\n"}
+,{"stream_name":"stdout","time":913.127961948,"data":"09:50:59 [0.252h] disk 43.8\n"}
+,{"stream_name":"stdout","time":942.512173015,"data":"09:51:33 [0.262h] tv arex_turbo {'n': 723, 'zero': 325, 'missing': 15, 'rel_qerr': 0.02634054878680898, 'secs': 134}\n"}
+,{"stream_name":"stdout","time":943.356363682,"data":"09:51:34 [0.262h] disk 42.4\n"}
+,{"stream_name":"stdout","time":960.775128609,"data":"09:51:51 [0.267h] MON err TimeoutExpired('free -m | awk \\'NR==2{print $3\"/\"$2\" MB used, avail \"$7}\\'; timeout 20 nvidia-smi --query-gpu=index,memory.used,utilization.gpu --format=csv,noheader | tr \\'\\\\n\\' \\' \\'', 40)\n"}
+,{"stream_name":"stderr","time":967.642900303,"data":"\rFetching 6 files:   0%|          | 0/6 [00:00\u003c?, ?it/s]\rFetching 6 files:  17%|█▋        | 1/6 [00:00\u003c00:01,  3.67it/s]\rFetching 6 files:  50%|█████     | 3/6 [00:03\u003c00:04,  1.36s/it]\rFetching 6 files:  67%|██████▋   | 4/6 [00:03\u003c00:01,  1.07it/s]\rFetching 6 files:  83%|████████▎ | 5/6 [00:04\u003c00:00,  1.40it/s]\rFetching 6 files: 100%|██████████| 6/6 [00:58\u003c00:00, 17.81s/it]\rFetching 6 files: 100%|██████████| 6/6 [00:58\u003c00:00,  9.69s/it]\n"}
+,{"stream_name":"stdout","time":967.644672741,"data":"09:51:58 [0.269h] downloaded tmax 59 disk 47.3\n"}
+,{"stream_name":"stdout","time":1056.725313491,"data":"09:53:27 [0.293h] tv neohorse {'n': 426, 'zero': 59, 'missing': 312, 'rel_qerr': 0.025998191433154804, 'secs': 147}\n"}
+,{"stream_name":"stdout","time":1056.760846561,"data":"09:53:27 [0.293h] disk 43.1\n"}
+,{"stream_name":"stdout","time":1076.52558924,"data":"09:53:47 [0.299h] tv tmax {'n': 426, 'zero': 72, 'missing': 312, 'rel_qerr': 0.0143720137790664, 'secs': 109}\n"}
+,{"stream_name":"stdout","time":1076.582185974,"data":"09:53:47 [0.299h] disk 38.8\n"}
+,{"stream_name":"stdout","time":1077.769282522,"data":"09:53:48 [0.299h] all 8 TVs extracted; disk 38.8\n"}
+,{"stream_name":"stdout","time":1141.38584149,"data":"09:54:52 [0.317h] MON 5667/32098 MB used, avail 26430 | 0, 3 MiB, 0 % 1, 0 MiB, 0 %  | ours 38.8 GB | working 0.0 GB\n"}
+,{"stream_name":"stdout","time":1321.443960464,"data":"09:57:52 [0.367h] MON 7151/32098 MB used, avail 24947 | 0, 9445 MiB, 0 % 1, 9445 MiB, 0 %  | ours 38.8 GB | working 0.0 GB\n"}
+,{"stream_name":"stdout","time":1501.499070823,"data":"10:00:52 [0.417h] MON 7641/32098 MB used, avail 24457 | 0, 9643 MiB, 0 % 1, 9643 MiB, 0 %  | ours 38.8 GB | working 0.0 GB\n"}
+,{"stream_name":"stdout","time":1585.827426026,"data":"10:02:16 [0.440h] worker 1 ready {'ok': True, 't_init': 369.5174894332886, 'eager': True, 'gpumem': 0.84, 'num_gpu_blocks': 179, 'free_gb': 2.78009033203125}\n"}
+,{"stream_name":"stdout","time":1585.84005447,"data":"10:02:16 [0.440h] worker 0 ready {'ok': True, 't_init': 463.65332102775574, 'eager': True, 'gpumem': 0.84, 'num_gpu_blocks': 179, 'free_gb': 2.78009033203125}\n"}
+,{"stream_name":"stdout","time":1589.173123002,"data":"10:02:19 [0.441h] search {'mmlupro': 110, 'gpqa': 70, 'bfcl': 20} val {'mmlupro': 75, 'gpqa': 45, 'bfcl': 30}\n"}
+,{"stream_name":"stdout","time":1590.758885768,"data":"10:02:21 [0.442h] resume: read /kaggle/input/notebooks/cloudgoat/evogm2-main/evo_log.jsonl 40 new records\n"}
+,{"stream_name":"stdout","time":1591.494578532,"data":"10:02:22 [0.442h] resume: read /kaggle/input/notebooks/cloudgoat/evogm2-main/val_log.jsonl 6 new records\n"}
+,{"stream_name":"stdout","time":1595.931112784,"data":"10:02:26 [0.443h] cached evaluations 40 val records 6\n"}
+,{"stream_name":"stdout","time":1596.655851052,"data":"10:02:27 [0.443h] resume: found state /kaggle/input/notebooks/cloudgoat/evogm2-main/evo_state.pt next (2, 0) evo_done True\n"}
+,{"stream_name":"stdout","time":1596.662347254,"data":"10:02:27 [0.443h] RESUMING at round 2 iter 0 evo_done True irt subset 60\n"}
+,{"stream_name":"stdout","time":1596.667320195,"data":"10:02:27 [0.443h] PLAN {'HARD_H': 10.5, 'P': 10, 'max_iter': 3, 'max_round': 4, 'init': ['baphomet11', 'baphomet10', 'b11attn_b10mlp', 'b10attn_b11mlp', 'b11_attn125_mlp075', 'b11_attn075_mlp125', 'onehot_q38distill', 'b11_attn_only', 'b11_mlp_only', 'b11_local1'], 'min_cal': 8, 'k_val': 4, 'val_max': 6, 't_full_prior': 2400.0, 'setup_h': 0.44323736760351395, 'lanes': 2, 'evo_remaining_h': 8.369518139825926, 'val_reserve_h': 1.0428000000000002, 'final_reserve_h': 0.5277777777777778, 'race': {'on': True, 'up': 1.5, 'min_frac': 0.5}, 'resume': True}\n"}
+,{"stream_name":"stdout","time":1596.6715282,"data":"10:02:27 [0.443h] validation candidates [('generated', 1, 2, 0.6262), ('generated', 1, 1, 0.6147), ('generated', 1, 3, 0.6113), ('generated', 1, 1, 0.6113), ('baphomet11', 1, 0, 0.5457)]\n"}
+,{"stream_name":"stdout","time":1596.674788214,"data":"10:02:27 [0.443h] BFCL FLOOR: generated r1i2 val BFCL 0.8333 \u003c base 0.9333 - tol 0.0667 -\u003e not eligible\n"}
+,{"stream_name":"stdout","time":1596.677554349,"data":"10:02:27 [0.443h] BFCL FLOOR: generated r1i1 val BFCL 0.8333 \u003c base 0.9333 - tol 0.0667 -\u003e not eligible\n"}
+,{"stream_name":"stdout","time":1596.681053049,"data":"10:02:27 [0.443h] VALIDATION [('generated', 1, 1, 0.6113, 0.6844, {'mmlupro': 0.72, 'gpqa': 0.4666666666666667, 'bfcl': 0.8666666666666667}, True), ('generated', 1, 3, 0.6113, 0.6756, {'mmlupro': 0.6933333333333334, 'gpqa': 0.4666666666666667, 'bfcl': 0.8666666666666667}, True), ('baphomet11', 1, 0, 0.5457, 0.6659, {'mmlupro': 0.72, 'gpqa': 0.37777777777777777, 'bfcl': 0.9}, True), ('generated', 1, 2, 0.6262, 0.657, {'mmlupro': 0.6933333333333334, 'gpqa': 0.4444444444444444, 'bfcl': 0.8333333333333334}, False), ('generated', 1, 1, 0.6147, 0.6541, {'mmlupro': 0.7066666666666667, 'gpqa': 0.4222222222222222, 'bfcl': 0.8333333333333334}, False)] floor 0.9333333333333333 WINNER ('generated', 1, 1, 0.6844444444444444)\n"}
+,{"stream_name":"stdout","time":1682.293315203,"data":"10:03:53 [0.467h] MON 11248/32098 MB used, avail 20850 | 0, 13365 MiB, 4 % 1, 13365 MiB, 6 %  | ours 38.8 GB | working 0.01 GB\n"}
+,{"stream_name":"stdout","time":1862.412491073,"data":"10:06:53 [0.517h] MON 10343/32098 MB used, avail 21755 | 0, 13351 MiB, 100 % 1, 13369 MiB, 100 %  | ours 38.8 GB | working 0.01 GB\n"}
+,{"stream_name":"stdout","time":2042.477529806,"data":"10:09:53 [0.567h] MON 10339/32098 MB used, avail 21759 | 0, 13351 MiB, 100 % 1, 13371 MiB, 100 %  | ours 38.8 GB | working 0.01 GB\n"}
+,{"stream_name":"stdout","time":2222.540938516,"data":"10:12:53 [0.617h] MON 10338/32098 MB used, avail 21760 | 0, 13351 MiB, 100 % 1, 13371 MiB, 100 %  | ours 38.8 GB | working 0.01 GB\n"}
+,{"stream_name":"stdout","time":2402.605050025,"data":"10:15:53 [0.667h] MON 10345/32098 MB used, avail 21753 | 0, 13351 MiB, 100 % 1, 13371 MiB, 100 %  | ours 38.8 GB | working 0.01 GB\n"}
+,{"stream_name":"stdout","time":2477.107097465,"data":"10:17:07 [0.688h] final half 1 done on gpu 1 {'secs': 731.7981595993042, 'gen_tokens': 112021, 'gpu': 1}\n"}
+,{"stream_name":"stdout","time":2582.656088145,"data":"10:18:53 [0.717h] MON 10348/32098 MB used, avail 21750 | 0, 13351 MiB, 100 % 1, 13371 MiB, 0 %  | ours 38.8 GB | working 0.01 GB\n"}
+,{"stream_name":"stdout","time":2613.157166043,"data":"10:19:23 [0.726h] final half 0 done on gpu 0 {'secs': 867.8481302261353, 'gen_tokens': 131189, 'gpu': 0}\n"}
+,{"stream_name":"stdout","time":2613.186874303,"data":"10:19:24 [0.726h] FINAL raw lines 180 {'gpqa': (28, 50), 'mmlupro': (59, 80), 'bfcl': (47, 50)} {1: {'secs': 731.7981595993042, 'gen_tokens': 112021, 'gpu': 1}, 0: {'secs': 867.8481302261353, 'gen_tokens': 131189, 'gpu': 0}}\n"}
+,{"stream_name":"stdout","time":2627.149383788,"data":"10:19:37 [0.729h] worker 0 killed; GPU mem used now 0 MiB\n"}
+,{"stream_name":"stdout","time":2633.181224668,"data":"10:19:44 [0.731h] worker 1 killed; GPU mem used now 0 MiB\n"}
+,{"stream_name":"stdout","time":2633.185561818,"data":"10:19:44 [0.731h] ALL DONE hours 0.7311592472924127\n"}
+,{"stream_name":"stderr","time":2637.056376457,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2637.056446572,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2637.447939196,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2637.447968285,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2639.822536804,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2641.478366519,"data":"[NbConvertApp] Writing 756335 bytes to __results__.html\n"}
+]

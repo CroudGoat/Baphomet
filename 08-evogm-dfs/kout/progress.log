@@ -1,0 +1,421 @@
+23:28:04 [0.002h] EvoGM-DFS MODE full HARD_H 10.5 
+23:28:04 [0.002h] $ nvidia-smi -L; df -h /tmp /kaggle/working; free -g; nproc -> GPU 0: Tesla T4 (UUID: GPU-9ff06d3d-292b-baa4-1cde-4b43cf0c520c)
+GPU 1: Tesla T4 (UUID: GPU-bd0ddb97-f67f-aab7-52f0-fe517dafcc38)
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         8.0T  7.1T  967G  89% /
+/dev/loop2       20G  328K   20G   1% /kaggle/working
+               total        used        free      shared  buff/cache   available
+Mem:              31           1          26           0           4          30
+Swap:              0           0           0
+4
+  rc 0
+23:28:04 [0.002h] models+tv disk at start 0.0
+23:28:04 [0.002h] MON 1116/32098 MB used, avail 30982 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 0.0 GB | working 0.0 GB
+23:28:50 [0.015h] downloaded base 46 disk 9.3
+23:30:05 [0.036h] downloaded agents_a1 75 disk 27.8
+23:30:05 [0.036h] downloaded dsv4pro 75 disk 27.8
+23:30:51 [0.048h] downloaded q38distill 46 disk 37.1
+23:31:08 [0.053h] MON 1558/32098 MB used, avail 30540 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 37.1 GB | working 0.0 GB
+23:34:08 [0.103h] MON 1717/32098 MB used, avail 30380 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 37.1 GB | working 0.0 GB
+23:35:16 [0.122h] pip finished {'rc': 0, 'versions': '0.33.0 2.14.0+cu130 5.20.2', 'err': '', 'secs': 432, 'attempt': 0}
+23:37:08 [0.153h] MON 9602/32098 MB used, avail 22496 | 0, 13467 MiB, 0 % 1, 8615 MiB, 3 %  | ours 41.3 GB | working 0.0 GB
+23:37:43 [0.163h] tv dsv4pro {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.026480174864559048, 'secs': 147}
+23:37:43 [0.163h] disk 34.8
+23:37:43 [0.163h] tv agents_a1 {'n': 723, 'zero': 331, 'missing': 15, 'rel_qerr': 0.026261746523454803, 'secs': 148}
+23:37:43 [0.163h] disk 25.7
+23:39:01 [0.184h] downloaded qwopus_v3 77 disk 44.4
+23:39:01 [0.184h] downloaded qwopus_coder 77 disk 44.4
+23:40:09 [0.203h] MON 8339/32098 MB used, avail 23759 | 0, 8615 MiB, 10 % 1, 13467 MiB, 5 %  | ours 44.4 GB | working 0.0 GB
+23:40:42 [0.213h] tv q38distill {'n': 738, 'zero': 389, 'missing': 0, 'rel_qerr': 0.026513655764140085, 'secs': 179}
+23:40:42 [0.213h] disk 42.1
+23:40:56 [0.216h] tv qwopus_v3 {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.02591097137527293, 'secs': 114}
+23:40:57 [0.217h] disk 32.7
+23:41:54 [0.233h] downloaded neohorse 57 disk 45.6
+23:42:16 [0.239h] downloaded arex_turbo 94 disk 50.3
+23:43:09 [0.253h] MON 9512/32098 MB used, avail 22586 | 0, 13467 MiB, 1 % 1, 8615 MiB, 10 %  | ours 50.3 GB | working 0.0 GB
+23:43:23 [0.257h] tv qwopus_coder {'n': 738, 'zero': 586, 'missing': 0, 'rel_qerr': 0.025980742481569653, 'secs': 161}
+23:43:24 [0.257h] disk 43.8
+23:44:12 [0.271h] downloaded tmax 48 disk 56.4
+23:44:23 [0.274h] tv neohorse {'n': 426, 'zero': 59, 'missing': 312, 'rel_qerr': 0.025998191433154804, 'secs': 149}
+23:44:27 [0.275h] disk 48.0
+23:45:58 [0.300h] tv tmax {'n': 426, 'zero': 72, 'missing': 312, 'rel_qerr': 0.0143720137790664, 'secs': 91}
+23:45:58 [0.300h] disk 43.7
+23:46:08 [0.303h] tv arex_turbo {'n': 723, 'zero': 325, 'missing': 15, 'rel_qerr': 0.02634054878680898, 'secs': 163}
+23:46:09 [0.303h] disk 38.8
+23:46:10 [0.304h] all 8 TVs extracted; disk 38.8
+23:46:22 [0.307h] $ df -h /tmp -> Filesystem      Size  Used Avail Use% Mounted on
+overlay         8.0T  7.1T  924G  89% /
+  rc 0
+23:46:22 [0.307h] MON 2647/32098 MB used, avail 29451 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 38.8 GB | working 0.0 GB
+23:49:23 [0.357h] MON 4269/32098 MB used, avail 27829 | 0, 465 MiB, 3 % 1, 465 MiB, 3 %  | ours 51.3 GB | working 0.0 GB
+23:51:43 [0.396h] shard lane 1 rc 0 shard r1i1_b4.safetensors 53 tensors 23.8 s
+shard b11_b4.safetensors 53 tensors 5.0 s
+shard b10_b4.safetensors 53 tensors 12.2 s
+shard r1i1_b5.safetensors 53 tensors 39.6 s
+shard b11_b5.safetensors 53 tensors 28.3 s
+shard b10_b5.safetensors 53 tensors 11.5 s
+shard r1i1_b6.safetensors 53 tensors 40.2 s
+shard b11_b6.safetensors 53 tensors 34.7 s
+shard b10_b6.safetensors 53 tensors 7.5 s
+shard r1i1_b7.safetensors 53 tensors 44.6 s
+shard b11_b7.safetensors 53 tensors 36.8 s
+shard b10_b7.safetensors 53 tensors 12.1 s
+ 
+23:52:05 [0.402h] shard lane 0 rc 0 shard r1i1_b0.safetensors 53 tensors 24.4 s
+shard b11_b0.safetensors 53 tensors 6.3 s
+shard b10_b0.safetensors 53 tensors 11.9 s
+shard r1i1_b1.safetensors 53 tensors 38.2 s
+shard b11_b1.safetensors 53 tensors 28.7 s
+shard b10_b1.safetensors 53 tensors 11.6 s
+shard r1i1_b2.safetensors 53 tensors 40.5 s
+shard b11_b2.safetensors 53 tensors 34.5 s
+shard b10_b2.safetensors 53 tensors 7.1 s
+shard r1i1_b3.safetensors 53 tensors 44.3 s
+shard b11_b3.safetensors 53 tensors 36.5 s
+shard b10_b3.safetensors 53 tensors 6.5 s
+shard b11_nonlayer.safetensors 314 tensors 43.9 s
+ 
+23:52:05 [0.402h] donor shards built in 355 s; disk 62.4
+23:52:23 [0.407h] MON 3512/32098 MB used, avail 28586 | 0, 0 MiB, 0 % 1, 0 MiB, 0 %  | ours 34.8 GB | working 0.0 GB
+23:52:24 [0.408h] boot dir /tmp/boot 844 tensors; disk 34.8
+23:52:24 [0.408h] $ ls -la /tmp/boot; df -h /tmp -> 16 23:52 b11_b1.safetensors -> /tmp/sh/b11_b1.safetensors
+lrwxrwxrwx 1 root root         26 Nov 16 23:52 b11_b2.safetensors -> /tmp/sh/b11_b2.safetensors
+lrwxrwxrwx 1 root root         26 Nov 16 23:52 b11_b3.safetensors -> /tmp/sh/b11_b3.safetensors
+lrwxrwxrwx 1 root root         26 Nov 16 23:52 b11_b4.safetensors -> /tmp/sh/b11_b4.safetensors
+lrwxrwxrwx 1 root root         26 Nov 16 23:52 b11_b5.safetensors -> /tmp/sh/b11_b5.safetensors
+lrwxrwxrwx 1 root root         26 Nov 16 23:52 b11_b6.safetensors -> /tmp/sh/b11_b6.safetensors
+lrwxrwxrwx 1 root root         26 Nov 16 23:52 b11_b7.safetensors -> /tmp/sh/b11_b7.safetensors
+lrwxrwxrwx 1 root root         32 Nov 16 23:52 b11_nonlayer.safetensors -> /tmp/sh/b11_nonlayer.safetensors
+-rw-r--r-- 1 root root       7756 Nov 16 23:52 chat_template.jinja
+-rw-r--r-- 1 root root       2895 Nov 16 23:52 config.json
+-rw-r--r-- 1 root root    3353259 Nov 16 23:52 merges.txt
+-rw-r--r-- 1 root root      64878 Nov 16 23:52 model.safetensors.index.json
+-rw------- 1 root root 1785040296 Nov 16 23:52 pad_layers.safetensors
+-rw-r--r-- 1 root root        390 Nov 16 23:52 preprocessor_config.json
+-rw-r--r-- 1 root root      16710 Nov 16 23:52 tokenizer_config.json
+-rw-r--r-- 1 root root   12807982 Nov 16 23:52 tokenizer.json
+-rw-r--r-- 1 root root        385 Nov 16 23:52 video_preprocessor_config.json
+-rw-r--r-- 1 root root    6722759 Nov 16 23:52 vocab.json
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         8.0T  7.1T  937G  89% /
+  rc 0
+23:55:23 [0.457h] MON 7416/32098 MB used, avail 24682 | 0, 11143 MiB, 0 % 1, 11143 MiB, 0 %  | ours 34.8 GB | working 0.0 GB
+23:58:23 [0.507h] MON 7671/32098 MB used, avail 24426 | 0, 11341 MiB, 0 % 1, 11341 MiB, 0 %  | ours 34.8 GB | working 0.0 GB
+00:01:23 [0.557h] MON 7966/32098 MB used, avail 24132 | 0, 11349 MiB, 0 % 1, 11349 MiB, 0 %  | ours 34.8 GB | working 0.0 GB
+00:01:50 [0.565h] worker 1 ready {'ok': True, 't_init': 426.25134325027466, 'eager': True, 'gpumem': 0.9, 'num_gpu_blocks': 104, 'free_gb': 1.91876220703125}
+00:01:50 [0.565h] worker 0 ready {'ok': True, 't_init': 522.0484082698822, 'eager': True, 'gpumem': 0.9, 'num_gpu_blocks': 104, 'free_gb': 1.91876220703125}
+00:01:55 [0.566h] search {'mmlupro': 110, 'gpqa': 70, 'bfcl': 20} val {'mmlupro': 75, 'gpqa': 45, 'bfcl': 30}
+00:01:55 [0.566h] v2 reuse: rows 16 base val BFCL 0.9333333333333333 B11 full 0.5456709956709956 val 0.6659259259259259 v2-r1i1 full 0.6112554112554113 val 0.6844444444444444
+00:02:04 [0.569h] cached evaluations 1 val records 1
+00:02:06 [0.569h] IRT in use: fit_round 1 subset 60 smoke 16 ['g', 'g', 'm', 'm', 'm', 'm', 'm', 'm', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b'] B11 v2 on smoke {'correct': 7, 'finished': 14}
+00:04:01 [0.601h] CAL b11_mid gpu 1 smoke correct 7 finished 14 swap 15.2 s smoke 99.5 s tokens 6598
+00:04:05 [0.602h] CAL b11_end gpu 0 smoke correct 7 finished 14 swap 15.3 s smoke 104.0 s tokens 6652
+00:04:07 [0.603h] CALIBRATION {'ref_v2_b11': {'correct': 7, 'finished': 14}, 'session_start_h': 0.602, 'b11_end': {'correct': 7, 'finished': 14, 't_swap': 15.3, 't_smoke': 104.0, 'tokens': 6652, 'gpu': 0}, 'b11_mid': {'correct': 7, 'finished': 14, 't_swap': 15.2, 't_smoke': 99.5, 'tokens': 6598, 'gpu': 1}, 'mid_vs_end_identical_outputs': 14, 'ok_engine': True, 'ok_pad': True}
+00:04:07 [0.603h] PLAN {'HARD_H': 10.5, 'P': 10, 'round_len': 3, 'max_iter': 30, 'init': [('plain_r1i1', 'r1i1[0-7]'), ('plain_b11', 'b11[0-7]'), ('r1i1_lo_b11_hi', 'r1i1[0-3]+b11[4-7]'), ('b11_lo_r1i1_hi', 'b11[0-3]+r1i1[4-7]'), ('r1i1_b11_even', 'b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4]+r1i1[5]+b11[6]+r1i1[7]'), ('r1i1_b11_odd', 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]'), ('r1i1_plus_b11blk4', 'r1i1[0-4]+b11[4]+r1i1[5-7]'), ('r1i1_dup45', 'r1i1[0-5]+r1i1[4-7]'), ('r1i1_drop6', 'r1i1[0-5]+r1i1[7]'), ('r1i1_b10_tail', 'r1i1[0-5]+b10[6-7]'), ('r1i1_W0.92', 'r1i1[0-7] C=1,0.917,0.8409,0.7711,0.7071,0.6484,0.5946,0.5452'), ('r1i1_local1', 'r1i1[0]+r1i1[2-5]+r1i1[7] C=1,0.917,0.8409,0.7711,0.7071,0.6484'), ('r1i1_local2', 'r1i1[0]+b11[0]+r1i1[2-6]+b11[2]+r1i1[5] C=1,0.917,1.0905,1.1892,1.2968,1.4142,1.5422,1.4142,1.6818')], 'k_val': 4, 'l_max': 40, 'blocks': [6, 10], 'w_range': [0.5, 2.0], 'c_clamp': [0.25, 4.0], 'slot_order': 'rep -> block -> donor (r1i1, b11, b10)', 'smoke': {'n': 16, 'max_tokens': 1024, 'min_correct': 2, 'min_finished': 5}, 'setup_h': 0.6028476189242469, 'lanes': 2, 'evo_remaining_h': 8.407974582910537, 't_sub_est': 1055.5634386924369, 't_comp_est': 1615.2752933677755, 'val_reserve_h': 0.6864, 'final_reserve_h': 0.6861111111111111, 'race': {'on': True, 'up': 1.5, 'min_frac': 0.5}, 'resume': False, 'bfcl_floor': 0.8666666666666667}
+00:04:23 [0.607h] MON 8973/32098 MB used, avail 23125 | 0, 14267 MiB, 2 % 1, 14267 MiB, 2 %  | ours 34.8 GB | working 0.0 GB
+00:07:23 [0.657h] MON 9027/32098 MB used, avail 23071 | 0, 13969 MiB, 100 % 1, 13969 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+00:10:23 [0.707h] MON 9006/32098 MB used, avail 23091 | 0, 13969 MiB, 100 % 1, 13969 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+00:13:23 [0.757h] MON 9015/32098 MB used, avail 23083 | 0, 13973 MiB, 81 % 1, 14089 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+00:16:23 [0.807h] MON 9031/32098 MB used, avail 23067 | 0, 13973 MiB, 72 % 1, 14089 MiB, 89 %  | ours 34.8 GB | working 0.0 GB
+00:18:43 [0.846h] [1/0 plain_r1i1] n=2 gpu0 irt=0.6164 r1i1[0-7] smoke=9/16/16 raced=False(0) swap 32.8s smoke 85.5s total 875.8s tok 82791
+00:19:23 [0.857h] MON 9555/32098 MB used, avail 22543 | 0, 13847 MiB, 75 % 1, 14089 MiB, 71 %  | ours 34.8 GB | working 0.0 GB
+00:19:25 [0.858h] [1/0 r1i1_lo_b11_hi] n=3 gpu1 irt=0.5496 r1i1[0-3]+b11[4-7] smoke=6/14/16 raced=False(0) swap 25.3s smoke 92.0s total 917.6s tok 101992
+00:22:24 [0.907h] MON 9084/32098 MB used, avail 23014 | 0, 13969 MiB, 100 % 1, 13969 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+00:25:24 [0.957h] MON 9072/32098 MB used, avail 23026 | 0, 13969 MiB, 100 % 1, 13969 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+00:28:24 [1.007h] MON 9084/32098 MB used, avail 23014 | 0, 13969 MiB, 100 % 1, 13969 MiB, 86 %  | ours 34.8 GB | working 0.0 GB
+00:31:24 [1.058h] MON 9085/32098 MB used, avail 23013 | 0, 13969 MiB, 100 % 1, 13969 MiB, 80 %  | ours 34.8 GB | working 0.0 GB
+00:33:26 [1.092h] [1/0 r1i1_b11_even] n=4 gpu1 irt=0.5905 b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4]+r1i1[5]+b11[6]+r1i1[7] smoke=8/16/16 raced=False(0) swap 14.4s smoke 85.5s total 841.7s tok 93799
+00:34:24 [1.108h] MON 9101/32098 MB used, avail 22997 | 0, 13969 MiB, 64 % 1, 13847 MiB, 73 %  | ours 34.8 GB | working 0.0 GB
+00:34:38 [1.112h] [1/0 b11_lo_r1i1_hi] n=5 gpu0 irt=0.5128 b11[0-3]+r1i1[4-7] smoke=6/15/16 raced=False(0) swap 15.2s smoke 93.5s total 955.7s tok 118788
+00:37:24 [1.158h] MON 9081/32098 MB used, avail 23017 | 0, 13969 MiB, 100 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+00:40:24 [1.208h] MON 9088/32098 MB used, avail 23010 | 0, 13969 MiB, 100 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+00:43:24 [1.258h] MON 9097/32098 MB used, avail 23000 | 0, 14049 MiB, 100 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+00:46:24 [1.308h] MON 9101/32098 MB used, avail 22997 | 0, 14049 MiB, 100 % 1, 14009 MiB, 94 %  | ours 34.8 GB | working 0.0 GB
+00:48:15 [1.339h] [1/0 r1i1_b11_odd] n=6 gpu1 irt=0.6001 r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7] smoke=7/15/16 raced=False(0) swap 14.3s smoke 90.0s total 889.1s tok 107909
+00:49:24 [1.358h] MON 9099/32098 MB used, avail 22998 | 0, 14049 MiB, 100 % 1, 13847 MiB, 69 %  | ours 34.8 GB | working 0.0 GB
+00:52:24 [1.408h] MON 9100/32098 MB used, avail 22998 | 0, 14049 MiB, 68 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+00:53:47 [1.431h] [1/0 r1i1_plus_b11blk4] n=7 gpu0 irt=0.5651 r1i1[0-4]+b11[4]+r1i1[5-7] smoke=10/15/16 raced=False(0) swap 14.3s smoke 93.5s total 1148.5s tok 129373
+00:55:24 [1.458h] MON 9118/32098 MB used, avail 22980 | 0, 13847 MiB, 61 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+00:58:24 [1.508h] MON 9118/32098 MB used, avail 22980 | 0, 13969 MiB, 100 % 1, 14093 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:01:24 [1.558h] MON 9118/32098 MB used, avail 22980 | 0, 13969 MiB, 100 % 1, 14093 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:03:35 [1.594h] RACE gpu0: stop after 30/60 items, optimistic 0.4789 < threshold 0.4957
+01:03:37 [1.594h] [1/0 r1i1_drop6] n=8 gpu0 irt=0.4055 r1i1[0-5]+r1i1[7] smoke=5/15/16 raced=True(30) swap 13.8s smoke 93.5s total 589.9s tok 47966
+01:04:25 [1.608h] MON 9124/32098 MB used, avail 22974 | 0, 13847 MiB, 78 % 1, 14093 MiB, 95 %  | ours 34.8 GB | working 0.0 GB
+01:06:21 [1.640h] RACE gpu1: stop after 50/60 items, optimistic 0.4874 < threshold 0.4957
+01:06:26 [1.641h] [1/0 r1i1_dup45] n=9 gpu1 irt=0.4467 r1i1[0-5]+r1i1[4-7] smoke=5/15/16 raced=True(10) swap 14.4s smoke 90.0s total 1090.7s tok 113010
+01:07:25 [1.658h] MON 9065/32098 MB used, avail 23033 | 0, 13969 MiB, 100 % 1, 13847 MiB, 58 %  | ours 34.8 GB | working 0.0 GB
+01:10:25 [1.708h] MON 9059/32098 MB used, avail 23039 | 0, 13969 MiB, 100 % 1, 13969 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:13:25 [1.758h] MON 9065/32098 MB used, avail 23033 | 0, 13971 MiB, 100 % 1, 13971 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:16:25 [1.808h] MON 9073/32098 MB used, avail 23025 | 0, 13971 MiB, 83 % 1, 13971 MiB, 81 %  | ours 34.8 GB | working 0.0 GB
+01:17:55 [1.833h] [1/0 r1i1_b10_tail] n=10 gpu0 irt=0.5761 r1i1[0-5]+b10[6-7] smoke=8/15/16 raced=False(0) swap 19.3s smoke 91.0s total 858.1s tok 99591
+01:18:51 [1.848h] [1/0 r1i1_W0.92] n=11 gpu1 irt=0.5657 r1i1[0-7] C=1,0.917,0.8409,0.7711,0.7071,0.6484,0.5946,0.5452 smoke=6/16/16 raced=False(0) swap 12.7s smoke 62.0s total 745.0s tok 81428
+01:19:25 [1.858h] MON 9469/32098 MB used, avail 22629 | 0, 13847 MiB, 80 % 1, 13847 MiB, 87 %  | ours 34.8 GB | working 0.0 GB
+01:19:41 [1.862h] [1/0 r1i1_local1] n=12 gpu0 screened=0.3255 r1i1[0]+r1i1[2-5]+r1i1[7] C=1,0.917,0.8409,0.7711,0.7071,0.6484 smoke=0/7/16 raced=False(0) swap 12.3s smoke 93.0s total 106.1s tok 11560
+01:20:34 [1.877h] [1/0 r1i1_local2] n=13 gpu1 screened=0.3255 r1i1[0]+b11[0]+r1i1[2-6]+b11[2]+r1i1[5] C=1,0.917,1.0905,1.1892,1.2968,1.4142,1.5422,1.4142,1.6818 smoke=0/0/16 raced=False(0) swap 11.8s smoke 90.0s total 102.5s tok 16384
+01:20:34 [1.877h] HIST {'round': 1, 'iter': 0, 'n': 13, 'best': 0.6164466919748253, 'values': {'plain_r1i1': 0.6164, 'plain_b11': 0.5457, 'r1i1_lo_b11_hi': 0.5496, 'b11_lo_r1i1_hi': 0.5128, 'r1i1_b11_even': 0.5905, 'r1i1_b11_odd': 0.6001, 'r1i1_plus_b11blk4': 0.5651, 'r1i1_dup45': 0.4467, 'r1i1_drop6': 0.4055, 'r1i1_b10_tail': 0.5761, 'r1i1_W0.92': 0.5657, 'r1i1_local1': 0.3255, 'r1i1_local2': 0.3255}, 'elapsed_h': 1.8769323765569264}
+01:20:34 [1.877h] completion init: [('r1i1[0-7]', 0.6164), ('r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 0.6001)] best full 0.5457 to run 2
+01:22:25 [1.908h] MON 9125/32098 MB used, avail 22973 | 0, 13887 MiB, 100 % 1, 13887 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:25:25 [1.958h] MON 9119/32098 MB used, avail 22979 | 0, 13891 MiB, 100 % 1, 13887 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:28:25 [2.008h] MON 9120/32098 MB used, avail 22978 | 0, 13891 MiB, 100 % 1, 14129 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:31:25 [2.058h] MON 9124/32098 MB used, avail 22974 | 0, 13893 MiB, 100 % 1, 14129 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:34:25 [2.108h] MON 9122/32098 MB used, avail 22976 | 0, 13893 MiB, 100 % 1, 14129 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:37:25 [2.158h] MON 9132/32098 MB used, avail 22966 | 0, 13893 MiB, 100 % 1, 14133 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:40:25 [2.208h] MON 9126/32098 MB used, avail 22972 | 0, 13893 MiB, 66 % 1, 14133 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:40:49 [2.214h] COMPLETE gpu0 r1i1[0-7] irt_est 0.6164 -> full 0.5838 acc {'mmlupro': 0.6727272727272727, 'gpqa': 0.42857142857142855, 'bfcl': 0.65} tok 259064 1215.1s
+01:42:05 [2.236h] COMPLETE gpu1 r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7] irt_est 0.6001 -> full 0.5935 acc {'mmlupro': 0.7090909090909091, 'gpqa': 0.4714285714285714, 'bfcl': 0.6} tok 296077 1291.6s
+01:42:09 [2.237h] state saved: next 1 evo_done False
+01:42:11 [2.237h] iteration 1: generator loss 14.3574, winners 3/13, novelty flips 21, new phenotypes 10/10, race thr 0.4467, new ['r1i1[0-2]+r1i1[4-7]', 'r1i1[0-2]+r1i1[4-7]+b11[7]', 'r1i1[0-5]+b11[5]+r1i1[6-7]', 'r1i1[0]+r1i1[2-7]', 'r1i1[0]+r1i1[2-5]+b11[5]+r1i1[6-7]', 'r1i1[0]+b11[1]+r1i1[2-5]+b11[5]+r1i1[6-7]', 'r1i1[0-2]+r1i1[5-7]', 'r1i1[0-1]+b11[4]+r1i1[5-7]', 'r1i1[0-2]+b11[4]+r1i1[5-7]', 'r1i1[0-2]+r1i1[4-5]+b11[5]+r1i1[6-7]']
+01:43:25 [2.258h] MON 9337/32098 MB used, avail 22761 | 0, 13949 MiB, 67 % 1, 13847 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:43:56 [2.267h] [1/1 generated] n=14 gpu1 screened=0.3255 r1i1[0-2]+r1i1[4-7]+b11[7] smoke=0/0/16 raced=False(0) swap 14.2s smoke 90.5s total 105.6s tok 16384
+01:46:26 [2.308h] MON 9172/32098 MB used, avail 22925 | 0, 14071 MiB, 100 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:49:26 [2.358h] MON 9168/32098 MB used, avail 22930 | 0, 14071 MiB, 100 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:52:26 [2.408h] MON 9158/32098 MB used, avail 22940 | 0, 14151 MiB, 100 % 1, 14089 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:55:26 [2.458h] MON 9173/32098 MB used, avail 22925 | 0, 14151 MiB, 100 % 1, 14089 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+01:58:26 [2.508h] MON 9189/32098 MB used, avail 22909 | 0, 14151 MiB, 97 % 1, 14089 MiB, 95 %  | ours 34.8 GB | working 0.0 GB
+01:59:17 [2.522h] RACE gpu0: stop after 52/60 items, optimistic 0.4373 < threshold 0.4467
+01:59:19 [2.523h] [1/1 generated] n=15 gpu0 irt=0.3720 r1i1[0-2]+r1i1[4-7] smoke=3/12/16 raced=True(8) swap 13.9s smoke 91.5s total 1027.6s tok 118281
+02:00:11 [2.537h] [1/1 generated] n=16 gpu1 irt=0.5158 r1i1[0-5]+b11[5]+r1i1[6-7] smoke=5/14/16 raced=False(0) swap 14.1s smoke 89.5s total 974.2s tok 120253
+02:01:26 [2.558h] MON 9205/32098 MB used, avail 22893 | 0, 14071 MiB, 100 % 1, 13847 MiB, 67 %  | ours 34.8 GB | working 0.0 GB
+02:01:54 [2.566h] RACE gpu0: stop after 36/60 items, optimistic 0.4356 < threshold 0.4467
+02:01:55 [2.566h] [1/1 generated] n=17 gpu1 screened=0.3255 r1i1[0]+r1i1[2-5]+b11[5]+r1i1[6-7] smoke=0/12/16 raced=False(0) swap 14.0s smoke 89.5s total 104.1s tok 9067
+02:02:01 [2.568h] [1/1 generated] n=18 gpu0 irt=0.3765 r1i1[0]+r1i1[2-7] smoke=2/15/16 raced=True(22) swap 14.0s smoke 91.0s total 162.6s tok 11385
+02:03:49 [2.598h] [1/1 generated] n=19 gpu0 screened=0.3255 r1i1[0-2]+r1i1[5-7] smoke=0/6/16 raced=False(0) swap 13.8s smoke 94.0s total 108.1s tok 12981
+02:04:26 [2.608h] MON 9576/32098 MB used, avail 22521 | 0, 13949 MiB, 63 % 1, 14009 MiB, 99 %  | ours 34.8 GB | working 0.0 GB
+02:05:37 [2.628h] [1/1 generated] n=20 gpu0 screened=0.3703 r1i1[0-1]+b11[4]+r1i1[5-7] smoke=1/11/16 raced=False(0) swap 13.7s smoke 93.5s total 107.6s tok 7109
+02:07:26 [2.658h] MON 9190/32098 MB used, avail 22908 | 0, 14111 MiB, 100 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+02:10:26 [2.708h] MON 9189/32098 MB used, avail 22908 | 0, 14111 MiB, 100 % 1, 14049 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+02:13:26 [2.758h] MON 9180/32098 MB used, avail 22918 | 0, 14111 MiB, 100 % 1, 14129 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+02:16:26 [2.808h] MON 9184/32098 MB used, avail 22914 | 0, 14151 MiB, 100 % 1, 14129 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+02:19:26 [2.858h] MON 9195/32098 MB used, avail 22903 | 0, 14151 MiB, 100 % 1, 14129 MiB, 75 %  | ours 34.8 GB | working 0.0 GB
+02:20:44 [2.880h] RACE gpu0: stop after 43/60 items, optimistic 0.4450 < threshold 0.4467
+02:20:52 [2.882h] [1/1 generated] n=21 gpu0 irt=0.3721 r1i1[0-2]+b11[4]+r1i1[5-7] smoke=2/12/16 raced=True(16) swap 13.5s smoke 92.5s total 914.9s tok 92347
+02:22:25 [2.908h] [1/1 generated] n=22 gpu1 irt=0.5414 r1i1[0]+b11[1]+r1i1[2-5]+b11[5]+r1i1[6-7] smoke=7/14/16 raced=False(0) swap 14.2s smoke 90.0s total 1230.1s tok 143448
+02:22:26 [2.908h] MON 9212/32098 MB used, avail 22886 | 0, 13949 MiB, 81 % 1, 14129 MiB, 0 %  | ours 34.8 GB | working 0.0 GB
+02:22:40 [2.912h] [1/1 generated] n=23 gpu0 screened=0.3624 r1i1[0-2]+r1i1[4-5]+b11[5]+r1i1[6-7] smoke=1/7/16 raced=False(0) swap 14.3s smoke 94.0s total 108.6s tok 11052
+02:22:40 [2.912h] completion i1: [('b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4]+r1i1[5]+b11[6]+r1i1[7]', 0.5905), ('r1i1[0-5]+b10[6-7]', 0.5761)] best full 0.5935 to run 2
+02:25:26 [2.958h] MON 9184/32098 MB used, avail 22914 | 0, 13989 MiB, 100 % 1, 13893 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+02:28:26 [3.008h] MON 9188/32098 MB used, avail 22910 | 0, 13989 MiB, 100 % 1, 13893 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+02:31:27 [3.058h] MON 9188/32098 MB used, avail 22910 | 0, 14071 MiB, 100 % 1, 13893 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+02:34:27 [3.108h] MON 9193/32098 MB used, avail 22905 | 0, 14075 MiB, 100 % 1, 13893 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+02:37:27 [3.158h] MON 9188/32098 MB used, avail 22909 | 0, 14075 MiB, 100 % 1, 13893 MiB, 100 %  | ours 34.8 GB | working 0.0 GB
+02:40:27 [3.208h] MON 9180/32098 MB used, avail 22918 | 0, 14075 MiB, 100 % 1, 13893 MiB, 47 %  | ours 34.8 GB | working 0.0 GB
+02:42:14 [3.238h] COMPLETE gpu1 r1i1[0-5]+b10[6-7] irt_est 0.5761 -> full 0.5740 acc {'mmlupro': 0.6363636363636364, 'gpqa': 0.38571428571428573, 'bfcl': 0.7} tok 262163 1173.6s
+02:43:27 [3.258h] MON 9188/32098 MB used, avail 22910 | 0, 14075 MiB, 85 % 1, 13893 MiB, 0 %  | ours 34.8 GB | working 0.01 GB
+02:44:29 [3.276h] COMPLETE gpu0 b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4]+r1i1[5]+b11[6]+r1i1[7] irt_est 0.5905 -> full 0.5833 acc {'mmlupro': 0.7, 'gpqa': 0.4, 'bfcl': 0.65} tok 282289 1308.7s
+02:44:29 [3.276h] HIST {'round': 1, 'iter': 1, 'best_value': 0.5935064935064935, 'best_summary': 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 'pop_mean': 0.5617896532166307, 'new_mean': 0.38872139467153993, 'new_best': 0.5414238744404053, 'n_new': 10, 'n_screened': 5, 'n_raced': 3, 'novelty_flips': 21, 'n_novel': 10, 'best_full': 0.5935064935064935, 'best_full_summary': 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 'gen_loss': 14.357358932495117, 'elapsed_h': 3.2755976792838837}
+02:44:29 [3.276h] state saved: next 2 evo_done False
+02:44:31 [3.276h] iteration 2: generator loss 7.0839, winners 6/23, novelty flips 43, new phenotypes 8/10, race thr 0.5158, new ['r1i1[0-4]+b11[4]+r1i1[5]+r1i1[7]', 'r1i1[0-4]+b11[4]+r1i1[5-6]', 'r1i1[0-4]+b11[4]+r1i1[5]', 'r1i1[0-4]+b11[4]+r1i1[5]+b10[6]', 'r1i1[0-4]+b11[4]+r1i1[5]+b10[6-7]', 'r1i1[0]+r1i1[2-4]+b11[4]+r1i1[5]+b10[6-7]', 'r1i1[0-2]+r1i1[4]+b11[4]+r1i1[5]', 'r1i1[0-3]+b11[4]+r1i1[5]', 'r1i1[0]+r1i1[2-4]+b11[4]+r1i1[5]+b10[6-7]', 'r1i1[0]+r1i1[2-4]+b11[4]+r1i1[5]+b10[6-7]']
+02:46:17 [3.306h] [1/2 generated] n=24 gpu1 screened=0.3255 r1i1[0-4]+b11[4]+r1i1[5-6] smoke=0/0/16 raced=False(0) swap 15.4s smoke 90.0s total 106.1s tok 16384
+02:46:27 [3.308h] MON 9892/32098 MB used, avail 22206 | 0, 14111 MiB, 100 % 1, 14267 MiB, 7 %  | ours 34.8 GB | working 0.01 GB
+02:48:01 [3.335h] [1/2 generated] n=25 gpu1 screened=0.3255 r1i1[0-4]+b11[4]+r1i1[5] smoke=0/0/16 raced=False(0) swap 14.4s smoke 89.5s total 104.6s tok 16384
+02:49:27 [3.358h] MON 9165/32098 MB used, avail 22933 | 0, 14111 MiB, 100 % 1, 13847 MiB, 96 %  | ours 34.8 GB | working 0.01 GB
+02:49:46 [3.364h] [1/2 generated] n=26 gpu1 screened=0.3255 r1i1[0-4]+b11[4]+r1i1[5]+b10[6] smoke=0/0/16 raced=False(0) swap 13.6s smoke 90.5s total 104.6s tok 16384
+02:52:27 [3.408h] MON 9183/32098 MB used, avail 22915 | 0, 14111 MiB, 100 % 1, 13969 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+02:55:27 [3.458h] MON 9172/32098 MB used, avail 22926 | 0, 14171 MiB, 100 % 1, 13969 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+02:58:27 [3.508h] MON 9178/32098 MB used, avail 22920 | 0, 14171 MiB, 100 % 1, 13969 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+02:59:19 [3.523h] RACE gpu0: stop after 30/60 items, optimistic 0.4545 < threshold 0.5158
+02:59:27 [3.525h] [1/2 generated] n=27 gpu0 irt=0.3643 r1i1[0-4]+b11[4]+r1i1[5]+r1i1[7] smoke=2/9/16 raced=True(29) swap 15.5s smoke 92.0s total 896.6s tok 95415
+03:01:13 [3.554h] [1/2 generated] n=28 gpu0 screened=0.3255 r1i1[0]+r1i1[2-4]+b11[4]+r1i1[5]+b10[6-7] smoke=0/15/16 raced=False(0) swap 14.2s smoke 91.0s total 105.6s tok 7170
+03:01:27 [3.558h] MON 10031/32098 MB used, avail 22067 | 0, 13049 MiB, 31 % 1, 13969 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+03:03:02 [3.585h] [1/2 generated] n=29 gpu0 screened=0.3255 r1i1[0-2]+r1i1[4]+b11[4]+r1i1[5] smoke=0/0/16 raced=False(0) swap 14.1s smoke 94.5s total 109.1s tok 16384
+03:04:27 [3.609h] MON 9191/32098 MB used, avail 22907 | 0, 13949 MiB, 100 % 1, 13969 MiB, 70 %  | ours 34.8 GB | working 0.01 GB
+03:04:51 [3.615h] [1/2 generated] n=30 gpu0 screened=0.3255 r1i1[0-3]+b11[4]+r1i1[5] smoke=0/0/16 raced=False(0) swap 14.3s smoke 94.0s total 109.1s tok 16384
+03:05:17 [3.622h] [1/2 generated] n=31 gpu1 irt=0.5881 r1i1[0-4]+b11[4]+r1i1[5]+b10[6-7] smoke=7/16/16 raced=False(0) swap 14.3s smoke 87.0s total 931.1s tok 115883
+03:05:17 [3.622h] completion i2: [('r1i1[0-4]+b11[4]+r1i1[5]+b10[6-7]', 0.5881), ('r1i1[0-7] C=1,0.917,0.8409,0.7711,0.7071,0.6484,0.5946,0.5452', 0.5657)] best full 0.5935 to run 2
+03:07:27 [3.659h] MON 9205/32098 MB used, avail 22893 | 0, 13989 MiB, 100 % 1, 13893 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+03:10:27 [3.709h] MON 9193/32098 MB used, avail 22905 | 0, 13989 MiB, 100 % 1, 13893 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+03:13:28 [3.759h] MON 9192/32098 MB used, avail 22906 | 0, 14151 MiB, 100 % 1, 14053 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+03:16:28 [3.809h] MON 9191/32098 MB used, avail 22907 | 0, 14151 MiB, 100 % 1, 14053 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+03:19:28 [3.859h] MON 9194/32098 MB used, avail 22903 | 0, 14151 MiB, 100 % 1, 14053 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+03:22:28 [3.909h] MON 9182/32098 MB used, avail 22916 | 0, 14155 MiB, 100 % 1, 14053 MiB, 76 %  | ours 34.8 GB | working 0.01 GB
+03:25:15 [3.955h] COMPLETE gpu1 r1i1[0-7] C=1,0.917,0.8409,0.7711,0.7071,0.6484,0.5946,0.5452 irt_est 0.5657 -> full 0.5400 acc {'mmlupro': 0.6272727272727273, 'gpqa': 0.44285714285714284, 'bfcl': 0.55} tok 242700 1197.6s
+03:25:28 [3.959h] MON 9191/32098 MB used, avail 22907 | 0, 14155 MiB, 100 % 1, 14053 MiB, 0 %  | ours 34.8 GB | working 0.01 GB
+03:28:28 [4.009h] MON 9196/32098 MB used, avail 22902 | 0, 14155 MiB, 100 % 1, 14053 MiB, 0 %  | ours 34.8 GB | working 0.01 GB
+03:31:28 [4.059h] MON 9199/32098 MB used, avail 22899 | 0, 14155 MiB, 63 % 1, 14053 MiB, 0 %  | ours 34.8 GB | working 0.01 GB
+03:33:03 [4.085h] COMPLETE gpu0 r1i1[0-4]+b11[4]+r1i1[5]+b10[6-7] irt_est 0.5881 -> full 0.5216 acc {'mmlupro': 0.6363636363636364, 'gpqa': 0.42857142857142855, 'bfcl': 0.5} tok 335623 1665.8s
+03:33:03 [4.085h] HIST {'round': 1, 'iter': 2, 'best_value': 0.5935064935064935, 'best_summary': 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 'pop_mean': 0.5598107754419075, 'new_mean': 0.3556760962104367, 'new_best': 0.5880796842686419, 'n_new': 10, 'n_screened': 8, 'n_raced': 1, 'novelty_flips': 43, 'n_novel': 8, 'best_full': 0.5935064935064935, 'best_full_summary': 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 'gen_loss': 7.083934783935547, 'elapsed_h': 4.085029271377458}
+03:33:03 [4.085h] state saved: next 3 evo_done False
+03:33:05 [4.086h] iteration 3: generator loss 4.6629, winners 9/33, novelty flips 24, new phenotypes 10/10, race thr 0.5216, new ['b11[0-2]+b11[4-7]', 'r1i1[0-6]', 'r1i1[0]+b11[0]+r1i1[1-3]+b11[4-7]', 'r1i1[0-5]', 'r1i1[0-4]+b11[4]+r1i1[5]+b11[5]', 'b11[0-2]+r1i1[3]+b11[4-7]', 'b11[0]+r1i1[1]+b11[1-7]', 'r1i1[0-4]+b11[4]+r1i1[5]+b11[5]+r1i1[6]', 'r1i1[0-4]+b11[4-5]', 'r1i1[0-4]+b11[4]+r1i1[5]+b10[7]']
+03:34:28 [4.109h] MON 9192/32098 MB used, avail 22906 | 0, 13949 MiB, 74 % 1, 13847 MiB, 96 %  | ours 34.8 GB | working 0.01 GB
+03:34:49 [4.114h] [1/3 generated] n=32 gpu1 screened=0.3255 r1i1[0-6] smoke=0/1/16 raced=False(0) swap 14.5s smoke 89.0s total 104.1s tok 15748
+03:36:35 [4.144h] [1/3 generated] n=33 gpu1 screened=0.3255 r1i1[0]+b11[0]+r1i1[1-3]+b11[4-7] smoke=0/0/16 raced=False(0) swap 15.2s smoke 91.0s total 106.5s tok 16384
+03:37:28 [4.159h] MON 9402/32098 MB used, avail 22696 | 0, 14071 MiB, 100 % 1, 13847 MiB, 81 %  | ours 34.8 GB | working 0.01 GB
+03:38:21 [4.173h] [1/3 generated] n=34 gpu1 screened=0.3255 r1i1[0-5] smoke=0/0/16 raced=False(0) swap 14.0s smoke 91.0s total 105.6s tok 16384
+03:40:07 [4.203h] [1/3 generated] n=35 gpu1 screened=0.3255 r1i1[0-4]+b11[4]+r1i1[5]+b11[5] smoke=0/0/16 raced=False(0) swap 14.1s smoke 91.5s total 106.1s tok 16384
+03:40:28 [4.209h] MON 9820/32098 MB used, avail 22278 | 0, 14071 MiB, 100 % 1, 13847 MiB, 85 %  | ours 34.8 GB | working 0.01 GB
+03:43:28 [4.259h] MON 9171/32098 MB used, avail 22927 | 0, 14151 MiB, 100 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+03:46:26 [4.308h] RACE gpu0: stop after 30/60 items, optimistic 0.4870 < threshold 0.5216
+03:46:28 [4.309h] [1/3 generated] n=36 gpu0 irt=0.4051 b11[0-2]+b11[4-7] smoke=3/11/16 raced=True(29) swap 17.9s smoke 93.0s total 803.0s tok 77079
+03:46:28 [4.309h] MON 9420/32098 MB used, avail 22678 | 0, 14371 MiB, 0 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+03:49:28 [4.359h] MON 9178/32098 MB used, avail 22920 | 0, 14111 MiB, 100 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+03:52:28 [4.409h] MON 9169/32098 MB used, avail 22929 | 0, 14111 MiB, 100 % 1, 14009 MiB, 72 %  | ours 34.8 GB | working 0.01 GB
+03:55:28 [4.459h] MON 9185/32098 MB used, avail 22913 | 0, 14211 MiB, 100 % 1, 14009 MiB, 63 %  | ours 34.8 GB | working 0.01 GB
+03:56:11 [4.471h] [1/3 generated] n=37 gpu1 irt=0.5436 b11[0-2]+r1i1[3]+b11[4-7] smoke=6/14/16 raced=False(0) swap 14.0s smoke 89.5s total 963.8s tok 107154
+03:57:57 [4.500h] [1/3 generated] n=38 gpu1 screened=0.3255 r1i1[0-4]+b11[4]+r1i1[5]+b11[5]+r1i1[6] smoke=0/0/16 raced=False(0) swap 14.7s smoke 91.0s total 106.1s tok 16384
+03:58:29 [4.509h] MON 9183/32098 MB used, avail 22915 | 0, 14211 MiB, 98 % 1, 13847 MiB, 79 %  | ours 34.8 GB | working 0.01 GB
+03:59:41 [4.529h] [1/3 generated] n=39 gpu1 screened=0.3255 r1i1[0-4]+b11[4-5] smoke=0/0/16 raced=False(0) swap 13.9s smoke 90.0s total 104.6s tok 16384
+04:01:29 [4.559h] MON 9182/32098 MB used, avail 22916 | 0, 14211 MiB, 66 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+04:02:37 [4.578h] [1/3 generated] n=40 gpu0 irt=0.5292 b11[0]+r1i1[1]+b11[1-7] smoke=6/15/16 raced=False(0) swap 16.6s smoke 89.5s total 969.2s tok 116055
+04:04:29 [4.609h] MON 9179/32098 MB used, avail 22919 | 0, 14211 MiB, 0 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+04:07:29 [4.659h] MON 9176/32098 MB used, avail 22922 | 0, 14211 MiB, 0 % 1, 14009 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+04:10:29 [4.709h] MON 9175/32098 MB used, avail 22923 | 0, 14211 MiB, 0 % 1, 14049 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+04:13:17 [4.756h] RACE gpu1: stop after 30/60 items, optimistic 0.4844 < threshold 0.5216
+04:13:20 [4.757h] [1/3 generated] n=41 gpu1 irt=0.4047 r1i1[0-4]+b11[4]+r1i1[5]+b10[7] smoke=2/10/16 raced=True(30) swap 14.3s smoke 90.5s total 819.0s tok 80704
+04:13:20 [4.757h] completion i3: none (best estimate 0.5650790675582437 vs best full 0.5935)
+04:13:20 [4.757h] HIST {'round': 1, 'iter': 3, 'best_value': 0.5935064935064935, 'best_summary': 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 'pop_mean': 0.5620107800770542, 'new_mean': 0.38359125308702485, 'new_best': 0.543645067996488, 'n_new': 10, 'n_screened': 6, 'n_raced': 2, 'novelty_flips': 24, 'n_novel': 10, 'best_full': 0.5935064935064935, 'best_full_summary': 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 'gen_loss': 4.662883758544922, 'elapsed_h': 4.756558541721768}
+04:13:20 [4.757h] state saved: next 4 evo_done False
+04:13:25 [4.758h] IRT LOO {'split': (30, 20, 10), 'mae': 0.0299, 'mae_top': 0.0283, 'max_err': 0.0692, 'rank_corr': 0.927, 'naive_mae': 0.0766, 'mean_tokens': 102323, 'score': 0.02909}
+04:13:25 [4.758h] IRT LOO {'split': (32, 22, 6), 'mae': 0.0342, 'mae_top': 0.0337, 'max_err': 0.0793, 'rank_corr': 0.919, 'naive_mae': 0.0961, 'mean_tokens': 108738, 'score': 0.03396}
+04:13:26 [4.758h] IRT LOO {'split': (28, 24, 8), 'mae': 0.036, 'mae_top': 0.0331, 'max_err': 0.0876, 'rank_corr': 0.909, 'naive_mae': 0.0843, 'mean_tokens': 109610, 'score': 0.03456}
+04:13:26 [4.758h] IRT LOO {'split': (34, 18, 8), 'mae': 0.0351, 'mae_top': 0.0372, 'max_err': 0.0879, 'rank_corr': 0.91, 'naive_mae': 0.0871, 'mean_tokens': 103945, 'score': 0.03614}
+04:13:26 [4.758h] IRT LOO {'split': (26, 26, 8), 'mae': 0.0356, 'mae_top': 0.0315, 'max_err': 0.0894, 'rank_corr': 0.907, 'naive_mae': 0.0862, 'mean_tokens': 111964, 'score': 0.03353}
+04:13:26 [4.758h] IRT LOO {'split': (36, 16, 8), 'mae': 0.0359, 'mae_top': 0.0388, 'max_err': 0.0789, 'rank_corr': 0.89, 'naive_mae': 0.0875, 'mean_tokens': 105123, 'score': 0.03736}
+04:13:26 [4.758h] IRT LOO {'split': (30, 26, 4), 'mae': 0.0363, 'mae_top': 0.0304, 'max_err': 0.0729, 'rank_corr': 0.853, 'naive_mae': 0.109, 'mean_tokens': 114300, 'score': 0.03335}
+04:13:26 [4.758h] IRT LOO {'split': (24, 24, 12), 'mae': 0.0325, 'mae_top': 0.0249, 'max_err': 0.0865, 'rank_corr': 0.929, 'naive_mae': 0.0771, 'mean_tokens': 102867, 'score': 0.02871}
+04:13:27 [4.758h] IRT LOO {'split': (28, 20, 12), 'mae': 0.033, 'mae_top': 0.0283, 'max_err': 0.0862, 'rank_corr': 0.931, 'naive_mae': 0.075, 'mean_tokens': 101480, 'score': 0.03063}
+04:13:27 [4.758h] IRT chosen split {'split': (24, 24, 12), 'mae': 0.0325, 'mae_top': 0.0249, 'max_err': 0.0865, 'rank_corr': 0.929, 'naive_mae': 0.0771, 'mean_tokens': 102867, 'score': 0.02871} subset 60 const {'mmlupro': {'all_right': 34, 'all_wrong': 14}, 'gpqa': {'all_right': 4, 'all_wrong': 17}, 'bfcl': {'all_right': 2, 'all_wrong': 2}} fit secs 6.2
+04:13:27 [4.758h] IRT in use: fit_round 2 subset 60 smoke 16 ['g', 'm', 'm', 'm', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b'] B11 v2 on smoke {'correct': 9, 'finished': 16}
+04:13:27 [4.758h] IRT REFIT at round 1 boundary: 16 -> 22 rows, split [26, 26, 8] -> (24, 24, 12), subset overlap 54/60
+04:13:27 [4.758h] rescored 40 subset records with IRT 2 (max |change| 0.0215)
+04:13:29 [4.759h] MON 9177/32098 MB used, avail 22921 | 0, 14211 MiB, 0 % 1, 14049 MiB, 0 %  | ours 34.8 GB | working 0.01 GB
+04:13:30 [4.759h] iteration 4: generator loss 2.9150, winners 12/43, novelty flips 24, new phenotypes 9/10, race thr 0.5334, new ['b11[0]+r1i1[1]+b11[1-2]+r1i1[3]+b11[4-7]', 'r1i1[0-4]+b11[4]+r1i1[5]+b11[5]+b10[6]', 'r1i1[0-1]+b11[1]+r1i1[2-3]+b11[4-7]', 'r1i1[0-4]+b11[4]+r1i1[5-7]+b10[7]', 'r1i1[0-4]+b11[4]+r1i1[5]+b11[5]+b10[6-7]', 'b11[0]+r1i1[1]+b11[1-2]+r1i1[3]+b11[3-7]', 'r1i1[0-4]+b11[4]+r1i1[5]+b11[5]+b10[6-7]', 'r1i1[0]+b11[0]+r1i1[2-3]+b11[4-7]', 'r1i1[0-4]+b11[5]+b11[7]', 'b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4-7]']
+04:15:15 [4.788h] [2/4 generated] n=42 gpu1 screened=0.2971 r1i1[0-4]+b11[4]+r1i1[5]+b11[5]+b10[6] smoke=0/0/16 raced=False(0) swap 14.4s smoke 91.0s total 105.6s tok 16384
+04:16:29 [4.809h] MON 9341/32098 MB used, avail 22757 | 0, 14091 MiB, 100 % 1, 13989 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+04:19:29 [4.859h] MON 9212/32098 MB used, avail 22886 | 0, 14091 MiB, 100 % 1, 13989 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+04:20:46 [4.880h] RACE gpu1: stop after 30/60 items, optimistic 0.5192 < threshold 0.5334
+04:20:49 [4.881h] [2/4 generated] n=43 gpu1 irt=0.4572 r1i1[0-1]+b11[1]+r1i1[2-3]+b11[4-7] smoke=7/16/16 raced=True(30) swap 14.1s smoke 36.5s total 333.7s tok 20483
+04:22:29 [4.909h] MON 9220/32098 MB used, avail 22878 | 0, 14151 MiB, 100 % 1, 13949 MiB, 90 %  | ours 34.8 GB | working 0.01 GB
+04:22:36 [4.911h] [2/4 generated] n=44 gpu1 screened=0.2971 r1i1[0-4]+b11[4]+r1i1[5-7]+b10[7] smoke=0/1/16 raced=False(0) swap 14.4s smoke 92.5s total 107.1s tok 15562
+04:25:29 [4.959h] MON 9216/32098 MB used, avail 22882 | 0, 14151 MiB, 85 % 1, 13989 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+04:28:29 [5.009h] MON 9217/32098 MB used, avail 22880 | 0, 14151 MiB, 70 % 1, 13989 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+04:29:35 [5.027h] [2/4 generated] n=45 gpu0 irt=0.5104 b11[0]+r1i1[1]+b11[1-2]+r1i1[3]+b11[4-7] smoke=8/16/16 raced=False(0) swap 14.5s smoke 89.0s total 965.1s tok 101193
+04:31:29 [5.059h] MON 9231/32098 MB used, avail 22866 | 0, 14091 MiB, 100 % 1, 14049 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+04:34:29 [5.109h] MON 9227/32098 MB used, avail 22871 | 0, 14091 MiB, 100 % 1, 14049 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+04:37:29 [5.159h] MON 9228/32098 MB used, avail 22870 | 0, 14091 MiB, 100 % 1, 14049 MiB, 88 %  | ours 34.8 GB | working 0.01 GB
+04:40:03 [5.202h] RACE gpu1: stop after 55/60 items, optimistic 0.5291 < threshold 0.5334
+04:40:09 [5.203h] [2/4 generated] n=46 gpu1 irt=0.5041 r1i1[0-4]+b11[4]+r1i1[5]+b11[5]+b10[6-7] smoke=10/15/16 raced=True(5) swap 14.7s smoke 91.0s total 1052.7s tok 117451
+04:40:29 [5.209h] MON 9866/32098 MB used, avail 22232 | 0, 14151 MiB, 100 % 1, 13949 MiB, 97 %  | ours 34.8 GB | working 0.01 GB
+04:41:55 [5.233h] [2/4 generated] n=47 gpu1 screened=0.2971 r1i1[0]+b11[0]+r1i1[2-3]+b11[4-7] smoke=0/0/16 raced=False(0) swap 13.9s smoke 92.0s total 106.6s tok 16384
+04:43:29 [5.259h] MON 9249/32098 MB used, avail 22849 | 0, 14151 MiB, 84 % 1, 13949 MiB, 55 %  | ours 34.8 GB | working 0.01 GB
+04:45:25 [5.291h] [2/4 generated] n=48 gpu0 irt=0.5253 b11[0]+r1i1[1]+b11[1-2]+r1i1[3]+b11[3-7] smoke=10/16/16 raced=False(0) swap 14.1s smoke 57.5s total 950.7s tok 114081
+04:46:30 [5.309h] MON 9267/32098 MB used, avail 22831 | 0, 14051 MiB, 59 % 1, 13969 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+04:49:30 [5.359h] MON 9247/32098 MB used, avail 22851 | 0, 14091 MiB, 100 % 1, 13969 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+04:51:50 [5.398h] RACE gpu1: stop after 30/60 items, optimistic 0.4076 < threshold 0.5334
+04:51:51 [5.398h] [2/4 generated] n=49 gpu1 irt=0.3357 r1i1[0-4]+b11[5]+b11[7] smoke=2/15/16 raced=True(30) swap 14.0s smoke 90.5s total 595.8s tok 52580
+04:52:30 [5.409h] MON 9243/32098 MB used, avail 22855 | 0, 14091 MiB, 100 % 1, 14049 MiB, 0 %  | ours 34.8 GB | working 0.01 GB
+04:55:30 [5.459h] MON 9238/32098 MB used, avail 22860 | 0, 14091 MiB, 79 % 1, 14049 MiB, 0 %  | ours 34.8 GB | working 0.01 GB
+04:58:30 [5.509h] MON 9248/32098 MB used, avail 22850 | 0, 14091 MiB, 77 % 1, 14049 MiB, 0 %  | ours 34.8 GB | working 0.01 GB
+04:58:44 [5.513h] [2/4 generated] n=50 gpu0 irt=0.5717 b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4-7] smoke=9/16/16 raced=False(0) swap 14.1s smoke 52.5s total 798.4s tok 89137
+04:58:44 [5.513h] completion i4: none (best estimate 0.5716780330594375 vs best full 0.5935)
+04:58:44 [5.513h] HIST {'round': 2, 'iter': 4, 'best_value': 0.5935064935064935, 'best_summary': 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 'pop_mean': 0.5618743710518452, 'new_mean': 0.4299826929173041, 'new_best': 0.5716780330594375, 'n_new': 10, 'n_screened': 3, 'n_raced': 4, 'novelty_flips': 24, 'n_novel': 9, 'best_full': 0.5935064935064935, 'best_full_summary': 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 'gen_loss': 2.9149997234344482, 'elapsed_h': 5.513062074449327}
+04:58:44 [5.513h] state saved: next 5 evo_done False
+04:58:47 [5.514h] iteration 5: generator loss 2.6080, winners 15/53, novelty flips 20, new phenotypes 10/10, race thr 0.5346, new ['b11[0-2]+r1i1[3]+b11[3-7]', 'r1i1[0-5]+b10[7]', 'r1i1[0]+b11[1]+r1i1[2-4]+b11[5-7]', 'r1i1[0-4]+b11[4]+r1i1[5-6]+b10[7]', 'b11[0]+r1i1[1]+b11[1-2]+r1i1[3]+b11[4-6]+r1i1[7]+b11[7]', 'r1i1[0-6]+b10[7]', 'b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[3-7]', 'r1i1[0]+r1i1[2-4]+b11[4]+r1i1[5-7]', 'r1i1[0]+b11[0]+r1i1[1]+b11[1-2]+r1i1[3]+b11[4-7]', 'r1i1[0]+b11[1]+r1i1[2-3]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]']
+05:00:27 [5.542h] [2/5 generated] n=51 gpu1 screened=0.3390 r1i1[0-5]+b10[7] smoke=1/15/16 raced=False(0) swap 14.6s smoke 85.5s total 100.6s tok 5141
+05:01:30 [5.559h] MON 9437/32098 MB used, avail 22661 | 0, 14091 MiB, 100 % 1, 13949 MiB, 57 %  | ours 34.8 GB | working 0.01 GB
+05:04:30 [5.609h] MON 9253/32098 MB used, avail 22844 | 0, 14091 MiB, 100 % 1, 13989 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+05:07:30 [5.659h] MON 9258/32098 MB used, avail 22840 | 0, 14151 MiB, 100 % 1, 13991 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+05:08:32 [5.677h] RACE gpu0: stop after 36/60 items, optimistic 0.5283 < threshold 0.5346
+05:08:39 [5.679h] [2/5 generated] n=52 gpu0 irt=0.4796 b11[0-2]+r1i1[3]+b11[3-7] smoke=7/14/16 raced=True(23) swap 14.8s smoke 90.5s total 592.9s tok 61838
+05:10:30 [5.709h] MON 9256/32098 MB used, avail 22842 | 0, 14091 MiB, 100 % 1, 13991 MiB, 73 %  | ours 34.8 GB | working 0.01 GB
+05:12:06 [5.736h] [2/5 generated] n=53 gpu1 irt=0.5412 r1i1[0]+b11[1]+r1i1[2-4]+b11[5-7] smoke=8/16/16 raced=False(0) swap 13.9s smoke 66.5s total 699.0s tok 76163
+05:13:30 [5.759h] MON 9279/32098 MB used, avail 22819 | 0, 14091 MiB, 100 % 1, 13949 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+05:13:54 [5.766h] [2/5 generated] n=54 gpu1 screened=0.2971 b11[0]+r1i1[1]+b11[1-2]+r1i1[3]+b11[4-6]+r1i1[7]+b11[7] smoke=0/0/16 raced=False(0) swap 14.8s smoke 93.0s total 108.1s tok 16384
+05:16:30 [5.809h] MON 9271/32098 MB used, avail 22827 | 0, 14091 MiB, 100 % 1, 13989 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+05:19:30 [5.859h] MON 9271/32098 MB used, avail 22827 | 0, 14091 MiB, 100 % 1, 13989 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+05:22:30 [5.909h] MON 9279/32098 MB used, avail 22819 | 0, 14093 MiB, 94 % 1, 13989 MiB, 72 %  | ours 34.8 GB | working 0.01 GB
+05:25:04 [5.952h] [2/5 generated] n=55 gpu0 irt=0.5264 r1i1[0-4]+b11[4]+r1i1[5-6]+b10[7] smoke=9/15/16 raced=False(0) swap 14.7s smoke 91.0s total 984.7s tok 112155
+05:25:30 [5.959h] MON 9821/32098 MB used, avail 22277 | 0, 14051 MiB, 88 % 1, 13989 MiB, 70 %  | ours 34.8 GB | working 0.01 GB
+05:25:52 [5.965h] [2/5 generated] n=56 gpu1 irt=0.5822 r1i1[0-6]+b10[7] smoke=9/15/16 raced=False(0) swap 13.8s smoke 89.0s total 717.5s tok 79125
+05:27:38 [5.995h] [2/5 generated] n=57 gpu1 screened=0.2971 r1i1[0]+r1i1[2-4]+b11[4]+r1i1[5-7] smoke=0/11/16 raced=False(0) swap 13.7s smoke 92.0s total 106.1s tok 9312
+05:28:30 [6.009h] MON 9403/32098 MB used, avail 22695 | 0, 14091 MiB, 100 % 1, 13949 MiB, 89 %  | ours 34.8 GB | working 0.01 GB
+05:29:26 [6.025h] [2/5 generated] n=58 gpu1 screened=0.2971 r1i1[0]+b11[0]+r1i1[1]+b11[1-2]+r1i1[3]+b11[4-7] smoke=0/1/16 raced=False(0) swap 14.5s smoke 93.0s total 108.1s tok 15398
+05:31:30 [6.059h] MON 9288/32098 MB used, avail 22810 | 0, 14091 MiB, 100 % 1, 13989 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+05:34:31 [6.109h] MON 9273/32098 MB used, avail 22825 | 0, 14091 MiB, 100 % 1, 13989 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+05:37:31 [6.159h] MON 9291/32098 MB used, avail 22806 | 0, 14091 MiB, 100 % 1, 13989 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+05:40:31 [6.209h] MON 9290/32098 MB used, avail 22808 | 0, 14091 MiB, 74 % 1, 13991 MiB, 68 %  | ours 34.8 GB | working 0.01 GB
+05:40:42 [6.213h] RACE gpu0: stop after 59/60 items, optimistic 0.5326 < threshold 0.5346
+05:40:44 [6.213h] [2/5 generated] n=59 gpu0 irt=0.5066 b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[3-7] smoke=6/14/16 raced=True(1) swap 14.4s smoke 92.5s total 939.6s tok 107368
+05:42:50 [6.248h] RACE gpu1: stop after 59/60 items, optimistic 0.5326 < threshold 0.5346
+05:42:55 [6.250h] [2/5 generated] n=60 gpu1 irt=0.5022 r1i1[0]+b11[1]+r1i1[2-3]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7] smoke=6/15/16 raced=False(0) swap 14.6s smoke 88.0s total 809.6s tok 82244
+05:42:55 [6.250h] completion i5: [('r1i1[0-6]+b10[7]', 0.5822), ('b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4-7]', 0.5717)] best full 0.5935 to run 2
+05:43:31 [6.259h] MON 9661/32098 MB used, avail 22436 | 0, 14029 MiB, 100 % 1, 13927 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+05:46:31 [6.309h] MON 9288/32098 MB used, avail 22810 | 0, 14031 MiB, 100 % 1, 13927 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+05:49:31 [6.359h] MON 9285/32098 MB used, avail 22813 | 0, 14031 MiB, 100 % 1, 13927 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+05:52:31 [6.410h] MON 9281/32098 MB used, avail 22817 | 0, 14033 MiB, 100 % 1, 14109 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+05:55:31 [6.460h] MON 9277/32098 MB used, avail 22821 | 0, 14033 MiB, 100 % 1, 14109 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+05:58:31 [6.510h] MON 9286/32098 MB used, avail 22812 | 0, 14035 MiB, 100 % 1, 14113 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:01:31 [6.560h] MON 9284/32098 MB used, avail 22814 | 0, 14035 MiB, 100 % 1, 14113 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:04:31 [6.610h] MON 9276/32098 MB used, avail 22821 | 0, 14035 MiB, 71 % 1, 14113 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:05:06 [6.619h] COMPLETE gpu0 r1i1[0-6]+b10[7] irt_est 0.5822 -> full 0.5481 acc {'mmlupro': 0.6727272727272727, 'gpqa': 0.4714285714285714, 'bfcl': 0.5} tok 267259 1330.7s
+06:07:31 [6.660h] MON 9271/32098 MB used, avail 22827 | 0, 14035 MiB, 0 % 1, 14113 MiB, 71 %  | ours 34.8 GB | working 0.01 GB
+06:07:45 [6.663h] COMPLETE gpu1 b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4-7] irt_est 0.5717 -> full 0.5892 acc {'mmlupro': 0.6818181818181818, 'gpqa': 0.4857142857142857, 'bfcl': 0.6} tok 298971 1489.2s
+06:07:45 [6.663h] HIST {'round': 2, 'iter': 5, 'best_value': 0.5935064935064935, 'best_summary': 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 'pop_mean': 0.5652014724390259, 'new_mean': 0.43685146938866853, 'new_best': 0.5821832630674141, 'n_new': 10, 'n_screened': 4, 'n_raced': 2, 'novelty_flips': 20, 'n_novel': 10, 'best_full': 0.5935064935064935, 'best_full_summary': 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 'gen_loss': 2.6079893112182617, 'elapsed_h': 6.663290978338983}
+06:07:45 [6.663h] state saved: next 6 evo_done False
+06:07:47 [6.664h] iteration 6: generator loss 1.7328, winners 18/63, novelty flips 30, new phenotypes 7/10, race thr 0.5400, new ['r1i1[1]+b11[2]+r1i1[3]+b11[4-7]', 'b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4-6]+r1i1[7]+b11[7]', 'r1i1[0]+r1i1[2-4]+b11[4]+r1i1[5-7]', 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[6-7]', 'r1i1[0-7]+b10[7]', 'r1i1[0]+r1i1[2-4]+b11[4]+r1i1[5-7]', 'r1i1[0-4]+b11[4]+r1i1[5]+r1i1[7]+b10[7]', 'b11[0]+b11[2]+r1i1[3]+b11[4-7]', 'r1i1[0]+b11[1]+r1i1[2-3]+b11[4-7]', 'r1i1[0]+r1i1[2-4]+b11[4]+r1i1[5-7]']
+06:09:34 [6.694h] [2/6 generated] n=61 gpu1 screened=0.2971 b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4-6]+r1i1[7]+b11[7] smoke=0/1/16 raced=False(0) swap 14.3s smoke 92.0s total 107.1s tok 15487
+06:09:36 [6.694h] [2/6 generated] n=62 gpu0 screened=0.2971 r1i1[1]+b11[2]+r1i1[3]+b11[4-7] smoke=0/8/16 raced=False(0) swap 14.4s smoke 94.0s total 109.1s tok 12063
+06:10:31 [6.710h] MON 9465/32098 MB used, avail 22633 | 0, 14051 MiB, 98 % 1, 13949 MiB, 66 %  | ours 34.8 GB | working 0.01 GB
+06:11:25 [6.725h] [2/6 generated] n=63 gpu0 screened=0.2971 r1i1[0-7]+b10[7] smoke=0/0/16 raced=False(0) swap 14.2s smoke 94.0s total 108.5s tok 16384
+06:13:14 [6.755h] [2/6 generated] n=64 gpu0 screened=0.2971 r1i1[0-4]+b11[4]+r1i1[5]+r1i1[7]+b10[7] smoke=0/0/16 raced=False(0) swap 13.6s smoke 95.0s total 109.1s tok 16384
+06:13:31 [6.760h] MON 9844/32098 MB used, avail 22254 | 0, 14051 MiB, 100 % 1, 13989 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:15:03 [6.785h] [2/6 generated] n=65 gpu0 screened=0.3283 b11[0]+b11[2]+r1i1[3]+b11[4-7] smoke=1/13/16 raced=False(0) swap 14.0s smoke 94.0s total 108.5s tok 7452
+06:16:31 [6.810h] MON 9288/32098 MB used, avail 22810 | 0, 14091 MiB, 100 % 1, 13989 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:19:32 [6.860h] MON 9284/32098 MB used, avail 22814 | 0, 14091 MiB, 100 % 1, 14113 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:22:32 [6.910h] MON 9288/32098 MB used, avail 22810 | 0, 14091 MiB, 100 % 1, 14113 MiB, 83 %  | ours 34.8 GB | working 0.01 GB
+06:24:55 [6.949h] [2/6 generated] n=66 gpu1 irt=0.5229 r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[6-7] smoke=8/15/16 raced=False(0) swap 14.8s smoke 89.5s total 920.2s tok 107391
+06:25:32 [6.960h] MON 9297/32098 MB used, avail 22801 | 0, 14091 MiB, 72 % 1, 14113 MiB, 0 %  | ours 34.8 GB | working 0.01 GB
+06:27:54 [6.999h] [2/6 generated] n=67 gpu0 irt=0.5759 r1i1[0]+b11[1]+r1i1[2-3]+b11[4-7] smoke=7/16/16 raced=False(0) swap 14.1s smoke 60.5s total 771.5s tok 81742
+06:27:54 [6.999h] completion i6: [('r1i1[0]+b11[1]+r1i1[2-3]+b11[4-7]', 0.5759), ('r1i1[0-4]+b11[4]+r1i1[5-7]', 0.5532)] best full 0.5935 to run 2
+06:28:32 [7.010h] MON 9530/32098 MB used, avail 22568 | 0, 14029 MiB, 100 % 1, 13887 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:31:32 [7.060h] MON 9294/32098 MB used, avail 22803 | 0, 14029 MiB, 100 % 1, 13887 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:34:32 [7.110h] MON 9288/32098 MB used, avail 22810 | 0, 14029 MiB, 100 % 1, 13887 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:37:32 [7.160h] MON 9291/32098 MB used, avail 22807 | 0, 14029 MiB, 100 % 1, 14049 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:40:32 [7.210h] MON 9294/32098 MB used, avail 22804 | 0, 14033 MiB, 100 % 1, 14049 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:43:32 [7.260h] MON 9287/32098 MB used, avail 22811 | 0, 14035 MiB, 100 % 1, 14053 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:46:32 [7.310h] MON 9299/32098 MB used, avail 22799 | 0, 14035 MiB, 96 % 1, 14053 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:49:32 [7.360h] MON 9295/32098 MB used, avail 22803 | 0, 14035 MiB, 57 % 1, 14053 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:50:07 [7.370h] COMPLETE gpu0 r1i1[0]+b11[1]+r1i1[2-3]+b11[4-7] irt_est 0.5759 -> full 0.5632 acc {'mmlupro': 0.7181818181818181, 'gpqa': 0.4714285714285714, 'bfcl': 0.5} tok 272013 1333.2s
+06:51:50 [7.398h] COMPLETE gpu1 r1i1[0-4]+b11[4]+r1i1[5-7] irt_est 0.5532 -> full 0.5472 acc {'mmlupro': 0.6272727272727273, 'gpqa': 0.3142857142857143, 'bfcl': 0.7} tok 337203 1436.2s
+06:51:50 [7.398h] HIST {'round': 2, 'iter': 6, 'best_value': 0.5935064935064935, 'best_summary': 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 'pop_mean': 0.5669149945904058, 'new_mean': 0.350684940748171, 'new_best': 0.575946896690655, 'n_new': 10, 'n_screened': 8, 'n_raced': 0, 'novelty_flips': 30, 'n_novel': 7, 'best_full': 0.5935064935064935, 'best_full_summary': 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 'gen_loss': 1.7327930927276611, 'elapsed_h': 7.398216122653749}
+06:51:50 [7.398h] state saved: next 7 evo_done False
+06:51:56 [7.400h] IRT LOO {'split': (30, 20, 10), 'mae': 0.0248, 'mae_top': 0.0225, 'max_err': 0.0628, 'rank_corr': 0.913, 'naive_mae': 0.0693, 'mean_tokens': 103587, 'score': 0.02369}
+06:51:56 [7.400h] IRT LOO {'split': (32, 22, 6), 'mae': 0.0329, 'mae_top': 0.0315, 'max_err': 0.0713, 'rank_corr': 0.802, 'naive_mae': 0.0875, 'mean_tokens': 110025, 'score': 0.03219}
+06:51:57 [7.400h] IRT LOO {'split': (28, 24, 8), 'mae': 0.0318, 'mae_top': 0.0267, 'max_err': 0.0728, 'rank_corr': 0.843, 'naive_mae': 0.0771, 'mean_tokens': 109808, 'score': 0.02921}
+06:51:57 [7.400h] IRT LOO {'split': (34, 18, 8), 'mae': 0.0325, 'mae_top': 0.0308, 'max_err': 0.078, 'rank_corr': 0.847, 'naive_mae': 0.0808, 'mean_tokens': 102134, 'score': 0.03165}
+06:51:57 [7.400h] IRT LOO {'split': (26, 26, 8), 'mae': 0.0327, 'mae_top': 0.0276, 'max_err': 0.0886, 'rank_corr': 0.842, 'naive_mae': 0.0779, 'mean_tokens': 112106, 'score': 0.03012}
+06:51:57 [7.400h] IRT LOO {'split': (36, 16, 8), 'mae': 0.0321, 'mae_top': 0.0322, 'max_err': 0.0758, 'rank_corr': 0.842, 'naive_mae': 0.0822, 'mean_tokens': 98678, 'score': 0.03214}
+06:51:58 [7.400h] IRT LOO {'split': (30, 26, 4), 'mae': 0.0273, 'mae_top': 0.0316, 'max_err': 0.0599, 'rank_corr': 0.837, 'naive_mae': 0.094, 'mean_tokens': 117537, 'score': 0.02948}
+06:51:58 [7.400h] IRT LOO {'split': (24, 24, 12), 'mae': 0.024, 'mae_top': 0.0166, 'max_err': 0.0825, 'rank_corr': 0.917, 'naive_mae': 0.0643, 'mean_tokens': 103375, 'score': 0.02029}
+06:51:58 [7.400h] IRT LOO {'split': (28, 20, 12), 'mae': 0.0253, 'mae_top': 0.02, 'max_err': 0.0682, 'rank_corr': 0.914, 'naive_mae': 0.0677, 'mean_tokens': 99834, 'score': 0.02267}
+06:51:58 [7.400h] IRT chosen split {'split': (24, 24, 12), 'mae': 0.024, 'mae_top': 0.0166, 'max_err': 0.0825, 'rank_corr': 0.917, 'naive_mae': 0.0643, 'mean_tokens': 103375, 'score': 0.02029} subset 60 const {'mmlupro': {'all_right': 32, 'all_wrong': 13}, 'gpqa': {'all_right': 4, 'all_wrong': 16}, 'bfcl': {'all_right': 2, 'all_wrong': 2}} fit secs 7.6
+06:51:58 [7.400h] IRT in use: fit_round 3 subset 60 smoke 16 ['g', 'm', 'm', 'm', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b'] B11 v2 on smoke {'correct': 9, 'finished': 16}
+06:51:58 [7.400h] IRT REFIT at round 2 boundary: 22 -> 26 rows, split (24, 24, 12) -> (24, 24, 12), subset overlap 55/60
+06:51:59 [7.401h] rescored 66 subset records with IRT 3 (max |change| 0.0067)
+06:51:59 [7.401h] budget: evolution ends before iteration 7 (remaining 1.34 h, iteration 1.76 h)
+06:51:59 [7.401h] state saved: next 7 evo_done True
+06:51:59 [7.401h] validation candidates [('r1i1_b11_odd', 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 0.5935), ('generated', 'b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4-7]', 0.5892), ('plain_r1i1', 'r1i1[0-7]', 0.5838), ('r1i1_b11_even', 'b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4]+r1i1[5]+b11[6]+r1i1[7]', 0.5833)]
+06:52:32 [7.410h] MON 9710/32098 MB used, avail 22388 | 0, 14051 MiB, 100 % 1, 13949 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:55:32 [7.460h] MON 9293/32098 MB used, avail 22804 | 0, 14051 MiB, 100 % 1, 13949 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+06:58:32 [7.510h] MON 9293/32098 MB used, avail 22805 | 0, 14051 MiB, 100 % 1, 13949 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+07:01:32 [7.560h] MON 9301/32098 MB used, avail 22797 | 0, 14051 MiB, 100 % 1, 14069 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+07:04:33 [7.610h] MON 9302/32098 MB used, avail 22796 | 0, 14051 MiB, 100 % 1, 14069 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+07:07:33 [7.660h] MON 9310/32098 MB used, avail 22788 | 0, 14055 MiB, 100 % 1, 14073 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+07:10:33 [7.710h] MON 9298/32098 MB used, avail 22800 | 0, 14055 MiB, 100 % 1, 14073 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+07:13:33 [7.760h] MON 9303/32098 MB used, avail 22795 | 0, 14055 MiB, 88 % 1, 14073 MiB, 91 %  | ours 34.8 GB | working 0.01 GB
+07:15:15 [7.788h] VAL generated gpu1 val_fit=0.6533333333333333 acc={'mmlupro': 0.6933333333333334, 'gpqa': 0.4, 'bfcl': 0.8666666666666667} trunc={'mmlupro': 0.1067, 'gpqa': 0.3111, 'bfcl': 0.0} 1396.2s b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4-7]
+07:15:46 [7.797h] VAL r1i1_b11_odd gpu0 val_fit=0.6385185185185186 acc={'mmlupro': 0.6933333333333334, 'gpqa': 0.35555555555555557, 'bfcl': 0.8666666666666667} trunc={'mmlupro': 0.0933, 'gpqa': 0.2889, 'bfcl': 0.0} 1427.2s r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]
+07:16:33 [7.810h] MON 9632/32098 MB used, avail 22466 | 0, 14051 MiB, 100 % 1, 13949 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+07:19:33 [7.860h] MON 9301/32098 MB used, avail 22797 | 0, 14051 MiB, 100 % 1, 13949 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+07:22:33 [7.910h] MON 9311/32098 MB used, avail 22787 | 0, 14051 MiB, 100 % 1, 14089 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+07:25:33 [7.960h] MON 9316/32098 MB used, avail 22782 | 0, 14211 MiB, 100 % 1, 14089 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+07:28:33 [8.010h] MON 9310/32098 MB used, avail 22788 | 0, 14211 MiB, 100 % 1, 14089 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+07:31:33 [8.060h] MON 9308/32098 MB used, avail 22790 | 0, 14215 MiB, 100 % 1, 14093 MiB, 100 %  | ours 34.8 GB | working 0.01 GB
+07:34:33 [8.110h] MON 9314/32098 MB used, avail 22784 | 0, 14215 MiB, 86 % 1, 14093 MiB, 81 %  | ours 34.8 GB | working 0.01 GB
+07:36:43 [8.146h] VAL plain_r1i1 gpu1 val_fit=0.6622222222222223 acc={'mmlupro': 0.6533333333333333, 'gpqa': 0.4666666666666667, 'bfcl': 0.8666666666666667} trunc={'mmlupro': 0.08, 'gpqa': 0.3111, 'bfcl': 0.0} 1288.1s r1i1[0-7]
+07:37:33 [8.160h] MON 9320/32098 MB used, avail 22778 | 0, 14215 MiB, 81 % 1, 14093 MiB, 0 %  | ours 34.8 GB | working 0.01 GB
+07:38:34 [8.177h] VAL r1i1_b11_even gpu0 val_fit=0.6511111111111112 acc={'mmlupro': 0.72, 'gpqa': 0.4, 'bfcl': 0.8333333333333334} trunc={'mmlupro': 0.04, 'gpqa': 0.3556, 'bfcl': 0.0} 1368.1s b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4]+r1i1[5]+b11[6]+r1i1[7]
+07:38:34 [8.177h] BFCL FLOOR: r1i1_b11_even b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4]+r1i1[5]+b11[6]+r1i1[7] val BFCL 0.8333 < base 0.9333 - 0.0667 -> not eligible
+07:38:34 [8.177h] VALIDATION [('v2_r1i1', 'v2 r1i1 model (own embedding; not in the DFS space)', 0.6113, 0.6844, {'mmlupro': 0.72, 'gpqa': 0.4666666666666667, 'bfcl': 0.8666666666666667}, True), ('plain_b11', 'b11[0-7]', 0.5457, 0.6659, {'mmlupro': 0.72, 'gpqa': 0.37777777777777777, 'bfcl': 0.9}, True), ('plain_r1i1', 'r1i1[0-7]', 0.5838, 0.6622, {'mmlupro': 0.6533333333333333, 'gpqa': 0.4666666666666667, 'bfcl': 0.8666666666666667}, True), ('generated', 'b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4-7]', 0.5892, 0.6533, {'mmlupro': 0.6933333333333334, 'gpqa': 0.4, 'bfcl': 0.8666666666666667}, True), ('r1i1_b11_even', 'b11[0]+r1i1[1]+b11[2]+r1i1[3]+b11[4]+r1i1[5]+b11[6]+r1i1[7]', 0.5833, 0.6511, {'mmlupro': 0.72, 'gpqa': 0.4, 'bfcl': 0.8333333333333334}, False), ('r1i1_b11_odd', 'r1i1[0]+b11[1]+r1i1[2]+b11[3]+r1i1[4]+b11[5]+r1i1[6]+b11[7]', 0.5935, 0.6385, {'mmlupro': 0.6933333333333334, 'gpqa': 0.35555555555555557, 'bfcl': 0.8666666666666667}, True)] WINNER ('v2_r1i1', 'v2 r1i1 model (own embedding; not in the DFS space)', 0.6844444444444444)
+07:38:48 [8.181h] worker 0 killed; GPU mem used now 105 MiB
+07:38:54 [8.182h] worker 1 killed; GPU mem used now 3 MiB
+07:38:54 [8.182h] ALL DONE (final skipped: winner is v2_r1i1 (its 180-item result exists) ) hours 8.182476667894257

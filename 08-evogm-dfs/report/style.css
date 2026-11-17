@@ -1,0 +1,14 @@
+@font-face{font-family:NJ;src:url(/workspace/work/fonts/NotoSansCJKjp-Regular.otf)}
+@font-face{font-family:NJ;font-weight:bold;src:url(/workspace/work/fonts/NotoSansCJKjp-Bold.otf)}
+@page{size:A4;margin:18mm 17mm;@bottom-center{content:counter(page);font:9pt NJ;color:#777}}
+body{font-family:NJ;font-size:9.6pt;line-height:1.65;color:#222}
+h1{font-size:17pt;margin:0 0 4pt}
+h2{font-size:12.5pt;border-bottom:1.5px solid #333;padding-bottom:2pt;margin:16pt 0 6pt}
+h3{font-size:10.5pt;margin:12pt 0 4pt;color:#1a3d6b}
+table{border-collapse:collapse;width:100%;font-size:8.6pt;margin:6pt 0 10pt}
+th{border-top:1.5px solid #333;border-bottom:1px solid #333;padding:3pt 4pt;text-align:left}
+td:first-child,th:first-child{white-space:nowrap}
+td{padding:2.5pt 4pt;border-bottom:.5px solid #ddd}
+tr:last-child td{border-bottom:1.5px solid #333}
+p{margin:4pt 0 6pt;text-align:left}
+ol{padding-left:18pt}
